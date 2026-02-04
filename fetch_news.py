@@ -1,256 +1,267 @@
 #!/usr/bin/env python3
 """
-AI News Daily - 新闻抓取与总结脚本
-自动从多个来源抓取 AI 资讯，用大模型总结成中文简报
+AI News Daily - 多源资讯聚合
+分类：模型发布、工具平台、研究成果、开源项目、行业动态
 """
 
 import json
-import os
-import sys
+import feedparser
+import requests
+import re
 from datetime import datetime
-from pathlib import Path
+from collections import defaultdict
 
-# 尝试导入需要的库
-try:
-    import requests
-except ImportError:
-    print("❌ 请安装 requests: pip install requests")
-    sys.exit(1)
-
-# Tavily API Key (支持中文搜索)
-TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY", "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")
-TAVILY_SEARCH_URL = "https://api.tavily.com/search"
-
-# AI 新闻搜索关键词
-SEARCH_QUERIES = [
-    "artificial intelligence LLM model research breakthrough February 2026",
-    "DeepSeek Claude GPT OpenAI news 2026",
-    "AI coding assistant Cursor Copilot GitHub",
-    "multimodal model vision language 2026",
-    "AI agents autonomous workflow 2026",
-    "machine learning research paper arxiv 2026",
-    "Google Microsoft Anthropic AI product 2026",
-    "local LLM quantization Ollama 2026"
-]
-
-# 新闻来源映射
-SOURCE_MAP = {
-    "github.com": "GITHUB",
-    "news.ycombinator.com": "HN",
-    "arxiv.org": "ARXIV",
-    "techmeme.com": "TECHMEME",
-    "venturebeat.com": "VENTUREBEAT",
-    "techcrunch.com": "TECHCRUNCH",
-    "thedecoder.com": "DECODER",
-    "reddit.com": "REDDIT",
-    "anthropic.com": "ANTHROPIC",
-    "openai.com": "OPENAI",
-    "google.com": "GOOGLE",
-    "microsoft.com": "MICROSOFT"
+# 分类配置
+CATEGORIES = {
+    "model": {
+        "name": "🗣️ 模型发布",
+        "name_en": "Model Releases",
+        "sources": [
+            {"name": "HuggingFace", "url": "https://huggingface.co/api/models?sort=downloads&direction=-1&limit=20&filter=featured", "type": "api"},
+            {"name": "OpenAI", "url": "https://feeds.feedburner.com/OpenAi", "type": "rss"},
+            {"name": "Anthropic", "url": "https://www.anthropic.com/rss.xml", "type": "rss"},
+            {"name": "Google AI", "url": "http://googleaiblog.blogspot.com/atom.xml", "type": "rss"},
+        ],
+        "keywords": ["gpt", "claude", "gemini", "llama", "model", "release", "openai", "anthropic", "google deepmind", "mistral"]
+    },
+    "tool": {
+        "name": "🛠️ 工具平台",
+        "name_en": "Tools & Platforms",
+        "sources": [
+            {"name": "Product Hunt AI", "url": "https://www.producthunt.com/category/artificial-intelligence/feed", "type": "rss"},
+            {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed", "type": "rss"},
+            {"name": "Vercel", "url": "https://vercel.com/blog/rss.xml", "type": "rss"},
+        ],
+        "keywords": ["tool", "platform", "api", "sdk", "launch", "feature", "announcement", "release", "new"]
+    },
+    "research": {
+        "name": "📚 研究成果",
+        "name_en": "Research Papers",
+        "sources": [
+            {"name": "ArXiv AI", "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=-1&max_results=30", "type": "arxiv"},
+            {"name": "ArXiv ML", "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=-1&max_results=20", "type": "arxiv"},
+            {"name": "Google Research", "url": "https://research.google/blog/rss.xml", "type": "rss"},
+            {"name": "Meta AI", "url": "https://ai.meta.com/blog/rss.xml", "type": "rss"},
+        ],
+        "keywords": ["paper", "research", "arxiv", "study", "benchmark", "performance", "accuracy", "state-of-the-art"]
+    },
+    "opensource": {
+        "name": "📦 开源项目",
+        "name_en": "Open Source",
+        "sources": [
+            {"name": "GitHub Trending", "url": "https://github.com/trending?since=daily", "type": "github"},
+            {"name": "GitHub Python", "url": "https://github.com/trending/python?since=daily", "type": "github"},
+            {"name": "GitHub JavaScript", "url": "https://github.com/trending/javascript?since=daily", "type": "github"},
+        ],
+        "keywords": ["github", "stars", "repository", "repo", "github.com"]
+    },
+    "industry": {
+        "name": "📰 行业动态",
+        "name_en": "Industry News",
+        "sources": [
+            {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "type": "rss"},
+            {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "type": "rss"},
+            {"name": "The Verge AI", "url": "https://www.theverge.com/rss/index.xml", "type": "rss"},
+            {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "type": "rss"},
+        ],
+        "keywords": ["ai", "artificial intelligence", "chatgpt", "openai", "microsoft", "google", "amazon", "meta", "nvidia", "startup"]
+    }
 }
 
-# 每日金句
-DAILY_QUOTES = [
-    ("AI won't replace humans, but humans using AI will replace those who don't.", "Anonymous"),
-    ("The best way to predict the future is to create it.", "Peter Drucker"),
-    ("In the future, there will be two types of people: those who use AI, and those who are used by AI.", "Sam Altman"),
-    ("AI is the new electricity. It will transform every industry.", "Andrew Ng"),
-    ("Don't worry about AI taking your job. Worry about someone using AI to take your job.", "Anonymous"),
-    ("The intersection of AI and human creativity is where magic happens.", "Fei-Fei Li"),
-    ("The most powerful tool we have is imagination.", "Geoffrey Hinton")
-]
-
-
-def extract_source(url: str) -> str:
-    """从 URL 提取来源"""
+def fetch_rss(url, source_name):
+    """获取 RSS 订阅源"""
     try:
-        from urllib.parse import urlparse
-        hostname = urlparse(url).netloc.lower()
-        for domain, source in SOURCE_MAP.items():
-            if domain in hostname:
-                return source
-        # 默认处理
-        return hostname.replace("www.", "").split(".")[0].upper()[:10]
-    except:
-        return "AI NEWS"
-
-
-def format_date() -> str:
-    """格式化日期"""
-    return datetime.now().strftime("%Y/%m/%d")
-
-
-def get_quote() -> dict:
-    """获取每日金句"""
-    import random
-    today = datetime.now().day
-    quote = DAILY_QUOTES[today % len(DAILY_QUOTES)]
-    return {
-        "text": quote[0],
-        "author": quote[1]
-    }
-
-
-def search_news(query: str, max_results: int = 5) -> list:
-    """使用 Tavily 搜索新闻"""
-    headers = {"Content-Type": "application/json"}
-    
-    payload = {
-        "api_key": TAVILY_API_KEY,
-        "query": query,
-        "max_results": max_results,
-        "include_domains": [
-            "github.com",
-            "news.ycombinator.com", 
-            "arxiv.org",
-            "techmeme.com",
-            "venturebeat.com",
-            "techcrunch.com",
-            "anthropic.com",
-            "openai.com",
-            "google.com",
-            "microsoft.com"
-        ],
-        "exclude_domains": ["facebook.com", "twitter.com", "x.com"]
-    }
-    
-    try:
-        response = requests.post(TAVILY_SEARCH_URL, json=payload, headers=headers, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        return data.get("results", [])
+        feed = feedparser.parse(url)
+        articles = []
+        for entry in feed.entries[:15]:
+            # 提取标签
+            tags = [tag.term for tag in entry.tags] if hasattr(entry, 'tags') else []
+            if not tags and hasattr(entry, 'categories'):
+                tags = entry.categories
+            
+            articles.append({
+                "title": entry.title,
+                "url": entry.link,
+                "source": source_name,
+                "date": entry.published if hasattr(entry, 'published') else str(datetime.now()),
+                "summary": entry.summary[:200] + "..." if hasattr(entry, 'summary') else "",
+                "tags": tags[:5]
+            })
+        return articles
     except Exception as e:
-        print(f"❌ 搜索失败 ({query[:30]}...): {e}")
+        print(f"Error fetching {source_name}: {e}")
         return []
 
-
-def summarize_with_ai(articles: list) -> list:
-    """
-    用大模型总结文章（简化版：清理描述）
-    完整版可以调用 OpenAI/Gemini API 进行智能总结
-    """
-    summarized = []
-    
-    for article in articles[:15]:  # 最多 15 条
-        title = article.get("title", "").strip()
-        url = article.get("url", "")
-        content = article.get("content", "") or article.get("snippet", "")
+def fetch_github_trending(url, source_name):
+    """获取 GitHub Trending"""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, headers=headers, timeout=10)
+        articles = []
         
-        if not title:
-            continue
+        # 解析 GitHub Trending 页面
+        pattern = r'<article class="Box-row">.*?href="([^"]+)"[^>]*>\s*<h2[^>]*>([^<]+)</h2>.*?<p class="col-\d+[^"]*"[^>]*>([^<]+)</p>'
+        matches = re.findall(pattern, response.text, re.DOTALL)
         
-        # 清理描述
-        description = content[:300].strip()
-        if description:
-            # 去除多余空白和特殊字符
-            import re
-            description = re.sub(r'\s+', ' ', description)
-            description = description.replace("#", "").replace("*", "")
+        for match in matches[:10]:
+            repo_url, title, desc = match
+            articles.append({
+                "title": title.strip(),
+                "url": f"https://github.com{repo_url}",
+                "source": "GitHub Trending",
+                "date": str(datetime.now()),
+                "summary": desc.strip()[:200] if desc else "",
+                "tags": ["GitHub", "Trending"]
+            })
+        return articles
+    except Exception as e:
+        print(f"Error fetching GitHub: {e}")
+        return []
+
+def fetch_arxiv(url, source_name):
+    """获取 ArXiv 论文"""
+    try:
+        feed = feedparser.parse(url)
+        articles = []
+        for entry in feed.entries[:15]:
+            # 提取 ArXiv ID 和标签
+            arxiv_id = entry.id.split('/abs/')[-1] if '/abs/' in entry.id else entry.id
+            
+            # 获取论文 PDF 链接
+            pdf_url = entry.link.replace('/abs/', '/pdf/') if '/abs/' in entry.link else entry.link
+            
+            # 提取标签（分类）
+            tags = []
+            if hasattr(entry, 'tags'):
+                for tag in entry.tags:
+                    if tag.term:
+                        tags.append(tag.term)
+            
+            articles.append({
+                "title": entry.title,
+                "url": pdf_url,
+                "source": "arXiv",
+                "date": entry.published if hasattr(entry, 'published') else str(datetime.now()),
+                "summary": entry.summary[:200] + "..." if hasattr(entry, 'summary') else "",
+                "tags": tags[:5] if tags else ["AI", "Research"]
+            })
+        return articles
+    except Exception as e:
+        print(f"Error fetching ArXiv: {e}")
+        return []
+
+def fetch_huggingface(url, source_name):
+    """获取 HuggingFace 热门模型"""
+    try:
+        response = requests.get(url, timeout=10)
+        data = response.json()
+        articles = []
         
-        summarized.append({
-            "title": title,
-            "url": url,
-            "description": description,
-            "source": extract_source(url),
-            "date": format_date()
-        })
-    
-    return summarized
+        for model in data[:20]:
+            # 生成标签
+            tags = model.get('tags', [])
+            if 'transformers' in tags:
+                tags = ['Transformers'] + [t for t in tags if t != 'transformers']
+            elif 'diffusers' in tags:
+                tags = ['Diffusion'] + [t for t in tags if t != 'diffusers']
+            
+            articles.append({
+                "title": model.get('modelId', 'Unknown Model'),
+                "url": f"https://huggingface.co/{model.get('modelId', '')}",
+                "source": "HuggingFace",
+                "date": str(datetime.now()),
+                "summary": f"Downloads: {model.get('downloads', 0):,} | Likes: {model.get('likes', 0):,}",
+                "tags": tags[:5] if tags else ["Model", "AI"]
+            })
+        return articles
+    except Exception as e:
+        print(f"Error fetching HuggingFace: {e}")
+        return []
 
-
-def save_to_json(articles: list, output_file: str = "data.json"):
-    """保存到 JSON 文件"""
-    # 新闻来源列表
-    sources = [
-        "📰 Hacker News (Y Combinator)",
-        "💻 GitHub Trending", 
-        "📄 ArXiv (cs.AI)",
-        "📊 Techmeme",
-        "📈 VentureBeat / TechCrunch",
-        "🎯 The Decoder",
-        "💬 Reddit (r/ML, r/LocalLLaMA)"
-    ]
+def classify_article(article, categories):
+    """根据关键词对文章进行分类"""
+    title = article.get('title', '').lower()
+    summary = article.get('summary', '').lower()
+    text = title + " " + summary
     
-    data = {
-        "articles": articles,
+    scores = {}
+    for cat_key, config in categories.items():
+        score = 0
+        for keyword in config.get('keywords', []):
+            if keyword.lower() in text:
+                score += 1
+        scores[cat_key] = score
+    
+    # 返回分数最高的分类
+    if scores:
+        best_cat = max(scores, key=scores.get)
+        return best_cat if scores[best_cat] > 0 else None
+    return None
+
+def fetch_all_news():
+    """获取所有新闻并分类"""
+    all_articles = defaultdict(list)
+    seen_urls = set()
+    
+    for cat_key, config in CATEGORIES.items():
+        print(f"Fetching {config['name']}...")
+        
+        for source in config['sources']:
+            if source['type'] == 'rss':
+                articles = fetch_rss(source['url'], source['name'])
+            elif source['type'] == 'github':
+                articles = fetch_github_trending(source['url'], source['name'])
+            elif source['type'] == 'arxiv':
+                articles = fetch_arxiv(source['url'], source['name'])
+            elif source['type'] == 'api':
+                articles = fetch_huggingface(source['url'], source['name'])
+            else:
+                articles = []
+            
+            for article in articles:
+                # 去重
+                if article['url'] in seen_urls:
+                    continue
+                seen_urls.add(article['url'])
+                
+                # 自动分类
+                article['category'] = cat_key
+                article['category_name'] = config['name']
+                
+                all_articles[cat_key].append(article)
+    
+    # 构建最终数据
+    result = {
         "lastUpdate": datetime.now().strftime("%Y/%m/%d %H:%M"),
-        "sources": sources
+        "categories": [],
+        "articles": []
     }
     
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    for cat_key, config in CATEGORIES.items():
+        category_data = {
+            "key": cat_key,
+            "name": config['name'],
+            "name_en": config['name_en'],
+            "count": len(all_articles[cat_key])
+        }
+        result['categories'].append(category_data)
+        result['articles'].extend(all_articles[cat_key])
     
-    print(f"✅ 已保存 {len(articles)} 条新闻到 {output_file}")
-
-
-def update_html_quote():
-    """更新 HTML 页面的金句"""
-    quote = get_quote()
-    quote_js = f'''
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {{
-            const quotes = [
-                {{ text: "{quote['text']}", author: "{quote['author']}" }}
-            ];
-            const today = new Date().getDate();
-            const q = quotes[today % quotes.length];
-            document.getElementById('quote-text').textContent = '"' + q.text + '"';
-            document.getElementById('quote-author').textContent = '— ' + q.author;
-        }});
-    </script>
-'''
-    return quote_js
-
+    # 按日期排序（新的在前）
+    result['articles'].sort(key=lambda x: x['date'], reverse=True)
+    
+    return result
 
 def main():
-    """主函数"""
-    print("🤖 AI News Daily - 开始抓取新闻...")
-    print("=" * 50)
+    data = fetch_all_news()
     
-    # 搜索所有查询
-    all_articles = []
+    with open('data.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
     
-    for i, query in enumerate(SEARCH_QUERIES, 1):
-        print(f"🔍 [{i}/{len(SEARCH_QUERIES)}] 搜索: {query[:40]}...")
-        results = search_news(query, max_results=3)
-        all_articles.extend(results)
-        print(f"   → 获取 {len(results)} 条结果")
-    
-    print("=" * 50)
-    print(f"📊 共获取 {len(all_articles)} 条原始新闻")
-    
-    # 去重
-    seen = set()
-    unique_articles = []
-    for article in all_articles:
-        key = article.get("url", article.get("title", ""))
-        if key and key not in seen:
-            seen.add(key)
-            unique_articles.append(article)
-    
-    print(f"🔗 去重后剩 {len(unique_articles)} 条")
-    
-    # 总结
-    print("📝 正在总结...")
-    summarized = summarize_with_ai(unique_articles)
-    print(f"✅ 总结完成，共 {len(summarized)} 条")
-    
-    # 保存
-    output_file = os.environ.get("OUTPUT_FILE", "data.json")
-    save_to_json(summarized, output_file)
-    
-    # 打印统计
-    sources_count = {}
-    for article in summarized:
-        source = article["source"]
-        sources_count[source] = sources_count.get(source, 0) + 1
-    
-    print("\n📊 来源统计:")
-    for source, count in sorted(sources_count.items(), key=lambda x: -x[1]):
-        print(f"   {source}: {count}")
-    
-    print("\n🎉 完成！数据已保存，可推送到 GitHub")
-
+    print(f"\n✅ 更新完成！")
+    print(f"📊 总计: {len(data['articles'])} 条新闻")
+    for cat in data['categories']:
+        print(f"   {cat['name']}: {cat['count']} 条")
 
 if __name__ == "__main__":
     main()
