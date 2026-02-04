@@ -92,21 +92,21 @@
       "date": "2026/02/04"
     },
     {
-      "title": "[2602.00751] Engineering AI Agents for Clinical Workflows",
-      "url": "https://www.arxiv.org/abs/2602.00751",
-      "description": "We introduce the Agent as the primary unit of modularity, each possessing its own autonomous MLOps lifecycle. ... 9 pages, 5 figures 2026 IEEE/ACM",
-      "source": "ARXIV",
+      "title": "AI Search Optimization - AI Agents 2026",
+      "url": "https://sites.google.com/view/ai-search-optimizationnupdate/ai-agents-2026",
+      "description": "In 2026, the best-performing AI agents combine large reasoning models (LRMs), vector databases with RAG, and standardized tool access via MCP to deliver reliable multi-step outcomes in real business workflows. If you want consistent results from AI in 2026, you need to understand how AI agents think",
+      "source": "GOOGLE",
       "date": "2026/02/04"
     },
     {
-      "title": "Machine Learning Jan 2026 - stat.ML",
-      "url": "https://arxiv.org/list/stat.ML/current",
-      "description": "Yikai Chen, Yunxin Mao, Chunyuan Zheng, Hao Zou, Shanzhi Gu, Shixuan Liu, Yang Shi, Wenjing Yang, Kun Kuang, Haotian Wang. Comments: 6 pages, 3 figures. Comments: 8 pages, 7 figures, 3 tables. Comments: 24 pages, 10 figures. Comments: 7 Pages with 1 Figure. Subjects: Machine Learning (stat.ML); Mach",
-      "source": "ARXIV",
+      "title": "cynthia247/MSR-2026",
+      "url": "https://github.com/cynthia247/MSR-2026/",
+      "description": "Autonomous AI agents are transforming software development and redefining how developers collaborate with AI. Prior research shows that the",
+      "source": "GITHUB",
       "date": "2026/02/04"
     }
   ],
-  "lastUpdate": "2026/02/04 15:09",
+  "lastUpdate": "2026/02/04 15:18",
   "sources": [
     "📰 Hacker News (Y Combinator)",
     "💻 GitHub Trending",
