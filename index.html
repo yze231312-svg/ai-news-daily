@@ -116,6 +116,25 @@
         let allData = null;
         let currentCat = 'all';
 
+        // 数据源中文翻译
+        const sourceCN = {
+            'HuggingFace': '🤗 模型库',
+            'GitHub': '⭐ GitHub',
+            'arXiv': '📄 论文库',
+            'Product Hunt': '🚀 发现',
+            'OpenAI': '🤖 OpenAI',
+            'Anthropic': '🧠 Anthropic',
+            'Google AI': '🔍 谷歌',
+            'Meta AI': '📘 Meta',
+            'TechCrunch': '📰 TechCrunch',
+            'TechCrunch AI': '📰 TechCrunch',
+            'VentureBeat': '🎮 VentureBeat',
+            'MIT Tech Review': '🔬 MIT科技',
+            'The Verge': '📱 The Verge',
+            'Wired': '🔌 Wired',
+            'Vercel': '⚡ Vercel'
+        };
+
         // 加载数据
         async function loadData() {
             try {
@@ -157,13 +176,14 @@
                 const catName = cat ? cat.name : '资讯';
                 const date = formatDate(a.date);
                 const tags = (a.tags || []).slice(0,4).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
-                const icon = getSourceIcon(a.source);
+                const source = sourceCN[a.source] || a.source;
+                const icon = sourceCN[a.source] ? '' : getSourceIcon(a.source);
                 
                 return '<article class="news-card">' +
-                    '<div class="news-meta">' + catName + ' · ' + icon + ' ' + a.source + ' · ' + date + '</div>' +
+                    '<div class="news-meta">' + catName + ' · ' + icon + ' ' + source + ' · ' + date + '</div>' +
                     '<h3 class="news-title"><a href="' + escapeHtml(a.url) + '" target="_blank">' + escapeHtml(a.title) + '</a></h3>' +
                     '<p class="news-desc">' + escapeHtml(a.summary || '') + '</p>' +
-                    '<div class="news-tags">' + tags + '</div></article>';
+                    (tags ? '<div class="news-tags">' + tags + '</div>' : '') + '</article>';
             }).join('');
         }
 
@@ -189,13 +209,19 @@
 
         function getSourceIcon(source) {
             const icons = {
-                'GitHub': '⭐', 'GitHub Trending': '⭐',
-                'HuggingFace': '🤗', 'arXiv': '📄',
-                'Product Hunt': '🚀', 'OpenAI': '🤖',
-                'Anthropic': '🧠', 'Google AI': '🔍',
-                'TechCrunch': '📰', 'VentureBeat': '🎮',
-                'MIT Tech Review': '🔬', 'The Verge': '📱',
-                'Wired': '🔌', 'Vercel': '⚡'
+                'GitHub': '⭐',
+                'HuggingFace': '🤗',
+                'arXiv': '📄',
+                'Product Hunt': '🚀',
+                'OpenAI': '🤖',
+                'Anthropic': '🧠',
+                'Google AI': '🔍',
+                'TechCrunch': '📰',
+                'VentureBeat': '🎮',
+                'MIT Tech Review': '🔬',
+                'The Verge': '📱',
+                'Wired': '🔌',
+                'Vercel': '⚡'
             };
             return icons[source] || '📌';
         }
