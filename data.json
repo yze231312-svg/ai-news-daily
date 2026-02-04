@@ -8,24 +8,17 @@
       "date": "2026/02/04"
     },
     {
-      "title": "Meta drops AI bombshell: Multi-token prediction models ...",
-      "url": "https://venturebeat.com/ai/meta-drops-ai-bombshell-multi-token-prediction-models-now-open-for-research",
-      "description": " Meta drops AI bombshell: Multi-token prediction models now open for research. The tech giant released pre-trained models on Wednesday that leverage a novel multi-token prediction approach, potentially changing how large language models (LLMs) are developed and deployed. Meta's decision to release",
-      "source": "VENTUREBEAT",
+      "title": "ICLR 2026 Workshop",
+      "url": "https://sites.google.com/view/iclr-2026-llmreasoning",
+      "description": "In response to these emerging needs, we propose the workshop on Logical Reasoning of LLMs. This workshop will explore the challenges and opportunities for improving deduction, induction, and abduction capabilities of LLMs, implementing symbolic representation and reasoning via LLMs, avoiding logical",
+      "source": "GOOGLE",
       "date": "2026/02/04"
     },
     {
-      "title": "Five breakthroughs that make OpenAI's o3 a turning point ...",
-      "url": "https://venturebeat.com/ai/five-breakthroughs-that-make-openais-o3-a-turning-point-for-ai-and-one-big-challenge",
-      "description": "OpenAI’s o3 tackles specific hurdles in reasoning and adaptability that have long stymied large language models. OpenAI’s o3 model introduces a new capability called \"program synthesis,\" which enables it to dynamically combine things that it learned during pre-training — specific patterns, algorithm",
-      "source": "VENTUREBEAT",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "DeepSeek just dropped two insanely powerful AI models ...",
-      "url": "https://venturebeat.com/ai/deepseek-just-dropped-two-insanely-powerful-ai-models-that-rival-gpt-5-and",
-      "description": "Chinese AI startup DeepSeek has released two powerful new AI models that the company claims match or exceed the capabilities of OpenAI's GPT-5 and Google's Gemini-3.0-Pro — a development that could reshape the competitive landscape between American tech giants and their Chinese challengers. DeepSeek",
-      "source": "VENTUREBEAT",
+      "title": "Anthropic CEO wants to open the black box of AI models by ...",
+      "url": "https://techcrunch.com/2025/04/24/anthropic-ceo-wants-to-open-the-black-box-of-ai-models-by-2027/",
+      "description": "Anthropic CEO Dario Amodei set forth a goal for his company to \"reliably detect most AI model problems\" by 2027.",
+      "source": "TECHCRUNCH",
       "date": "2026/02/04"
     },
     {
@@ -36,9 +29,16 @@
       "date": "2026/02/04"
     },
     {
-      "title": "DeepSeek's R1 and OpenAI's Deep Research just ...",
-      "url": "https://venturebeat.com/ai/deepseeks-r1-and-openais-deep-research-just-redefined-ai-rag-distillation-and-custom-models-will-never-be-the-same",
-      "description": " DeepSeek’s R1 and OpenAI’s Deep Research just redefined AI — RAG, distillation, and custom models will never be the same. Two recent developments are reshaping the landscape for developers and enterprises alike: DeepSeek's R1 model release and OpenAI's new Deep Research product. For developers, th",
+      "title": "pollinations/social/news/transformed/highlights.md at main",
+      "url": "https://github.com/pollinations/pollinations/blob/main/social/news/transformed/highlights.md",
+      "description": " 2026-01-26 – 🚀 Alibaba Wan 2.6 Generate videos from images with audio support using the new `wan` model.  2025-12-29 – 🚀 New Model: GPT Image Large Access GPT Image 1.5 via the `gptimage-large` model ID for high-fidelity generations.  2025-12-29 – 🚀 New Model: gptimage-larg",
+      "source": "GITHUB",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "DeepSeek just dropped two insanely powerful AI models ...",
+      "url": "https://venturebeat.com/ai/deepseek-just-dropped-two-insanely-powerful-ai-models-that-rival-gpt-5-and",
+      "description": "Chinese AI startup DeepSeek has released two powerful new AI models that the company claims match or exceed the capabilities of OpenAI's GPT-5 and Google's Gemini-3.0-Pro — a development that could reshape the competitive landscape between American tech giants and their Chinese challengers. DeepSeek",
       "source": "VENTUREBEAT",
       "date": "2026/02/04"
     },
@@ -50,16 +50,16 @@
       "date": "2026/02/04"
     },
     {
-      "title": "coding-assistant · GitHub Topics",
-      "url": "https://github.com/topics/coding-assistant",
-      "description": "python ai openai code-generation codegen coding-assistant autonomous-agent gpt-4 gpt-engineer codebase-generation. ai developer-tools research-project codegen coding-assistant gpt-4. agent programming ai coding-assistant agentic-ai vibe-coding vibecoding. agent ai mcp tasks task-list task-manager wi",
+      "title": "Cursor - The AI Code Editor",
+      "url": "https://github.com/cursor/cursor",
+      "description": " Navigation Menu.  Search code, repositories, users, issues, pull requests... You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window.  Notifications You mus",
       "source": "GITHUB",
       "date": "2026/02/04"
     },
     {
-      "title": "ai-ide-assistants.md - spryker-docs",
-      "url": "https://github.com/spryker/spryker-docs/blob/master/docs/dg/dev/ai/ai-assistants/ai-ide-assistants.md",
-      "description": "GitHub Copilot is an AI pair programmer that helps you write code faster. ... Cursor is an AI powered IDE forked from VS Code. To set up Cursor, follow",
+      "title": "GitHub Copilot",
+      "url": "https://github.com/copilot",
+      "description": "The AI assistant that builds with you. Generate code, manage tasks, and explore your projects all in one place with GitHub Copilot. GPT-4.1.",
       "source": "GITHUB",
       "date": "2026/02/04"
     },
@@ -71,42 +71,42 @@
       "date": "2026/02/04"
     },
     {
-      "title": "paper-list/docs/Multimodal.md at main",
-      "url": "https://github.com/isLinXu/paper-list/blob/main/docs/Multimodal.md",
-      "description": "2025-11-04, Fine-Tuning Vision-Language Models for Multimodal Polymer Property Prediction, An Vuong et.al. ; 2025-11-06, DINOv2 Driven Gait Representation",
-      "source": "GITHUB",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "Multimodal Fusion and Vision-Language Models: A Survey ...",
-      "url": "https://arxiv.org/abs/2504.02477",
-      "description": " Title:Multimodal Fusion and Vision-Language Models: A Survey for Robot Vision. Authors:Xiaofeng Han, Shunpeng Chen, Zenghuang Fu, Zhe Feng, Lue Fan, Dong An, Changwei Wang, Li Guo, Weiliang Meng, Xiaopeng Zhang, Rongtao Xu, Shibiao Xu. View a PDF of the paper titled Multimodal Fusion and Vision-La",
+      "title": "Incentivizing DeepResearch Capability in Multimodal ...",
+      "url": "https://arxiv.org/abs/2601.22060v1?utm_source=chatgpt.com",
+      "description": "Abstract:Multimodal large language models (MLLMs) have achieved remarkable success across a broad range of vision tasks.",
       "source": "ARXIV",
       "date": "2026/02/04"
     },
     {
-      "title": "cynthia247/MSR-2026",
-      "url": "https://github.com/cynthia247/MSR-2026/",
-      "description": "Autonomous AI agents are transforming software development and redefining how developers collaborate with AI. Prior research shows that the",
-      "source": "GITHUB",
+      "title": "Vision-Language Models on the Edge for Real-Time ...",
+      "url": "https://arxiv.org/html/2601.14921v1",
+      "description": "Vision–Language Models (VLMs) enable multimodal reasoning for robotic perception and interaction, but their deployment in real-world systems remains constrained by latency, limited onboard resources, and privacy risks of cloud offloading. In contrast, our work deploys a state-of-the-art VLM on a rea",
+      "source": "ARXIV",
       "date": "2026/02/04"
     },
     {
-      "title": "In 2026, AI will move from hype to pragmatism",
-      "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
-      "description": "[Skip to content](https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/wp--skip-link--target).  [Latest](https://techcrunch.com/latest/).  [Startups](https://techcrunch.com/category/startups/).  [Venture](https://techcrunch.com/category/venture/).  [Security](h",
-      "source": "TECHCRUNCH",
+      "title": "Transforming every workflow, every process with AI agents",
+      "url": "https://pulse.microsoft.com/en/work-productivity-en/na/fa2-transforming-every-workflow-every-process-with-ai-agents/",
+      "description": "Agents are AI tools that can work on behalf of an individual or team to operate and undertake business activities.",
+      "source": "MICROSOFT",
       "date": "2026/02/04"
     },
     {
-      "title": "2026 Agentic Coding Trends Report",
-      "url": "https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en",
-      "description": "Trend 5: Agentic coding expands to new surfaces. eight trends we predict will define agentic coding in 2026. development work happens, capability trends that look to expand what agents. Companies that extend agentic coding beyond engineering teams. In 2025, agentic AI changed how a large swath",
-      "source": "ANTHROPIC",
+      "title": "[2602.00751] Engineering AI Agents for Clinical Workflows",
+      "url": "https://www.arxiv.org/abs/2602.00751",
+      "description": "We introduce the Agent as the primary unit of modularity, each possessing its own autonomous MLOps lifecycle. ... 9 pages, 5 figures 2026 IEEE/ACM",
+      "source": "ARXIV",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "Machine Learning Jan 2026 - stat.ML",
+      "url": "https://arxiv.org/list/stat.ML/current",
+      "description": "Yikai Chen, Yunxin Mao, Chunyuan Zheng, Hao Zou, Shanzhi Gu, Shixuan Liu, Yang Shi, Wenjing Yang, Kun Kuang, Haotian Wang. Comments: 6 pages, 3 figures. Comments: 8 pages, 7 figures, 3 tables. Comments: 24 pages, 10 figures. Comments: 7 Pages with 1 Figure. Subjects: Machine Learning (stat.ML); Mach",
+      "source": "ARXIV",
       "date": "2026/02/04"
     }
   ],
-  "lastUpdate": "2026/02/04 14:30",
+  "lastUpdate": "2026/02/04 15:09",
   "sources": [
     "📰 Hacker News (Y Combinator)",
     "💻 GitHub Trending",
