@@ -1,35 +1,30 @@
 {
-  "lastUpdate": "2026/02/04 15:55",
+  "lastUpdate": "2026/02/04 23:57",
   "categories": [
     {
       "key": "model",
       "name": "🗣️ 模型发布",
-      "name_en": "Model Releases",
-      "count": 23
+      "count": 11
     },
     {
       "key": "tool",
       "name": "🛠️ 工具平台",
-      "name_en": "Tools & Platforms",
-      "count": 15
+      "count": 7
     },
     {
       "key": "research",
       "name": "📚 研究成果",
-      "name_en": "Research Papers",
-      "count": 1
+      "count": 0
     },
     {
       "key": "opensource",
       "name": "📦 开源项目",
-      "name_en": "Open Source",
       "count": 0
     },
     {
       "key": "industry",
       "name": "📰 行业动态",
-      "name_en": "Industry News",
-      "count": 37
+      "count": 33
     }
   ],
   "articles": [
@@ -39,12 +34,9 @@
       "source": "VentureBeat AI",
       "date": "Wed, 07 Jan 2026 20:00:00 GMT",
       "summary": "<p><a href=\"https://nousresearch.com/\">Nous Research</a>, the open-source artificial intelligence startup backed by crypto venture firm <a href=\"https://www.paradigm.xyz/\">Paradigm</a>, released a new...",
-      "tags": [
-        "Technology",
-        "AI"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "ElevenLabs raises $500M from Sequioia at a $11 billion valuation",
@@ -52,29 +44,7 @@
       "source": "TechCrunch AI",
       "date": "Wed, 04 Feb 2026 15:33:58 +0000",
       "summary": "ElevenLabs' valuation has raised more than three times in the last twelve months....",
-      "tags": [
-        "AI",
-        "Startups",
-        "TC",
-        "Venture",
-        "ElevenLabs"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "Mistral's New Ultra-Fast Translation Model Gives Big AI Labs a Run for Their Money",
-      "url": "https://www.wired.com/story/mistral-voxtral-real-time-ai-translation/",
-      "source": "Wired",
-      "date": "Wed, 04 Feb 2026 15:32:45 +0000",
-      "summary": "“Too many GPUs makes you lazy,” says the French startup's vice president of science operations, as the company carves out a different path than the major US AI companies....",
-      "tags": [
-        "Business",
-        "Business / Artificial Intelligence",
-        "artificial intelligence",
-        "Startups",
-        "translation"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -84,15 +54,9 @@
       "source": "TechCrunch AI",
       "date": "Wed, 04 Feb 2026 14:00:00 +0000",
       "summary": "Amazon opens Alexa+ to everyone in the U.S. The AI feature is free for Prime members across devices, and free for everyone on mobile and web....",
-      "tags": [
-        "Hardware",
-        "Media & Entertainment",
-        "AI",
-        "Amazon",
-        "echo"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
@@ -100,10 +64,7 @@
       "source": "MIT Tech Review",
       "date": "Wed, 04 Feb 2026 14:00:00 +0000",
       "summary": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control. This article ...",
-      "tags": [
-        "Artificial intelligence",
-        "sponsored"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -113,9 +74,7 @@
       "source": "MIT Tech Review",
       "date": "Wed, 04 Feb 2026 13:10:00 +0000",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why AI companies are betting on next-gen nuclear A...",
-      "tags": [
-        "The Download"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -125,44 +84,7 @@
       "source": "TechCrunch AI",
       "date": "Wed, 04 Feb 2026 13:00:00 +0000",
       "summary": "Fibr AI replaces marketing agency– and engineering-heavy website personalization with autonomous systems designed for enterprise scale....",
-      "tags": [
-        "Enterprise",
-        "AI",
-        "Accel",
-        "Fibr AI"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "AI Bots Are Now a Signifigant Source of Web Traffic",
-      "url": "https://www.wired.com/story/ai-bots-are-now-a-signifigant-source-of-web-traffic/",
-      "source": "Wired",
-      "date": "Wed, 04 Feb 2026 10:30:00 +0000",
-      "summary": "New data shows AI bots pushing deeper into the web, prompting publishers to roll out more aggressive defenses....",
-      "tags": [
-        "Business",
-        "Business / Artificial Intelligence",
-        "artificial intelligence",
-        "bots",
-        "websites"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "HHS Is Making an AI Tool to Create Hypotheses About Vaccine Injury Claims",
-      "url": "https://www.wired.com/story/hhs-is-making-an-ai-tool-to-create-hypotheses-about-vaccine-injury-claims/",
-      "source": "Wired",
-      "date": "Wed, 04 Feb 2026 10:00:00 +0000",
-      "summary": "Experts worry Robert F. Kennedy Jr.’s Health Department will use an internal AI tool to analyze vaccine injury claims in a way that furthers his anti-vaccine agenda....",
-      "tags": [
-        "Science",
-        "vaccines",
-        "public health",
-        "government",
-        "Robert F. Kennedy Jr."
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -172,15 +94,9 @@
       "source": "TechCrunch AI",
       "date": "Wed, 04 Feb 2026 08:18:51 +0000",
       "summary": "The investment comes from backers including the Qatar Investment Authority as demand for chips beyond Nvidia soars and as Qatar aims to build out its AI infrastructure....",
-      "tags": [
-        "AI",
-        "Fundraising",
-        "Startups",
-        "AI chips",
-        "Exclusive"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
@@ -188,11 +104,7 @@
       "source": "VentureBeat AI",
       "date": "Tue, 13 Jan 2026 13:00:00 GMT",
       "summary": "<p><a href=\"https://www.salesforce.com/\">Salesforce</a> on Tuesday launched an entirely rebuilt version of <a href=\"https://slack.com/help/articles/202026038-An-introduction-to-Slackbot\">Slackbot</a>,...",
-      "tags": [
-        "Technology",
-        "AI",
-        "Automation"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -202,29 +114,7 @@
       "source": "TechCrunch AI",
       "date": "Tue, 03 Feb 2026 21:01:34 +0000",
       "summary": "Intel has been bulking up a team to focus on this effort and will develop its GPU strategy around customer needs....",
-      "tags": [
-        "AI",
-        "Enterprise",
-        "Intel",
-        "nvidia",
-        "GPUS"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "I Infiltrated Moltbook, the AI-Only Social Network Where Humans Aren’t Allowed",
-      "url": "https://www.wired.com/story/i-infiltrated-moltbook-ai-only-social-network/",
-      "source": "Wired",
-      "date": "Tue, 03 Feb 2026 19:55:36 +0000",
-      "summary": "I went undercover on Moltbook and loved role-playing as a conscious bot. But rather than a novel breakthrough, the AI-only site is a crude rehashing of sci-fi fantasies....",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "artificial intelligence",
-        "chatbots",
-        "Social Media"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -234,15 +124,9 @@
       "source": "TechCrunch AI",
       "date": "Tue, 03 Feb 2026 18:00:00 +0000",
       "summary": "Xcode 26.3 offers agentic coding capabilities with Anthropic's Claude Agent and OpenAI's Codex....",
-      "tags": [
-        "AI",
-        "Apps",
-        "agentic",
-        "Apple",
-        "coding"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "Lotus Health nabs $35M for AI doctor that sees patients for free",
@@ -250,15 +134,9 @@
       "source": "TechCrunch AI",
       "date": "Tue, 03 Feb 2026 17:14:27 +0000",
       "summary": "This AI doctor is licensed in all 50 states, the startup says. The deal was led by CRV and Kleiner Perkins....",
-      "tags": [
-        "AI",
-        "Biotech & Health",
-        "Venture",
-        "AI Medical Service",
-        "CRV"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "Fitbit founders launch AI platform to help families monitor their health",
@@ -266,13 +144,7 @@
       "source": "TechCrunch AI",
       "date": "Tue, 03 Feb 2026 15:53:36 +0000",
       "summary": "Luffu uses AI in the background to gather and organize family information, learn day-to-day patterns, and flag notable changes so families can stay aligned and address potential well-being issues....",
-      "tags": [
-        "AI",
-        "Apps",
-        "Biotech & Health",
-        "Startups",
-        "fitbit"
-      ],
+      "tags": [],
       "category": "tool",
       "category_name": "🛠️ 工具平台"
     },
@@ -282,15 +154,9 @@
       "source": "TechCrunch AI",
       "date": "Tue, 03 Feb 2026 14:14:33 +0000",
       "summary": "Peak XV is transitioning board roles and opening a U.S. office while continuing to view India as its largest market....",
-      "tags": [
-        "AI",
-        "Startups",
-        "Venture",
-        "Ashish Agrawal",
-        "Ishaan Mittal"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "The Download: squeezing more metal out of aging mines, and AI’s truth crisis",
@@ -298,25 +164,7 @@
       "source": "MIT Tech Review",
       "date": "Tue, 03 Feb 2026 13:10:00 +0000",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Microbes could extract the metal needed for cleant...",
-      "tags": [
-        "The Download"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "‘Fallout’ Producer Jonathan Nolan on AI: ‘We’re in Such a Frothy Moment’",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-jonathan-nolan-fallout/",
-      "source": "Wired",
-      "date": "Tue, 03 Feb 2026 12:00:00 +0000",
-      "summary": "The Westworld showrunner thinks AI will be good for burgeoning filmmakers, but not for Hollywood blockbusters....",
-      "tags": [
-        "Culture",
-        "Big Interview",
-        "Uncanny Valley Podcast",
-        "podcasts",
-        "artificial intelligence"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -326,26 +174,7 @@
       "source": "MIT Tech Review",
       "date": "Tue, 03 Feb 2026 10:00:00 +0000",
       "summary": "In a pine forest on Michigan’s Upper Peninsula, the only active nickel mine in the US is nearing the end of its life. At a time when carmakers want the metal for electric-vehicle batteries, nickel con...",
-      "tags": [
-        "Climate change and energy",
-        "App"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "‘Uncanny Valley’: Minneapolis Misinformation, TikTok’s New Owners, and Moltbot Hype",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-ice-minneapolis-tiktok-moltbot/",
-      "source": "Wired",
-      "date": "Thu, 29 Jan 2026 22:19:59 +0000",
-      "summary": "On this episode of Uncanny Valley, we dive into the news that's held our attention this week: ICE activity as it's been unfolding in Minnesota....",
-      "tags": [
-        "Politics",
-        "Politics / Politics News",
-        "Uncanny Valley Podcast",
-        "podcasts",
-        "Immigration and Customs Enforcement"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -355,28 +184,9 @@
       "source": "VentureBeat AI",
       "date": "Thu, 22 Jan 2026 14:00:00 GMT",
       "summary": "<p><a href=\"https://railway.com/\">Railway</a>, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it r...",
-      "tags": [
-        "Infrastructure",
-        "AI"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Jeffrey Epstein Had a ‘Personal Hacker,’ Informant Claims",
-      "url": "https://www.wired.com/story/security-news-this-week-jeffrey-epstein-had-a-personal-hacker-informant-claims/",
-      "source": "Wired",
-      "date": "Sat, 31 Jan 2026 11:30:00 +0000",
-      "summary": "Plus: AI agent OpenClaw gives cybersecurity experts the willies, China executes 11 scam compound bosses, a $40 million crypto theft has an unexpected alleged culprit, and more....",
-      "tags": [
-        "Security",
-        "Security / Cyberattacks and Hacks",
-        "Security / National Security",
-        "Security / Privacy",
-        "Security / Security News"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
     },
     {
       "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
@@ -384,12 +194,9 @@
       "source": "VentureBeat AI",
       "date": "Mon, 19 Jan 2026 14:00:00 GMT",
       "summary": "<p>The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.</p><p><a href=\"https://claude.com/product/claude-code\">Claude Code</a>, Anthropic&#x27;s terminal-based AI age...",
-      "tags": [
-        "AI",
-        "Infrastructure"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
@@ -397,13 +204,9 @@
       "source": "VentureBeat AI",
       "date": "Mon, 12 Jan 2026 11:30:00 GMT",
       "summary": "<p><a href=\"https://www.anthropic.com/\">Anthropic</a> released <a href=\"https://claude.com/blog/cowork-research-preview\">Cowork</a> on Monday, a new AI agent capability that extends the power of its w...",
-      "tags": [
-        "Technology",
-        "AI",
-        "Automation"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
@@ -411,28 +214,9 @@
       "source": "VentureBeat AI",
       "date": "Mon, 05 Jan 2026 07:45:00 GMT",
       "summary": "<p>When the creator of the world&#x27;s most advanced coding agent speaks, Silicon Valley doesn&#x27;t just listen — it takes notes.</p><p>For the past week, the engineering community has been dissect...",
-      "tags": [
-        "Technology",
-        "AI"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Elon Musk Is Rolling xAI Into SpaceX—Creating the World’s Most Valuable Private Company",
-      "url": "https://www.wired.com/story/spacex-acquires-xai-elon-musk/",
-      "source": "Wired",
-      "date": "Mon, 02 Feb 2026 23:07:19 +0000",
-      "summary": "By fusing SpaceX and xAI—which acquired X last year—Elon Musk tightens his grip over technologies that shape national security, social media, and artificial intelligence....",
-      "tags": [
-        "Business",
-        "Business / Artificial Intelligence",
-        "xAI",
-        "Elon Musk",
-        "SpaceX"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "Elon Musk’s SpaceX officially acquires Elon Musk’s xAI, with plan to build data centers in space",
@@ -440,29 +224,7 @@
       "source": "TechCrunch AI",
       "date": "Mon, 02 Feb 2026 22:21:57 +0000",
       "summary": "The merger creates the world's most valuable private company and paves the way for Musk to try and prove out the usefulness of space-based data centers....",
-      "tags": [
-        "AI",
-        "Space",
-        "Elon Musk",
-        "SpaceX",
-        "xAI"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "HHS Is Using AI Tools From Palantir to Target ‘DEI’ and ‘Gender Ideology’ in Grants",
-      "url": "https://www.wired.com/story/hhs-is-using-ai-tools-from-palantir-to-target-dei-and-gender-ideology-in-grants/",
-      "source": "Wired",
-      "date": "Mon, 02 Feb 2026 20:56:41 +0000",
-      "summary": "Since March of 2025, the Department of Health and Human Services has been using tools from Palantir and the startup Credal AI to weed out perceived alignment with “DEI” or “gender ideology.”...",
-      "tags": [
-        "Science",
-        "government",
-        "Palantir",
-        "artificial intelligence",
-        "diversity"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -472,15 +234,9 @@
       "source": "TechCrunch AI",
       "date": "Mon, 02 Feb 2026 19:09:44 +0000",
       "summary": "Snowflake is the latest enterprise to sign multi-year deals with multiple AI companies in what could be a sign to come of a future trend....",
-      "tags": [
-        "AI",
-        "Enterprise",
-        "TC",
-        "Analysis",
-        "Anthropic"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "Firefox will soon let you block all of its generative AI features",
@@ -488,13 +244,7 @@
       "source": "TechCrunch AI",
       "date": "Mon, 02 Feb 2026 18:34:45 +0000",
       "summary": "Starting with Firefox 148 arriving later this month, users will find a new AI controls section within the desktop browser settings....",
-      "tags": [
-        "AI",
-        "Apps",
-        "Enterprise",
-        "Firefox",
-        "Generative AI"
-      ],
+      "tags": [],
       "category": "tool",
       "category_name": "🛠️ 工具平台"
     },
@@ -504,15 +254,9 @@
       "source": "TechCrunch AI",
       "date": "Mon, 02 Feb 2026 18:19:31 +0000",
       "summary": "OpenAI has released a new macOS app for Codex, integrating many of the agentic coding practices that have become popular since Codex launched last year....",
-      "tags": [
-        "AI",
-        "agentic coding",
-        "codex",
-        "Codex app",
-        "OpenAI"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "What we’ve been getting wrong about AI’s truth crisis",
@@ -520,12 +264,7 @@
       "source": "MIT Tech Review",
       "date": "Mon, 02 Feb 2026 18:09:57 +0000",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. What would it take to convince you that the era of truth ...",
-      "tags": [
-        "Artificial intelligence",
-        "App",
-        "artificial intelligence",
-        "The Algorithm"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -535,13 +274,7 @@
       "source": "TechCrunch AI",
       "date": "Mon, 02 Feb 2026 15:33:45 +0000",
       "summary": "Ring's Search Party feature for finding lost dogs is now available across the U.S. — even if you don't own a Ring camera....",
-      "tags": [
-        "Hardware",
-        "AI",
-        "Amazon",
-        "Pets",
-        "Ring"
-      ],
+      "tags": [],
       "category": "tool",
       "category_name": "🛠️ 工具平台"
     },
@@ -551,15 +284,9 @@
       "source": "TechCrunch AI",
       "date": "Mon, 02 Feb 2026 15:00:00 +0000",
       "summary": "Carbon Robotics' Large Plant Model will allow farmers to kill new types of weeds without having to retrain the machines....",
-      "tags": [
-        "AI",
-        "Robotics",
-        "Startups",
-        "AgTech",
-        "artificial intelligence"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "The crucial first step for designing a successful enterprise AI system",
@@ -567,12 +294,9 @@
       "source": "MIT Tech Review",
       "date": "Mon, 02 Feb 2026 14:20:29 +0000",
       "summary": "Many organizations rushed into generative AI, only to see pilots fail to deliver value. Now, companies want measurable outcomes—but how do you design for success? At Mistral AI, we partner with global...",
-      "tags": [
-        "Artificial intelligence",
-        "sponsored"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "The Download: inside a deepfake marketplace, and EV batteries’ future",
@@ -580,9 +304,7 @@
       "source": "MIT Tech Review",
       "date": "Mon, 02 Feb 2026 13:10:00 +0000",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the marketplace powering bespoke AI deepfak...",
-      "tags": [
-        "The Download"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -592,28 +314,7 @@
       "source": "MIT Tech Review",
       "date": "Mon, 02 Feb 2026 10:00:00 +0000",
       "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Demand for electric vehicl...",
-      "tags": [
-        "Climate change and energy",
-        "App",
-        "What's Next in Tech",
-        "Why It Matters"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "I Let Google’s ‘Auto Browse’ AI Agent Take Over Chrome. It Didn’t Quite Click",
-      "url": "https://www.wired.com/story/google-chrome-auto-browse-hands-on/",
-      "source": "Wired",
-      "date": "Fri, 30 Jan 2026 20:41:49 +0000",
-      "summary": "Auto Browse can shop for clothes, plan a trip, and buy tickets for you. Or at least, that’s the idea....",
-      "tags": [
-        "Gear",
-        "Gear / Reviews",
-        "Google",
-        "artificial intelligence",
-        "Chrome"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -623,13 +324,9 @@
       "source": "MIT Tech Review",
       "date": "Fri, 30 Jan 2026 16:32:31 +0000",
       "summary": "Civitai—an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz—is letting users buy custom instruction files for generating celebrity...",
-      "tags": [
-        "Artificial intelligence",
-        "App",
-        "artificial intelligence"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
     },
     {
       "title": "The Download: US immigration agencies’ AI videos, and inside the Vitalism movement",
@@ -637,9 +334,7 @@
       "source": "MIT Tech Review",
       "date": "Fri, 30 Jan 2026 13:10:00 +0000",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. DHS is using Google and Adobe AI to make videos Th...",
-      "tags": [
-        "The Download"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -649,10 +344,7 @@
       "source": "VentureBeat AI",
       "date": "Fri, 16 Jan 2026 14:01:00 GMT",
       "summary": "<p>Alfred Wahlforss was running out of options. His startup, <a href=\"https://listenlabs.ai/\">Listen Labs</a>, needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s <a href=\"...",
-      "tags": [
-        "Technology",
-        "AI"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -660,225 +352,63 @@
       "title": "Error",
       "url": "https://arxiv.org/help/api/user-manual#sort",
       "source": "arXiv",
-      "date": "2026-02-04T15:55:23.799314",
+      "date": "2026-02-04T23:57:26.382256",
       "summary": "sortOrder must be in: ascending, descending...",
       "tags": [
-        "AI",
-        "Research"
+        "Research",
+        "AI"
       ],
-      "category": "research",
-      "category_name": "📚 研究成果"
-    },
-    {
-      "title": "Pick up exactly where you left off with Session Management in Gemini CLI",
-      "url": "https://developers.googleblog.com/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060313",
-      "summary": "Gemini CLI's new automatic **Session Management** (v0.20.0+) saves your conversation history, tool outputs, and reasoning, providing project-specific context. Resume easily using the **Interactive Ses...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Building agents with the ADK and the new Interactions API",
-      "url": "https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060303",
-      "summary": "The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK ...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Introducing A2UI: An open project for agent-driven interfaces",
-      "url": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060293",
-      "summary": "A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component cata...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Developer’s guide to multi-agent patterns in ADK",
-      "url": "https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060283",
-      "summary": "Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK)....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Conductor: Introducing context-driven development for Gemini CLI",
-      "url": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060273",
-      "summary": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents a...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
-      "url": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060263",
-      "summary": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeS...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Gemini 3 Flash is now available in Gemini CLI",
-      "url": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060248",
-      "summary": "Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly out...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Real-World Agent Examples with Gemini 3",
-      "url": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060238",
-      "summary": "Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrati...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques",
-      "url": "https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060227",
-      "summary": "A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars),...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Under the Hood: Universal Commerce Protocol (UCP)",
-      "url": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060215",
-      "summary": "The Universal Commerce Protocol (UCP) is a new, open-source standard for agentic commerce, co-developed by Google and industry leaders. It establishes a common, secure language to connect consumer sur...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "A Guide to Fine-Tuning FunctionGemma",
-      "url": "https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060202",
-      "summary": "FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-spe...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Tailor Gemini CLI to your workflow with hooks",
-      "url": "https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060192",
-      "summary": "New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "LiteRT: The Universal Framework for On-Device AI",
-      "url": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060181",
-      "summary": "LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
-      "url": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060170",
-      "summary": "At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new \"Trustable AI Framework\" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing in...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Easy FunctionGemma finetuning with Tunix on Google TPUs",
-      "url": "https://developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus/",
-      "source": "Google AI",
-      "date": "2026-02-04T15:55:22.060153",
-      "summary": "Finetuning the FunctionGemma model is made fast and easy using the lightweight JAX-based Tunix library on Google TPUs, a process demonstrated here using LoRA for supervised finetuning. This approach d...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-04T15:55:20.840671",
+      "date": "2026-02-04T23:57:25.719870",
       "summary": "Downloads: 29 | Likes: 0",
       "tags": [
-        "gguf",
-        "cortex.cpp",
-        "featured",
-        "text-generation",
-        "license:apache-2.0"
+        "Model",
+        "AI"
       ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "cortexso/intellect-2",
       "url": "https://huggingface.co/cortexso/intellect-2",
       "source": "HuggingFace",
-      "date": "2026-02-04T15:55:20.840662",
+      "date": "2026-02-04T23:57:25.719865",
       "summary": "Downloads: 115 | Likes: 1",
       "tags": [
-        "gguf",
-        "cortex.cpp",
-        "featured",
-        "text-generation",
-        "license:apache-2.0"
+        "Model",
+        "AI"
       ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-04T15:55:20.840659",
+      "date": "2026-02-04T23:57:25.719862",
       "summary": "Downloads: 144 | Likes: 0",
       "tags": [
-        "gguf",
-        "cortex.cpp",
-        "featured",
-        "text-generation",
-        "license:mit"
+        "Model",
+        "AI"
       ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-04T15:55:20.840656",
+      "date": "2026-02-04T23:57:25.719857",
       "summary": "Downloads: 183 | Likes: 0",
       "tags": [
-        "gguf",
-        "cortex.cpp",
-        "featured",
-        "text-generation",
-        "license:llama3.2"
+        "Model",
+        "AI"
       ],
       "category": "model",
       "category_name": "🗣️ 模型发布"
@@ -887,65 +417,63 @@
       "title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-04T15:55:20.840653",
+      "date": "2026-02-04T23:57:25.719854",
       "summary": "Downloads: 210 | Likes: 4",
       "tags": [
-        "gguf",
-        "cortex.cpp",
-        "featured",
-        "text-generation",
-        "license:apache-2.0"
+        "Model",
+        "AI"
       ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-04T15:55:20.840650",
+      "date": "2026-02-04T23:57:25.719842",
       "summary": "Downloads: 313 | Likes: 1",
       "tags": [
-        "gguf",
-        "cortex.cpp",
-        "featured",
-        "text-generation",
-        "endpoints_compatible"
+        "Model",
+        "AI"
       ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-04T15:55:20.840646",
+      "date": "2026-02-04T23:57:25.719837",
       "summary": "Downloads: 782 | Likes: 1",
       "tags": [
-        "gguf",
-        "cortex.cpp",
-        "featured",
-        "text-generation",
-        "license:apache-2.0"
+        "Model",
+        "AI"
       ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-04T15:55:20.840633",
+      "date": "2026-02-04T23:57:25.719817",
       "summary": "Downloads: 1,282 | Likes: 0",
       "tags": [
-        "gguf",
-        "cortexp.cpp",
-        "featured",
-        "text-generation",
-        "license:mit"
+        "Model",
+        "AI"
       ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "The 14-inch, ARM-based Asus Vivobook is half off today",
+      "url": "https://www.theverge.com/gadgets/873792/asus-vivobook-snapdragon-x-laptop-amd-ryzen-switch-2-deal-sale",
+      "source": "The Verge",
+      "date": "2026-02-04T10:55:38-05:00",
+      "summary": "I’m typically reluctant to recommend budget-friendly laptops, particularly ones that run Windows, because they suck, more often than not. That’s beginning to change, thanks in part to last year’s intr...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "The Verge’s 2026 Valentine’s Day gift guide (for him)",
@@ -953,12 +481,7 @@
       "source": "The Verge",
       "date": "2026-02-04T10:48:37-05:00",
       "summary": "Valentine's Day is often thought of as the quintessential Hallmark holiday - and why wouldn't it be? Most of the time, it's marketed to us with massive floral arrangements and heart-shaped chocolates,...",
-      "tags": [
-        "Gadgets",
-        "Gift Guides",
-        "Tech",
-        "Verge Shopping"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -968,13 +491,7 @@
       "source": "The Verge",
       "date": "2026-02-04T10:00:00-05:00",
       "summary": "It only took a brief drive in a Zeekr 7X to convince me: Chinese cars are now competitive and could be sold in the US tomorrow. The compact battery-electric crossover, a bestseller in Europe, is aimed...",
-      "tags": [
-        "Cars",
-        "CES",
-        "Electric Cars",
-        "Tech",
-        "Transportation"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -984,14 +501,9 @@
       "source": "The Verge",
       "date": "2026-02-04T09:31:10-05:00",
       "summary": "On Wednesday, Spotify announced a few new lyrics features aiming to make it easier to understand and access song lyrics, including translations, previews, and offline lyrics. Lyric translations were o...",
-      "tags": [
-        "Entertainment",
-        "News",
-        "Spotify",
-        "Tech"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
     },
     {
       "title": "Amazon rolls out Alexa Plus nationwide and launches a new free tier",
@@ -999,13 +511,7 @@
       "source": "The Verge",
       "date": "2026-02-04T09:00:00-05:00",
       "summary": "Amazon has announced that its generative AI-powered digital assistant Alexa Plus is now available to all Prime members in the US via any Alexa-enabled device, Alexa.com, and the Alexa mobile app. If y...",
-      "tags": [
-        "Amazon",
-        "Amazon Alexa",
-        "News",
-        "Smart Home",
-        "Tech"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -1015,13 +521,7 @@
       "source": "The Verge",
       "date": "2026-02-04T08:30:00-05:00",
       "summary": "Walk the rows of the farmers market in a small, nondescript Texas town about an hour away from Austin, and you might stumble across something unexpected: In between booths selling fresh, local pickles...",
-      "tags": [
-        "Copyright",
-        "Gadgets",
-        "Law",
-        "Policy",
-        "Streaming"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -1031,15 +531,9 @@
       "source": "The Verge",
       "date": "2026-02-04T08:09:50-05:00",
       "summary": "Anthropic has announced that it won't be bringing ads to its AI chatbot Claude, in sharp contrast to confirmed plans from OpenAI to allow advertising in ChatGPT. To hammer the point home further, the ...",
-      "tags": [
-        "AI",
-        "Anthropic",
-        "Entertainment",
-        "News",
-        "OpenAI"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "Sen. Warren wants to know what Google Gemini’s built-in checkout means for user privacy",
@@ -1047,13 +541,7 @@
       "source": "The Verge",
       "date": "2026-02-04T07:00:00-05:00",
       "summary": "Sen. Elizabeth Warren (D-MA) is pressing Google for more information about its plans to build a checkout feature into its Gemini AI chatbot. In a letter to Google CEO Sundar Pichai, Warren expresses c...",
-      "tags": [
-        "AI",
-        "Google",
-        "News",
-        "Policy",
-        "Politics"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -1063,12 +551,7 @@
       "source": "The Verge",
       "date": "2026-02-03T20:28:47-05:00",
       "summary": "Adobe is no longer planning to discontinue Adobe Animate on March 1st. In an FAQ, the company now says that Animate will now be in maintenance mode and that it has \"no plans to&#8239;discontinue or re...",
-      "tags": [
-        "Adobe",
-        "Apps",
-        "Creators",
-        "Tech"
-      ],
+      "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
@@ -1078,31 +561,9 @@
       "source": "The Verge",
       "date": "2026-02-03T19:07:07-05:00",
       "summary": "Netflix CEO Ted Sarandos was launched into the middle of a congressional culture war on Tuesday as he testified before a Senate subcommittee about the company's attempt to buy a large part of Warner B...",
-      "tags": [
-        "Netflix",
-        "Policy",
-        "Politics",
-        "Report",
-        "Streaming"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "AMD hints Microsoft could launch its next-gen Xbox in 2027",
-      "url": "https://www.theverge.com/news/873490/microsoft-next-gen-xbox-console-2027-date-amd",
-      "source": "The Verge",
-      "date": "2026-02-03T18:22:37-05:00",
-      "summary": "Microsoft confirmed last year that it's working on a next-gen Xbox console in partnership with AMD. Now, AMD is hinting that the next Xbox console, which will use custom AMD chips, could be launching ...",
-      "tags": [
-        "Gaming",
-        "Microsoft",
-        "News",
-        "Tech",
-        "Xbox"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
     }
   ]
 }
