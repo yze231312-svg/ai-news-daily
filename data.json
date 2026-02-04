@@ -1,24 +1,24 @@
 {
   "articles": [
     {
-      "title": "In 2026, AI will move from hype to pragmatism",
-      "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
-      "description": "[Skip to content](https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/wp--skip-link--target).  [Latest](https://techcrunch.com/latest/).  [Startups](https://techcrunch.com/category/startups/).  [Venture](https://techcrunch.com/category/venture/).  [Security](h",
-      "source": "TECHCRUNCH",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "Salesforce takes aim at 'jagged intelligence' in push for ...",
-      "url": "https://venturebeat.com/ai/salesforce-tackles-jagged-intelligence-problem-with-new-ai-benchmarks-and-models",
-      "description": "Salesforce is tackling one of artificial intelligence's most persistent challenges for business applications: the gap between an AI system's raw intelligence and its ability to consistently perform in unpredictable enterprise environments — what the company calls \"jagged intelligence.\". In a compreh",
+      "title": "2025 has already brought us the most performant AI ever",
+      "url": "https://venturebeat.com/technology/2025-has-already-brought-us-the-most-performant-ai-ever-what-can-we-do-with-these-supercharged-capabilities-and-whats-next",
+      "description": "This accomplishment marks the next step toward what former Google CEO Eric Schmidt envisions: A world where everyone has access to “a great polymath,” an AI capable of drawing on vast bodies of knowledge to solve complex problems across disciplines. Mollick attributed these advances to two convergin",
       "source": "VENTUREBEAT",
       "date": "2026/02/04"
     },
     {
-      "title": "Inception emerges from stealth with a new type of AI model",
-      "url": "https://techcrunch.com/2025/02/26/inception-emerges-from-stealth-with-a-new-type-of-ai-model/",
-      "description": "Inception, a startup, claims to have developed a novel type of AI model based on a diffusion architecture.",
-      "source": "TECHCRUNCH",
+      "title": "Meta drops AI bombshell: Multi-token prediction models ...",
+      "url": "https://venturebeat.com/ai/meta-drops-ai-bombshell-multi-token-prediction-models-now-open-for-research",
+      "description": " Meta drops AI bombshell: Multi-token prediction models now open for research. The tech giant released pre-trained models on Wednesday that leverage a novel multi-token prediction approach, potentially changing how large language models (LLMs) are developed and deployed. Meta's decision to release",
+      "source": "VENTUREBEAT",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "Five breakthroughs that make OpenAI's o3 a turning point ...",
+      "url": "https://venturebeat.com/ai/five-breakthroughs-that-make-openais-o3-a-turning-point-for-ai-and-one-big-challenge",
+      "description": "OpenAI’s o3 tackles specific hurdles in reasoning and adaptability that have long stymied large language models. OpenAI’s o3 model introduces a new capability called \"program synthesis,\" which enables it to dynamically combine things that it learned during pre-training — specific patterns, algorithm",
+      "source": "VENTUREBEAT",
       "date": "2026/02/04"
     },
     {
@@ -29,16 +29,16 @@
       "date": "2026/02/04"
     },
     {
-      "title": "OpenAI responds to DeepSeek competition with detailed ...",
-      "url": "https://venturebeat.com/ai/openai-responds-to-deepseek-competition-with-detailed-reasoning-traces-for-o3-mini",
-      "description": " OpenAI responds to DeepSeek competition with detailed reasoning traces for o3-mini. OpenAI is now showing more details of the reasoning process of o3-mini, its latest reasoning model. The change was announced on OpenAI’s X account and comes as the AI lab is under increased pressure by DeepSeek-R1,",
+      "title": "Anthropic's Claude 3.7 Sonnet takes aim at OpenAI and ...",
+      "url": "https://venturebeat.com/ai/anthropics-claude-3-7-sonnet-takes-aim-at-openai-and-deepseek-in-ais-next-big-battle",
+      "description": "Anthropic just fired a warning shot at OpenAI, DeepSeek and the entire AI industry with the launch of Claude3.7Sonnet, a model that gives users unprecedented control over how much time an AI spends \"thinking\" before generating a response. Claude 3.7 Sonnet introduces a 'thinking mode' toggle, allowi",
       "source": "VENTUREBEAT",
       "date": "2026/02/04"
     },
     {
-      "title": "Anthropic's Claude 3.7 Sonnet takes aim at OpenAI and ...",
-      "url": "https://venturebeat.com/ai/anthropics-claude-3-7-sonnet-takes-aim-at-openai-and-deepseek-in-ais-next-big-battle",
-      "description": "Anthropic just fired a warning shot at OpenAI, DeepSeek and the entire AI industry with the launch of Claude3.7Sonnet, a model that gives users unprecedented control over how much time an AI spends \"thinking\" before generating a response. Claude 3.7 Sonnet introduces a 'thinking mode' toggle, allowi",
+      "title": "DeepSeek's R1 and OpenAI's Deep Research just ...",
+      "url": "https://venturebeat.com/ai/deepseeks-r1-and-openais-deep-research-just-redefined-ai-rag-distillation-and-custom-models-will-never-be-the-same",
+      "description": " DeepSeek’s R1 and OpenAI’s Deep Research just redefined AI — RAG, distillation, and custom models will never be the same. Two recent developments are reshaping the landscape for developers and enterprises alike: DeepSeek's R1 model release and OpenAI's new Deep Research product. For developers, th",
       "source": "VENTUREBEAT",
       "date": "2026/02/04"
     },
@@ -71,17 +71,17 @@
       "date": "2026/02/04"
     },
     {
-      "title": "VOLD: Reasoning Transfer from LLMs to Vision-Language ...",
-      "url": "https://www.arxiv.org/pdf/2510.23497v1",
-      "description": "Published as a conference paper at ICLR 2026 ... Vision-r1: Incentivizing reasoning capability in multimodal large language models, ... vision-language model.",
-      "source": "ARXIV",
+      "title": "paper-list/docs/Multimodal.md at main",
+      "url": "https://github.com/isLinXu/paper-list/blob/main/docs/Multimodal.md",
+      "description": "2025-11-04, Fine-Tuning Vision-Language Models for Multimodal Polymer Property Prediction, An Vuong et.al. ; 2025-11-06, DINOv2 Driven Gait Representation",
+      "source": "GITHUB",
       "date": "2026/02/04"
     },
     {
-      "title": "zli12321/Vision-Language-Models-Overview",
-      "url": "https://github.com/zli12321/Vision-Language-Models-Overview",
-      "description": "| EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents | 2025 | 📄 Paper | 🌍 Website | 💾 Code & Dataset |. | RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback | 2024 | 📄 Paper | 🌍 Website | 💾 Code |. | KALIE: Fine-",
-      "source": "GITHUB",
+      "title": "Multimodal Fusion and Vision-Language Models: A Survey ...",
+      "url": "https://arxiv.org/abs/2504.02477",
+      "description": " Title:Multimodal Fusion and Vision-Language Models: A Survey for Robot Vision. Authors:Xiaofeng Han, Shunpeng Chen, Zenghuang Fu, Zhe Feng, Lue Fan, Dong An, Changwei Wang, Li Guo, Weiliang Meng, Xiaopeng Zhang, Rongtao Xu, Shibiao Xu. View a PDF of the paper titled Multimodal Fusion and Vision-La",
+      "source": "ARXIV",
       "date": "2026/02/04"
     },
     {
@@ -92,21 +92,21 @@
       "date": "2026/02/04"
     },
     {
-      "title": "Machine Learning Jan 2026 - stat.ML",
-      "url": "https://arxiv.org/list/stat.ML/current",
-      "description": "Yikai Chen, Yunxin Mao, Chunyuan Zheng, Hao Zou, Shanzhi Gu, Shixuan Liu, Yang Shi, Wenjing Yang, Kun Kuang, Haotian Wang. Comments: 6 pages, 3 figures. Comments: 8 pages, 7 figures, 3 tables. Comments: 24 pages, 10 figures. Comments: 7 Pages with 1 Figure. Subjects: Machine Learning (stat.ML); Mach",
-      "source": "ARXIV",
+      "title": "In 2026, AI will move from hype to pragmatism",
+      "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
+      "description": "[Skip to content](https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/wp--skip-link--target).  [Latest](https://techcrunch.com/latest/).  [Startups](https://techcrunch.com/category/startups/).  [Venture](https://techcrunch.com/category/venture/).  [Security](h",
+      "source": "TECHCRUNCH",
       "date": "2026/02/04"
     },
     {
-      "title": "Don't be Afraid of Over-Smoothing And Over-Squashing",
-      "url": "https://arxiv.org/abs/2601.07419",
-      "description": "Statistics > Machine Learning. arXiv:2601.07419 (stat). [Submitted on 12 Jan 2026]. Title:Position: Don't be Afraid of Over-Smoothing And Over-Squashing.",
-      "source": "ARXIV",
+      "title": "2026 Agentic Coding Trends Report",
+      "url": "https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en",
+      "description": "Trend 5: Agentic coding expands to new surfaces. eight trends we predict will define agentic coding in 2026. development work happens, capability trends that look to expand what agents. Companies that extend agentic coding beyond engineering teams. In 2025, agentic AI changed how a large swath",
+      "source": "ANTHROPIC",
       "date": "2026/02/04"
     }
   ],
-  "lastUpdate": "2026/02/04 20:16",
+  "lastUpdate": "2026/02/04 14:05",
   "sources": [
     "📰 Hacker News (Y Combinator)",
     "💻 GitHub Trending",
