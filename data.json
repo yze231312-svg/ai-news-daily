@@ -1,0 +1,119 @@
+{
+  "articles": [
+    {
+      "title": "In 2026, AI will move from hype to pragmatism",
+      "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
+      "description": "[Skip to content](https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/wp--skip-link--target).  [Latest](https://techcrunch.com/latest/).  [Startups](https://techcrunch.com/category/startups/).  [Venture](https://techcrunch.com/category/venture/).  [Security](h",
+      "source": "TECHCRUNCH",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "Salesforce takes aim at 'jagged intelligence' in push for ...",
+      "url": "https://venturebeat.com/ai/salesforce-tackles-jagged-intelligence-problem-with-new-ai-benchmarks-and-models",
+      "description": "Salesforce is tackling one of artificial intelligence's most persistent challenges for business applications: the gap between an AI system's raw intelligence and its ability to consistently perform in unpredictable enterprise environments — what the company calls \"jagged intelligence.\". In a compreh",
+      "source": "VENTUREBEAT",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "Inception emerges from stealth with a new type of AI model",
+      "url": "https://techcrunch.com/2025/02/26/inception-emerges-from-stealth-with-a-new-type-of-ai-model/",
+      "description": "Inception, a startup, claims to have developed a novel type of AI model based on a diffusion architecture.",
+      "source": "TECHCRUNCH",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "DeepSeek just dropped two insanely powerful AI models ...",
+      "url": "https://venturebeat.com/ai/deepseek-just-dropped-two-insanely-powerful-ai-models-that-rival-gpt-5-and",
+      "description": "Chinese AI startup DeepSeek has released two powerful new AI models that the company claims match or exceed the capabilities of OpenAI's GPT-5 and Google's Gemini-3.0-Pro — a development that could reshape the competitive landscape between American tech giants and their Chinese challengers. DeepSeek",
+      "source": "VENTUREBEAT",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "OpenAI responds to DeepSeek competition with detailed ...",
+      "url": "https://venturebeat.com/ai/openai-responds-to-deepseek-competition-with-detailed-reasoning-traces-for-o3-mini",
+      "description": " OpenAI responds to DeepSeek competition with detailed reasoning traces for o3-mini. OpenAI is now showing more details of the reasoning process of o3-mini, its latest reasoning model. The change was announced on OpenAI’s X account and comes as the AI lab is under increased pressure by DeepSeek-R1,",
+      "source": "VENTUREBEAT",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "Anthropic's Claude 3.7 Sonnet takes aim at OpenAI and ...",
+      "url": "https://venturebeat.com/ai/anthropics-claude-3-7-sonnet-takes-aim-at-openai-and-deepseek-in-ais-next-big-battle",
+      "description": "Anthropic just fired a warning shot at OpenAI, DeepSeek and the entire AI industry with the launch of Claude3.7Sonnet, a model that gives users unprecedented control over how much time an AI spends \"thinking\" before generating a response. Claude 3.7 Sonnet introduces a 'thinking mode' toggle, allowi",
+      "source": "VENTUREBEAT",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "ai-coding-assistant",
+      "url": "https://github.com/topics/ai-coding-assistant",
+      "description": "An OpenAI-compatible proxy server that lets Cursor IDE connect directly to GitHub Copilot's LLM services. Bypass Cursor's 500 premium requests/month limit by",
+      "source": "GITHUB",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "coding-assistant · GitHub Topics",
+      "url": "https://github.com/topics/coding-assistant",
+      "description": "python ai openai code-generation codegen coding-assistant autonomous-agent gpt-4 gpt-engineer codebase-generation. ai developer-tools research-project codegen coding-assistant gpt-4. agent programming ai coding-assistant agentic-ai vibe-coding vibecoding. agent ai mcp tasks task-list task-manager wi",
+      "source": "GITHUB",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "ai-ide-assistants.md - spryker-docs",
+      "url": "https://github.com/spryker/spryker-docs/blob/master/docs/dg/dev/ai/ai-assistants/ai-ide-assistants.md",
+      "description": "GitHub Copilot is an AI pair programmer that helps you write code faster. ... Cursor is an AI powered IDE forked from VS Code. To set up Cursor, follow",
+      "source": "GITHUB",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "Vision-Language-Action (VLA) Models",
+      "url": "https://arxiv.org/html/2505.04769v2",
+      "description": "VLA models are multi-modal artificial intelligence systems that unify visual perception, language comprehension, and physical action generation",
+      "source": "ARXIV",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "VOLD: Reasoning Transfer from LLMs to Vision-Language ...",
+      "url": "https://www.arxiv.org/pdf/2510.23497v1",
+      "description": "Published as a conference paper at ICLR 2026 ... Vision-r1: Incentivizing reasoning capability in multimodal large language models, ... vision-language model.",
+      "source": "ARXIV",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "zli12321/Vision-Language-Models-Overview",
+      "url": "https://github.com/zli12321/Vision-Language-Models-Overview",
+      "description": "| EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents | 2025 | 📄 Paper | 🌍 Website | 💾 Code & Dataset |. | RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback | 2024 | 📄 Paper | 🌍 Website | 💾 Code |. | KALIE: Fine-",
+      "source": "GITHUB",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "cynthia247/MSR-2026",
+      "url": "https://github.com/cynthia247/MSR-2026/",
+      "description": "Autonomous AI agents are transforming software development and redefining how developers collaborate with AI. Prior research shows that the",
+      "source": "GITHUB",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "Machine Learning Jan 2026 - stat.ML",
+      "url": "https://arxiv.org/list/stat.ML/current",
+      "description": "Yikai Chen, Yunxin Mao, Chunyuan Zheng, Hao Zou, Shanzhi Gu, Shixuan Liu, Yang Shi, Wenjing Yang, Kun Kuang, Haotian Wang. Comments: 6 pages, 3 figures. Comments: 8 pages, 7 figures, 3 tables. Comments: 24 pages, 10 figures. Comments: 7 Pages with 1 Figure. Subjects: Machine Learning (stat.ML); Mach",
+      "source": "ARXIV",
+      "date": "2026/02/04"
+    },
+    {
+      "title": "Don't be Afraid of Over-Smoothing And Over-Squashing",
+      "url": "https://arxiv.org/abs/2601.07419",
+      "description": "Statistics > Machine Learning. arXiv:2601.07419 (stat). [Submitted on 12 Jan 2026]. Title:Position: Don't be Afraid of Over-Smoothing And Over-Squashing.",
+      "source": "ARXIV",
+      "date": "2026/02/04"
+    }
+  ],
+  "lastUpdate": "2026/02/04 20:16",
+  "sources": [
+    "📰 Hacker News (Y Combinator)",
+    "💻 GitHub Trending",
+    "📄 ArXiv (cs.AI)",
+    "📊 Techmeme",
+    "📈 VentureBeat / TechCrunch",
+    "🎯 The Decoder",
+    "💬 Reddit (r/ML, r/LocalLLaMA)"
+  ]
+}

@@ -1,0 +1,81 @@
+name: 🤖 AI News Daily Update
+
+on:
+  # 每天早上 8 点自动运行
+  schedule:
+    - cron: '0 8 * * *'
+  
+  # 手动触发
+  workflow_dispatch:
+  
+  # 代码推送时也可以触发（可选）
+  push:
+    branches: [main]
+    paths:
+      - '**.py'
+      - 'data.json'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      # 2. 设置 Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: |
+          pip install requests --quiet
+      
+      # 4. 运行新闻抓取脚本
+      - name: Fetch AI News
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: |
+          python fetch_news.py
+      
+      # 5. 提交更改
+      - name: Commit changes
+        run: |
+          if [[ $(git diff --stat) != "" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data.json
+            git commit -m "🤖 Auto-update AI news - $(date '+%Y-%m-%d %H:%M')"
+            git push
+            echo "✅ News updated and pushed to GitHub"
+          else
+            echo "No changes to commit"
+          fi
+
+  # 如果需要部署到 Vercel，取消注释以下部分
+  # deploy-vercel:
+  #   runs-on: ubuntu-latest
+  #   needs: update-news
+  #   if: github.ref == 'refs/heads/main'
+  #   
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v4
+  #     
+  #     - name: Deploy to Vercel
+  #       uses: amondnet/vercel-action@v25
+  #       with:
+  #         vercel-token: ${{ secrets.VERCEL_TOKEN }}
+  #         vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+  #         vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+  #         vercel-args: '--prod'
