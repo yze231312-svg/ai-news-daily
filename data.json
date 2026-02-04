@@ -1,119 +1,1170 @@
 {
-  "articles": [
+  "lastUpdate": "2026/02/04 15:33",
+  "categories": [
     {
-      "title": "2025 has already brought us the most performant AI ever",
-      "url": "https://venturebeat.com/technology/2025-has-already-brought-us-the-most-performant-ai-ever-what-can-we-do-with-these-supercharged-capabilities-and-whats-next",
-      "description": "This accomplishment marks the next step toward what former Google CEO Eric Schmidt envisions: A world where everyone has access to “a great polymath,” an AI capable of drawing on vast bodies of knowledge to solve complex problems across disciplines. Mollick attributed these advances to two convergin",
-      "source": "VENTUREBEAT",
-      "date": "2026/02/04"
+      "key": "model",
+      "name": "🗣️ 模型发布",
+      "name_en": "Model Releases",
+      "count": 23
     },
     {
-      "title": "ICLR 2026 Workshop",
-      "url": "https://sites.google.com/view/iclr-2026-llmreasoning",
-      "description": "In response to these emerging needs, we propose the workshop on Logical Reasoning of LLMs. This workshop will explore the challenges and opportunities for improving deduction, induction, and abduction capabilities of LLMs, implementing symbolic representation and reasoning via LLMs, avoiding logical",
-      "source": "GOOGLE",
-      "date": "2026/02/04"
+      "key": "tool",
+      "name": "🛠️ 工具平台",
+      "name_en": "Tools & Platforms",
+      "count": 15
     },
     {
-      "title": "Anthropic CEO wants to open the black box of AI models by ...",
-      "url": "https://techcrunch.com/2025/04/24/anthropic-ceo-wants-to-open-the-black-box-of-ai-models-by-2027/",
-      "description": "Anthropic CEO Dario Amodei set forth a goal for his company to \"reliably detect most AI model problems\" by 2027.",
-      "source": "TECHCRUNCH",
-      "date": "2026/02/04"
+      "key": "research",
+      "name": "📚 研究成果",
+      "name_en": "Research Papers",
+      "count": 1
     },
     {
-      "title": "Anthropic's Claude 3.7 Sonnet takes aim at OpenAI and ...",
-      "url": "https://venturebeat.com/ai/anthropics-claude-3-7-sonnet-takes-aim-at-openai-and-deepseek-in-ais-next-big-battle",
-      "description": "Anthropic just fired a warning shot at OpenAI, DeepSeek and the entire AI industry with the launch of Claude3.7Sonnet, a model that gives users unprecedented control over how much time an AI spends \"thinking\" before generating a response. Claude 3.7 Sonnet introduces a 'thinking mode' toggle, allowi",
-      "source": "VENTUREBEAT",
-      "date": "2026/02/04"
+      "key": "opensource",
+      "name": "📦 开源项目",
+      "name_en": "Open Source",
+      "count": 0
     },
     {
-      "title": "pollinations/social/news/transformed/highlights.md at main",
-      "url": "https://github.com/pollinations/pollinations/blob/main/social/news/transformed/highlights.md",
-      "description": " 2026-01-26 – 🚀 Alibaba Wan 2.6 Generate videos from images with audio support using the new `wan` model.  2025-12-29 – 🚀 New Model: GPT Image Large Access GPT Image 1.5 via the `gptimage-large` model ID for high-fidelity generations.  2025-12-29 – 🚀 New Model: gptimage-larg",
-      "source": "GITHUB",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "DeepSeek just dropped two insanely powerful AI models ...",
-      "url": "https://venturebeat.com/ai/deepseek-just-dropped-two-insanely-powerful-ai-models-that-rival-gpt-5-and",
-      "description": "Chinese AI startup DeepSeek has released two powerful new AI models that the company claims match or exceed the capabilities of OpenAI's GPT-5 and Google's Gemini-3.0-Pro — a development that could reshape the competitive landscape between American tech giants and their Chinese challengers. DeepSeek",
-      "source": "VENTUREBEAT",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "ai-coding-assistant",
-      "url": "https://github.com/topics/ai-coding-assistant",
-      "description": "An OpenAI-compatible proxy server that lets Cursor IDE connect directly to GitHub Copilot's LLM services. Bypass Cursor's 500 premium requests/month limit by",
-      "source": "GITHUB",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "Cursor - The AI Code Editor",
-      "url": "https://github.com/cursor/cursor",
-      "description": " Navigation Menu.  Search code, repositories, users, issues, pull requests... You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window.  Notifications You mus",
-      "source": "GITHUB",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "GitHub Copilot",
-      "url": "https://github.com/copilot",
-      "description": "The AI assistant that builds with you. Generate code, manage tasks, and explore your projects all in one place with GitHub Copilot. GPT-4.1.",
-      "source": "GITHUB",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "Vision-Language-Action (VLA) Models",
-      "url": "https://arxiv.org/html/2505.04769v2",
-      "description": "VLA models are multi-modal artificial intelligence systems that unify visual perception, language comprehension, and physical action generation",
-      "source": "ARXIV",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "Incentivizing DeepResearch Capability in Multimodal ...",
-      "url": "https://arxiv.org/abs/2601.22060v1?utm_source=chatgpt.com",
-      "description": "Abstract:Multimodal large language models (MLLMs) have achieved remarkable success across a broad range of vision tasks.",
-      "source": "ARXIV",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "Vision-Language Models on the Edge for Real-Time ...",
-      "url": "https://arxiv.org/html/2601.14921v1",
-      "description": "Vision–Language Models (VLMs) enable multimodal reasoning for robotic perception and interaction, but their deployment in real-world systems remains constrained by latency, limited onboard resources, and privacy risks of cloud offloading. In contrast, our work deploys a state-of-the-art VLM on a rea",
-      "source": "ARXIV",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "Transforming every workflow, every process with AI agents",
-      "url": "https://pulse.microsoft.com/en/work-productivity-en/na/fa2-transforming-every-workflow-every-process-with-ai-agents/",
-      "description": "Agents are AI tools that can work on behalf of an individual or team to operate and undertake business activities.",
-      "source": "MICROSOFT",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "AI Search Optimization - AI Agents 2026",
-      "url": "https://sites.google.com/view/ai-search-optimizationnupdate/ai-agents-2026",
-      "description": "In 2026, the best-performing AI agents combine large reasoning models (LRMs), vector databases with RAG, and standardized tool access via MCP to deliver reliable multi-step outcomes in real business workflows. If you want consistent results from AI in 2026, you need to understand how AI agents think",
-      "source": "GOOGLE",
-      "date": "2026/02/04"
-    },
-    {
-      "title": "cynthia247/MSR-2026",
-      "url": "https://github.com/cynthia247/MSR-2026/",
-      "description": "Autonomous AI agents are transforming software development and redefining how developers collaborate with AI. Prior research shows that the",
-      "source": "GITHUB",
-      "date": "2026/02/04"
+      "key": "industry",
+      "name": "📰 行业动态",
+      "name_en": "Industry News",
+      "count": 37
     }
   ],
-  "lastUpdate": "2026/02/04 15:18",
-  "sources": [
-    "📰 Hacker News (Y Combinator)",
-    "💻 GitHub Trending",
-    "📄 ArXiv (cs.AI)",
-    "📊 Techmeme",
-    "📈 VentureBeat / TechCrunch",
-    "🎯 The Decoder",
-    "💬 Reddit (r/ML, r/LocalLLaMA)"
+  "articles": [
+    {
+      "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "source": "VentureBeat AI",
+      "date": "Wed, 07 Jan 2026 20:00:00 GMT",
+      "summary": "<p><a href=\"https://nousresearch.com/\">Nous Research</a>, the open-source artificial intelligence startup backed by crypto venture firm <a href=\"https://www.paradigm.xyz/\">Paradigm</a>, released a new...",
+      "tags": [
+        "Technology",
+        "AI"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Alexa+, Amazon’s AI assistant, is now available to everyone in the U.S.",
+      "url": "https://techcrunch.com/2026/02/04/alexa-amazons-ai-assistant-is-now-available-to-everyone-in-the-u-s/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 14:00:00 +0000",
+      "summary": "Amazon opens Alexa+ to everyone in the U.S. The AI feature is free for Prime members across devices, and free for everyone on mobile and web....",
+      "tags": [
+        "Hardware",
+        "Media & Entertainment",
+        "AI",
+        "Amazon",
+        "echo"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
+      "url": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
+      "source": "MIT Tech Review",
+      "date": "Wed, 04 Feb 2026 14:00:00 +0000",
+      "summary": "The previous article in this series, “Rules fail at the prompt, succeed at the boundary,” focused on the first AI-orchestrated espionage campaign and the failure of prompt-level control. This article ...",
+      "tags": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "The Download: the future of nuclear power plants, and social media-fueled AI hype",
+      "url": "https://www.technologyreview.com/2026/02/04/1132115/the-download-the-future-of-nuclear-power-plants-and-social-media-fueled-ai-hype/",
+      "source": "MIT Tech Review",
+      "date": "Wed, 04 Feb 2026 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why AI companies are betting on next-gen nuclear A...",
+      "tags": [
+        "The Download"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Accel doubles down on Fibr AI as agents turn static websites into one-to-one experiences",
+      "url": "https://techcrunch.com/2026/02/04/accel-doubles-down-on-fibr-ai-as-agents-turn-static-websites-into-one-to-one-experiences/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 13:00:00 +0000",
+      "summary": "Fibr AI replaces marketing agency– and engineering-heavy website personalization with autonomous systems designed for enterprise scale....",
+      "tags": [
+        "Enterprise",
+        "AI",
+        "Accel",
+        "Fibr AI"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "AI Bots Are Now a Signifigant Source of Web Traffic",
+      "url": "https://www.wired.com/story/ai-bots-are-now-a-signifigant-source-of-web-traffic/",
+      "source": "Wired AI",
+      "date": "Wed, 04 Feb 2026 10:30:00 +0000",
+      "summary": "New data shows AI bots pushing deeper into the web, prompting publishers to roll out more aggressive defenses....",
+      "tags": [
+        "Business",
+        "Business / Artificial Intelligence",
+        "artificial intelligence",
+        "bots",
+        "websites"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "HHS Is Making an AI Tool to Create Hypotheses About Vaccine Injury Claims",
+      "url": "https://www.wired.com/story/hhs-is-making-an-ai-tool-to-create-hypotheses-about-vaccine-injury-claims/",
+      "source": "Wired AI",
+      "date": "Wed, 04 Feb 2026 10:00:00 +0000",
+      "summary": "Experts worry Robert F. Kennedy Jr.’s Health Department will use an internal AI tool to analyze vaccine injury claims in a way that furthers his anti-vaccine agenda....",
+      "tags": [
+        "Science",
+        "vaccines",
+        "public health",
+        "government",
+        "Robert F. Kennedy Jr."
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Exclusive: Positron raises $230M Series B to take on Nvidia’s AI chips",
+      "url": "https://techcrunch.com/2026/02/04/exclusive-positron-raises-230m-series-b-to-take-on-nvidias-ai-chips/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 08:18:51 +0000",
+      "summary": "The investment comes from backers including the Qatar Investment Authority as demand for chips beyond Nvidia soars and as Qatar aims to build out its AI infrastructure....",
+      "tags": [
+        "AI",
+        "Fundraising",
+        "Startups",
+        "AI chips",
+        "Exclusive"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "source": "VentureBeat AI",
+      "date": "Tue, 13 Jan 2026 13:00:00 GMT",
+      "summary": "<p><a href=\"https://www.salesforce.com/\">Salesforce</a> on Tuesday launched an entirely rebuilt version of <a href=\"https://slack.com/help/articles/202026038-An-introduction-to-Slackbot\">Slackbot</a>,...",
+      "tags": [
+        "Technology",
+        "AI",
+        "Automation"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Intel will start making GPUs, a market dominated by Nvidia",
+      "url": "https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/",
+      "source": "TechCrunch AI",
+      "date": "Tue, 03 Feb 2026 21:01:34 +0000",
+      "summary": "Intel has been bulking up a team to focus on this effort and will develop its GPU strategy around customer needs....",
+      "tags": [
+        "AI",
+        "Enterprise",
+        "Intel",
+        "nvidia",
+        "GPUS"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "I Infiltrated Moltbook, the AI-Only Social Network Where Humans Aren’t Allowed",
+      "url": "https://www.wired.com/story/i-infiltrated-moltbook-ai-only-social-network/",
+      "source": "Wired AI",
+      "date": "Tue, 03 Feb 2026 19:55:36 +0000",
+      "summary": "I went undercover on Moltbook and loved role-playing as a conscious bot. But rather than a novel breakthrough, the AI-only site is a crude rehashing of sci-fi fantasies....",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "artificial intelligence",
+        "chatbots",
+        "Social Media"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Xcode moves into agentic coding with deeper OpenAI and Anthropic integrations",
+      "url": "https://techcrunch.com/2026/02/03/xcode-moves-into-agentic-coding-with-deeper-openai-and-anthropic-integrations/",
+      "source": "TechCrunch AI",
+      "date": "Tue, 03 Feb 2026 18:00:00 +0000",
+      "summary": "Xcode 26.3 offers agentic coding capabilities with Anthropic's Claude Agent and OpenAI's Codex....",
+      "tags": [
+        "AI",
+        "Apps",
+        "agentic",
+        "Apple",
+        "coding"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Lotus Health nabs $35M for AI doctor that sees patients for free",
+      "url": "https://techcrunch.com/2026/02/03/lotus-health-nabs-35m-for-ai-doctor-that-sees-patients-for-free/",
+      "source": "TechCrunch AI",
+      "date": "Tue, 03 Feb 2026 17:14:27 +0000",
+      "summary": "This AI doctor is licensed in all 50 states, the startup says. The deal was led by CRV and Kleiner Perkins....",
+      "tags": [
+        "AI",
+        "Biotech & Health",
+        "Venture",
+        "AI Medical Service",
+        "CRV"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Fitbit founders launch AI platform to help families monitor their health",
+      "url": "https://techcrunch.com/2026/02/03/fitbit-founders-launch-ai-platform-to-help-families-monitor-their-health/",
+      "source": "TechCrunch AI",
+      "date": "Tue, 03 Feb 2026 15:53:36 +0000",
+      "summary": "Luffu uses AI in the background to gather and organize family information, learn day-to-day patterns, and flag notable changes so families can stay aligned and address potential well-being issues....",
+      "tags": [
+        "AI",
+        "Apps",
+        "Biotech & Health",
+        "Startups",
+        "fitbit"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Peak XV says internal disagreement led to partner exits as it doubles down on AI",
+      "url": "https://techcrunch.com/2026/02/03/peak-xv-says-internal-disagreement-led-to-partner-exits-as-it-doubles-down-on-ai/",
+      "source": "TechCrunch AI",
+      "date": "Tue, 03 Feb 2026 14:14:33 +0000",
+      "summary": "Peak XV is transitioning board roles and opening a U.S. office while continuing to view India as its largest market....",
+      "tags": [
+        "AI",
+        "Startups",
+        "Venture",
+        "Ashish Agrawal",
+        "Ishaan Mittal"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "The Download: squeezing more metal out of aging mines, and AI’s truth crisis",
+      "url": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
+      "source": "MIT Tech Review",
+      "date": "Tue, 03 Feb 2026 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Microbes could extract the metal needed for cleant...",
+      "tags": [
+        "The Download"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "‘Fallout’ Producer Jonathan Nolan on AI: ‘We’re in Such a Frothy Moment’",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-jonathan-nolan-fallout/",
+      "source": "Wired AI",
+      "date": "Tue, 03 Feb 2026 12:00:00 +0000",
+      "summary": "The Westworld showrunner thinks AI will be good for burgeoning filmmakers, but not for Hollywood blockbusters....",
+      "tags": [
+        "Culture",
+        "Big Interview",
+        "Uncanny Valley Podcast",
+        "podcasts",
+        "artificial intelligence"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Microbes could extract the metal needed for cleantech",
+      "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
+      "source": "MIT Tech Review",
+      "date": "Tue, 03 Feb 2026 10:00:00 +0000",
+      "summary": "In a pine forest on Michigan’s Upper Peninsula, the only active nickel mine in the US is nearing the end of its life. At a time when carmakers want the metal for electric-vehicle batteries, nickel con...",
+      "tags": [
+        "Climate change and energy",
+        "App"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "‘Uncanny Valley’: Minneapolis Misinformation, TikTok’s New Owners, and Moltbot Hype",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-ice-minneapolis-tiktok-moltbot/",
+      "source": "Wired AI",
+      "date": "Thu, 29 Jan 2026 22:19:59 +0000",
+      "summary": "On this episode of Uncanny Valley, we dive into the news that's held our attention this week: ICE activity as it's been unfolding in Minnesota....",
+      "tags": [
+        "Politics",
+        "Politics / Politics News",
+        "Uncanny Valley Podcast",
+        "podcasts",
+        "Immigration and Customs Enforcement"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "AI-Generated Anti-ICE Videos Are Getting the Fanfic Treatment",
+      "url": "https://www.wired.com/story/anti-ice-videos-are-getting-the-ai-fanfic-treatment-online/",
+      "source": "Wired AI",
+      "date": "Thu, 29 Jan 2026 19:07:14 +0000",
+      "summary": "Across Instagram and Facebook, AI-generated videos show people of color putting ICE agents in their place. Are they cathartic or just adding to a stew of misinformation?...",
+      "tags": [
+        "Culture",
+        "Culture / Digital Culture",
+        "Social Media",
+        "Instagram",
+        "Facebook"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "source": "VentureBeat AI",
+      "date": "Thu, 22 Jan 2026 14:00:00 GMT",
+      "summary": "<p><a href=\"https://railway.com/\">Railway</a>, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it r...",
+      "tags": [
+        "Infrastructure",
+        "AI"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Jeffrey Epstein Had a ‘Personal Hacker,’ Informant Claims",
+      "url": "https://www.wired.com/story/security-news-this-week-jeffrey-epstein-had-a-personal-hacker-informant-claims/",
+      "source": "Wired AI",
+      "date": "Sat, 31 Jan 2026 11:30:00 +0000",
+      "summary": "Plus: AI agent OpenClaw gives cybersecurity experts the willies, China executes 11 scam compound bosses, a $40 million crypto theft has an unexpected alleged culprit, and more....",
+      "tags": [
+        "Security",
+        "Security / Cyberattacks and Hacks",
+        "Security / National Security",
+        "Security / Privacy",
+        "Security / Security News"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "source": "VentureBeat AI",
+      "date": "Mon, 19 Jan 2026 14:00:00 GMT",
+      "summary": "<p>The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.</p><p><a href=\"https://claude.com/product/claude-code\">Claude Code</a>, Anthropic&#x27;s terminal-based AI age...",
+      "tags": [
+        "AI",
+        "Infrastructure"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "source": "VentureBeat AI",
+      "date": "Mon, 12 Jan 2026 11:30:00 GMT",
+      "summary": "<p><a href=\"https://www.anthropic.com/\">Anthropic</a> released <a href=\"https://claude.com/blog/cowork-research-preview\">Cowork</a> on Monday, a new AI agent capability that extends the power of its w...",
+      "tags": [
+        "Technology",
+        "AI",
+        "Automation"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
+      "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+      "source": "VentureBeat AI",
+      "date": "Mon, 05 Jan 2026 07:45:00 GMT",
+      "summary": "<p>When the creator of the world&#x27;s most advanced coding agent speaks, Silicon Valley doesn&#x27;t just listen — it takes notes.</p><p>For the past week, the engineering community has been dissect...",
+      "tags": [
+        "Technology",
+        "AI"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Elon Musk Is Rolling xAI Into SpaceX—Creating the World’s Most Valuable Private Company",
+      "url": "https://www.wired.com/story/spacex-acquires-xai-elon-musk/",
+      "source": "Wired AI",
+      "date": "Mon, 02 Feb 2026 23:07:19 +0000",
+      "summary": "By fusing SpaceX and xAI—which acquired X last year—Elon Musk tightens his grip over technologies that shape national security, social media, and artificial intelligence....",
+      "tags": [
+        "Business",
+        "Business / Artificial Intelligence",
+        "xAI",
+        "Elon Musk",
+        "SpaceX"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Elon Musk’s SpaceX officially acquires Elon Musk’s xAI, with plan to build data centers in space",
+      "url": "https://techcrunch.com/2026/02/02/elon-musk-spacex-acquires-xai-data-centers-space-merger/",
+      "source": "TechCrunch AI",
+      "date": "Mon, 02 Feb 2026 22:21:57 +0000",
+      "summary": "The merger creates the world's most valuable private company and paves the way for Musk to try and prove out the usefulness of space-based data centers....",
+      "tags": [
+        "AI",
+        "Space",
+        "Elon Musk",
+        "SpaceX",
+        "xAI"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "HHS Is Using AI Tools From Palantir to Target ‘DEI’ and ‘Gender Ideology’ in Grants",
+      "url": "https://www.wired.com/story/hhs-is-using-ai-tools-from-palantir-to-target-dei-and-gender-ideology-in-grants/",
+      "source": "Wired AI",
+      "date": "Mon, 02 Feb 2026 20:56:41 +0000",
+      "summary": "Since March of 2025, the Department of Health and Human Services has been using tools from Palantir and the startup Credal AI to weed out perceived alignment with “DEI” or “gender ideology.”...",
+      "tags": [
+        "Science",
+        "government",
+        "Palantir",
+        "artificial intelligence",
+        "diversity"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "What Snowflake’s deal with OpenAI tells us about the enterprise AI race",
+      "url": "https://techcrunch.com/2026/02/02/what-snowflakes-deal-with-openai-tells-us-about-the-enterprise-ai-race/",
+      "source": "TechCrunch AI",
+      "date": "Mon, 02 Feb 2026 19:09:44 +0000",
+      "summary": "Snowflake is the latest enterprise to sign multi-year deals with multiple AI companies in what could be a sign to come of a future trend....",
+      "tags": [
+        "AI",
+        "Enterprise",
+        "TC",
+        "Analysis",
+        "Anthropic"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Firefox will soon let you block all of its generative AI features",
+      "url": "https://techcrunch.com/2026/02/02/firefox-will-soon-let-you-block-all-of-its-generative-ai-features/",
+      "source": "TechCrunch AI",
+      "date": "Mon, 02 Feb 2026 18:34:45 +0000",
+      "summary": "Starting with Firefox 148 arriving later this month, users will find a new AI controls section within the desktop browser settings....",
+      "tags": [
+        "AI",
+        "Apps",
+        "Enterprise",
+        "Firefox",
+        "Generative AI"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "OpenAI launches new macOS app for agentic coding",
+      "url": "https://techcrunch.com/2026/02/02/openai-launches-new-macos-app-for-agentic-coding/",
+      "source": "TechCrunch AI",
+      "date": "Mon, 02 Feb 2026 18:19:31 +0000",
+      "summary": "OpenAI has released a new macOS app for Codex, integrating many of the agentic coding practices that have become popular since Codex launched last year....",
+      "tags": [
+        "AI",
+        "agentic coding",
+        "codex",
+        "Codex app",
+        "OpenAI"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "What we’ve been getting wrong about AI’s truth crisis",
+      "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
+      "source": "MIT Tech Review",
+      "date": "Mon, 02 Feb 2026 18:09:57 +0000",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. What would it take to convince you that the era of truth ...",
+      "tags": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "The Algorithm"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Ring brings its ‘Search Party’ feature for finding lost dogs to non-Ring camera owners",
+      "url": "https://techcrunch.com/2026/02/02/ring-brings-its-search-party-feature-for-finding-lost-dogs-to-non-ring-camera-owners/",
+      "source": "TechCrunch AI",
+      "date": "Mon, 02 Feb 2026 15:33:45 +0000",
+      "summary": "Ring's Search Party feature for finding lost dogs is now available across the U.S. — even if you don't own a Ring camera....",
+      "tags": [
+        "Hardware",
+        "AI",
+        "Amazon",
+        "Pets",
+        "Ring"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Carbon Robotics built an AI model that detects and identifies plants",
+      "url": "https://techcrunch.com/2026/02/02/carbon-robotics-built-an-ai-model-that-detects-and-identifies-plants/",
+      "source": "TechCrunch AI",
+      "date": "Mon, 02 Feb 2026 15:00:00 +0000",
+      "summary": "Carbon Robotics' Large Plant Model will allow farmers to kill new types of weeds without having to retrain the machines....",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Startups",
+        "AgTech",
+        "artificial intelligence"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Coalition demands federal Grok ban over nonconsensual sexual content",
+      "url": "https://techcrunch.com/2026/02/02/coalition-demands-federal-grok-ban-over-nonconsensual-sexual-content/",
+      "source": "TechCrunch AI",
+      "date": "Mon, 02 Feb 2026 15:00:00 +0000",
+      "summary": "Nonprofits urge the U.S. government to suspend Grok in federal agencies after the xAI chatbot generated thousands of nonconsensual sexual images, raising national security and child safety concerns....",
+      "tags": [
+        "AI",
+        "Government & Policy",
+        "Exclusive",
+        "Grok",
+        "OMB"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "The crucial first step for designing a successful enterprise AI system",
+      "url": "https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/",
+      "source": "MIT Tech Review",
+      "date": "Mon, 02 Feb 2026 14:20:29 +0000",
+      "summary": "Many organizations rushed into generative AI, only to see pilots fail to deliver value. Now, companies want measurable outcomes—but how do you design for success? At Mistral AI, we partner with global...",
+      "tags": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "The Download: inside a deepfake marketplace, and EV batteries’ future",
+      "url": "https://www.technologyreview.com/2026/02/02/1132049/the-download-inside-a-deepfake-marketplace-and-ev-batteries-future/",
+      "source": "MIT Tech Review",
+      "date": "Mon, 02 Feb 2026 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the marketplace powering bespoke AI deepfak...",
+      "tags": [
+        "The Download"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "What’s next for EV batteries in 2026",
+      "url": "https://www.technologyreview.com/2026/02/02/1132042/whats-next-for-ev-batteries-in-2026/",
+      "source": "MIT Tech Review",
+      "date": "Mon, 02 Feb 2026 10:00:00 +0000",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Demand for electric vehicl...",
+      "tags": [
+        "Climate change and energy",
+        "App",
+        "What's Next in Tech",
+        "Why It Matters"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "I Let Google’s ‘Auto Browse’ AI Agent Take Over Chrome. It Didn’t Quite Click",
+      "url": "https://www.wired.com/story/google-chrome-auto-browse-hands-on/",
+      "source": "Wired AI",
+      "date": "Fri, 30 Jan 2026 20:41:49 +0000",
+      "summary": "Auto Browse can shop for clothes, plan a trip, and buy tickets for you. Or at least, that’s the idea....",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Google",
+        "artificial intelligence",
+        "Chrome"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Inside the marketplace powering bespoke AI deepfakes of real women",
+      "url": "https://www.technologyreview.com/2026/01/30/1131945/inside-the-marketplace-powering-bespoke-ai-deepfakes-of-real-women/",
+      "source": "MIT Tech Review",
+      "date": "Fri, 30 Jan 2026 16:32:31 +0000",
+      "summary": "Civitai—an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz—is letting users buy custom instruction files for generating celebrity...",
+      "tags": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "The Download: US immigration agencies’ AI videos, and inside the Vitalism movement",
+      "url": "https://www.technologyreview.com/2026/01/30/1132022/the-download-us-immigration-agencies-ai-videos-and-inside-the-vitalism-movement/",
+      "source": "MIT Tech Review",
+      "date": "Fri, 30 Jan 2026 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. DHS is using Google and Adobe AI to make videos Th...",
+      "tags": [
+        "The Download"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "source": "VentureBeat AI",
+      "date": "Fri, 16 Jan 2026 14:01:00 GMT",
+      "summary": "<p>Alfred Wahlforss was running out of options. His startup, <a href=\"https://listenlabs.ai/\">Listen Labs</a>, needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s <a href=\"...",
+      "tags": [
+        "Technology",
+        "AI"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "I drove three Chinese cars — here’s why they would clean up in the US",
+      "url": "https://www.theverge.com/transportation/873408/geely-zeekr-lynk-co-test-drive-china",
+      "source": "The Verge AI",
+      "date": "2026-02-04T10:00:00-05:00",
+      "summary": "It only took a brief drive in a Zeekr 7X to convince me: Chinese cars are now competitive and could be sold in the US tomorrow. The compact battery-electric crossover, a bestseller in Europe, is aimed...",
+      "tags": [
+        "Cars",
+        "CES",
+        "Electric Cars",
+        "Tech",
+        "Transportation"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Spotify launches offline lyrics, translations, and lyric previews",
+      "url": "https://www.theverge.com/entertainment/873779/spotify-lyrics-offline-translations-previews",
+      "source": "The Verge AI",
+      "date": "2026-02-04T09:31:10-05:00",
+      "summary": "On Wednesday, Spotify announced a few new lyrics features aiming to make it easier to understand and access song lyrics, including translations, previews, and offline lyrics. Lyric translations were o...",
+      "tags": [
+        "Entertainment",
+        "News",
+        "Spotify",
+        "Tech"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Amazon rolls out Alexa Plus nationwide and launches a new free tier",
+      "url": "https://www.theverge.com/news/873702/amazon-alexa-plus-ai-assistant-now-available",
+      "source": "The Verge AI",
+      "date": "2026-02-04T09:00:00-05:00",
+      "summary": "Amazon has announced that its generative AI-powered digital assistant Alexa Plus is now available to all Prime members in the US via any Alexa-enabled device, Alexa.com, and the Alexa mobile app. If y...",
+      "tags": [
+        "Amazon",
+        "Amazon Alexa",
+        "News",
+        "Smart Home",
+        "Tech"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Everyone is stealing TV",
+      "url": "https://www.theverge.com/streaming/873416/piracy-streaming-boxes",
+      "source": "The Verge AI",
+      "date": "2026-02-04T08:30:00-05:00",
+      "summary": "Walk the rows of the farmers market in a small, nondescript Texas town about an hour away from Austin, and you might stumble across something unexpected: In between booths selling fresh, local pickles...",
+      "tags": [
+        "Copyright",
+        "Gadgets",
+        "Law",
+        "Policy",
+        "Streaming"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Anthropic says ‘Claude will remain ad-free,’ unlike ChatGPT",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/873686/anthropic-claude-ai-ad-free-super-bowl-advert-chatgpt",
+      "source": "The Verge AI",
+      "date": "2026-02-04T08:09:50-05:00",
+      "summary": "Anthropic has announced that it won't be bringing ads to its AI chatbot Claude, in sharp contrast to confirmed plans from OpenAI to allow advertising in ChatGPT. To hammer the point home further, the ...",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Entertainment",
+        "News",
+        "OpenAI"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Sen. Warren wants to know what Google Gemini’s built-in checkout means for user privacy",
+      "url": "https://www.theverge.com/news/873476/senator-elizabeth-warren-google-gemini-ai-shopping-privacy",
+      "source": "The Verge AI",
+      "date": "2026-02-04T07:00:00-05:00",
+      "summary": "Sen. Elizabeth Warren (D-MA) is pressing Google for more information about its plans to build a checkout feature into its Gemini AI chatbot. In a letter to Google CEO Sundar Pichai, Warren expresses c...",
+      "tags": [
+        "AI",
+        "Google",
+        "News",
+        "Policy",
+        "Politics"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Error",
+      "url": "https://arxiv.org/help/api/user-manual#sort",
+      "source": "arXiv",
+      "date": "2026-02-04 15:33:18.938003",
+      "summary": "sortOrder must be in: ascending, descending...",
+      "tags": [
+        "AI",
+        "Research"
+      ],
+      "category": "research",
+      "category_name": "📚 研究成果"
+    },
+    {
+      "title": "cortexso/qwen-qwq",
+      "url": "https://huggingface.co/cortexso/qwen-qwq",
+      "source": "HuggingFace",
+      "date": "2026-02-04 15:33:16.167827",
+      "summary": "Downloads: 29 | Likes: 0",
+      "tags": [
+        "gguf",
+        "cortex.cpp",
+        "featured",
+        "text-generation",
+        "license:apache-2.0"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "cortexso/intellect-2",
+      "url": "https://huggingface.co/cortexso/intellect-2",
+      "source": "HuggingFace",
+      "date": "2026-02-04 15:33:16.167818",
+      "summary": "Downloads: 115 | Likes: 1",
+      "tags": [
+        "gguf",
+        "cortex.cpp",
+        "featured",
+        "text-generation",
+        "license:apache-2.0"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "cortexso/phi-4-reasoning",
+      "url": "https://huggingface.co/cortexso/phi-4-reasoning",
+      "source": "HuggingFace",
+      "date": "2026-02-04 15:33:16.167814",
+      "summary": "Downloads: 144 | Likes: 0",
+      "tags": [
+        "gguf",
+        "cortex.cpp",
+        "featured",
+        "text-generation",
+        "license:mit"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "cortexso/llama3.2",
+      "url": "https://huggingface.co/cortexso/llama3.2",
+      "source": "HuggingFace",
+      "date": "2026-02-04 15:33:16.167811",
+      "summary": "Downloads: 183 | Likes: 0",
+      "tags": [
+        "gguf",
+        "cortex.cpp",
+        "featured",
+        "text-generation",
+        "license:llama3.2"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "cortexso/cogito-v1",
+      "url": "https://huggingface.co/cortexso/cogito-v1",
+      "source": "HuggingFace",
+      "date": "2026-02-04 15:33:16.167808",
+      "summary": "Downloads: 210 | Likes: 4",
+      "tags": [
+        "gguf",
+        "cortex.cpp",
+        "featured",
+        "text-generation",
+        "license:apache-2.0"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "cortexso/gemma3",
+      "url": "https://huggingface.co/cortexso/gemma3",
+      "source": "HuggingFace",
+      "date": "2026-02-04 15:33:16.167804",
+      "summary": "Downloads: 313 | Likes: 1",
+      "tags": [
+        "gguf",
+        "cortex.cpp",
+        "featured",
+        "text-generation",
+        "endpoints_compatible"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "cortexso/qwen3",
+      "url": "https://huggingface.co/cortexso/qwen3",
+      "source": "HuggingFace",
+      "date": "2026-02-04 15:33:16.167799",
+      "summary": "Downloads: 782 | Likes: 1",
+      "tags": [
+        "gguf",
+        "cortex.cpp",
+        "featured",
+        "text-generation",
+        "license:apache-2.0"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "cortexso/deepseek-r1",
+      "url": "https://huggingface.co/cortexso/deepseek-r1",
+      "source": "HuggingFace",
+      "date": "2026-02-04 15:33:16.167783",
+      "summary": "Downloads: 1,282 | Likes: 0",
+      "tags": [
+        "gguf",
+        "cortexp.cpp",
+        "featured",
+        "text-generation",
+        "license:mit"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Adobe actually won’t discontinue Animate",
+      "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
+      "source": "The Verge AI",
+      "date": "2026-02-03T20:28:47-05:00",
+      "summary": "Adobe is no longer planning to discontinue Adobe Animate on March 1st. In an FAQ, the company now says that Animate will now be in maintenance mode and that it has \"no plans to&#8239;discontinue or re...",
+      "tags": [
+        "Adobe",
+        "Apps",
+        "Creators",
+        "Tech"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Republicans haul Netflix before Congress for being too ‘woke’",
+      "url": "https://www.theverge.com/policy/873533/netflix-warner-bros-discovery-senate-antitrust-hearing",
+      "source": "The Verge AI",
+      "date": "2026-02-03T19:07:07-05:00",
+      "summary": "Netflix CEO Ted Sarandos was launched into the middle of a congressional culture war on Tuesday as he testified before a Senate subcommittee about the company's attempt to buy a large part of Warner B...",
+      "tags": [
+        "Netflix",
+        "Policy",
+        "Politics",
+        "Report",
+        "Streaming"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "AMD hints Microsoft could launch its next-gen Xbox in 2027",
+      "url": "https://www.theverge.com/news/873490/microsoft-next-gen-xbox-console-2027-date-amd",
+      "source": "The Verge AI",
+      "date": "2026-02-03T18:22:37-05:00",
+      "summary": "Microsoft confirmed last year that it's working on a next-gen Xbox console in partnership with AMD. Now, AMD is hinting that the next Xbox console, which will use custom AMD chips, could be launching ...",
+      "tags": [
+        "Gaming",
+        "Microsoft",
+        "News",
+        "Tech",
+        "Xbox"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Department of Justice appeals Google search monopoly ruling",
+      "url": "https://www.theverge.com/tech/873438/google-antitrust-case-doj-states-appeal",
+      "source": "The Verge AI",
+      "date": "2026-02-03T17:40:47-05:00",
+      "summary": "On Tuesday, the Department of Justice and the plaintiffs in the antitrust case against Google filed a cross-appeal, as the DOJ Antitrust Division announced in a post on X: \"Today, the DOJ Antitrust Di...",
+      "tags": [
+        "Google",
+        "News",
+        "Policy",
+        "Tech"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Generative AI to quantify uncertainty in weather forecasting",
+      "url": "http://blog.research.google/2024/03/generative-ai-to-quantify-uncertainty.html",
+      "source": "Google AI",
+      "date": "2024-03-29T11:03:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Lizao (Larry) Li, Software Engineer, and Rob Carver, Research Scientist, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AV...",
+      "tags": [
+        "Climate",
+        "Machine Learning",
+        "Weather"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "AutoBNN: Probabilistic time series forecasting with compositional bayesian neural networks",
+      "url": "http://blog.research.google/2024/03/autobnn-probabilistic-time-series.html",
+      "source": "Google AI",
+      "date": "2024-03-28T13:53:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Urs Köster, Software Engineer, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd5Wc54p1HvgIokpazxDsMo1u6i9wg3ovpNOiF...",
+      "tags": [
+        "Machine Learning",
+        "Neural Networks",
+        "open source",
+        "statistics"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Computer-aided diagnosis for lung cancer screening",
+      "url": "http://blog.research.google/2024/03/computer-aided-diagnosis-for-lung.html",
+      "source": "Google AI",
+      "date": "2024-03-20T13:54:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Atilla Kiraly, Software Engineer, and Rory Pilgrim, Product Manager, Google Research </span>\n\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvX...",
+      "tags": [
+        "Health",
+        "Machine Learning",
+        "User Experience"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Using AI to expand global access to reliable flood forecasts",
+      "url": "http://blog.research.google/2024/03/using-ai-to-expand-global-access-to.html",
+      "source": "Google AI",
+      "date": "2024-03-20T09:06:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Yossi Matias, VP Engineering &amp; Research, and Grey Nearing, Research Scientist, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R...",
+      "tags": [
+        "Environment",
+        "Machine Learning"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "ScreenAI: A visual language model for UI and visually-situated language understanding",
+      "url": "http://blog.research.google/2024/03/screenai-visual-language-model-for-ui.html",
+      "source": "Google AI",
+      "date": "2024-03-19T13:15:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Srinivas Sunkara and Gilles Baechler, Software Engineers, Google Research</span>\n\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoXlMR7pAK...",
+      "tags": [
+        "HCI",
+        "Multimodal Learning",
+        "Self-Supervised Learning",
+        "UI"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "SCIN: A new resource for representative dermatology images",
+      "url": "http://blog.research.google/2024/03/scin-new-resource-for-representative.html",
+      "source": "Google AI",
+      "date": "2024-03-19T08:00:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Pooja Rao, Research Scientist, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_fSTMFxLAMHLJ0rw7OAddGSPMW2tRl8kmTr2m...",
+      "tags": [
+        "crowd-sourcing",
+        "datasets",
+        "Diversity",
+        "Health"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "MELON: Reconstructing 3D objects from images with unknown poses",
+      "url": "http://blog.research.google/2024/03/melon-reconstructing-3d-objects-from.html",
+      "source": "Google AI",
+      "date": "2024-03-18T11:41:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Mark Matthews, Senior Software Engineer, and Dmitry Lagun, Research Scientist, Google Research</span>\n\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29v...",
+      "tags": [
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "HEAL: A framework for health equity assessment of machine learning performance",
+      "url": "http://blog.research.google/2024/03/heal-framework-for-health-equity.html",
+      "source": "Google AI",
+      "date": "2024-03-15T11:22:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Mike Schaekermann, Research Scientist, Google Research, and Ivor Horn, Chief Health Equity Officer &amp; Director, Google Core</span>\n\n<img src=\"https://blogger.g...",
+      "tags": [
+        "Health",
+        "Responsible AI"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Cappy: Outperforming and boosting large multi-task language models with a small scorer",
+      "url": "http://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html",
+      "source": "Google AI",
+      "date": "2024-03-14T12:38:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Yun Zhu and Lijuan Liu, Software Engineers, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFNlqVAnwoYdZ97LvC4-ipR6F...",
+      "tags": [
+        "Large Language Models",
+        "Machine Learning",
+        "Natural Language Processing",
+        "NeurIPS"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Talk like a graph: Encoding graphs for large language models",
+      "url": "http://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html",
+      "source": "Google AI",
+      "date": "2024-03-12T14:15:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Bahare Fatemi and Bryan Perozzi, Research Scientists, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8L7r_SCzFsKsWe...",
+      "tags": [
+        "Generative AI",
+        "Graphs",
+        "Large Language Models"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Chain-of-table: Evolving tables in the reasoning chain for table understanding",
+      "url": "http://blog.research.google/2024/03/chain-of-table-evolving-tables-in.html",
+      "source": "Google AI",
+      "date": "2024-03-11T12:08:00.000-07:00",
+      "summary": "<span class=\"byline-author\">Posted by Zilong Wang, Student Researcher, and Chen-Yu Lee, Research Scientist, Cloud AI Team</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg...",
+      "tags": [
+        "Machine Intelligence",
+        "Natural Language Processing"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Health-specific embedding tools for dermatology and pathology",
+      "url": "http://blog.research.google/2024/03/health-specific-embedding-tools-for.html",
+      "source": "Google AI",
+      "date": "2024-03-08T11:33:00.000-08:00",
+      "summary": "<span class=\"byline-author\">Posted by Dave Steiner, Clinical Research Scientist, Google Health, and Rory Pilgrim, Product Manager, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.c...",
+      "tags": [
+        "Computer Vision",
+        "Health",
+        "Image Classification"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Social learning: Collaborative learning with large language models",
+      "url": "http://blog.research.google/2024/03/social-learning-collaborative-learning.html",
+      "source": "Google AI",
+      "date": "2024-03-07T10:15:00.000-08:00",
+      "summary": "<span class=\"byline-author\">Posted by Amirkeivan Mohtashami, Research Intern, and Florian Hartmann, Software Engineer, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29...",
+      "tags": [
+        "Large Language Models",
+        "Machine Intelligence",
+        "Natural Language Processing"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Croissant: a metadata format for ML-ready datasets",
+      "url": "http://blog.research.google/2024/03/croissant-metadata-format-for-ml-ready.html",
+      "source": "Google AI",
+      "date": "2024-03-06T10:26:00.000-08:00",
+      "summary": "<span class=\"byline-author\">Posted by Omar Benjelloun, Software Engineer, Google Research, and Peter Mattson, Software Engineer, Google Core ML and President, MLCommons Association</span>\n\n<img src=\"h...",
+      "tags": [
+        "Collaboration",
+        "datasets",
+        "ML"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Google at APS 2024",
+      "url": "http://blog.research.google/2024/03/google-at-aps-2024.html",
+      "source": "Google AI",
+      "date": "2024-03-04T07:06:00.000-08:00",
+      "summary": "<span class=\"byline-author\">Posted by Kate Weber and Shannon Leon, Google Research, Quantum AI Team</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy22Hfq3RN4qRUJcSMUpIau...",
+      "tags": [
+        "conference",
+        "conferences",
+        "Physics",
+        "Quantum AI",
+        "Quantum Computing"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    }
   ]
 }
