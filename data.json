@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/02/04 15:38",
+  "lastUpdate": "2026/02/04 15:47",
   "categories": [
     {
       "key": "model",
@@ -61,6 +61,22 @@
       ],
       "category": "tool",
       "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "A New Mistral AI Model's Ultra-Fast Translation Gives Big AI Labs a Run for Their Money",
+      "url": "https://www.wired.com/story/mistral-voxtral-real-time-ai-translation/",
+      "source": "Wired AI",
+      "date": "Wed, 04 Feb 2026 15:32:45 +0000",
+      "summary": "“Too many GPUs makes you lazy,” says the French startup's vice president of science operations, as the company carves out a different path than the major US AI companies....",
+      "tags": [
+        "Business",
+        "Business / Artificial Intelligence",
+        "artificial intelligence",
+        "Startups",
+        "translation"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "Alexa+, Amazon’s AI assistant, is now available to everyone in the U.S.",
@@ -329,22 +345,6 @@
         "Uncanny Valley Podcast",
         "podcasts",
         "Immigration and Customs Enforcement"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "AI-Generated Anti-ICE Videos Are Getting the Fanfic Treatment",
-      "url": "https://www.wired.com/story/anti-ice-videos-are-getting-the-ai-fanfic-treatment-online/",
-      "source": "Wired AI",
-      "date": "Thu, 29 Jan 2026 19:07:14 +0000",
-      "summary": "Across Instagram and Facebook, AI-generated videos show people of color putting ICE agents in their place. Are they cathartic or just adding to a stew of misinformation?...",
-      "tags": [
-        "Culture",
-        "Culture / Digital Culture",
-        "Social Media",
-        "Instagram",
-        "Facebook"
       ],
       "category": "industry",
       "category_name": "📰 行业动态"
@@ -755,7 +755,7 @@
       "title": "Error",
       "url": "https://arxiv.org/help/api/user-manual#sort",
       "source": "arXiv",
-      "date": "2026-02-04 15:38:29.253190",
+      "date": "2026-02-04 15:47:38.448019",
       "summary": "sortOrder must be in: ascending, descending...",
       "tags": [
         "AI",
@@ -768,7 +768,7 @@
       "title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:38:25.973976",
+      "date": "2026-02-04 15:47:23.078547",
       "summary": "Downloads: 29 | Likes: 0",
       "tags": [
         "gguf",
@@ -784,7 +784,7 @@
       "title": "cortexso/intellect-2",
       "url": "https://huggingface.co/cortexso/intellect-2",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:38:25.973963",
+      "date": "2026-02-04 15:47:23.078536",
       "summary": "Downloads: 115 | Likes: 1",
       "tags": [
         "gguf",
@@ -800,7 +800,7 @@
       "title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:38:25.973957",
+      "date": "2026-02-04 15:47:23.078531",
       "summary": "Downloads: 144 | Likes: 0",
       "tags": [
         "gguf",
@@ -816,7 +816,7 @@
       "title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:38:25.973951",
+      "date": "2026-02-04 15:47:23.078527",
       "summary": "Downloads: 183 | Likes: 0",
       "tags": [
         "gguf",
@@ -832,7 +832,7 @@
       "title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:38:25.973945",
+      "date": "2026-02-04 15:47:23.078522",
       "summary": "Downloads: 210 | Likes: 4",
       "tags": [
         "gguf",
@@ -848,7 +848,7 @@
       "title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:38:25.973938",
+      "date": "2026-02-04 15:47:23.078517",
       "summary": "Downloads: 313 | Likes: 1",
       "tags": [
         "gguf",
@@ -864,7 +864,7 @@
       "title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:38:25.973910",
+      "date": "2026-02-04 15:47:23.078511",
       "summary": "Downloads: 782 | Likes: 1",
       "tags": [
         "gguf",
@@ -880,7 +880,7 @@
       "title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:38:25.973882",
+      "date": "2026-02-04 15:47:23.078487",
       "summary": "Downloads: 1,282 | Likes: 0",
       "tags": [
         "gguf",
