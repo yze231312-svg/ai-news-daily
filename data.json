@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/02/04 15:33",
+  "lastUpdate": "2026/02/04 15:38",
   "categories": [
     {
       "key": "model",
@@ -45,6 +45,22 @@
       ],
       "category": "industry",
       "category_name": "📰 行业动态"
+    },
+    {
+      "title": "ElevenLabs raises $500M from Sequioia at a $11 billion valuation",
+      "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 15:33:58 +0000",
+      "summary": "ElevenLabs' valuation has raised more than three times in the last twelve months....",
+      "tags": [
+        "AI",
+        "Startups",
+        "TC",
+        "Venture",
+        "ElevenLabs"
+      ],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
     },
     {
       "title": "Alexa+, Amazon’s AI assistant, is now available to everyone in the U.S.",
@@ -546,22 +562,6 @@
       "category_name": "🛠️ 工具平台"
     },
     {
-      "title": "Coalition demands federal Grok ban over nonconsensual sexual content",
-      "url": "https://techcrunch.com/2026/02/02/coalition-demands-federal-grok-ban-over-nonconsensual-sexual-content/",
-      "source": "TechCrunch AI",
-      "date": "Mon, 02 Feb 2026 15:00:00 +0000",
-      "summary": "Nonprofits urge the U.S. government to suspend Grok in federal agencies after the xAI chatbot generated thousands of nonconsensual sexual images, raising national security and child safety concerns....",
-      "tags": [
-        "AI",
-        "Government & Policy",
-        "Exclusive",
-        "Grok",
-        "OMB"
-      ],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
       "title": "The crucial first step for designing a successful enterprise AI system",
       "url": "https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/",
       "source": "MIT Tech Review",
@@ -755,7 +755,7 @@
       "title": "Error",
       "url": "https://arxiv.org/help/api/user-manual#sort",
       "source": "arXiv",
-      "date": "2026-02-04 15:33:18.938003",
+      "date": "2026-02-04 15:38:29.253190",
       "summary": "sortOrder must be in: ascending, descending...",
       "tags": [
         "AI",
@@ -768,7 +768,7 @@
       "title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:33:16.167827",
+      "date": "2026-02-04 15:38:25.973976",
       "summary": "Downloads: 29 | Likes: 0",
       "tags": [
         "gguf",
@@ -784,7 +784,7 @@
       "title": "cortexso/intellect-2",
       "url": "https://huggingface.co/cortexso/intellect-2",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:33:16.167818",
+      "date": "2026-02-04 15:38:25.973963",
       "summary": "Downloads: 115 | Likes: 1",
       "tags": [
         "gguf",
@@ -800,7 +800,7 @@
       "title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:33:16.167814",
+      "date": "2026-02-04 15:38:25.973957",
       "summary": "Downloads: 144 | Likes: 0",
       "tags": [
         "gguf",
@@ -816,7 +816,7 @@
       "title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:33:16.167811",
+      "date": "2026-02-04 15:38:25.973951",
       "summary": "Downloads: 183 | Likes: 0",
       "tags": [
         "gguf",
@@ -832,7 +832,7 @@
       "title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:33:16.167808",
+      "date": "2026-02-04 15:38:25.973945",
       "summary": "Downloads: 210 | Likes: 4",
       "tags": [
         "gguf",
@@ -848,7 +848,7 @@
       "title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:33:16.167804",
+      "date": "2026-02-04 15:38:25.973938",
       "summary": "Downloads: 313 | Likes: 1",
       "tags": [
         "gguf",
@@ -864,7 +864,7 @@
       "title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:33:16.167799",
+      "date": "2026-02-04 15:38:25.973910",
       "summary": "Downloads: 782 | Likes: 1",
       "tags": [
         "gguf",
@@ -880,7 +880,7 @@
       "title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:33:16.167783",
+      "date": "2026-02-04 15:38:25.973882",
       "summary": "Downloads: 1,282 | Likes: 0",
       "tags": [
         "gguf",
