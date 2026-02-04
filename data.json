@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/02/04 15:47",
+  "lastUpdate": "2026/02/04 15:55",
   "categories": [
     {
       "key": "model",
@@ -63,9 +63,9 @@
       "category_name": "🛠️ 工具平台"
     },
     {
-      "title": "A New Mistral AI Model's Ultra-Fast Translation Gives Big AI Labs a Run for Their Money",
+      "title": "Mistral's New Ultra-Fast Translation Model Gives Big AI Labs a Run for Their Money",
       "url": "https://www.wired.com/story/mistral-voxtral-real-time-ai-translation/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Wed, 04 Feb 2026 15:32:45 +0000",
       "summary": "“Too many GPUs makes you lazy,” says the French startup's vice president of science operations, as the company carves out a different path than the major US AI companies....",
       "tags": [
@@ -137,7 +137,7 @@
     {
       "title": "AI Bots Are Now a Signifigant Source of Web Traffic",
       "url": "https://www.wired.com/story/ai-bots-are-now-a-signifigant-source-of-web-traffic/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Wed, 04 Feb 2026 10:30:00 +0000",
       "summary": "New data shows AI bots pushing deeper into the web, prompting publishers to roll out more aggressive defenses....",
       "tags": [
@@ -153,7 +153,7 @@
     {
       "title": "HHS Is Making an AI Tool to Create Hypotheses About Vaccine Injury Claims",
       "url": "https://www.wired.com/story/hhs-is-making-an-ai-tool-to-create-hypotheses-about-vaccine-injury-claims/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Wed, 04 Feb 2026 10:00:00 +0000",
       "summary": "Experts worry Robert F. Kennedy Jr.’s Health Department will use an internal AI tool to analyze vaccine injury claims in a way that furthers his anti-vaccine agenda....",
       "tags": [
@@ -215,7 +215,7 @@
     {
       "title": "I Infiltrated Moltbook, the AI-Only Social Network Where Humans Aren’t Allowed",
       "url": "https://www.wired.com/story/i-infiltrated-moltbook-ai-only-social-network/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Tue, 03 Feb 2026 19:55:36 +0000",
       "summary": "I went undercover on Moltbook and loved role-playing as a conscious bot. But rather than a novel breakthrough, the AI-only site is a crude rehashing of sci-fi fantasies....",
       "tags": [
@@ -307,7 +307,7 @@
     {
       "title": "‘Fallout’ Producer Jonathan Nolan on AI: ‘We’re in Such a Frothy Moment’",
       "url": "https://www.wired.com/story/the-big-interview-podcast-jonathan-nolan-fallout/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Tue, 03 Feb 2026 12:00:00 +0000",
       "summary": "The Westworld showrunner thinks AI will be good for burgeoning filmmakers, but not for Hollywood blockbusters....",
       "tags": [
@@ -336,7 +336,7 @@
     {
       "title": "‘Uncanny Valley’: Minneapolis Misinformation, TikTok’s New Owners, and Moltbot Hype",
       "url": "https://www.wired.com/story/uncanny-valley-podcast-ice-minneapolis-tiktok-moltbot/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Thu, 29 Jan 2026 22:19:59 +0000",
       "summary": "On this episode of Uncanny Valley, we dive into the news that's held our attention this week: ICE activity as it's been unfolding in Minnesota....",
       "tags": [
@@ -365,7 +365,7 @@
     {
       "title": "Jeffrey Epstein Had a ‘Personal Hacker,’ Informant Claims",
       "url": "https://www.wired.com/story/security-news-this-week-jeffrey-epstein-had-a-personal-hacker-informant-claims/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Sat, 31 Jan 2026 11:30:00 +0000",
       "summary": "Plus: AI agent OpenClaw gives cybersecurity experts the willies, China executes 11 scam compound bosses, a $40 million crypto theft has an unexpected alleged culprit, and more....",
       "tags": [
@@ -421,7 +421,7 @@
     {
       "title": "Elon Musk Is Rolling xAI Into SpaceX—Creating the World’s Most Valuable Private Company",
       "url": "https://www.wired.com/story/spacex-acquires-xai-elon-musk/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Mon, 02 Feb 2026 23:07:19 +0000",
       "summary": "By fusing SpaceX and xAI—which acquired X last year—Elon Musk tightens his grip over technologies that shape national security, social media, and artificial intelligence....",
       "tags": [
@@ -453,7 +453,7 @@
     {
       "title": "HHS Is Using AI Tools From Palantir to Target ‘DEI’ and ‘Gender Ideology’ in Grants",
       "url": "https://www.wired.com/story/hhs-is-using-ai-tools-from-palantir-to-target-dei-and-gender-ideology-in-grants/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Mon, 02 Feb 2026 20:56:41 +0000",
       "summary": "Since March of 2025, the Department of Health and Human Services has been using tools from Palantir and the startup Credal AI to weed out perceived alignment with “DEI” or “gender ideology.”...",
       "tags": [
@@ -604,7 +604,7 @@
     {
       "title": "I Let Google’s ‘Auto Browse’ AI Agent Take Over Chrome. It Didn’t Quite Click",
       "url": "https://www.wired.com/story/google-chrome-auto-browse-hands-on/",
-      "source": "Wired AI",
+      "source": "Wired",
       "date": "Fri, 30 Jan 2026 20:41:49 +0000",
       "summary": "Auto Browse can shop for clothes, plan a trip, and buy tickets for you. Or at least, that’s the idea....",
       "tags": [
@@ -657,105 +657,10 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "I drove three Chinese cars — here’s why they would clean up in the US",
-      "url": "https://www.theverge.com/transportation/873408/geely-zeekr-lynk-co-test-drive-china",
-      "source": "The Verge AI",
-      "date": "2026-02-04T10:00:00-05:00",
-      "summary": "It only took a brief drive in a Zeekr 7X to convince me: Chinese cars are now competitive and could be sold in the US tomorrow. The compact battery-electric crossover, a bestseller in Europe, is aimed...",
-      "tags": [
-        "Cars",
-        "CES",
-        "Electric Cars",
-        "Tech",
-        "Transportation"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Spotify launches offline lyrics, translations, and lyric previews",
-      "url": "https://www.theverge.com/entertainment/873779/spotify-lyrics-offline-translations-previews",
-      "source": "The Verge AI",
-      "date": "2026-02-04T09:31:10-05:00",
-      "summary": "On Wednesday, Spotify announced a few new lyrics features aiming to make it easier to understand and access song lyrics, including translations, previews, and offline lyrics. Lyric translations were o...",
-      "tags": [
-        "Entertainment",
-        "News",
-        "Spotify",
-        "Tech"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Amazon rolls out Alexa Plus nationwide and launches a new free tier",
-      "url": "https://www.theverge.com/news/873702/amazon-alexa-plus-ai-assistant-now-available",
-      "source": "The Verge AI",
-      "date": "2026-02-04T09:00:00-05:00",
-      "summary": "Amazon has announced that its generative AI-powered digital assistant Alexa Plus is now available to all Prime members in the US via any Alexa-enabled device, Alexa.com, and the Alexa mobile app. If y...",
-      "tags": [
-        "Amazon",
-        "Amazon Alexa",
-        "News",
-        "Smart Home",
-        "Tech"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Everyone is stealing TV",
-      "url": "https://www.theverge.com/streaming/873416/piracy-streaming-boxes",
-      "source": "The Verge AI",
-      "date": "2026-02-04T08:30:00-05:00",
-      "summary": "Walk the rows of the farmers market in a small, nondescript Texas town about an hour away from Austin, and you might stumble across something unexpected: In between booths selling fresh, local pickles...",
-      "tags": [
-        "Copyright",
-        "Gadgets",
-        "Law",
-        "Policy",
-        "Streaming"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Anthropic says ‘Claude will remain ad-free,’ unlike ChatGPT",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/873686/anthropic-claude-ai-ad-free-super-bowl-advert-chatgpt",
-      "source": "The Verge AI",
-      "date": "2026-02-04T08:09:50-05:00",
-      "summary": "Anthropic has announced that it won't be bringing ads to its AI chatbot Claude, in sharp contrast to confirmed plans from OpenAI to allow advertising in ChatGPT. To hammer the point home further, the ...",
-      "tags": [
-        "AI",
-        "Anthropic",
-        "Entertainment",
-        "News",
-        "OpenAI"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Sen. Warren wants to know what Google Gemini’s built-in checkout means for user privacy",
-      "url": "https://www.theverge.com/news/873476/senator-elizabeth-warren-google-gemini-ai-shopping-privacy",
-      "source": "The Verge AI",
-      "date": "2026-02-04T07:00:00-05:00",
-      "summary": "Sen. Elizabeth Warren (D-MA) is pressing Google for more information about its plans to build a checkout feature into its Gemini AI chatbot. In a letter to Google CEO Sundar Pichai, Warren expresses c...",
-      "tags": [
-        "AI",
-        "Google",
-        "News",
-        "Policy",
-        "Politics"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
       "title": "Error",
       "url": "https://arxiv.org/help/api/user-manual#sort",
       "source": "arXiv",
-      "date": "2026-02-04 15:47:38.448019",
+      "date": "2026-02-04T15:55:23.799314",
       "summary": "sortOrder must be in: ascending, descending...",
       "tags": [
         "AI",
@@ -765,10 +670,160 @@
       "category_name": "📚 研究成果"
     },
     {
+      "title": "Pick up exactly where you left off with Session Management in Gemini CLI",
+      "url": "https://developers.googleblog.com/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060313",
+      "summary": "Gemini CLI's new automatic **Session Management** (v0.20.0+) saves your conversation history, tool outputs, and reasoning, providing project-specific context. Resume easily using the **Interactive Ses...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Building agents with the ADK and the new Interactions API",
+      "url": "https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060303",
+      "summary": "The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK ...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Introducing A2UI: An open project for agent-driven interfaces",
+      "url": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060293",
+      "summary": "A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component cata...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Developer’s guide to multi-agent patterns in ADK",
+      "url": "https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060283",
+      "summary": "Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK)....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Conductor: Introducing context-driven development for Gemini CLI",
+      "url": "https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060273",
+      "summary": "Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents a...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach",
+      "url": "https://developers.googleblog.com/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060263",
+      "summary": "Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeS...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Gemini 3 Flash is now available in Gemini CLI",
+      "url": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060248",
+      "summary": "Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly out...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Real-World Agent Examples with Gemini 3",
+      "url": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060238",
+      "summary": "Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrati...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques",
+      "url": "https://developers.googleblog.com/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060227",
+      "summary": "A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars),...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Under the Hood: Universal Commerce Protocol (UCP)",
+      "url": "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060215",
+      "summary": "The Universal Commerce Protocol (UCP) is a new, open-source standard for agentic commerce, co-developed by Google and industry leaders. It establishes a common, secure language to connect consumer sur...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "A Guide to Fine-Tuning FunctionGemma",
+      "url": "https://developers.googleblog.com/a-guide-to-fine-tuning-functiongemma/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060202",
+      "summary": "FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-spe...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Tailor Gemini CLI to your workflow with hooks",
+      "url": "https://developers.googleblog.com/tailor-gemini-cli-to-your-workflow-with-hooks/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060192",
+      "summary": "New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "LiteRT: The Universal Framework for On-Device AI",
+      "url": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060181",
+      "summary": "LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Beyond the Chatbot: A Blueprint for Trustable AI",
+      "url": "https://developers.googleblog.com/beyond-the-chatbot-a-blueprint-for-trustable-ai/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060170",
+      "summary": "At Thunderhill Raceway Park, a team of Google Developer Experts (GDEs) put a new \"Trustable AI Framework\" to the test. Here is how they used GCP, Gemini and Antigravity to turn high-velocity racing in...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Easy FunctionGemma finetuning with Tunix on Google TPUs",
+      "url": "https://developers.googleblog.com/easy-functiongemma-finetuning-with-tunix-on-google-tpus/",
+      "source": "Google AI",
+      "date": "2026-02-04T15:55:22.060153",
+      "summary": "Finetuning the FunctionGemma model is made fast and easy using the lightweight JAX-based Tunix library on Google TPUs, a process demonstrated here using LoRA for supervised finetuning. This approach d...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
       "title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:47:23.078547",
+      "date": "2026-02-04T15:55:20.840671",
       "summary": "Downloads: 29 | Likes: 0",
       "tags": [
         "gguf",
@@ -784,7 +839,7 @@
       "title": "cortexso/intellect-2",
       "url": "https://huggingface.co/cortexso/intellect-2",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:47:23.078536",
+      "date": "2026-02-04T15:55:20.840662",
       "summary": "Downloads: 115 | Likes: 1",
       "tags": [
         "gguf",
@@ -800,7 +855,7 @@
       "title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:47:23.078531",
+      "date": "2026-02-04T15:55:20.840659",
       "summary": "Downloads: 144 | Likes: 0",
       "tags": [
         "gguf",
@@ -816,7 +871,7 @@
       "title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:47:23.078527",
+      "date": "2026-02-04T15:55:20.840656",
       "summary": "Downloads: 183 | Likes: 0",
       "tags": [
         "gguf",
@@ -832,7 +887,7 @@
       "title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:47:23.078522",
+      "date": "2026-02-04T15:55:20.840653",
       "summary": "Downloads: 210 | Likes: 4",
       "tags": [
         "gguf",
@@ -848,7 +903,7 @@
       "title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:47:23.078517",
+      "date": "2026-02-04T15:55:20.840650",
       "summary": "Downloads: 313 | Likes: 1",
       "tags": [
         "gguf",
@@ -864,7 +919,7 @@
       "title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:47:23.078511",
+      "date": "2026-02-04T15:55:20.840646",
       "summary": "Downloads: 782 | Likes: 1",
       "tags": [
         "gguf",
@@ -880,7 +935,7 @@
       "title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-04 15:47:23.078487",
+      "date": "2026-02-04T15:55:20.840633",
       "summary": "Downloads: 1,282 | Likes: 0",
       "tags": [
         "gguf",
@@ -893,9 +948,119 @@
       "category_name": "🗣️ 模型发布"
     },
     {
+      "title": "The Verge’s 2026 Valentine’s Day gift guide (for him)",
+      "url": "https://www.theverge.com/gadgets/865396/valentines-day-2026-gift-ideas-for-him-boyfriend-husband-partner",
+      "source": "The Verge",
+      "date": "2026-02-04T10:48:37-05:00",
+      "summary": "Valentine's Day is often thought of as the quintessential Hallmark holiday - and why wouldn't it be? Most of the time, it's marketed to us with massive floral arrangements and heart-shaped chocolates,...",
+      "tags": [
+        "Gadgets",
+        "Gift Guides",
+        "Tech",
+        "Verge Shopping"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "I drove three Chinese cars — here’s why they would clean up in the US",
+      "url": "https://www.theverge.com/transportation/873408/geely-zeekr-lynk-co-test-drive-china",
+      "source": "The Verge",
+      "date": "2026-02-04T10:00:00-05:00",
+      "summary": "It only took a brief drive in a Zeekr 7X to convince me: Chinese cars are now competitive and could be sold in the US tomorrow. The compact battery-electric crossover, a bestseller in Europe, is aimed...",
+      "tags": [
+        "Cars",
+        "CES",
+        "Electric Cars",
+        "Tech",
+        "Transportation"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Spotify launches offline lyrics, translations, and lyric previews",
+      "url": "https://www.theverge.com/entertainment/873779/spotify-lyrics-offline-translations-previews",
+      "source": "The Verge",
+      "date": "2026-02-04T09:31:10-05:00",
+      "summary": "On Wednesday, Spotify announced a few new lyrics features aiming to make it easier to understand and access song lyrics, including translations, previews, and offline lyrics. Lyric translations were o...",
+      "tags": [
+        "Entertainment",
+        "News",
+        "Spotify",
+        "Tech"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Amazon rolls out Alexa Plus nationwide and launches a new free tier",
+      "url": "https://www.theverge.com/news/873702/amazon-alexa-plus-ai-assistant-now-available",
+      "source": "The Verge",
+      "date": "2026-02-04T09:00:00-05:00",
+      "summary": "Amazon has announced that its generative AI-powered digital assistant Alexa Plus is now available to all Prime members in the US via any Alexa-enabled device, Alexa.com, and the Alexa mobile app. If y...",
+      "tags": [
+        "Amazon",
+        "Amazon Alexa",
+        "News",
+        "Smart Home",
+        "Tech"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Everyone is stealing TV",
+      "url": "https://www.theverge.com/streaming/873416/piracy-streaming-boxes",
+      "source": "The Verge",
+      "date": "2026-02-04T08:30:00-05:00",
+      "summary": "Walk the rows of the farmers market in a small, nondescript Texas town about an hour away from Austin, and you might stumble across something unexpected: In between booths selling fresh, local pickles...",
+      "tags": [
+        "Copyright",
+        "Gadgets",
+        "Law",
+        "Policy",
+        "Streaming"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Anthropic says ‘Claude will remain ad-free,’ unlike ChatGPT",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/873686/anthropic-claude-ai-ad-free-super-bowl-advert-chatgpt",
+      "source": "The Verge",
+      "date": "2026-02-04T08:09:50-05:00",
+      "summary": "Anthropic has announced that it won't be bringing ads to its AI chatbot Claude, in sharp contrast to confirmed plans from OpenAI to allow advertising in ChatGPT. To hammer the point home further, the ...",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Entertainment",
+        "News",
+        "OpenAI"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Sen. Warren wants to know what Google Gemini’s built-in checkout means for user privacy",
+      "url": "https://www.theverge.com/news/873476/senator-elizabeth-warren-google-gemini-ai-shopping-privacy",
+      "source": "The Verge",
+      "date": "2026-02-04T07:00:00-05:00",
+      "summary": "Sen. Elizabeth Warren (D-MA) is pressing Google for more information about its plans to build a checkout feature into its Gemini AI chatbot. In a letter to Google CEO Sundar Pichai, Warren expresses c...",
+      "tags": [
+        "AI",
+        "Google",
+        "News",
+        "Policy",
+        "Politics"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
       "title": "Adobe actually won’t discontinue Animate",
       "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
-      "source": "The Verge AI",
+      "source": "The Verge",
       "date": "2026-02-03T20:28:47-05:00",
       "summary": "Adobe is no longer planning to discontinue Adobe Animate on March 1st. In an FAQ, the company now says that Animate will now be in maintenance mode and that it has \"no plans to&#8239;discontinue or re...",
       "tags": [
@@ -910,7 +1075,7 @@
     {
       "title": "Republicans haul Netflix before Congress for being too ‘woke’",
       "url": "https://www.theverge.com/policy/873533/netflix-warner-bros-discovery-senate-antitrust-hearing",
-      "source": "The Verge AI",
+      "source": "The Verge",
       "date": "2026-02-03T19:07:07-05:00",
       "summary": "Netflix CEO Ted Sarandos was launched into the middle of a congressional culture war on Tuesday as he testified before a Senate subcommittee about the company's attempt to buy a large part of Warner B...",
       "tags": [
@@ -926,7 +1091,7 @@
     {
       "title": "AMD hints Microsoft could launch its next-gen Xbox in 2027",
       "url": "https://www.theverge.com/news/873490/microsoft-next-gen-xbox-console-2027-date-amd",
-      "source": "The Verge AI",
+      "source": "The Verge",
       "date": "2026-02-03T18:22:37-05:00",
       "summary": "Microsoft confirmed last year that it's working on a next-gen Xbox console in partnership with AMD. Now, AMD is hinting that the next Xbox console, which will use custom AMD chips, could be launching ...",
       "tags": [
@@ -938,233 +1103,6 @@
       ],
       "category": "industry",
       "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Department of Justice appeals Google search monopoly ruling",
-      "url": "https://www.theverge.com/tech/873438/google-antitrust-case-doj-states-appeal",
-      "source": "The Verge AI",
-      "date": "2026-02-03T17:40:47-05:00",
-      "summary": "On Tuesday, the Department of Justice and the plaintiffs in the antitrust case against Google filed a cross-appeal, as the DOJ Antitrust Division announced in a post on X: \"Today, the DOJ Antitrust Di...",
-      "tags": [
-        "Google",
-        "News",
-        "Policy",
-        "Tech"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Generative AI to quantify uncertainty in weather forecasting",
-      "url": "http://blog.research.google/2024/03/generative-ai-to-quantify-uncertainty.html",
-      "source": "Google AI",
-      "date": "2024-03-29T11:03:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Lizao (Larry) Li, Software Engineer, and Rob Carver, Research Scientist, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AV...",
-      "tags": [
-        "Climate",
-        "Machine Learning",
-        "Weather"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "AutoBNN: Probabilistic time series forecasting with compositional bayesian neural networks",
-      "url": "http://blog.research.google/2024/03/autobnn-probabilistic-time-series.html",
-      "source": "Google AI",
-      "date": "2024-03-28T13:53:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Urs Köster, Software Engineer, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd5Wc54p1HvgIokpazxDsMo1u6i9wg3ovpNOiF...",
-      "tags": [
-        "Machine Learning",
-        "Neural Networks",
-        "open source",
-        "statistics"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Computer-aided diagnosis for lung cancer screening",
-      "url": "http://blog.research.google/2024/03/computer-aided-diagnosis-for-lung.html",
-      "source": "Google AI",
-      "date": "2024-03-20T13:54:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Atilla Kiraly, Software Engineer, and Rory Pilgrim, Product Manager, Google Research </span>\n\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvX...",
-      "tags": [
-        "Health",
-        "Machine Learning",
-        "User Experience"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Using AI to expand global access to reliable flood forecasts",
-      "url": "http://blog.research.google/2024/03/using-ai-to-expand-global-access-to.html",
-      "source": "Google AI",
-      "date": "2024-03-20T09:06:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Yossi Matias, VP Engineering &amp; Research, and Grey Nearing, Research Scientist, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R...",
-      "tags": [
-        "Environment",
-        "Machine Learning"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "ScreenAI: A visual language model for UI and visually-situated language understanding",
-      "url": "http://blog.research.google/2024/03/screenai-visual-language-model-for-ui.html",
-      "source": "Google AI",
-      "date": "2024-03-19T13:15:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Srinivas Sunkara and Gilles Baechler, Software Engineers, Google Research</span>\n\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoXlMR7pAK...",
-      "tags": [
-        "HCI",
-        "Multimodal Learning",
-        "Self-Supervised Learning",
-        "UI"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "SCIN: A new resource for representative dermatology images",
-      "url": "http://blog.research.google/2024/03/scin-new-resource-for-representative.html",
-      "source": "Google AI",
-      "date": "2024-03-19T08:00:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Pooja Rao, Research Scientist, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_fSTMFxLAMHLJ0rw7OAddGSPMW2tRl8kmTr2m...",
-      "tags": [
-        "crowd-sourcing",
-        "datasets",
-        "Diversity",
-        "Health"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "MELON: Reconstructing 3D objects from images with unknown poses",
-      "url": "http://blog.research.google/2024/03/melon-reconstructing-3d-objects-from.html",
-      "source": "Google AI",
-      "date": "2024-03-18T11:41:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Mark Matthews, Senior Software Engineer, and Dmitry Lagun, Research Scientist, Google Research</span>\n\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29v...",
-      "tags": [
-        "Computer Vision",
-        "Machine Learning"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "HEAL: A framework for health equity assessment of machine learning performance",
-      "url": "http://blog.research.google/2024/03/heal-framework-for-health-equity.html",
-      "source": "Google AI",
-      "date": "2024-03-15T11:22:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Mike Schaekermann, Research Scientist, Google Research, and Ivor Horn, Chief Health Equity Officer &amp; Director, Google Core</span>\n\n<img src=\"https://blogger.g...",
-      "tags": [
-        "Health",
-        "Responsible AI"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Cappy: Outperforming and boosting large multi-task language models with a small scorer",
-      "url": "http://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html",
-      "source": "Google AI",
-      "date": "2024-03-14T12:38:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Yun Zhu and Lijuan Liu, Software Engineers, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFNlqVAnwoYdZ97LvC4-ipR6F...",
-      "tags": [
-        "Large Language Models",
-        "Machine Learning",
-        "Natural Language Processing",
-        "NeurIPS"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Talk like a graph: Encoding graphs for large language models",
-      "url": "http://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html",
-      "source": "Google AI",
-      "date": "2024-03-12T14:15:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Bahare Fatemi and Bryan Perozzi, Research Scientists, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8L7r_SCzFsKsWe...",
-      "tags": [
-        "Generative AI",
-        "Graphs",
-        "Large Language Models"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Chain-of-table: Evolving tables in the reasoning chain for table understanding",
-      "url": "http://blog.research.google/2024/03/chain-of-table-evolving-tables-in.html",
-      "source": "Google AI",
-      "date": "2024-03-11T12:08:00.000-07:00",
-      "summary": "<span class=\"byline-author\">Posted by Zilong Wang, Student Researcher, and Chen-Yu Lee, Research Scientist, Cloud AI Team</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg...",
-      "tags": [
-        "Machine Intelligence",
-        "Natural Language Processing"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Health-specific embedding tools for dermatology and pathology",
-      "url": "http://blog.research.google/2024/03/health-specific-embedding-tools-for.html",
-      "source": "Google AI",
-      "date": "2024-03-08T11:33:00.000-08:00",
-      "summary": "<span class=\"byline-author\">Posted by Dave Steiner, Clinical Research Scientist, Google Health, and Rory Pilgrim, Product Manager, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.c...",
-      "tags": [
-        "Computer Vision",
-        "Health",
-        "Image Classification"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Social learning: Collaborative learning with large language models",
-      "url": "http://blog.research.google/2024/03/social-learning-collaborative-learning.html",
-      "source": "Google AI",
-      "date": "2024-03-07T10:15:00.000-08:00",
-      "summary": "<span class=\"byline-author\">Posted by Amirkeivan Mohtashami, Research Intern, and Florian Hartmann, Software Engineer, Google Research</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29...",
-      "tags": [
-        "Large Language Models",
-        "Machine Intelligence",
-        "Natural Language Processing"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Croissant: a metadata format for ML-ready datasets",
-      "url": "http://blog.research.google/2024/03/croissant-metadata-format-for-ml-ready.html",
-      "source": "Google AI",
-      "date": "2024-03-06T10:26:00.000-08:00",
-      "summary": "<span class=\"byline-author\">Posted by Omar Benjelloun, Software Engineer, Google Research, and Peter Mattson, Software Engineer, Google Core ML and President, MLCommons Association</span>\n\n<img src=\"h...",
-      "tags": [
-        "Collaboration",
-        "datasets",
-        "ML"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Google at APS 2024",
-      "url": "http://blog.research.google/2024/03/google-at-aps-2024.html",
-      "source": "Google AI",
-      "date": "2024-03-04T07:06:00.000-08:00",
-      "summary": "<span class=\"byline-author\">Posted by Kate Weber and Shannon Leon, Google Research, Quantum AI Team</span>\n\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy22Hfq3RN4qRUJcSMUpIau...",
-      "tags": [
-        "conference",
-        "conferences",
-        "Physics",
-        "Quantum AI",
-        "Quantum Computing"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
     }
   ]
 }
