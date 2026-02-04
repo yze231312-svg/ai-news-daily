@@ -3,237 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤖 AI News Daily - 每日 AI 资讯</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#0f172a',
-                        secondary: '#1e293b',
-                        accent: '#06b6d4',
-                        accentHover: '#0891b2',
-                        glass: 'rgba(15, 23, 42, 0.7)'
-                    }
-                }
-            }
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>AI News Daily - 每日 AI 资讯</title>
     <style>
-        body {
-            font-family: 'Noto Sans SC', 'Inter', system-ui, -apple-system, sans-serif;
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 20px;
         }
-        .gradient-text {
-            background: linear-gradient(135deg, #06b6d4, #3b82f6, #8b5cf6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .glass-card {
-            background: rgba(30, 41, 59, 0.6);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(148, 163, 184, 0.1);
-        }
-        .news-card {
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .news-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.4);
-            border-color: rgba(6, 182, 212, 0.3);
-        }
-        .tag {
+        .container { max-width: 1000px; margin: 0 auto; }
+        
+        /* Header */
+        header { text-align: center; padding: 40px 0; }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .subtitle { color: #94a3b8; font-size: 1.1rem; }
+        .update-time { color: #64748b; font-size: 0.9rem; margin-top: 10px; }
+        
+        /* Categories */
+        .categories { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 30px 0; }
+        .cat-btn {
+            padding: 10px 20px;
+            border: 1px solid #334155;
+            background: #1e293b;
+            border-radius: 25px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 0.95rem;
             transition: all 0.2s;
         }
-        .tag:hover {
-            background: rgba(6, 182, 212, 0.3);
-        }
-        .category-btn {
-            transition: all 0.2s;
-        }
-        .category-btn.active {
-            background: linear-gradient(135deg, #06b6d4, #3b82f6);
+        .cat-btn:hover { background: #334155; }
+        .cat-btn.active { 
+            background: linear-gradient(135deg, #06b6d4, #3b82f6); 
             border-color: transparent;
         }
-        /* Loading 动画 */
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+        
+        /* Stats */
+        .stats { text-align: center; color: #64748b; margin-bottom: 30px; font-size: 0.9rem; }
+        
+        /* News List */
+        .news-list { display: grid; gap: 20px; }
+        .news-card {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-        .loading {
-            animation: pulse 1.5s infinite;
+        .news-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border-color: #06b6d4;
         }
+        .news-meta { font-size: 0.85rem; color: #64748b; margin-bottom: 8px; }
+        .news-title { font-size: 1.2rem; font-weight: 600; margin-bottom: 10px; color: #fff; }
+        .news-title a { color: inherit; text-decoration: none; }
+        .news-title a:hover { color: #06b6d4; }
+        .news-desc { color: #94a3b8; font-size: 0.95rem; line-height: 1.6; }
+        .news-tags { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+        .tag { 
+            background: #334155; 
+            padding: 4px 10px; 
+            border-radius: 15px; 
+            font-size: 0.75rem; 
+            color: #22d3ee;
+        }
+        .loading { text-align: center; padding: 50px; color: #64748b; }
+        .error { 
+            text-align: center; 
+            padding: 50px; 
+            background: rgba(239, 68, 68, 0.1); 
+            border: 1px solid #ef4444; 
+            border-radius: 12px; 
+            color: #ef4444;
+        }
+        
+        /* Footer */
+        footer { text-align: center; margin-top: 50px; padding: 30px; color: #475569; font-size: 0.85rem; }
     </style>
 </head>
-<body class="bg-slate-900 text-white min-h-screen">
-    <div class="max-w-6xl mx-auto px-4 py-8">
-        <!-- 头部 -->
-        <header class="text-center mb-8">
-            <h1 class="text-5xl font-bold mb-2">
-                <span class="gradient-text">🤖 AI News Daily</span>
-            </h1>
-            <p class="text-slate-400 text-lg">每日精选 AI 资讯 · 行业动态 · 技术前沿</p>
-            <p class="text-slate-500 text-sm mt-2" id="lastUpdate">加载中...</p>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI News Daily</h1>
+            <p class="subtitle">每日精选 AI 资讯 · 技术前沿</p>
+            <p class="update-time" id="updateTime">加载中...</p>
         </header>
         
-        <!-- 分类标签 -->
-        <div class="flex flex-wrap justify-center gap-2 mb-8" id="categories">
-            <button class="category-btn active px-4 py-2 rounded-full border border-slate-600 bg-slate-800 text-sm font-medium" data-category="all">
-                📊 全部
-            </button>
-            <button class="category-btn px-4 py-2 rounded-full border border-slate-600 bg-slate-800 text-sm font-medium" data-category="model">
-                🗣️ 模型发布
-            </button>
-            <button class="category-btn px-4 py-2 rounded-full border border-slate-600 bg-slate-800 text-sm font-medium" data-category="tool">
-                🛠️ 工具平台
-            </button>
-            <button class="category-btn px-4 py-2 rounded-full border border-slate-600 bg-slate-800 text-sm font-medium" data-category="research">
-                📚 研究成果
-            </button>
-            <button class="category-btn px-4 py-2 rounded-full border border-slate-600 bg-slate-800 text-sm font-medium" data-category="opensource">
-                📦 开源项目
-            </button>
-            <button class="category-btn px-4 py-2 rounded-full border border-slate-600 bg-slate-800 text-sm font-medium" data-category="industry">
-                📰 行业动态
-            </button>
+        <div class="categories" id="categories">
+            <button class="cat-btn active" data-cat="all">📊 全部</button>
+            <button class="cat-btn" data-cat="model">🗣️ 模型发布</button>
+            <button class="cat-btn" data-cat="tool">🛠️ 工具平台</button>
+            <button class="cat-btn" data-cat="research">📚 研究成果</button>
+            <button class="cat-btn" data-cat="opensource">📦 开源项目</button>
+            <button class="cat-btn" data-cat="industry">📰 行业动态</button>
         </div>
         
-        <!-- 统计信息 -->
-        <div class="flex justify-center gap-6 mb-6 text-sm text-slate-400" id="stats">
-            <span>加载中...</span>
+        <div class="stats" id="stats"></div>
+        
+        <div class="news-list" id="newsList">
+            <div class="loading">正在加载资讯...</div>
         </div>
         
-        <!-- 新闻列表 -->
-        <div id="newsList" class="grid gap-4">
-            <!-- 新闻卡片将通过 JS 插入 -->
-        </div>
-        
-        <!-- 加载状态 -->
-        <div id="loading" class="text-center py-12 hidden">
-            <div class="inline-block w-8 h-8 border-2 border-cyan-500 border-t-transparent rounded-full animate-spin"></div>
-            <p class="text-slate-400 mt-4">正在加载...</p>
-        </div>
-        
-        <!-- 底部 -->
-        <footer class="text-center mt-12 text-slate-500 text-sm">
+        <footer>
             <p>数据来源：HuggingFace · GitHub · ArXiv · Product Hunt · TechCrunch</p>
-            <p class="mt-2">Powered by Tavily AI Search · Updated by GitHub Actions</p>
+            <p>Powered by Tavily AI Search</p>
         </footer>
     </div>
 
     <script>
         let allData = null;
-        let currentCategory = 'all';
+        let currentCat = 'all';
 
         // 加载数据
         async function loadData() {
-            document.getElementById('loading').classList.remove('hidden');
             try {
-                const response = await fetch('data.json');
-                allData = await response.json();
-                document.getElementById('loading').classList.add('hidden');
+                const res = await fetch('data.json');
+                if (!res.ok) throw new Error('数据加载失败');
+                allData = await res.json();
                 
-                // 更新时间
-                document.getElementById('lastUpdate').textContent = 
-                    `🕐 最后更新: ${allData.lastUpdate}`;
-                
-                // 更新统计
+                document.getElementById('updateTime').textContent = '最后更新: ' + allData.lastUpdate;
                 updateStats();
-                
-                // 渲染新闻
                 renderNews();
-            } catch (error) {
-                console.error('加载失败:', error);
+            } catch (e) {
+                console.error('加载失败:', e);
                 document.getElementById('newsList').innerHTML = 
-                    '<p class="text-center text-red-400 py-12">加载失败，请刷新重试</p>';
+                    '<div class="error">加载失败: ' + e.message + '<br><br><button onclick="loadData()" style="margin-top:15px;padding:10px 25px;cursor:pointer;">重试</button></div>';
             }
         }
 
-        // 更新统计
         function updateStats() {
-            const stats = allData.categories.map(cat => 
-                `${cat.name}: ${cat.count}`
-            ).join(' | ');
-            document.getElementById('stats').innerHTML = 
-                `<span>📊 共 ${allData.articles.length} 条资讯</span> | ${stats}`;
+            const total = allData.articles.length;
+            const counts = allData.categories.map(c => c.name + ': ' + c.count).join(' | ');
+            document.getElementById('stats').textContent = '共 ' + total + ' 条资讯 | ' + counts;
         }
 
-        // 渲染新闻
         function renderNews() {
             const container = document.getElementById('newsList');
+            let articles = allData.articles;
             
-            // 过滤新闻
-            let filtered = allData.articles;
-            if (currentCategory !== 'all') {
-                filtered = allData.articles.filter(a => a.category === currentCategory);
+            if (currentCat !== 'all') {
+                articles = articles.filter(a => a.category === currentCat);
             }
             
-            if (filtered.length === 0) {
-                container.innerHTML = '<p class="text-center text-slate-400 py-12">暂无资讯</p>';
+            if (articles.length === 0) {
+                container.innerHTML = '<div style="text-align:center;color:#64748b;padding:50px;">暂无资讯</div>';
                 return;
             }
             
-            // 渲染卡片
-            container.innerHTML = filtered.map((article, index) => {
-                // 标签
-                const tags = article.tags.slice(0, 4).map(tag => 
-                    `<span class="tag px-2 py-1 bg-slate-700 rounded text-xs text-cyan-300">${tag}</span>`
-                ).join('');
+            container.innerHTML = articles.map(a => {
+                const cat = allData.categories.find(c => c.key === a.category);
+                const catName = cat ? cat.name : '资讯';
+                const date = new Date(a.date).toLocaleDateString('zh-CN');
+                const tags = (a.tags || []).slice(0,4).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
+                const icon = getSourceIcon(a.source);
                 
-                // 来源图标
-                const sourceIcon = getSourceIcon(article.source);
-                
-                // 时间格式化
-                const date = new Date(article.date).toLocaleDateString('zh-CN');
-                
-                return `
-                    <article class="news-card glass-card rounded-xl p-6 cursor-pointer" 
-                             onclick="window.open('${article.url}', '_blank')">
-                        <div class="flex justify-between items-start mb-3">
-                            <div class="flex items-center gap-2">
-                                <span class="text-sm">${article.category_name}</span>
-                                <span class="text-slate-500">·</span>
-                                <span class="text-sm text-slate-400">${sourceIcon} ${article.source}</span>
-                            </div>
-                            <span class="text-sm text-slate-500">${date}</span>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-2 text-white hover:text-cyan-400 transition-colors">
-                            ${escapeHtml(article.title)}
-                        </h3>
-                        <p class="text-slate-400 text-sm mb-4 line-clamp-2">
-                            ${escapeHtml(article.summary)}
-                        </p>
-                        <div class="flex flex-wrap gap-2">
-                            ${tags}
-                        </div>
-                    </article>
-                `;
+                return '<article class="news-card">' +
+                    '<div class="news-meta">' + catName + ' · ' + icon + ' ' + a.source + ' · ' + date + '</div>' +
+                    '<h3 class="news-title"><a href="' + escapeHtml(a.url) + '" target="_blank">' + escapeHtml(a.title) + '</a></h3>' +
+                    '<p class="news-desc">' + escapeHtml(a.summary || '') + '</p>' +
+                    '<div class="news-tags">' + tags + '</div></article>';
             }).join('');
         }
 
-        // 来源图标
         function getSourceIcon(source) {
             const icons = {
-                'GitHub Trending': '⭐',
-                'GitHub': '⭐',
-                'HuggingFace': '🤗',
-                'arXiv': '📄',
-                'Product Hunt': '🚀',
-                'OpenAI': '🤖',
-                'Anthropic': '🧠',
-                'Google AI': '🔍',
-                'TechCrunch': '📰',
-                'VentureBeat': '🎮',
-                'MIT Tech Review': '🔬',
-                'The Verge': '📱',
-                'Wired': '🔌',
-                'Vercel': '⚡'
+                'GitHub': '⭐', 'GitHub Trending': '⭐',
+                'HuggingFace': '🤗', 'arXiv': '📄',
+                'Product Hunt': '🚀', 'OpenAI': '🤖',
+                'Anthropic': '🧠', 'Google AI': '🔍',
+                'TechCrunch': '📰', 'VentureBeat': '🎮',
+                'MIT Tech Review': '🔬', 'The Verge': '📱',
+                'Wired': '🔌', 'Vercel': '⚡'
             };
             return icons[source] || '📌';
         }
 
-        // HTML 转义
         function escapeHtml(text) {
             const div = document.createElement('div');
             div.textContent = text;
@@ -241,20 +187,17 @@
         }
 
         // 分类切换
-        document.querySelectorAll('.category-btn').forEach(btn => {
+        document.querySelectorAll('.cat-btn').forEach(btn => {
             btn.addEventListener('click', function() {
-                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
                 this.classList.add('active');
-                currentCategory = this.dataset.category;
+                currentCat = this.dataset.cat;
                 renderNews();
             });
         });
 
         // 初始化
         loadData();
-        
-        // 每5分钟自动刷新
-        setInterval(loadData, 5 * 60 * 1000);
     </script>
 </body>
 </html>
