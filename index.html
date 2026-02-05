@@ -40,7 +40,7 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                 研究成果
             </button>
-            <button class="cat-btn" data-cat="app">
+            <button class="cat-btn" data-cat="application">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
                 AI 应用
             </button>
@@ -93,7 +93,7 @@
             'model': '🤖',
             'tool': '🛠️',
             'research': '📚',
-            'app': '📱',
+            'application': '📱',
             'industry': '📰'
         };
 
@@ -141,7 +141,7 @@
                 const source = sourceCN[a.source] || a.source;
                 const icon = sourceCN[a.source] ? '' : getSourceIcon(a.source);
                 const categoryClass = a.category || 'industry';
-                const catIcon = categoryIcons[categoryClass] || '📌';
+                const catIcon = categoryIcons[a.category] || '📌';
                 
                 return '<article class="news-card cat-' + categoryClass + '">' +
                     '<div class="card-header">' +
