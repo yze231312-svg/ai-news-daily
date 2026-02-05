@@ -21,6 +21,34 @@
         .subtitle { color: #94a3b8; font-size: 1.1rem; }
         .update-time { color: #64748b; font-size: 0.9rem; margin-top: 10px; }
         
+        /* 刷新按钮 */
+        .refresh-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            margin-left: 10px;
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 20px;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .refresh-btn:hover {
+            background: #334155;
+            color: #fff;
+        }
+        .refresh-btn.loading {
+            opacity: 0.6;
+            cursor: wait;
+        }
+        .refresh-btn svg {
+            width: 14px;
+            height: 14px;
+        }
+        
         /* 分类标签 */
         .categories { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 30px 0; }
         .cat-btn {
@@ -88,7 +116,15 @@
         <header>
             <h1>🤖 AI Daily</h1>
             <p class="subtitle">每日人工智能资讯 · 技术前沿</p>
-            <p class="update-time" id="updateTime">加载中...</p>
+            <p class="update-time">
+                <span id="updateTime">加载中...</span>
+                <button class="refresh-btn" onclick="refreshData()" id="refreshBtn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                    </svg>
+                    刷新
+                </button>
+            </p>
         </header>
         
         <div class="categories" id="categories">
@@ -244,6 +280,34 @@
 
         // 初始化
         loadData();
+        
+        // 刷新数据
+        async function refreshData() {
+            const btn = document.getElementById('refreshBtn');
+            const oldText = btn.innerHTML;
+            
+            btn.classList.add('loading');
+            btn.innerHTML = '<svg class="animate-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" stroke-opacity="0.25"/><path d="M12 2a10 10 0 019.95 9" stroke-linecap="round"/></svg> 刷新中...';
+            
+            try {
+                // 强制重新加载 data.json
+                const res = await fetch('data.json?t=' + Date.now());
+                if (!res.ok) throw new Error('数据加载失败');
+                allData = await res.json();
+                
+                document.getElementById('updateTime').textContent = '最后更新: ' + allData.lastUpdate;
+                updateStats();
+                renderNews();
+                
+                btn.innerHTML = oldText;
+            } catch (e) {
+                console.error('刷新失败:', e);
+                btn.innerHTML = oldText;
+                alert('刷新失败，请重试');
+            }
+            
+            btn.classList.remove('loading');
+        }
     </script>
 </body>
 </html>
