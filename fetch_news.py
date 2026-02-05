@@ -13,11 +13,11 @@ from collections import defaultdict
 
 # 分类配置
 CATEGORIES = {
-    "model": {"name": "🗣️ 模型发布", "keywords": ["gpt", "claude", "gemini", "llama", "model", "release", "openai", "anthropic", "mistral"]},
-    "tool": {"name": "🛠️ 工具平台", "keywords": ["tool", "platform", "api", "sdk", "launch", "feature", "announcement"]},
-    "research": {"name": "📚 研究成果", "keywords": ["paper", "research", "arxiv", "study", "benchmark", "accuracy", "state-of-the-art"]},
-    "opensource": {"name": "📦 开源项目", "keywords": ["github", "stars", "repository", "repo", "open source"]},
-    "industry": {"name": "📰 行业动态", "keywords": ["ai", "microsoft", "google", "amazon", "meta", "nvidia", "startup"]}
+    "model": {"name": "🗣️ 模型发布", "keywords": ["gpt", "claude", "gemini", "llama", "model", "release", "openai", "anthropic", "mistral", "moe", "parameter", "billion", "open-source model", "api"]},
+    "tool": {"name": "🛠️ 工具平台", "keywords": ["tool", "platform", "api", "sdk", "launch", "feature", "announcement", "framework", "library", "studio"]},
+    "research": {"name": "📚 研究成果", "keywords": ["paper", "research", "arxiv", "study", "benchmark", "accuracy", "state-of-the-art", "sota", "performance", "training", "inference", "neural", "network", "learning"]},
+    "opensource": {"name": "📦 开源项目", "keywords": ["github", "stars", "repository", "repo", "open source", "git", "repository", "released", "contribution"]},
+    "industry": {"name": "📰 行业动态", "keywords": ["ai", "microsoft", "google", "amazon", "meta", "nvidia", "startup", "funding", "valuation", "ipo", "acquisition", "partnership", "ceo", "executive"]}
 }
 
 # 翻译器
@@ -41,6 +41,7 @@ def translate_to_cn(text):
     return text
 
 SOURCES = [
+    {"name": "GitHub Blog", "url": "https://github.blog/feed/", "type": "rss"},
     {"name": "HuggingFace", "url": "https://huggingface.co/api/models?sort=downloads&direction=-1&limit=30&filter=featured", "type": "huggingface"},
     {"name": "arXiv AI", "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=-1&limit=25", "type": "arxiv"},
     {"name": "arXiv ML", "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=-1&limit=20", "type": "arxiv"},
@@ -112,11 +113,11 @@ def fetch_rss(url, source_name):
         print(f"  ⚠️ {source_name}: {e}")
         return []
 
-def fetch_github_trending():
-    """抓取GitHub Trending（标题保持英文，项目名英文是正常的）"""
-    return []
-
 def classify(article, categories):
+    # arXiv 来源的论文优先归类为研究成果
+    if article.get('source') == 'arXiv':
+        return 'research'
+    
     text = (article.get('title', '') + ' ' + article.get('original_title', '') + ' ' + article.get('summary', '')).lower()
     scores = {}
     for cat, config in categories.items():
