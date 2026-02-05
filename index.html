@@ -4,287 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🤖 AI News Daily - 每日人工智能资讯</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
-            background: linear-gradient(135deg, #0a0f1c 0%, #111827 50%, #0a0f1c 100%);
-            min-height: 100vh;
-            color: #fff;
-            padding: 20px;
-        }
-        .container { max-width: 1100px; margin: 0 auto; }
-        
-        /* 头部 */
-        header { 
-            text-align: center; 
-            padding: 50px 0 40px;
-        }
-        header h1 { 
-            font-size: 3rem; 
-            font-weight: 700;
-            background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 8px;
-        }
-        .subtitle { 
-            color: #94a3b8; 
-            font-size: 1.2rem;
-            letter-spacing: 1px;
-        }
-        .update-time { 
-            color: #64748b; 
-            font-size: 0.9rem; 
-            margin-top: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-        
-        /* 刷新按钮 */
-        .refresh-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            padding: 8px 18px;
-            background: rgba(59, 130, 246, 0.15);
-            border: 1px solid rgba(59, 130, 246, 0.3);
-            border-radius: 20px;
-            color: #60a5fa;
-            font-size: 0.85rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        .refresh-btn:hover {
-            background: rgba(59, 130, 246, 0.25);
-            border-color: rgba(59, 130, 246, 0.5);
-            transform: scale(1.02);
-        }
-        .refresh-btn.loading {
-            opacity: 0.6;
-            cursor: wait;
-        }
-        .refresh-btn svg {
-            width: 14px;
-            height: 14px;
-            transition: transform 0.3s;
-        }
-        .refresh-btn.loading svg {
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-        
-        /* 分类标签 */
-        .categories { 
-            display: flex; 
-            flex-wrap: wrap; 
-            gap: 12px; 
-            justify-content: center; 
-            margin: 40px 0;
-            padding: 0 20px;
-        }
-        .cat-btn {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            padding: 12px 22px;
-            background: rgba(30, 41, 59, 0.6);
-            border: 1px solid #334155;
-            border-radius: 30px;
-            color: #cbd5e1;
-            cursor: pointer;
-            font-size: 0.95rem;
-            font-weight: 500;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            backdrop-filter: blur(10px);
-        }
-        .cat-btn:hover { 
-            background: rgba(51, 65, 85, 0.8);
-            border-color: #475569;
-            transform: translateY(-2px);
-        }
-        .cat-btn.active { 
-            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-            border-color: transparent;
-            color: #fff;
-            box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
-        }
-        .cat-btn .count {
-            background: rgba(0,0,0,0.2);
-            padding: 2px 8px;
-            border-radius: 10px;
-            font-size: 0.75rem;
-        }
-        .cat-btn.active .count {
-            background: rgba(255,255,255,0.2);
-        }
-        
-        /* 统计 */
-        .stats { 
-            text-align: center; 
-            color: #64748b; 
-            margin-bottom: 35px; 
-            font-size: 0.9rem;
-            padding: 15px;
-            background: rgba(30, 41, 59, 0.4);
-            border-radius: 10px;
-            max-width: 500px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        /* 新闻列表 */
-        .news-list { display: grid; gap: 18px; }
-        .news-card {
-            background: rgba(30, 41, 59, 0.5);
-            border: 1px solid #334155;
-            border-radius: 16px;
-            padding: 24px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            backdrop-filter: blur(10px);
-        }
-        .news-card:hover {
-            transform: translateY(-4px) scale(1.01);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-            border-color: #6366f1;
-        }
-        .news-meta { 
-            font-size: 0.85rem; 
-            color: #64748b; 
-            margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        .news-category {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-weight: 500;
-            font-size: 0.8rem;
-        }
-        .news-category.model { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
-        .news-category.tool { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
-        .news-category.research { background: rgba(168, 85, 247, 0.2); color: #a78bfa; }
-        .news-category.application { background: rgba(249, 115, 22, 0.2); color: #fb923c; }
-        .news-category.industry { background: rgba(236, 72, 153, 0.2); color: #f472b6; }
-        
-        .news-source { color: #94a3b8; }
-        .news-date { color: #64748b; }
-        
-        .news-title { 
-            font-size: 1.25rem; 
-            font-weight: 600; 
-            margin-bottom: 12px; 
-            color: #f1f5f9;
-            line-height: 1.4;
-        }
-        .news-title a { 
-            color: inherit; 
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        .news-title a:hover { color: #a5b4fc; }
-        
-        .news-desc { 
-            color: #94a3b8; 
-            font-size: 0.95rem; 
-            line-height: 1.7;
-            margin-bottom: 15px;
-        }
-        .news-tags { 
-            margin-top: 15px; 
-            display: flex; 
-            flex-wrap: wrap; 
-            gap: 8px; 
-        }
-        .tag { 
-            background: rgba(51, 65, 85, 0.6); 
-            padding: 5px 12px; 
-            border-radius: 15px; 
-            font-size: 0.75rem; 
-            color: #94a3b8;
-            transition: all 0.2s;
-        }
-        .tag:hover {
-            background: rgba(99, 102, 241, 0.3);
-            color: #c7d2fe;
-        }
-        
-        .loading { 
-            text-align: center; 
-            padding: 80px 20px; 
-            color: #64748b;
-        }
-        .loading-spinner {
-            width: 50px;
-            height: 50px;
-            border: 3px solid #334155;
-            border-top-color: #6366f1;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-        .error { 
-            text-align: center; 
-            padding: 60px 30px; 
-            background: rgba(239, 68, 68, 0.08); 
-            border: 1px solid rgba(239, 68, 68, 0.3); 
-            border-radius: 16px; 
-            color: #f87171;
-        }
-        .error button {
-            margin-top: 20px;
-            padding: 12px 28px;
-            cursor: pointer;
-            background: rgba(239, 68, 68, 0.2);
-            color: #f87171;
-            border: 1px solid rgba(239, 68, 68, 0.4);
-            border-radius: 10px;
-            font-size: 0.95rem;
-            transition: all 0.2s;
-        }
-        .error button:hover {
-            background: rgba(239, 68, 68, 0.3);
-        }
-        
-        /* 底部 */
-        footer { 
-            text-align: center; 
-            margin-top: 60px; 
-            padding: 40px 20px; 
-            color: #475569; 
-            font-size: 0.85rem;
-            border-top: 1px solid #1e293b;
-        }
-        footer a { color: #64748b; text-decoration: none; }
-        footer a:hover { color: #94a3b8; }
-        
-        @media (max-width: 768px) {
-            header h1 { font-size: 2rem; }
-            .subtitle { font-size: 1rem; }
-            .categories { gap: 8px; }
-            .cat-btn { padding: 10px 16px; font-size: 0.85rem; }
-            .news-card { padding: 18px; }
-            .news-title { font-size: 1.1rem; }
-        }
-    </style>
+    <meta name="description" content="每日精选AI资讯：模型发布、工具平台、研究成果、AI应用、行业动态">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🤖 AI News Daily</h1>
             <p class="subtitle">每日人工智能资讯 · 技术前沿</p>
-            <p class="update-time">
+            <div class="meta-info">
                 <span id="updateTime">加载中...</span>
                 <button class="refresh-btn" onclick="refreshData()" id="refreshBtn">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -292,46 +20,55 @@
                     </svg>
                     刷新
                 </button>
-            </p>
+            </div>
         </header>
         
         <div class="categories" id="categories">
-            <button class="cat-btn active" data-cat="all">📊 全部</button>
-            <button class="cat-btn" data-cat="model">🗣️ 模型发布 <span class="count" id="count-model">0</span></button>
-            <button class="cat-btn" data-cat="tool">🛠️ 工具平台 <span class="count" id="count-tool">0</span></button>
-            <button class="cat-btn" data-cat="research">📚 研究成果 <span class="count" id="count-research">0</span></button>
-            <button class="cat-btn" data-cat="application">💡 AI应用 <span class="count" id="count-application">0</span></button>
-            <button class="cat-btn" data-cat="industry">📰 行业动态 <span class="count" id="count-industry">0</span></button>
+            <button class="cat-btn active" data-cat="all">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                全部
+            </button>
+            <button class="cat-btn" data-cat="model">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                模型发布
+            </button>
+            <button class="cat-btn" data-cat="tool">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                工具平台
+            </button>
+            <button class="cat-btn" data-cat="research">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                研究成果
+            </button>
+            <button class="cat-btn" data-cat="app">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                AI 应用
+            </button>
+            <button class="cat-btn" data-cat="industry">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>
+                行业动态
+            </button>
         </div>
         
-        <div class="stats" id="stats"></div>
+        <div class="stats-bar" id="stats"></div>
         
-        <div class="news-list" id="newsList">
-            <div class="loading">
+        <div class="news-grid" id="newsList">
+            <div class="loading-state">
                 <div class="loading-spinner"></div>
-                正在加载资讯...
+                <p>正在加载资讯...</p>
             </div>
         </div>
         
         <footer>
             <p>数据来源：HuggingFace · GitHub · ArXiv · Product Hunt · TechCrunch</p>
-            <p>Powered by Tavily AI Search · <a href="https://github.com/yze231312-svg/ai-news-daily" target="_blank">GitHub</a></p>
+            <p>Powered by Tavily AI Search</p>
         </footer>
     </div>
 
     <script>
         let allData = null;
         let currentCat = 'all';
-        
-        // 分类配置（新增AI应用）
-        const categoryConfig = {
-            model: { name: '🗣️ 模型发布', colorClass: 'model' },
-            tool: { name: '🛠️ 工具平台', colorClass: 'tool' },
-            research: { name: '📚 研究成果', colorClass: 'research' },
-            application: { name: '💡 AI应用', colorClass: 'application' },
-            industry: { name: '📰 行业动态', colorClass: 'industry' }
-        };
-        
+
         // 数据源中文翻译
         const sourceCN = {
             'HuggingFace': '🤗 模型库',
@@ -348,8 +85,16 @@
             'MIT Tech Review': '🔬 MIT科技',
             'The Verge': '📱 The Verge',
             'Wired': '🔌 Wired',
-            'Vercel': '⚡ Vercel',
-            'VentureBeat AI': '🎮 VentureBeat'
+            'Vercel': '⚡ Vercel'
+        };
+
+        // 分类图标
+        const categoryIcons = {
+            'model': '🤖',
+            'tool': '🛠️',
+            'research': '📚',
+            'app': '📱',
+            'industry': '📰'
         };
 
         // 加载数据
@@ -360,47 +105,19 @@
                 allData = await res.json();
                 
                 document.getElementById('updateTime').textContent = '最后更新: ' + allData.lastUpdate;
-                updateCategoryCounts();
                 updateStats();
                 renderNews();
             } catch (e) {
                 console.error('加载失败:', e);
                 document.getElementById('newsList').innerHTML = 
-                    '<div class="error">加载失败: ' + escapeHtml(e.message) + '<br><br><button onclick="loadData()">重试</button></div>';
+                    '<div class="error-state"><p>加载失败: ' + e.message + '</p><button class="retry-btn" onclick="loadData()">重试</button></div>';
             }
-        }
-
-        // 更新分类计数
-        function updateCategoryCounts() {
-            const counts = { all: 0, model: 0, tool: 0, research: 0, application: 0, industry: 0 };
-            
-            allData.articles.forEach(article => {
-                const cat = article.category;
-                if (counts.hasOwnProperty(cat)) {
-                    counts[cat]++;
-                    counts.all++;
-                }
-            });
-            
-            // 更新按钮上的数字
-            Object.keys(counts).forEach(cat => {
-                if (cat !== 'all') {
-                    const el = document.getElementById('count-' + cat);
-                    if (el) el.textContent = counts[cat];
-                }
-            });
         }
 
         function updateStats() {
             const total = allData.articles.length;
-            const counts = [];
-            ['model', 'tool', 'research', 'application', 'industry'].forEach(cat => {
-                const count = allData.articles.filter(a => a.category === cat).length;
-                if (count > 0) {
-                    counts.push(categoryConfig[cat].name + ' ' + count);
-                }
-            });
-            document.getElementById('stats').textContent = '共 ' + total + ' 条资讯 | ' + counts.join(' | ');
+            const counts = allData.categories.map(c => c.name + ' ' + c.count).join(' | ');
+            document.getElementById('stats').textContent = '共 ' + total + ' 条资讯 | ' + counts;
         }
 
         function renderNews() {
@@ -412,27 +129,31 @@
             }
             
             if (articles.length === 0) {
-                container.innerHTML = '<div style="text-align:center;color:#64748b;padding:50px;">暂无资讯</div>';
+                container.innerHTML = '<div class="loading-state"><p>暂无该分类资讯</p></div>';
                 return;
             }
             
             container.innerHTML = articles.map(a => {
-                const config = categoryConfig[a.category] || { name: '资讯', colorClass: '' };
-                const catName = config.name;
-                const colorClass = config.colorClass;
+                const cat = allData.categories.find(c => c.key === a.category);
+                const catName = cat ? cat.name : '资讯';
                 const date = formatDate(a.date);
                 const tags = (a.tags || []).slice(0,4).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
                 const source = sourceCN[a.source] || a.source;
+                const icon = sourceCN[a.source] ? '' : getSourceIcon(a.source);
+                const categoryClass = a.category || 'industry';
+                const catIcon = categoryIcons[categoryClass] || '📌';
                 
-                return '<article class="news-card">' +
-                    '<div class="news-meta">' +
-                    '<span class="news-category ' + colorClass + '">' + catName + '</span>' +
-                    '<span class="news-source">' + escapeHtml(source) + '</span>' +
-                    '<span class="news-date">' + date + '</span>' +
+                return '<article class="news-card cat-' + categoryClass + '">' +
+                    '<div class="card-header">' +
+                    '<span class="card-tag">' + catIcon + ' ' + catName + '</span>' +
+                    '<span class="card-date">' + date + '</span>' +
                     '</div>' +
-                    '<h3 class="news-title"><a href="' + escapeHtml(a.url) + '" target="_blank">' + escapeHtml(a.title) + '</a></h3>' +
-                    '<p class="news-desc">' + escapeHtml(a.summary || '') + '</p>' +
-                    (tags ? '<div class="news-tags">' + tags + '</div>' : '') + '</article>';
+                    '<h3 class="card-title"><a href="' + escapeHtml(a.url) + '" target="_blank" rel="noopener">' + escapeHtml(a.title) + '</a></h3>' +
+                    '<p class="card-summary">' + escapeHtml(a.summary || '') + '</p>' +
+                    '<div class="card-footer">' +
+                    '<span class="card-source"><span class="source-icon">' + icon + '</span> ' + source + '</span>' +
+                    (tags ? '<div class="news-tags">' + tags + '</div>' : '') +
+                    '</div></article>';
             }).join('');
         }
 
@@ -454,6 +175,25 @@
             } catch (e) {
                 return dateStr;
             }
+        }
+
+        function getSourceIcon(source) {
+            const icons = {
+                'GitHub': '⭐',
+                'HuggingFace': '🤗',
+                'arXiv': '📄',
+                'Product Hunt': '🚀',
+                'OpenAI': '🤖',
+                'Anthropic': '🧠',
+                'Google AI': '🔍',
+                'TechCrunch': '📰',
+                'VentureBeat': '🎮',
+                'MIT Tech Review': '🔬',
+                'The Verge': '📱',
+                'Wired': '🔌',
+                'Vercel': '⚡'
+            };
+            return icons[source] || '📌';
         }
 
         function escapeHtml(text) {
@@ -478,10 +218,10 @@
         // 刷新数据
         async function refreshData() {
             const btn = document.getElementById('refreshBtn');
-            const originalContent = btn.innerHTML;
+            const oldText = btn.innerHTML;
             
             btn.classList.add('loading');
-            btn.innerHTML = '<svg class="animate-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" stroke-opacity="0.25"/><path d="M12 2a10 10 0 019.95 9" stroke-linecap="round"/></svg> 刷新中...';
+            btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;animation:spin 1s linear infinite"><circle cx="12" cy="12" r="10" stroke-opacity="0.25"/><path d="M12 2a10 10 0 019.95 9" stroke-linecap="round"/></svg> 刷新中...';
             
             try {
                 const res = await fetch('data.json?t=' + Date.now());
@@ -489,15 +229,16 @@
                 allData = await res.json();
                 
                 document.getElementById('updateTime').textContent = '最后更新: ' + allData.lastUpdate;
-                updateCategoryCounts();
                 updateStats();
                 renderNews();
+                
+                btn.innerHTML = oldText;
             } catch (e) {
                 console.error('刷新失败:', e);
+                btn.innerHTML = oldText;
                 alert('刷新失败，请重试');
             }
             
-            btn.innerHTML = originalContent;
             btn.classList.remove('loading');
         }
     </script>
