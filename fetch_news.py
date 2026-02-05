@@ -9,6 +9,7 @@ import feedparser
 import requests
 import re
 from datetime import datetime
+from datetime import datetime
 from collections import defaultdict
 
 # 分类配置
@@ -45,6 +46,9 @@ SOURCES = [
     {"name": "HuggingFace", "url": "https://huggingface.co/api/models?sort=downloads&direction=-1&limit=30&filter=featured", "type": "huggingface"},
     {"name": "arXiv AI", "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=-1&limit=25", "type": "arxiv"},
     {"name": "arXiv ML", "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=-1&limit=20", "type": "arxiv"},
+    {"name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml", "type": "rss"},
+    {"name": "Anthropic Blog", "url": "https://www.anthropic.com/rss.xml", "type": "rss"},
+    {"name": "Google AI Blog", "url": "http://googleaiblog.blogspot.com/atom.xml", "type": "rss"},
     {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "type": "rss"},
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed", "type": "rss"},
     {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "type": "rss"},
@@ -128,6 +132,49 @@ def classify(article, categories):
         return best if scores[best] > 0 else 'industry'
     return 'industry'
 
+def tavily_search_tutorials():
+    """使用 Tavily AI 搜索教程类内容"""
+    try:
+        import os
+        api_key = os.environ.get('TAVILY_API_KEY')
+        if not api_key:
+            return []
+        
+        query = "AI tutorial guide how to use API integration 2025"
+        url = "https://api.tavily.com/search"
+        
+        data = {
+            "api_key": api_key,
+            "query": query,
+            "max_results": 5
+        }
+        
+        resp = requests.post(url, json=data, timeout=30)
+        result = resp.json()
+        
+        articles = []
+        for item in result.get('results', []):
+            title = item.get('title', '')[:100]
+            url = item.get('url', '')
+            
+            article = {
+                'title': title,
+                'original_title': title,
+                'url': url,
+                'source': 'Tavily AI',
+                'date': datetime.now().strftime('%a, %d %b %Y %H:%M:%S GMT'),
+                'summary': item.get('content', '')[:500],
+                'tags': [],
+                'category': 'tutorial',
+                'category_name': CATEGORIES['tutorial']['name']
+            }
+            articles.append(article)
+        
+        return articles
+    except Exception as e:
+        print(f"搜索失败: {e}")
+        return []
+
 def fetch_all():
     all_articles = defaultdict(list)
     seen = set()
@@ -172,6 +219,17 @@ def fetch_all():
 
 def main():
     data = fetch_all()
+    
+    # 尝试搜索教程类内容
+    try:
+        print("\n🔍 搜索教程...")
+        tutorial_search = tavily_search_tutorials()
+        if tutorial_search:
+            data['articles'].extend(tutorial_search)
+            print(f"   添加了 {len(tutorial_search)} 条教程")
+    except Exception as e:
+        print(f"   搜索失败: {e}")
+    
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"\n✅ 更新完成！共 {len(data['articles'])} 条")
