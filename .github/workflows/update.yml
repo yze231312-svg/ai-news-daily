@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'  # 每天 0:00 UTC = 8:00 北京时间
+  push:
+    branches:
+      - master
+    paths:
+      - 'index.html'
+      - 'style.css'
 
 jobs:
   update-news:
