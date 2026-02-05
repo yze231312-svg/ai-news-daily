@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤖 AI News Daily - 每日人工智能资讯</title>
-    <meta name="description" content="每日精选AI资讯：模型发布、使用教程、工具平台、研究成果、行业动态">
+    <title>🤖 AI News Daily - 每日人工智能资讯 + Prompt 库</title>
+    <meta name="description" content="每日精选AI资讯 + 高质量Prompt库：编程、写作、分析、创意">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🤖 AI News Daily</h1>
-            <p class="subtitle">每日人工智能资讯 · 技术前沿</p>
+            <p class="subtitle">每日人工智能资讯 · Prompt 精选库</p>
+            <div class="header-tabs">
+                <button class="tab-btn active" data-tab="news" onclick="switchTab('news')">
+                    📰 资讯
+                </button>
+                <button class="tab-btn" data-tab="prompts" onclick="switchTab('prompts')">
+                    💡 Prompt 库
+                </button>
+            </div>
             <div class="meta-info">
                 <span id="updateTime">加载中...</span>
-                <button class="refresh-btn" onclick="refreshData()" id="refreshBtn">
+                <button class="refresh-btn" onclick="refreshAllData()" id="refreshBtn">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
                     </svg>
@@ -23,51 +31,75 @@
             </div>
         </header>
         
-        <div class="categories" id="categories">
-            <button class="cat-btn active" data-cat="all">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-                全部
-            </button>
-            <button class="cat-btn" data-cat="model">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-                模型发布
-            </button>
-            <button class="cat-btn" data-cat="tool">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-                工具平台
-            </button>
-            <button class="cat-btn" data-cat="research">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                研究成果
-            </button>
-            <button class="cat-btn" data-cat="tutorial">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
-                📖 使用教程
-            </button>
-            <button class="cat-btn" data-cat="industry">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>
-                行业动态
-            </button>
+        <!-- 新闻板块 -->
+        <div id="news-section">
+            <div class="categories" id="categories">
+                <button class="cat-btn active" data-cat="all">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    全部
+                </button>
+                <button class="cat-btn" data-cat="model">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    模型发布
+                </button>
+                <button class="cat-btn" data-cat="tool">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    工具平台
+                </button>
+                <button class="cat-btn" data-cat="research">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    研究成果
+                </button>
+                <button class="cat-btn" data-cat="tutorial">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                    📖 使用教程
+                </button>
+                <button class="cat-btn" data-cat="industry">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>
+                    行业动态
+                </button>
+            </div>
+            
+            <div class="stats-bar" id="stats"></div>
+            <div class="news-grid" id="newsList"></div>
         </div>
         
-        <div class="stats-bar" id="stats"></div>
-        
-        <div class="news-grid" id="newsList">
-            <div class="loading-state">
-                <div class="loading-spinner"></div>
-                <p>正在加载资讯...</p>
+        <!-- Prompt 库板块 -->
+        <div id="prompts-section" style="display: none;">
+            <div class="categories" id="prompt-categories">
+                <button class="cat-btn active" data-cat="all">
+                    全部
+                </button>
+                <button class="cat-btn" data-cat="coding">
+                    💻 编程
+                </button>
+                <button class="cat-btn" data-cat="writing">
+                    📝 写作
+                </button>
+                <button class="cat-btn" data-cat="analysis">
+                    🧠 分析
+                </button>
+                <button class="cat-btn" data-cat="creative">
+                    🎨 创意
+                </button>
             </div>
+            
+            <div class="stats-bar" id="prompt-stats"></div>
+            <div class="prompts-grid" id="promptsList"></div>
         </div>
         
         <footer>
-            <p>数据来源：HuggingFace · GitHub · ArXiv · Product Hunt · TechCrunch</p>
-            <p>Powered by Tavily AI Search</p>
+            <p>资讯来源：HuggingFace · GitHub · ArXiv · OpenAI · Anthropic · TechCrunch</p>
+            <p>Powered by Tavily AI Search · Prompt 精选库</p>
         </footer>
     </div>
 
     <script>
         let allData = null;
+        let allPrompts = null;
+        let currentTab = 'news';
         let currentCat = 'all';
+        let currentPromptCat = 'all';
 
         // 数据源中文翻译
         const sourceCN = {
@@ -85,7 +117,8 @@
             'MIT Tech Review': '🔬 MIT科技',
             'The Verge': '📱 The Verge',
             'Wired': '🔌 Wired',
-            'Vercel': '⚡ Vercel'
+            'Vercel': '⚡ Vercel',
+            'Tavily AI': '🔍 AI搜索'
         };
 
         // 分类图标
@@ -100,17 +133,51 @@
         // 加载数据
         async function loadData() {
             try {
-                const res = await fetch('data.json');
-                if (!res.ok) throw new Error('数据加载失败');
-                allData = await res.json();
+                // 并行加载资讯和 Prompts
+                const [newsRes, promptsRes] = await Promise.all([
+                    fetch('data.json'),
+                    fetch('prompts.json')
+                ]);
                 
-                document.getElementById('updateTime').textContent = '最后更新: ' + allData.lastUpdate;
-                updateStats();
-                renderNews();
+                if (newsRes.ok) {
+                    allData = await newsRes.json();
+                    document.getElementById('updateTime').textContent = '资讯更新: ' + allData.lastUpdate;
+                    updateStats();
+                    renderNews();
+                }
+                
+                if (promptsRes.ok) {
+                    allPrompts = await promptsRes.json();
+                    document.getElementById('prompt-stats').textContent = '共 ' + allPrompts.prompts.length + ' 个精选 Prompt';
+                    renderPrompts();
+                }
+                
+                // 如果当前是 prompts tab，更新更新时间
+                if (currentTab === 'prompts') {
+                    document.getElementById('updateTime').textContent = 'Prompt 更新: ' + (allPrompts?.lastUpdate || allData?.lastUpdate);
+                }
+                
             } catch (e) {
                 console.error('加载失败:', e);
                 document.getElementById('newsList').innerHTML = 
                     '<div class="error-state"><p>加载失败: ' + e.message + '</p><button class="retry-btn" onclick="loadData()">重试</button></div>';
+            }
+        }
+
+        // 切换 Tab
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.tab === tab);
+            });
+            
+            document.getElementById('news-section').style.display = tab === 'news' ? 'block' : 'none';
+            document.getElementById('prompts-section').style.display = tab === 'prompts' ? 'block' : 'none';
+            
+            if (tab === 'prompts' && allPrompts) {
+                document.getElementById('updateTime').textContent = 'Prompt 更新: ' + allPrompts.lastUpdate;
+            } else if (tab === 'news' && allData) {
+                document.getElementById('updateTime').textContent = '资讯更新: ' + allData.lastUpdate;
             }
         }
 
@@ -120,6 +187,7 @@
             document.getElementById('stats').textContent = '共 ' + total + ' 条资讯 | ' + counts;
         }
 
+        // 渲染新闻
         function renderNews() {
             const container = document.getElementById('newsList');
             let articles = allData.articles;
@@ -155,6 +223,52 @@
                     (tags ? '<div class="news-tags">' + tags + '</div>' : '') +
                     '</div></article>';
             }).join('');
+        }
+
+        // 渲染 Prompts
+        function renderPrompts() {
+            const container = document.getElementById('promptsList');
+            let prompts = allPrompts.prompts;
+            
+            if (currentPromptCat !== 'all') {
+                prompts = prompts.filter(p => p.category === currentPromptCat);
+            }
+            
+            if (prompts.length === 0) {
+                container.innerHTML = '<div class="loading-state"><p>暂无该分类 Prompt</p></div>';
+                return;
+            }
+            
+            container.innerHTML = prompts.map(p => {
+                const cat = allPrompts.categories.find(c => c.key === p.category);
+                const catName = cat ? cat.name : 'Prompt';
+                const tags = (p.tags || []).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
+                
+                return '<article class="prompt-card">' +
+                    '<div class="prompt-header">' +
+                    '<span class="prompt-category">' + (cat?.icon || '💡') + ' ' + catName + '</span>' +
+                    '<button class="copy-btn" onclick="copyPrompt(' + p.id + ')" id="copy-btn-' + p.id + '">📋 复制</button>' +
+                    '</div>' +
+                    '<h3 class="prompt-title">' + escapeHtml(p.title) + '</h3>' +
+                    '<p class="prompt-desc">' + escapeHtml(p.description) + '</p>' +
+                    '<div class="prompt-content" id="prompt-' + p.id + '">' + escapeHtml(p.prompt) + '</div>' +
+                    '<div class="prompt-footer">' +
+                    (tags ? '<div class="prompt-tags">' + tags + '</div>' : '') +
+                    '</div></article>';
+            }).join('');
+        }
+
+        // 复制 Prompt
+        function copyPrompt(id) {
+            const prompt = allPrompts.prompts.find(p => p.id === id);
+            if (!prompt) return;
+            
+            navigator.clipboard.writeText(prompt.prompt).then(() => {
+                const btn = document.getElementById('copy-btn-' + id);
+                const original = btn.textContent;
+                btn.textContent = '✅ 已复制!';
+                setTimeout(() => btn.textContent = original, 2000);
+            });
         }
 
         function formatDate(dateStr) {
@@ -202,21 +316,31 @@
             return div.innerHTML;
         }
 
-        // 分类切换
-        document.querySelectorAll('.cat-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-                currentCat = this.dataset.cat;
+        // 资讯分类切换
+        document.getElementById('categories').addEventListener('click', function(e) {
+            if (e.target.classList.contains('cat-btn')) {
+                document.querySelectorAll('#categories .cat-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                currentCat = e.target.dataset.cat;
                 renderNews();
-            });
+            }
+        });
+
+        // Prompt 分类切换
+        document.getElementById('prompt-categories').addEventListener('click', function(e) {
+            if (e.target.classList.contains('cat-btn')) {
+                document.querySelectorAll('#prompt-categories .cat-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                currentPromptCat = e.target.dataset.cat;
+                renderPrompts();
+            }
         });
 
         // 初始化
         loadData();
         
         // 刷新数据
-        async function refreshData() {
+        async function refreshAllData() {
             const btn = document.getElementById('refreshBtn');
             const oldText = btn.innerHTML;
             
@@ -228,9 +352,13 @@
                 if (!res.ok) throw new Error('数据加载失败');
                 allData = await res.json();
                 
-                document.getElementById('updateTime').textContent = '最后更新: ' + allData.lastUpdate;
-                updateStats();
-                renderNews();
+                if (currentTab === 'news') {
+                    document.getElementById('updateTime').textContent = '资讯更新: ' + allData.lastUpdate;
+                    updateStats();
+                    renderNews();
+                } else {
+                    document.getElementById('updateTime').textContent = 'Prompt 更新: ' + allData.lastUpdate;
+                }
                 
                 btn.innerHTML = oldText;
             } catch (e) {
