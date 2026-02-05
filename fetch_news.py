@@ -13,11 +13,11 @@ from collections import defaultdict
 
 # 分类配置
 CATEGORIES = {
-    "model": {"name": "🗣️ 模型发布", "keywords": ["gpt", "claude", "gemini", "llama", "model", "release", "openai", "anthropic", "mistral", "moe", "parameter", "billion", "open-source model", "api", "version"]},
-    "tool": {"name": "🛠️ 工具平台", "keywords": ["tool", "platform", "api", "sdk", "launch", "feature", "announcement", "framework", "library", "studio", "plugin"]},
+    "model": {"name": "🗣️ 模型发布", "keywords": ["gpt", "claude", "gemini", "llama", "model", "release", "openai", "anthropic", "mistral", "moe", "parameter", "billion", "open-source model", "api", "version", "capability", "benchmark"]},
+    "tutorial": {"name": "📖 使用教程", "keywords": ["tutorial", "guide", "how to", "getting started", "setup", "configuration", "integration", "api call", "prompt engineering", "opencl", "installation", "documentation", "example", "tips", "best practice"]},
+    "tool": {"name": "🛠️ 工具平台", "keywords": ["tool", "platform", "api", "sdk", "launch", "feature", "announcement", "framework", "library", "studio", "plugin", "app", "software"]},
     "research": {"name": "📚 研究成果", "keywords": ["paper", "research", "arxiv", "study", "benchmark", "accuracy", "state-of-the-art", "sota", "performance", "training", "inference", "neural", "network", "learning", "dataset"]},
-    "application": {"name": "🎮 AI 应用", "keywords": ["game", "design", "writing", "art", "music", "video", "image", "creative", "assistant", "productivity", "chatbot"]},
-    "industry": {"name": "📰 行业动态", "keywords": ["ai", "microsoft", "google", "amazon", "meta", "nvidia", "startup", "funding", "valuation", "ipo", "acquisition", "partnership", "ceo", "executive", "company"]}
+    "industry": {"name": "📰 行业动态", "keywords": ["ai", "microsoft", "google", "amazon", "meta", "nvidia", "startup", "funding", "valuation", "ipo", "acquisition", "partnership", "ceo", "executive", "company", "news"]}
 }
 
 # 翻译器

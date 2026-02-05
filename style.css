@@ -7,11 +7,11 @@
     --accent-color: #3b82f6;
     
     /* Category Colors */
-    --color-model: #8b5cf6;      /* Violet */
-    --color-tool: #f59e0b;       /* Amber */
-    --color-research: #10b981;   /* Emerald */
-    --color-application: #ec4899;/* Pink */
-    --color-industry: #3b82f6;   /* Blue */
+    --color-model: #8b5cf6;      /* Violet - 模型发布 */
+    --color-tutorial: #f59e0b;   /* Amber - 使用教程 */
+    --color-tool: #10b981;       /* Emerald - 工具平台 */
+    --color-research: #06b6d4;   /* Cyan - 研究成果 */
+    --color-industry: #3b82f6;   /* Blue - 行业动态 */
 }
 
 * {
@@ -142,9 +142,9 @@ h1 {
 /* Active states for specific categories */
 .cat-btn[data-cat="all"].active { background: linear-gradient(135deg, #64748b, #475569); }
 .cat-btn[data-cat="model"].active { background: linear-gradient(135deg, #7c3aed, #6d28d9); }
-.cat-btn[data-cat="tool"].active { background: linear-gradient(135deg, #d97706, #b45309); }
-.cat-btn[data-cat="research"].active { background: linear-gradient(135deg, #059669, #047857); }
-.cat-btn[data-cat="application"].active { background: linear-gradient(135deg, #db2777, #be185d); }
+.cat-btn[data-cat="tutorial"].active { background: linear-gradient(135deg, #d97706, #b45309); }
+.cat-btn[data-cat="tool"].active { background: linear-gradient(135deg, #059669, #047857); }
+.cat-btn[data-cat="research"].active { background: linear-gradient(135deg, #0891b2, #0e7490); }
 .cat-btn[data-cat="industry"].active { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
 
 /* Stats */
@@ -202,7 +202,7 @@ h1 {
 .news-card.cat-model::before { background: var(--color-model); }
 .news-card.cat-tool::before { background: var(--color-tool); }
 .news-card.cat-research::before { background: var(--color-research); }
-.news-card.cat-application::before { background: var(--color-application); }
+.news-card.cat-tutorial::before { background: var(--color-tutorial); }
 .news-card.cat-industry::before { background: var(--color-industry); }
 
 .card-header {
@@ -223,11 +223,10 @@ h1 {
     background: rgba(255, 255, 255, 0.05);
 }
 
-/* Tag colors */
 .cat-model .card-tag { color: var(--color-model); background: rgba(139, 92, 246, 0.1); }
-.cat-tool .card-tag { color: var(--color-tool); background: rgba(245, 158, 11, 0.1); }
-.cat-research .card-tag { color: var(--color-research); background: rgba(16, 185, 129, 0.1); }
-.cat-application .card-tag { color: var(--color-application); background: rgba(236, 72, 153, 0.1); }
+.cat-tool .card-tag { color: var(--color-tool); background: rgba(16, 185, 129, 0.1); }
+.cat-research .card-tag { color: var(--color-research); background: rgba(6, 182, 212, 0.1); }
+.cat-tutorial .card-tag { color: var(--color-tutorial); background: rgba(245, 158, 11, 0.1); }
 .cat-industry .card-tag { color: var(--color-industry); background: rgba(59, 130, 246, 0.1); }
 
 .card-date {
@@ -280,10 +279,6 @@ h1 {
     color: #64748b;
 }
 
-.source-icon {
-    font-style: normal;
-}
-
 /* Loading/Error */
 .loading-state, .error-state {
     grid-column: 1 / -1;
@@ -318,4 +313,12 @@ footer {
     color: #475569;
     font-size: 0.9rem;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 { font-size: 1.8rem; }
+    .news-grid { grid-template-columns: 1fr; }
+    .categories { gap: 8px; }
+    .cat-btn { padding: 8px 16px; font-size: 0.85rem; }
 }
