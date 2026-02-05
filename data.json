@@ -1,15 +1,15 @@
 {
-  "lastUpdate": "2026/02/05 00:15",
+  "lastUpdate": "2026/02/05 09:39",
   "categories": [
     {
       "key": "model",
       "name": "🗣️ 模型发布",
-      "count": 11
+      "count": 8
     },
     {
       "key": "tool",
       "name": "🛠️ 工具平台",
-      "count": 5
+      "count": 1
     },
     {
       "key": "research",
@@ -24,7 +24,7 @@
     {
       "key": "industry",
       "name": "📰 行业动态",
-      "count": 35
+      "count": 42
     }
   ],
   "articles": [
@@ -40,19 +40,118 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "ElevenLabs以110亿美元的估值从Sequioia筹集了5亿美元",
-      "original_title": "ElevenLabs raises $500M from Sequioia at a $11 billion valuation",
-      "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/",
+      "title": "Alphabet不会谈论谷歌与苹果的人工智能交易，即使是对投资者也是如此",
+      "original_title": "Alphabet won’t talk about the Google-Apple AI deal, even to investors",
+      "url": "https://techcrunch.com/2026/02/04/alphabet-wont-talk-about-the-google-apple-ai-deal-even-to-investors/",
       "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 15:33:58 +0000",
-      "summary": "ElevenLabs的估值在过去12个月里上涨了三次以上……",
+      "date": "Wed, 04 Feb 2026 23:28:31 +0000",
+      "summary": "Alphabet首席执行官在公司的财报电话会议上跳过了分析师关于苹果的问题....",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "亚马逊的人工智能助手Alexa +现已面向美国的每个人开放",
-      "original_title": "Alexa+, Amazon’s AI assistant, is now available to everyone in the U.S.",
+      "title": "谷歌Gemini应用月活跃用户突破7.5亿",
+      "original_title": "Google’s Gemini app has surpassed 750M monthly active users",
+      "url": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 22:53:46 +0000",
+      "summary": "谷歌透露了其Gemini应用程序的一个重要里程碑，宣布每月有超过7.5亿活跃用户与ChatGPT和Meta AI竞争。",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "认识Gizmo ：适用于交互式氛围编码迷你应用程序的TikTok",
+      "original_title": "Meet Gizmo: A TikTok for interactive, vibe-coded mini apps",
+      "url": "https://techcrunch.com/2026/02/04/meet-gizmo-a-tiktok-for-interactive-vibe-coded-mini-apps/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 21:45:32 +0000",
+      "summary": "Gizmo的应用程序就像一个TikTok ，用于氛围编码的迷你应用程序……它很有趣……",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "AI SRE Resolve AI确认1.25亿美元融资，独角兽估值",
+      "original_title": "AI SRE Resolve AI confirms $125M raise, unicorn valuation",
+      "url": "https://techcrunch.com/2026/02/04/ai-sre-resolve-ai-confirms-125m-raise-unicorn-valuation/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 21:39:26 +0000",
+      "summary": "这家成立两年的初创公司证实，它以10亿美元的估值完成了由Lightspeed领导的A轮融资。",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "亚马逊将于下个月开始测试用于电影和电视制作的人工智能工具",
+      "original_title": "Amazon to begin testing AI tools for film and TV production next month",
+      "url": "https://techcrunch.com/2026/02/04/amazon-to-begin-testing-ai-tools-for-film-and-tv-production-next-month/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 21:26:43 +0000",
+      "summary": "据报道，亚马逊米高梅工作室将于3月开始一项封闭测试计划，以测试其人工智能工具，帮助电影和电视制作....",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "A16z刚刚为人工智能基础设施筹集了17亿美元$。这就是它的发展方向。",
+      "original_title": "A16z just raised $1.7B for AI infrastructure. Here’s where it’s going.",
+      "url": "https://techcrunch.com/video/a16z-just-raised-1-7b-for-ai-infrastructure-heres-where-its-going/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 20:24:12 +0000",
+      "summary": "Andreessen Horowitz刚刚筹集了高达150亿美元的新资金。其中17亿美元将用于其基础设施团队，以及……",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "在人工智能基础设施方面， a16z实际上资助了什么（以及它忽略了什么）",
+      "original_title": "What a16z is actually funding (and what it’s ignoring) when it comes to AI infra",
+      "url": "https://techcrunch.com/podcast/what-a16z-is-actually-funding-and-what-its-ignoring-when-it-comes-to-ai-infra/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 20:19:12 +0000",
+      "summary": "Andreessen Horowitz刚刚筹集了150亿美元的新资金。其中17亿美元将用于其基础设施团队，以及# 160...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Tinder依靠人工智能来帮助对抗“滑动疲劳”和约会应用程序倦怠",
+      "original_title": "Tinder looks to AI to help fight ‘swipe fatigue’ and dating app burnout",
+      "url": "https://techcrunch.com/2026/02/04/tinder-looks-to-ai-to-help-fight-swipe-fatigue-and-dating-app-burnout/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 18:08:00 +0000",
+      "summary": "Tinder正在测试相机胶卷的人工智能建议和洞察力，以获得更好的匹配....",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Roblox的4D创建功能现已公开测试",
+      "original_title": "Roblox’s 4D creation feature is now available in open beta",
+      "url": "https://techcrunch.com/2026/02/04/robloxs-4d-creation-feature-is-now-available-in-open-beta/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 17:00:00 +0000",
+      "summary": "Roblox备受期待的4D创作功能已正式推出公开测试版....",
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "ElevenLabs以110亿美元的估值从红杉筹集了5亿美元",
+      "original_title": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation",
+      "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/",
+      "source": "TechCrunch AI",
+      "date": "Wed, 04 Feb 2026 15:33:58 +0000",
+      "summary": "ElevenLabs的估值在过去12个月中上涨了三次以上....",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "亚马逊的人工智能助手Alexa +现已面向美国所有人开放",
+      "original_title": "Alexa+, Amazon’s AI assistant, is now available to everyone in the US",
       "url": "https://techcrunch.com/2026/02/04/alexa-amazons-ai-assistant-is-now-available-to-everyone-in-the-u-s/",
       "source": "TechCrunch AI",
       "date": "Wed, 04 Feb 2026 14:00:00 +0000",
@@ -128,50 +227,6 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Xcode通过更深入的OpenAI和Anthropic集成进入代理编码",
-      "original_title": "Xcode moves into agentic coding with deeper OpenAI and Anthropic integrations",
-      "url": "https://techcrunch.com/2026/02/03/xcode-moves-into-agentic-coding-with-deeper-openai-and-anthropic-integrations/",
-      "source": "TechCrunch AI",
-      "date": "Tue, 03 Feb 2026 18:00:00 +0000",
-      "summary": "Xcode 26.3通过Anthropic的Claude Agent和OpenAI的Codex提供代理编码功能....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Lotus Health为免费看病的人工智能医生筹集了3500万美元$",
-      "original_title": "Lotus Health nabs $35M for AI doctor that sees patients for free",
-      "url": "https://techcrunch.com/2026/02/03/lotus-health-nabs-35m-for-ai-doctor-that-sees-patients-for-free/",
-      "source": "TechCrunch AI",
-      "date": "Tue, 03 Feb 2026 17:14:27 +0000",
-      "summary": "这家初创公司说，这位人工智能医生在所有50个州都有执照。这笔交易由CRV和Kleiner Perkins领导....",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Fitbit创始人推出人工智能平台，帮助家庭监测自己的健康状况",
-      "original_title": "Fitbit founders launch AI platform to help families monitor their health",
-      "url": "https://techcrunch.com/2026/02/03/fitbit-founders-launch-ai-platform-to-help-families-monitor-their-health/",
-      "source": "TechCrunch AI",
-      "date": "Tue, 03 Feb 2026 15:53:36 +0000",
-      "summary": "Luffu在后台使用人工智能来收集和组织家庭信息，学习日常模式，并标记显着变化，以便家庭能够保持一致并解决潜在的福祉问题....",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "Peak XV表示，内部分歧导致合作伙伴退出，因为它在人工智能方面翻了一番",
-      "original_title": "Peak XV says internal disagreement led to partner exits as it doubles down on AI",
-      "url": "https://techcrunch.com/2026/02/03/peak-xv-says-internal-disagreement-led-to-partner-exits-as-it-doubles-down-on-ai/",
-      "source": "TechCrunch AI",
-      "date": "Tue, 03 Feb 2026 14:14:33 +0000",
-      "summary": "Peak XV正在过渡董事会角色，并在美国开设办事处，同时继续将印度视为其最大的市场。",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
       "title": "下载：从老化的矿山中挤出更多的金属，以及人工智能的真相危机",
       "original_title": "The Download: squeezing more metal out of aging mines, and AI’s truth crisis",
       "url": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
@@ -203,6 +258,17 @@
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
+    },
+    {
+      "title": "山姆·奥尔特曼对克劳德超级碗的广告格外挑剔",
+      "original_title": "Sam Altman got exceptionally testy over Claude Super Bowl ads",
+      "url": "https://techcrunch.com/2026/02/04/sam-altman-got-exceptionally-testy-over-claude-super-bowl-ads/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 00:45:11 +0000",
+      "summary": "他发布了一篇中篇小说大小的咆哮，称他的竞争对手“不诚实”和“威权主义”。",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
@@ -238,50 +304,6 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "埃隆·马斯克的SpaceX正式收购埃隆·马斯克的xAI ，计划在太空建立数据中心",
-      "original_title": "Elon Musk’s SpaceX officially acquires Elon Musk’s xAI, with plan to build data centers in space",
-      "url": "https://techcrunch.com/2026/02/02/elon-musk-spacex-acquires-xai-data-centers-space-merger/",
-      "source": "TechCrunch AI",
-      "date": "Mon, 02 Feb 2026 22:21:57 +0000",
-      "summary": "此次合并创造了世界上最有价值的私营公司，并为马斯克试图证明天基数据中心的实用性铺平了道路……",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Snowflake与OpenAI的交易告诉我们关于企业AI竞赛的信息",
-      "original_title": "What Snowflake’s deal with OpenAI tells us about the enterprise AI race",
-      "url": "https://techcrunch.com/2026/02/02/what-snowflakes-deal-with-openai-tells-us-about-the-enterprise-ai-race/",
-      "source": "TechCrunch AI",
-      "date": "Mon, 02 Feb 2026 19:09:44 +0000",
-      "summary": "Snowflake是与多家人工智能公司签署多年协议的最新企业，这可能是未来趋势的一个迹象....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Firefox将很快让您屏蔽其所有生成式AI功能",
-      "original_title": "Firefox will soon let you block all of its generative AI features",
-      "url": "https://techcrunch.com/2026/02/02/firefox-will-soon-let-you-block-all-of-its-generative-ai-features/",
-      "source": "TechCrunch AI",
-      "date": "Mon, 02 Feb 2026 18:34:45 +0000",
-      "summary": "从本月晚些时候推出的Firefox 148开始，用户将在桌面浏览器设置中找到一个新的AI控件部分....",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "OpenAI推出用于代理编码的新macOS应用程序",
-      "original_title": "OpenAI launches new macOS app for agentic coding",
-      "url": "https://techcrunch.com/2026/02/02/openai-launches-new-macos-app-for-agentic-coding/",
-      "source": "TechCrunch AI",
-      "date": "Mon, 02 Feb 2026 18:19:31 +0000",
-      "summary": "OpenAI为Codex发布了一个新的macOS应用程序，集成了自去年Codex推出以来流行的许多代理编码实践....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
       "title": "我们对人工智能的真相危机所犯的错误",
       "original_title": "What we’ve been getting wrong about AI’s truth crisis",
       "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
@@ -291,28 +313,6 @@
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Ring为非Ring相机所有者带来了“搜索派对”功能，用于寻找丢失的狗",
-      "original_title": "Ring brings its ‘Search Party’ feature for finding lost dogs to non-Ring camera owners",
-      "url": "https://techcrunch.com/2026/02/02/ring-brings-its-search-party-feature-for-finding-lost-dogs-to-non-ring-camera-owners/",
-      "source": "TechCrunch AI",
-      "date": "Mon, 02 Feb 2026 15:33:45 +0000",
-      "summary": "Ring的搜寻小组功能现已在美国各地推出，用于寻找丢失的狗—即使您没有Ring相机....",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "Carbon Robotics构建了一个人工智能模型，用于检测和识别植物",
-      "original_title": "Carbon Robotics built an AI model that detects and identifies plants",
-      "url": "https://techcrunch.com/2026/02/02/carbon-robotics-built-an-ai-model-that-detects-and-identifies-plants/",
-      "source": "TechCrunch AI",
-      "date": "Mon, 02 Feb 2026 15:00:00 +0000",
-      "summary": "Carbon Robotics的大型植物模型将允许农民杀死新型杂草，而无需重新训练机器....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "设计成功的企业人工智能系统的关键第一步",
@@ -385,7 +385,7 @@
       "original_title": "Error",
       "url": "https://arxiv.org/help/api/user-manual#sort",
       "source": "arXiv",
-      "date": "2026-02-05T00:14:29.646467",
+      "date": "2026-02-05T09:38:36.995017",
       "summary": "sortOrder必须在: ascending, descending...",
       "tags": [
         "Research",
@@ -399,7 +399,7 @@
       "original_title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-05T00:14:28.621488",
+      "date": "2026-02-05T09:38:36.071998",
       "summary": "Downloads: 29 | Likes: 0",
       "tags": [
         "Model",
@@ -413,7 +413,7 @@
       "original_title": "cortexso/intellect-2",
       "url": "https://huggingface.co/cortexso/intellect-2",
       "source": "HuggingFace",
-      "date": "2026-02-05T00:14:27.966848",
+      "date": "2026-02-05T09:38:35.520310",
       "summary": "Downloads: 115 | Likes: 1",
       "tags": [
         "Model",
@@ -427,7 +427,7 @@
       "original_title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-05T00:14:27.371270",
+      "date": "2026-02-05T09:38:34.979833",
       "summary": "Downloads: 144 | Likes: 0",
       "tags": [
         "Model",
@@ -441,7 +441,7 @@
       "original_title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-05T00:14:26.643650",
+      "date": "2026-02-05T09:38:34.333440",
       "summary": "Downloads: 183 | Likes: 0",
       "tags": [
         "Model",
@@ -455,7 +455,7 @@
       "original_title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-05T00:14:25.938442",
+      "date": "2026-02-05T09:38:33.787872",
       "summary": "Downloads: 210 | Likes: 4",
       "tags": [
         "Model",
@@ -469,7 +469,7 @@
       "original_title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-05T00:14:25.336921",
+      "date": "2026-02-05T09:38:33.170586",
       "summary": "Downloads: 313 | Likes: 1",
       "tags": [
         "Model",
@@ -483,7 +483,7 @@
       "original_title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-05T00:14:24.096717",
+      "date": "2026-02-05T09:38:32.288943",
       "summary": "Downloads: 782 | Likes: 1",
       "tags": [
         "Model",
@@ -497,7 +497,7 @@
       "original_title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-05T00:14:22.911736",
+      "date": "2026-02-05T09:38:31.471436",
       "summary": "Downloads: 1,282 | Likes: 0",
       "tags": [
         "Model",
@@ -507,111 +507,111 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "基于ARM的14英寸华硕Vivobook今天半价",
-      "original_title": "The 14-inch, ARM-based Asus Vivobook is half off today",
-      "url": "https://www.theverge.com/gadgets/873792/asus-vivobook-snapdragon-x-laptop-amd-ryzen-switch-2-deal-sale",
+      "title": "Valve的蒸汽机推迟了，冲压危机将影响定价",
+      "original_title": "Valve’s Steam Machine has been delayed, and the RAM crisis will impact pricing",
+      "url": "https://www.theverge.com/games/874196/valve-steam-machine-frame-controller-delay-pricing-memory-crisis",
       "source": "The Verge",
-      "date": "2026-02-04T10:55:38-05:00",
-      "summary": "我通常不愿意推荐经济实惠的笔记本电脑，尤其是运行Windows的笔记本电脑，因为它们往往很糟糕。这种情况开始发生变化，这在一定程度上要归功于去年的入...",
+      "date": "2026-02-04T19:12:04-05:00",
+      "summary": "当Valve在11月首次宣布其令人印象深刻的蒸汽机，蒸汽框架和蒸汽控制器硬件时，该公司表示这些产品将于2026年初开始发货。一些期刊...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "The Verge的2026年情人节礼物指南（给他）",
-      "original_title": "The Verge’s 2026 Valentine’s Day gift guide (for him)",
-      "url": "https://www.theverge.com/gadgets/865396/valentines-day-2026-gift-ideas-for-him-boyfriend-husband-partner",
+      "title": "谷歌年收入首次突破4000亿美元",
+      "original_title": "Google&#8217;s annual revenue tops $400 billion for the first time",
+      "url": "https://www.theverge.com/news/874161/google-400-billion-revenue-q4-2025-earnings",
       "source": "The Verge",
-      "date": "2026-02-04T10:48:37-05:00",
-      "summary": "情人节通常被认为是典型的标志性节日，为什么不呢？大多数时候，它通过大量的花卉布置和心形巧克力向我们推销，...",
+      "date": "2026-02-04T17:41:03-05:00",
+      "summary": "谷歌的母公司Alphabet的年收入首次超过4000亿美元。作为周三发布的2025年第四季度收益报告的一部分，该公司宣布了这一里程碑...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "我开了三辆中国车—这就是为什么他们会在美国清理",
-      "original_title": "I drove three Chinese cars — here’s why they would clean up in the US",
-      "url": "https://www.theverge.com/transportation/873408/geely-zeekr-lynk-co-test-drive-china",
+      "title": "参议员就机器人出租车的安全、责任和中国问题抨击Waymo和特斯拉",
+      "original_title": "Senators grill Waymo and Tesla over robotaxi safety, liability, and China",
+      "url": "https://www.theverge.com/transportation/873891/senate-hearing-autonomous-vehicles-robotaxi-waymo-tesla-legislation",
       "source": "The Verge",
-      "date": "2026-02-04T10:00:00-05:00",
-      "summary": "Zeekr 7X只用了很短的时间就说服了我：中国汽车现在很有竞争力，明天可以在美国销售。紧凑型电池电动跨界车是欧洲畅销车型，旨在...",
+      "date": "2026-02-04T17:31:01-05:00",
+      "summary": "在周三美国参议院举行的为期两小时的听证会上， Waymo和特斯拉的高管敦促立法者就长期停滞不前的立法采取行动，以加快自动驾驶汽车在公共场所的部署。",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Spotify推出离线歌词、翻译和歌词预览",
-      "original_title": "Spotify launches offline lyrics, translations, and lyric previews",
-      "url": "https://www.theverge.com/entertainment/873779/spotify-lyrics-offline-translations-previews",
+      "title": "任天堂新推出的Virtual Boy看起来比玩起来更有趣",
+      "original_title": "Nintendo’s new Virtual Boy is more fun to look at than to play",
+      "url": "https://www.theverge.com/games/873755/nintendo-switch-virtual-boy-impressions",
       "source": "The Verge",
-      "date": "2026-02-04T09:31:10-05:00",
-      "summary": "周三， Spotify宣布了一些新的歌词功能，旨在让歌曲歌词更容易理解和访问，包括翻译、预览和离线歌词。歌词翻译是……",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "亚马逊在全国范围内推出Alexa Plus ，并推出新的免费会员等级",
-      "original_title": "Amazon rolls out Alexa Plus nationwide and launches a new free tier",
-      "url": "https://www.theverge.com/news/873702/amazon-alexa-plus-ai-assistant-now-available",
-      "source": "The Verge",
-      "date": "2026-02-04T09:00:00-05:00",
-      "summary": "亚马逊宣布，其基于人工智能的生成式数字助理Alexa Plus现已通过任何支持Alexa的设备、Alexa.com和Alexa移动应用程序向美国的所有Prime会员提供。如果您...",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "每个人都在偷电视",
-      "original_title": "Everyone is stealing TV",
-      "url": "https://www.theverge.com/streaming/873416/piracy-streaming-boxes",
-      "source": "The Verge",
-      "date": "2026-02-04T08:30:00-05:00",
-      "summary": "在距离奥斯汀约一小时车程的德克萨斯州一个不起眼的小镇上漫步农贸市场，您可能会偶然发现一些意想不到的事情：在售卖新鲜当地泡菜的摊位之间……",
+      "date": "2026-02-04T16:37:50-05:00",
+      "summary": "虽然Virtual Boy既是商业上的失败，也是关键的失败，但游戏机的耻辱是任天堂历史上如此迷人的一部分。原单位仍在等待小时……",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Anthropic表示，与ChatGPT不同， “Claude将保持无广告”",
-      "original_title": "Anthropic says ‘Claude will remain ad-free,’ unlike ChatGPT",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/873686/anthropic-claude-ai-ad-free-super-bowl-advert-chatgpt",
+      "title": "Sam Altman回应Anthropic的“搞笑”超级碗广告",
+      "original_title": "Sam Altman responds to Anthropic’s ‘funny’ Super Bowl ads",
+      "url": "https://www.theverge.com/news/874084/ai-chatgpt-claude-super-bowl-ads-openai-anthropic",
       "source": "The Verge",
-      "date": "2026-02-04T08:09:50-05:00",
-      "summary": "Anthropic宣布不会向其AI聊天机器人Claude投放广告，这与OpenAI确认的允许在ChatGPT中投放广告的计划形成鲜明对比。为了进一步强调这一点， ……",
+      "date": "2026-02-04T16:03:05-05:00",
+      "summary": "Sam Altman周三在X帖子中回应了Anthropic的新超级碗广告，称OpenAI竞争对手的竞选活动“显然是不诚实的” ，并称Anthropic的“品牌”是“双语的......",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "Warren参议员想知道Google Gemini的内置结账功能对用户隐私意味着什么",
-      "original_title": "Sen. Warren wants to know what Google Gemini’s built-in checkout means for user privacy",
-      "url": "https://www.theverge.com/news/873476/senator-elizabeth-warren-google-gemini-ai-shopping-privacy",
+      "title": "这个小镇， 2.0",
+      "original_title": "This Town, 2.0",
+      "url": "https://www.theverge.com/column/874050/regulator-shutdown-averted-crypto",
       "source": "The Verge",
-      "date": "2026-02-04T07:00:00-05:00",
-      "summary": "马萨诸塞州参议员伊丽莎白·沃伦（ Elizabeth Warren ）正在向谷歌施压，以获取有关其计划在Gemini AI聊天机器人中构建结账功能的更多信息。在给谷歌首席执行官Sundar Pichai的一封信中， Warren表达了...",
+      "date": "2026-02-04T15:20:56-05:00",
+      "summary": "您好，欢迎来到Regulator ，这是一本面向Verge订阅者的时事通讯，内容涉及有史以来最雄心勃勃的交叉活动：技术与政治之间的无限战争。还没有订阅？来吧，...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Adobe实际上不会停止Animate",
-      "original_title": "Adobe actually won’t discontinue Animate",
-      "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
+      "title": "《守望先锋》：暴雪热门英雄射击游戏的所有新闻",
+      "original_title": "Overwatch: All the news about Blizzard’s hit hero shooter",
+      "url": "https://www.theverge.com/2022/6/14/23167853/overwatch-2-activision-blizzard-news",
       "source": "The Verge",
-      "date": "2026-02-03T20:28:47-05:00",
-      "summary": "Adobe不再计划在3月1日停止Adobe Animate。在常见问题中，该公司现在表示， Animate现在将处于维护模式，并且“没有计划停止或重新...",
+      "date": "2026-02-04T14:53:54-05:00",
+      "summary": "《守望先锋2》是动视暴雪热门英雄射击游戏《守望先锋》的续集，于2019年宣布，但又过了三年才到手，最终在PVP中转向五对五的比赛……",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "共和党人在国会面前拖着Netflix ，因为它太“醒”了",
-      "original_title": "Republicans haul Netflix before Congress for being too ‘woke’",
-      "url": "https://www.theverge.com/policy/873533/netflix-warner-bros-discovery-senate-antitrust-hearing",
+      "title": "宜家的廉价新型智能家居设备正在努力实现联网",
+      "original_title": "Ikea&#8217;s cheap new smart home gear is struggling to get connected",
+      "url": "https://www.theverge.com/tech/873973/ikea-matter-thread-smart-home-connectivity-issues",
       "source": "The Verge",
-      "date": "2026-02-03T19:07:07-05:00",
-      "summary": "Netflix首席执行官泰德·萨兰多斯（ Ted Sarandos ）周二在国会文化战争中首次亮相，当时他在参议院小组委员会面前作证，称该公司试图收购华纳银行的大部分股权。",
+      "date": "2026-02-04T14:35:19-05:00",
+      "summary": "在过去的几周里，我一直在尝试测试宜家的新Matter-over-Thread装备，但大多数都失败了。这些备受期待的智能家居设备包括可编程按钮、智能灯泡、插座...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "OpenClaw的人工智能“技能”扩展是一场安全噩梦",
+      "original_title": "OpenClaw&#8217;s AI &#8216;skill&#8217; extensions are a security nightmare",
+      "url": "https://www.theverge.com/news/874011/openclaw-ai-skill-clawhub-extensions-security-nightmare",
+      "source": "The Verge",
+      "date": "2026-02-04T14:03:38-05:00",
+      "summary": "在过去的一周里，人工智能代理OpenClaw的人气爆发，研究人员在其市场上发现了数百个用户提交的“技能”附加组件中的恶意软件，这引发了新的安全问题。",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "您现在可以获得的最佳iPad优惠",
+      "original_title": "The best iPad deals you can get right now",
+      "url": "https://www.theverge.com/21280354/best-ipad-deals-apple",
+      "source": "The Verge",
+      "date": "2026-02-04T13:12:22-05:00",
+      "summary": "虽然最优惠的iPad优惠通常在黑色星期五等大型促销活动期间出现，但在这些时间之外还有许多超值iPad优惠。日常折扣来来去去，就像在……",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
