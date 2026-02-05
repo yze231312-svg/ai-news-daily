@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/02/05 19:32",
+  "lastUpdate": "2026/02/05 19:43",
   "categories": [
     {
       "key": "model",
@@ -19,7 +19,7 @@
     {
       "key": "tutorial",
       "name": "📖 使用教程",
-      "count": 1
+      "count": 4
     },
     {
       "key": "industry",
@@ -615,6 +615,68 @@
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
+    },
+    {
+      "title": "OpenClaw 完整教程 - freeCodeCamp",
+      "original_title": "OpenClaw Full Tutorial for Beginners - How to Set Up and Use OpenClaw",
+      "url": "https://www.youtube.com/watch?v=n1sfrc-RjyM",
+      "source": "freeCodeCamp",
+      "date": "Thu, 05 Feb 2026 19:43:05 GMT",
+      "summary": "OpenClaw 完整入门教程，从安装配置到多模型集成，覆盖 Telegram/WhatsApp/Discord 消息平台集成。",
+      "tags": [
+        "tutorial",
+        "openclaw",
+        "setup"
+      ],
+      "category": "tutorial",
+      "category_name": "📖 使用教程"
+    },
+    {
+      "title": "OpenClaw + Ollama 本地部署教程",
+      "original_title": "Run AI CoWork Locally with OpenClaw & Ollama (Complete Setup)",
+      "url": "https://www.youtube.com/watch?v=V6Mp0fUh-OM",
+      "source": "Mervin Praison",
+      "date": "Thu, 05 Feb 2026 19:43:05 GMT",
+      "summary": "学习如何用 Ollama 本地部署 OpenClaw，实现 100% 本地运行，保护隐私，无需 API 成本。",
+      "tags": [
+        "tutorial",
+        "openclaw",
+        "ollama",
+        "local"
+      ],
+      "category": "tutorial",
+      "category_name": "📖 使用教程"
+    },
+    {
+      "title": "OpenClaw 入门指南 - 5 分钟上手",
+      "original_title": "OpenClaw Beginner Guide: Master Your Personal AI Agent in 5 Minutes",
+      "url": "https://help.apiyi.com/en/openclaw-beginner-guide-en.html",
+      "source": "APIYi Help",
+      "date": "Thu, 05 Feb 2026 19:43:05 GMT",
+      "summary": "从安装配置到实际用例的完整 OpenClaw 入门指南，帮助新手快速了解核心价值和使用方法。",
+      "tags": [
+        "tutorial",
+        "openclaw",
+        "beginner"
+      ],
+      "category": "tutorial",
+      "category_name": "📖 使用教程"
+    },
+    {
+      "title": "OpenClaw VPS 安全配置指南",
+      "original_title": "OpenClaw Step by Step: Set Up Your AI Assistant 100% Secure",
+      "url": "https://lilys.ai/notes/en/openclaw-tutorial-20260204/openclaw-ai-assistant-setup-secure",
+      "source": "Lilys AI",
+      "date": "Thu, 05 Feb 2026 19:43:05 GMT",
+      "summary": "在 VPS 上安全部署 OpenClaw 的分步指南，确保 100% 安全配置。",
+      "tags": [
+        "tutorial",
+        "openclaw",
+        "vps",
+        "security"
+      ],
+      "category": "tutorial",
+      "category_name": "📖 使用教程"
     }
   ]
 }
