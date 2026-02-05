@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2026/02/05 19:26",
+  "lastUpdate": "2026/02/05 19:32",
   "categories": [
     {
       "key": "model",
       "name": "🗣️ 模型发布",
-      "count": 8
+      "count": 9
     },
     {
       "key": "tool",
       "name": "🛠️ 工具平台",
-      "count": 1
+      "count": 3
     },
     {
       "key": "research",
       "name": "📚 研究成果",
-      "count": 0
+      "count": 1
     },
     {
       "key": "tutorial",
       "name": "📖 使用教程",
-      "count": 0
+      "count": 1
     },
     {
       "key": "industry",
       "name": "📰 行业动态",
-      "count": 42
+      "count": 37
     }
   ],
   "articles": [
@@ -69,8 +69,8 @@
       "date": "Wed, 04 Feb 2026 21:45:32 +0000",
       "summary": "Gizmo的应用程序就像一个TikTok ，用于氛围编码的迷你应用程序……它很有趣……",
       "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
     },
     {
       "title": "AI SRE Resolve AI确认1.25亿美元融资，独角兽估值",
@@ -124,8 +124,8 @@
       "date": "Wed, 04 Feb 2026 18:08:00 +0000",
       "summary": "Tinder正在测试相机胶卷的人工智能建议和洞察力，以获得更好的匹配....",
       "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
     },
     {
       "title": "Roblox的4D创建功能现已公开测试",
@@ -391,8 +391,8 @@
         "Research",
         "AI"
       ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "category": "research",
+      "category_name": "📚 研究成果"
     },
     {
       "title": "cortexso/qwen-qwq",
@@ -433,8 +433,8 @@
         "Model",
         "AI"
       ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "cortexso/llama3.2",
@@ -602,8 +602,8 @@
       "date": "2026-02-04T14:03:38-05:00",
       "summary": "在过去的一周里，人工智能代理OpenClaw的人气爆发，研究人员在其市场上发现了数百个用户提交的“技能”附加组件中的恶意软件，这引发了新的安全问题。",
       "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "category": "tutorial",
+      "category_name": "📖 使用教程"
     },
     {
       "title": "您现在可以获得的最佳iPad优惠",
