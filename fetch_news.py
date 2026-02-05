@@ -13,11 +13,11 @@ from collections import defaultdict
 
 # 分类配置
 CATEGORIES = {
-    "model": {"name": "🗣️ 模型发布", "keywords": ["gpt", "claude", "gemini", "llama", "model", "release", "openai", "anthropic", "mistral", "moe", "parameter", "billion", "open-source model", "api"]},
-    "tool": {"name": "🛠️ 工具平台", "keywords": ["tool", "platform", "api", "sdk", "launch", "feature", "announcement", "framework", "library", "studio"]},
-    "research": {"name": "📚 研究成果", "keywords": ["paper", "research", "arxiv", "study", "benchmark", "accuracy", "state-of-the-art", "sota", "performance", "training", "inference", "neural", "network", "learning"]},
-    "opensource": {"name": "📦 开源项目", "keywords": ["github", "stars", "repository", "repo", "open source", "git", "repository", "released", "contribution"]},
-    "industry": {"name": "📰 行业动态", "keywords": ["ai", "microsoft", "google", "amazon", "meta", "nvidia", "startup", "funding", "valuation", "ipo", "acquisition", "partnership", "ceo", "executive"]}
+    "model": {"name": "🗣️ 模型发布", "keywords": ["gpt", "claude", "gemini", "llama", "model", "release", "openai", "anthropic", "mistral", "moe", "parameter", "billion", "open-source model", "api", "version"]},
+    "tool": {"name": "🛠️ 工具平台", "keywords": ["tool", "platform", "api", "sdk", "launch", "feature", "announcement", "framework", "library", "studio", "plugin"]},
+    "research": {"name": "📚 研究成果", "keywords": ["paper", "research", "arxiv", "study", "benchmark", "accuracy", "state-of-the-art", "sota", "performance", "training", "inference", "neural", "network", "learning", "dataset"]},
+    "application": {"name": "🎮 AI 应用", "keywords": ["game", "design", "writing", "art", "music", "video", "image", "creative", "assistant", "productivity", "chatbot"]},
+    "industry": {"name": "📰 行业动态", "keywords": ["ai", "microsoft", "google", "amazon", "meta", "nvidia", "startup", "funding", "valuation", "ipo", "acquisition", "partnership", "ceo", "executive", "company"]}
 }
 
 # 翻译器
