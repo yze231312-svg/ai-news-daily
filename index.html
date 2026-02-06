@@ -135,7 +135,7 @@
             try {
                 // 并行加载资讯和 Prompts
                 const [newsRes, promptsRes] = await Promise.all([
-                    fetch('data.json'),
+                    fetch('data.json?v=' + Date.now()),
                     fetch('prompts.json')
                 ]);
                 
@@ -348,7 +348,7 @@
             btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;animation:spin 1s linear infinite"><circle cx="12" cy="12" r="10" stroke-opacity="0.25"/><path d="M12 2a10 10 0 019.95 9" stroke-linecap="round"/></svg> 刷新中...';
             
             try {
-                const res = await fetch('data.json?t=' + Date.now());
+                const res = await fetch('data.json?t=' + Date.now() + '&v=' + Date.now());
                 if (!res.ok) throw new Error('数据加载失败');
                 allData = await res.json();
                 
