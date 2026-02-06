@@ -8,8 +8,11 @@ on:
     branches:
       - master
     paths:
+      - '**.py'
+      - '**.json'
       - 'index.html'
       - 'style.css'
+      - 'prompts.json'
 
 jobs:
   update-news:
@@ -17,6 +20,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
         
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,5 +45,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git status
-          git commit -m "🤖 Auto-update AI news - $(date +%Y-%m-%d\ %H:%M)" || echo "No changes to commit"
-          git push origin master || echo "No changes to push"
+          
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-update AI news - $(date +'%Y-%m-%d %H:%M')"
+            git push origin master
+          fi
