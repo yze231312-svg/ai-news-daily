@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026/02/06 09:42",
+  "lastUpdate": "2026/02/06 10:02",
   "categories": [
     {
       "key": "model",
       "name": "🗣️ 模型发布",
-      "count": 25
+      "count": 26
     },
     {
       "key": "tutorial",
       "name": "📖 使用教程",
-      "count": 7
+      "count": 2
     },
     {
       "key": "tool",
       "name": "🛠️ 工具平台",
-      "count": 12
+      "count": 10
     },
     {
       "key": "research",
@@ -24,7 +24,7 @@
     {
       "key": "industry",
       "name": "📰 行业动态",
-      "count": 46
+      "count": 45
     }
   ],
   "articles": [
@@ -51,45 +51,12 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "欧盟人工智能的新篇章",
-      "original_title": "The next chapter for AI in the EU",
-      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
-      "source": "OpenAI Blog",
-      "date": "Wed, 28 Jan 2026 01:00:00 GMT",
-      "summary": "OpenAI推出了欧盟经济蓝图2.0 ，其中包含新的数据、合作伙伴关系和举措，以加速整个欧洲的人工智能采用、技能和增长。",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
       "title": "欧洲、中东和非洲青年和福祉补助金",
       "original_title": "EMEA Youth & Wellbeing Grant",
       "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
       "source": "OpenAI Blog",
       "date": "Wed, 28 Jan 2026 01:00:00 GMT",
       "summary": "申请EMEA Youth & Wellbeing Grant （欧洲、中东和非洲青年与福祉补助金） ，这是一项€ 500,000的项目，资助非政府组织和研究人员在人工智能时代促进青年安全和福祉。",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "当人工智能代理点击链接时，确保您的数据安全",
-      "original_title": "Keeping your data safe when an AI agent clicks a link",
-      "url": "https://openai.com/index/ai-agent-link-safety",
-      "source": "OpenAI Blog",
-      "date": "Wed, 28 Jan 2026 00:00:00 GMT",
-      "summary": "了解OpenAI如何在人工智能代理打开链接时保护用户数据，防止基于URL的数据泄露，并通过内置保护措施提示注入....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "GitHub Copilot CLI中斜杠命令的备忘单",
-      "original_title": "A cheat sheet to slash commands in GitHub Copilot CLI",
-      "url": "https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/",
-      "source": "GitHub Blog",
-      "date": "Wed, 21 Jan 2026 17:09:10 +0000",
-      "summary": "<p>直接在工作流程中运行测试、修复代码并获得支持。 保持专注，让Copilot处理繁琐的工作。</p>\n<p>帖子&lt; a href = \"https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
@@ -133,62 +100,7 @@
       "url": "https://techcrunch.com/2026/02/04/meet-gizmo-a-tiktok-for-interactive-vibe-coded-mini-apps/",
       "source": "TechCrunch AI",
       "date": "Wed, 04 Feb 2026 21:45:32 +0000",
-      "summary": "Gizmo的应用程序就像一个TikTok ，用于氛围编码的迷你应用程序……它很有趣……",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "AI SRE Resolve AI确认1.25亿美元融资，独角兽估值",
-      "original_title": "AI SRE Resolve AI confirms $125M raise, unicorn valuation",
-      "url": "https://techcrunch.com/2026/02/04/ai-sre-resolve-ai-confirms-125m-raise-unicorn-valuation/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 21:39:26 +0000",
-      "summary": "这家成立两年的初创公司证实，它以10亿美元的估值完成了由Lightspeed领导的A轮融资。",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "亚马逊将于下个月开始测试用于电影和电视制作的人工智能工具",
-      "original_title": "Amazon to begin testing AI tools for film and TV production next month",
-      "url": "https://techcrunch.com/2026/02/04/amazon-to-begin-testing-ai-tools-for-film-and-tv-production-next-month/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 21:26:43 +0000",
-      "summary": "据报道，亚马逊米高梅工作室将于3月开始一项封闭测试计划，以测试其人工智能工具，帮助电影和电视制作....",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "A16z刚刚为人工智能基础设施筹集了17亿美元$。这就是它的发展方向。",
-      "original_title": "A16z just raised $1.7B for AI infrastructure. Here’s where it’s going.",
-      "url": "https://techcrunch.com/video/a16z-just-raised-1-7b-for-ai-infrastructure-heres-where-its-going/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 20:24:12 +0000",
-      "summary": "Andreessen Horowitz刚刚筹集了高达150亿美元的新资金。其中17亿美元将用于其基础设施团队，以及……",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "在人工智能基础设施方面， a16z实际上资助了什么（以及它忽略了什么）",
-      "original_title": "What a16z is actually funding (and what it’s ignoring) when it comes to AI infra",
-      "url": "https://techcrunch.com/podcast/what-a16z-is-actually-funding-and-what-its-ignoring-when-it-comes-to-ai-infra/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 20:19:12 +0000",
-      "summary": "Andreessen Horowitz刚刚筹集了150亿美元的新资金。其中17亿美元将用于其基础设施团队，以及# 160...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Tinder依靠人工智能来帮助对抗“滑动疲劳”和约会应用程序倦怠",
-      "original_title": "Tinder looks to AI to help fight ‘swipe fatigue’ and dating app burnout",
-      "url": "https://techcrunch.com/2026/02/04/tinder-looks-to-ai-to-help-fight-swipe-fatigue-and-dating-app-burnout/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 18:08:00 +0000",
-      "summary": "Tinder正在测试相机胶卷的人工智能建议和洞察力，以获得更好的匹配....",
+      "summary": "Gizmo's app is like a TikTok for vibe-coded mini apps... and it's a lot of fun....",
       "tags": [],
       "category": "tool",
       "category_name": "🛠️ 工具平台"
@@ -203,39 +115,6 @@
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Roblox的4D创建功能现已公开测试",
-      "original_title": "Roblox’s 4D creation feature is now available in open beta",
-      "url": "https://techcrunch.com/2026/02/04/robloxs-4d-creation-feature-is-now-available-in-open-beta/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 17:00:00 +0000",
-      "summary": "Roblox备受期待的4D创作功能已正式推出公开测试版....",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "ElevenLabs以110亿美元的估值从红杉筹集了5亿美元",
-      "original_title": "ElevenLabs raises $500M from Sequoia at an $11 billion valuation",
-      "url": "https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 15:33:58 +0000",
-      "summary": "ElevenLabs的估值在过去12个月中上涨了三次以上....",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "亚马逊的人工智能助手Alexa +现已面向美国所有人开放",
-      "original_title": "Alexa+, Amazon’s AI assistant, is now available to everyone in the US",
-      "url": "https://techcrunch.com/2026/02/04/alexa-amazons-ai-assistant-is-now-available-to-everyone-in-the-u-s/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 14:00:00 +0000",
-      "summary": "亚马逊向美国所有人开放Alexa +人工智能功能对跨设备的Prime会员免费，对移动和网络上的所有人免费....",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
     },
     {
       "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
@@ -271,28 +150,6 @@
       "category_name": "🛠️ 工具平台"
     },
     {
-      "title": "随着代理将静态网站转变为一对一的体验， Accel在Fibr AI上翻了一番",
-      "original_title": "Accel doubles down on Fibr AI as agents turn static websites into one-to-one experiences",
-      "url": "https://techcrunch.com/2026/02/04/accel-doubles-down-on-fibr-ai-as-agents-turn-static-websites-into-one-to-one-experiences/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 13:00:00 +0000",
-      "summary": "Fibr AI用专为企业规模设计的自主系统取代了营销机构和工程重点的网站个性化....",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "独家： Positron筹集了2.3亿美元的B轮融资，以收购英伟达的人工智能芯片",
-      "original_title": "Exclusive: Positron raises $230M Series B to take on Nvidia’s AI chips",
-      "url": "https://techcrunch.com/2026/02/04/exclusive-positron-raises-230m-series-b-to-take-on-nvidias-ai-chips/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 08:18:51 +0000",
-      "summary": "这笔投资来自包括卡塔尔投资局在内的支持者，因为对英伟达以外芯片的需求飙升，卡塔尔的目标是建设其人工智能基础设施。",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
       "title": "VfL Wolfsburg将ChatGPT转变为整个俱乐部的能力",
       "original_title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
       "url": "https://openai.com/index/vfl-wolfsburg",
@@ -326,56 +183,12 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "PVH借助OpenAI重新构想时尚的未来",
-      "original_title": "PVH reimagines the future of fashion with OpenAI",
-      "url": "https://openai.com/index/pvh-future-of-fashion",
-      "source": "OpenAI Blog",
-      "date": "Tue, 27 Jan 2026 06:00:00 GMT",
-      "summary": "Calvin Klein和Tommy Hilfiger的母公司PVH Corp.正在采用ChatGPT Enterprise将人工智能引入时装设计、供应链和消费者参与....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Prism简介",
-      "original_title": "Introducing Prism",
-      "url": "https://openai.com/index/introducing-prism",
-      "source": "OpenAI Blog",
-      "date": "Tue, 27 Jan 2026 00:00:00 GMT",
-      "summary": "Prism是一个内置GPT-5.2的免费LaTeX原生工作区，可帮助研究人员在一个地方编写、协作和推理....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "使用人工智能驱动的个性化建议为税收捐赠提供支持",
-      "original_title": "Powering tax donations with AI powered personalized recommendations",
-      "url": "https://openai.com/index/trustbank",
-      "source": "OpenAI Blog",
-      "date": "Tue, 27 Jan 2026 00:00:00 GMT",
-      "summary": "TRUSTBANK与Recursive合作，使用OpenAI模型构建Choice AI ，提供个性化的对话式建议，简化Furusato Nozei礼品发现。多智能体系统帮助……",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
       "title": "Salesforce推出新的Slackbot AI代理，在工作场所AI中与微软和谷歌作战",
       "original_title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
       "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
       "source": "VentureBeat AI",
       "date": "Tue, 13 Jan 2026 13:00:00 GMT",
       "summary": "<p><a href=\"https://www.salesforce.com/\">Salesforce</a>周二推出了一个完全重建的<a href=\"https://slack.com/help/articles/202026038-An-introduction-to-Slackbot\">Slackbot</a>版本，...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "英特尔将开始生产由英伟达主导的市场GPU",
-      "original_title": "Intel will start making GPUs, a market dominated by Nvidia",
-      "url": "https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/",
-      "source": "TechCrunch AI",
-      "date": "Tue, 03 Feb 2026 21:01:34 +0000",
-      "summary": "英特尔一直在组建一个团队来专注于这项工作，并将围绕客户需求制定其GPU战略....",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
@@ -436,23 +249,23 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "大成公司通过ChatGPT塑造下一代人才",
-      "original_title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "url": "https://openai.com/index/taisei",
-      "source": "OpenAI Blog",
-      "date": "Thu, 29 Jan 2026 00:00:00 GMT",
-      "summary": "Taisei Corporation使用ChatGPT Enterprise来支持人力资源主导的人才发展，并在其全球建筑业务中扩展生成式人工智能....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
       "title": "在ChatGPT中停用GPT-4o、GPT-4.1、GPT-4.1 mini和OpenAI o4-mini",
       "original_title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
       "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
       "source": "OpenAI Blog",
       "date": "Thu, 29 Jan 2026 00:00:00 GMT",
       "summary": "2026年2月13日，除了先前宣布的GPT-5 （ Instant、Thinking和Pro ）退役外，我们还将从ChatGPT退役GPT-4.0、GPT-4.1、GPT-4.1 mini和OpenAI o4-mini。在API中， t...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "大成公司通过ChatGPT塑造下一代人才",
+      "original_title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "url": "https://openai.com/index/taisei",
+      "source": "OpenAI Blog",
+      "date": "Thu, 29 Jan 2026 00:00:00 GMT",
+      "summary": "Taisei Corporation使用ChatGPT Enterprise来支持人力资源主导的人才发展，并在其全球建筑业务中扩展生成式人工智能....",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
@@ -480,6 +293,171 @@
       "category_name": "📰 行业动态"
     },
     {
+      "title": "Sapiom筹集了1500万美元，帮助人工智能代理商购买自己的技术工具",
+      "original_title": "Sapiom raises $15M to help AI agents buy their own tech tools",
+      "url": "https://techcrunch.com/2026/02/05/sapiom-raises-15m-to-help-ai-agents-buy-their-own-tech-tools/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 23:53:42 +0000",
+      "summary": "这家初创公司--在Accel的支持下--正在构建一个金融层，处理人工智能代理所需的身份验证和小额支付。",
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Reddit将人工智能搜索视为下一个重大机遇",
+      "original_title": "Reddit looks to AI search as its next big opportunity",
+      "url": "https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 23:20:27 +0000",
+      "summary": "在周四的公司第四季度财报电话会议上，它提供了将传统搜索和人工智能搜索合并在一起的计划的最新消息，并暗示尽管搜索尚未货币化，但“它……",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "随着云需求持续高企， AWS收入继续飙升",
+      "original_title": "AWS revenue continues to soar as cloud demand remains high",
+      "url": "https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 23:11:37 +0000",
+      "summary": "AWS在收入增长方面录得最佳季度，在2025年第四季度的13个季度中，人工智能推动了AWS的采用....",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "亚马逊和谷歌正在赢得人工智能资本支出竞赛—但奖品是什么？",
+      "original_title": "Amazon and Google are winning the AI capex race — but what’s the prize?",
+      "url": "https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race-but-whats-the-prize/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 22:43:11 +0000",
+      "summary": "2026年，亚马逊计划在资本支出上花费2000亿美元。谷歌仅落后于1750亿美元至1850亿美元。好多钱啊！ ……",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "OpenAI在Anthropic推出自己的代理编码模型后仅几分钟就推出了新的代理编码模型",
+      "original_title": "OpenAI launches new agentic coding model only minutes after Anthropic drops its own",
+      "url": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 20:01:39 +0000",
+      "summary": "新模型旨在加速Codex的功能， Codex是本周早些时候推出的代理编码工具OpenAI....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "埃隆·马斯克（ Elon Musk ）正在认真对待轨道数据中心",
+      "original_title": "Elon Musk is getting serious about orbital data centers",
+      "url": "https://techcrunch.com/2026/02/05/elon-musk-is-getting-serious-about-orbital-data-centers/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 18:50:49 +0000",
+      "summary": "我们开始看到马斯克拥有的轨道人工智能数据集群的想法凝聚成一个实际的计划....",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "OpenAI为企业推出构建和管理AI代理的方式",
+      "original_title": "OpenAI launches a way for enterprises to build and manage AI agents",
+      "url": "https://techcrunch.com/2026/02/05/openai-launches-a-way-for-enterprises-to-build-and-manage-ai-agents/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 18:09:50 +0000",
+      "summary": "OpenAI推出了Frontier ，这是一个专为企业构建和部署代理而设计的新平台，同时像对待人类员工一样对待他们....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Anthropic通过新的“代理团队”发布Opus 4.6",
+      "original_title": "Anthropic releases Opus 4.6 with new ‘agent teams’",
+      "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 17:51:13 +0000",
+      "summary": "Anthropic模型的最新版本旨在拓宽其功能和吸引力，允许更多种类的用途和客户....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Meta为其AI生成的“Vibes”视频测试独立应用程序",
+      "original_title": "Meta tests a stand-alone app for its AI-generated ‘Vibes’ videos",
+      "url": "https://techcrunch.com/2026/02/05/meta-tests-a-standalone-app-for-its-ai-generated-vibes-videos/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 17:19:01 +0000",
+      "summary": "Vibes于去年9月推出，可让您创建和分享简短的AI生成视频，并访问显示其他人AI视频的专用Feed....",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "实践中的持续AI ：开发人员今天可以通过代理CI实现哪些自动化",
+      "original_title": "Continuous AI in practice: What developers can automate today with agentic CI",
+      "url": "https://github.blog/ai-and-ml/generative-ai/continuous-ai-in-practice-what-developers-can-automate-today-with-agentic-ci/",
+      "source": "GitHub Blog",
+      "date": "Thu, 05 Feb 2026 17:00:00 +0000",
+      "summary": "<p>将连续人工智能视为在存储库中操作需要推理的任务的后台代理。</p>\n<p>帖子&lt; a href = \"https://github.blog/ai-and-ml/generative-ai/continuous-ai-in-p...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Consolidating systems for AI with iPaaS",
+      "original_title": "Consolidating systems for AI with iPaaS",
+      "url": "https://www.technologyreview.com/2026/02/05/1132200/consolidating-systems-for-ai-with-ipaas/",
+      "source": "MIT Tech Review",
+      "date": "Thu, 05 Feb 2026 15:20:37 +0000",
+      "summary": "For decades, enterprises reacted to shifting business pressures with stopgap technology solutions. To rein in rising infrastructure costs, they adopted cloud services that could scale on demand. When ...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Fundamental通过对大数据分析的新看法筹集了$ 2.55亿美元的A轮融资",
+      "original_title": "Fundamental raises $255M Series A with a new take on big data analysis",
+      "url": "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 15:00:02 +0000",
+      "summary": "Fundamental已经建立了一个新的基础模型来解决一个老问题：如何从企业产生的大量结构化数据中获取见解....",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "ElevenLabs首席执行官：语音是人工智能的下一个接口",
+      "original_title": "ElevenLabs CEO: Voice is the next interface for AI",
+      "url": "https://techcrunch.com/2026/02/05/elevenlabs-ceo-voice-is-the-next-interface-for-ai/",
+      "source": "TechCrunch AI",
+      "date": "Thu, 05 Feb 2026 14:41:12 +0000",
+      "summary": "ElevenLabs首席执行官在卡塔尔网络峰会上指出，语音是人工智能的下一个接口，因为OpenAI、谷歌和苹果将对话系统推向可穿戴设备、新硬件和日常交互。",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "The Download: attempting to track AI, and the next generation of nuclear power",
+      "original_title": "The Download: attempting to track AI, and the next generation of nuclear power",
+      "url": "https://www.technologyreview.com/2026/02/05/1132270/the-download-attempting-to-track-ai-and-the-next-generation-of-nuclear-power/",
+      "source": "MIT Tech Review",
+      "date": "Thu, 05 Feb 2026 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This is the most misunderstood graph in AI Every t...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "GPT-5降低了无细胞蛋白质合成的成本",
+      "original_title": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "source": "OpenAI Blog",
+      "date": "Thu, 05 Feb 2026 11:00:00 GMT",
+      "summary": "一个将OpenAI的GPT-5与Ginkgo Bioworks的云自动化相结合的自主实验室通过闭环实验将无细胞蛋白质合成成本降低了40 ％....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
       "title": "Three questions about next-generation nuclear power, answered",
       "original_title": "Three questions about next-generation nuclear power, answered",
       "url": "https://www.technologyreview.com/2026/02/05/1132197/nuclear-questions/",
@@ -491,12 +469,34 @@
       "category_name": "📰 行业动态"
     },
     {
+      "title": "推出可信网络访问权限",
+      "original_title": "Introducing Trusted Access for Cyber",
+      "url": "https://openai.com/index/trusted-access-for-cyber",
+      "source": "OpenAI Blog",
+      "date": "Thu, 05 Feb 2026 10:00:00 GMT",
+      "summary": "OpenAI引入了Trusted Access for Cyber ，这是一个基于信任的框架，可扩展对前沿网络功能的访问，同时加强防止滥用的保护措施....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
       "title": "This is the most misunderstood graph in AI",
       "original_title": "This is the most misunderstood graph in AI",
       "url": "https://www.technologyreview.com/2026/02/05/1132254/this-is-the-most-misunderstood-graph-in-ai/",
       "source": "MIT Tech Review",
       "date": "Thu, 05 Feb 2026 10:00:00 +0000",
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Every time OpenAI, Go...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "OpenAI Frontier简介",
+      "original_title": "Introducing OpenAI Frontier",
+      "url": "https://openai.com/index/introducing-openai-frontier",
+      "source": "OpenAI Blog",
+      "date": "Thu, 05 Feb 2026 06:00:00 GMT",
+      "summary": "OpenAI Frontier是一个企业平台，用于构建、部署和管理具有共享上下文、入职、权限和治理的AI代理....",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
@@ -519,6 +519,28 @@
       "source": "OpenAI Blog",
       "date": "Thu, 05 Feb 2026 00:00:00 GMT",
       "summary": "一个家庭分享了ChatGPT如何帮助他们为儿子的关键癌症治疗决策做好准备，以及他的医生的专家指导....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "GPT-5.3-Codex系统卡",
+      "original_title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "source": "OpenAI Blog",
+      "date": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "summary": "GPT ‑ 5.3-Codex是迄今为止最强大的代理编码模型，将GPT ‑ 5.2-Codex的前沿编码性能与GPT ‑ 5.2的推理和专业知识能力相结合。",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "GPT-5.3-Codex简介",
+      "original_title": "Introducing GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "source": "OpenAI Blog",
+      "date": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "summary": "GPT-5.3-Codex是一个Codex原生代理，它将前沿编码性能与一般推理相结合，以支持长期、真实的技术工作....",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
@@ -601,28 +623,6 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "The Download: inside a deepfake marketplace, and EV batteries’ future",
-      "original_title": "The Download: inside a deepfake marketplace, and EV batteries’ future",
-      "url": "https://www.technologyreview.com/2026/02/02/1132049/the-download-inside-a-deepfake-marketplace-and-ev-batteries-future/",
-      "source": "MIT Tech Review",
-      "date": "Mon, 02 Feb 2026 13:10:00 +0000",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the marketplace powering bespoke AI deepfak...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "What’s next for EV batteries in 2026",
-      "original_title": "What’s next for EV batteries in 2026",
-      "url": "https://www.technologyreview.com/2026/02/02/1132042/whats-next-for-ev-batteries-in-2026/",
-      "source": "MIT Tech Review",
-      "date": "Mon, 02 Feb 2026 10:00:00 +0000",
-      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Demand for electric vehicl...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
       "title": "Snowflake与OpenAI合作，为企业数据带来前沿智能",
       "original_title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
       "url": "https://openai.com/index/snowflake-partnership",
@@ -660,7 +660,7 @@
       "original_title": "Error",
       "url": "https://arxiv.org/help/api/user-manual#sort",
       "source": "arXiv",
-      "date": "2026-02-05T20:26:41.308488",
+      "date": "2026-02-06T10:01:33.716526",
       "summary": "sortOrder必须在: ascending, descending...",
       "tags": [
         "Research",
@@ -674,7 +674,7 @@
       "original_title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-05T20:26:40.549162",
+      "date": "2026-02-06T10:01:27.707004",
       "summary": "Downloads: 29 | Likes: 0",
       "tags": [
         "Model",
@@ -688,7 +688,7 @@
       "original_title": "cortexso/intellect-2",
       "url": "https://huggingface.co/cortexso/intellect-2",
       "source": "HuggingFace",
-      "date": "2026-02-05T20:26:39.860246",
+      "date": "2026-02-06T10:01:27.056993",
       "summary": "Downloads: 124 | Likes: 1",
       "tags": [
         "Model",
@@ -702,7 +702,7 @@
       "original_title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-05T20:26:39.346713",
+      "date": "2026-02-06T10:01:26.584423",
       "summary": "Downloads: 140 | Likes: 0",
       "tags": [
         "Model",
@@ -716,7 +716,7 @@
       "original_title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-05T20:26:38.792584",
+      "date": "2026-02-06T10:01:26.101828",
       "summary": "Downloads: 186 | Likes: 0",
       "tags": [
         "Model",
@@ -730,7 +730,7 @@
       "original_title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-05T20:26:38.268680",
+      "date": "2026-02-06T10:01:25.625652",
       "summary": "Downloads: 221 | Likes: 4",
       "tags": [
         "Model",
@@ -744,7 +744,7 @@
       "original_title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-05T20:26:37.734891",
+      "date": "2026-02-06T10:01:25.036805",
       "summary": "Downloads: 315 | Likes: 1",
       "tags": [
         "Model",
@@ -758,7 +758,7 @@
       "original_title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-05T20:26:36.815645",
+      "date": "2026-02-06T10:01:24.178629",
       "summary": "Downloads: 776 | Likes: 1",
       "tags": [
         "Model",
@@ -772,7 +772,7 @@
       "original_title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-05T20:26:35.853872",
+      "date": "2026-02-06T10:01:23.162935",
       "summary": "Downloads: 1,293 | Likes: 0",
       "tags": [
         "Model",
@@ -782,111 +782,111 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Spotify’s Page Match syncs your audiobooks and your physical ones",
-      "original_title": "Spotify’s Page Match syncs your audiobooks and your physical ones",
-      "url": "https://www.theverge.com/entertainment/874134/spotify-page-match-audiobook-sync",
+      "title": "HBO is turning Baldur’s Gate into a TV show",
+      "original_title": "HBO is turning Baldur’s Gate into a TV show",
+      "url": "https://www.theverge.com/entertainment/874682/hbo-baldurs-gate-3-tv-show-craig-mazin",
       "source": "The Verge",
-      "date": "2026-02-05T07:00:00-05:00",
-      "summary": "Spotify has launched a new feature called Page Match that lets you quickly sync your spot in a physical or ebook with an audiobook. Point your camera at a page, and the Spotify app uses computer visio...",
+      "date": "2026-02-05T19:50:16-05:00",
+      "summary": "HBO is developing a Baldur's Gate TV show that will continue the story of Larian Studios' hit RPG Baldur's Gate 3, according to Deadline. The Last Of Us co-creator Craig Mazin will serve as the show's...",
       "tags": [],
       "category": "tool",
       "category_name": "🛠️ 工具平台"
     },
     {
-      "title": "Spotify is partnering with Bookshop.org to sell physical books",
-      "original_title": "Spotify is partnering with Bookshop.org to sell physical books",
-      "url": "https://www.theverge.com/entertainment/874150/spotify-bookshop-org-physical-books",
+      "title": "Roblox is working to pull in adult players",
+      "original_title": "Roblox is working to pull in adult players",
+      "url": "https://www.theverge.com/games/874675/roblox-earnings-q4-2025-increasing-adult-players",
       "source": "The Verge",
-      "date": "2026-02-05T07:00:00-05:00",
-      "summary": "Spotify is going all in on books in 2026 and partnering with Bookshop.org to let you buy physical copies of audiobooks and support local retailers starting in the Spring. The announcement dovetails wi...",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
-      "title": "Substack data breach exposed users’ emails and phone numbers",
-      "original_title": "Substack data breach exposed users’ emails and phone numbers",
-      "url": "https://www.theverge.com/tech/874255/substack-data-breach-user-emails-phone-numbers",
-      "source": "The Verge",
-      "date": "2026-02-05T05:55:06-05:00",
-      "summary": "Substack is notifying some users that the email addresses and phone numbers linked to their accounts were exposed in a \"security incident\" last year. In an email to account holders, Substack CEO Chris...",
+      "date": "2026-02-05T18:14:51-05:00",
+      "summary": "After rolling out age verification last year, Roblox is aiming to grow the number of players over 18 on its platform. As noted in its 2025 year-end earnings report, 45 percent of Roblox's daily active...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Valve’s Steam Machine has been delayed, and the RAM crisis will impact pricing",
-      "original_title": "Valve’s Steam Machine has been delayed, and the RAM crisis will impact pricing",
-      "url": "https://www.theverge.com/games/874196/valve-steam-machine-frame-controller-delay-pricing-memory-crisis",
+      "title": "Republicans attack &#8216;woke&#8217; Netflix — and ignore YouTube",
+      "original_title": "Republicans attack &#8216;woke&#8217; Netflix — and ignore YouTube",
+      "url": "https://www.theverge.com/streaming/874655/netflix-warner-bros-republican-culture-war-ted-sarandos-hearing",
       "source": "The Verge",
-      "date": "2026-02-04T19:12:04-05:00",
-      "summary": "When Valve first announced its impressive-looking Steam Machine, Steam Frame, and Steam Controller hardware in November, the company said the products would begin shipping in early 2026. Some journali...",
+      "date": "2026-02-05T16:40:45-05:00",
+      "summary": "When Netflix co-CEO Ted Sarandos entered the Senate office building on Tuesday, he got thrown a curveball. What started as a standard antitrust hearing relating to the Warner Bros. merger quickly devo...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Google&#8217;s annual revenue tops $400 billion for the first time",
-      "original_title": "Google&#8217;s annual revenue tops $400 billion for the first time",
-      "url": "https://www.theverge.com/news/874161/google-400-billion-revenue-q4-2025-earnings",
+      "title": "Iron Lung’s path to theaters was unique, even if the movie isn’t",
+      "original_title": "Iron Lung’s path to theaters was unique, even if the movie isn’t",
+      "url": "https://www.theverge.com/entertainment/874500/iron-lung-theater-box-office-markiplier",
       "source": "The Verge",
-      "date": "2026-02-04T17:41:03-05:00",
-      "summary": "Google's parent company, Alphabet, has earned more than $400 billion in annual revenue for the first time. The company announced the milestone as part of its Q4 2025 earnings report released on Wednes...",
+      "date": "2026-02-05T16:00:00-05:00",
+      "summary": "As a movie, Iron Lung is occasionally thrilling but mostly forgettable. It's a small-budget horror flick that has some cool ideas and pulls them off in an extremely efficient way, creating a sense of ...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Senators grill Waymo and Tesla over robotaxi safety, liability, and China",
-      "original_title": "Senators grill Waymo and Tesla over robotaxi safety, liability, and China",
-      "url": "https://www.theverge.com/transportation/873891/senate-hearing-autonomous-vehicles-robotaxi-waymo-tesla-legislation",
+      "title": "The price of Bitcoin drops below $65,000",
+      "original_title": "The price of Bitcoin drops below $65,000",
+      "url": "https://www.theverge.com/tech/874603/bitcoin-price-drop-cryptocurrency",
       "source": "The Verge",
-      "date": "2026-02-04T17:31:01-05:00",
-      "summary": "During a two-hour hearing in the US Senate Wednesday, top executives from Waymo and Tesla urged lawmakers to take action on long-stalled legislation to speed the deployment of self-driving cars on pub...",
+      "date": "2026-02-05T15:38:01-05:00",
+      "summary": "On Thursday, Bitcoin's value fell over 10 percent in a single day, dropping to around $64,000, the lowest it has been since the 2024 Presidential election, as CNBC reports. After crossing $100,000 in ...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Nintendo’s new Virtual Boy is more fun to look at than to play",
-      "original_title": "Nintendo’s new Virtual Boy is more fun to look at than to play",
-      "url": "https://www.theverge.com/games/873755/nintendo-switch-virtual-boy-impressions",
+      "title": "Zuckerberg considered changing how Meta studies social issues after research got it in trouble",
+      "original_title": "Zuckerberg considered changing how Meta studies social issues after research got it in trouble",
+      "url": "https://www.theverge.com/report/874176/meta-zuckerberg-new-mexico-email-teen-girls-research",
       "source": "The Verge",
-      "date": "2026-02-04T16:37:50-05:00",
-      "summary": "Though the Virtual Boy was both a commercial and critical failure, the console's infamy is part of what has made it such a fascinating piece of Nintendo's history. Original units are still going for h...",
+      "date": "2026-02-05T14:10:35-05:00",
+      "summary": "One day after The Wall Street Journal published a blockbuster story about Meta's own dismal findings about teen girls' mental health on Instagram, CEO Mark Zuckerberg wondered whether Meta should chan...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Sam Altman responds to Anthropic’s ‘funny’ Super Bowl ads",
-      "original_title": "Sam Altman responds to Anthropic’s ‘funny’ Super Bowl ads",
-      "url": "https://www.theverge.com/news/874084/ai-chatgpt-claude-super-bowl-ads-openai-anthropic",
+      "title": "One of the best laptop power banks available is cheaper than ever",
+      "original_title": "One of the best laptop power banks available is cheaper than ever",
+      "url": "https://www.theverge.com/gadgets/874509/anker-laptop-power-bank-google-pixel-watch-4-deal-sale",
       "source": "The Verge",
-      "date": "2026-02-04T16:03:05-05:00",
-      "summary": "Sam Altman responded to Anthropic's new Super Bowl ad in an X post on Wednesday, saying the OpenAI competitor's campaign is \"clearly dishonest,\" and called it \"on brand\" for Anthropic to \"doublespeak....",
+      "date": "2026-02-05T13:34:00-05:00",
+      "summary": "If you often travel with your gadgets, a fast, reliable portable battery like Anker’s Laptop Power Bank is a worthwhile purchase. Right now, you can buy the silver model at its all-time low price of $...",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "This Town, 2.0",
-      "original_title": "This Town, 2.0",
-      "url": "https://www.theverge.com/column/874050/regulator-shutdown-averted-crypto",
+      "title": "I tested several cases for the Switch 2 and these are the best",
+      "original_title": "I tested several cases for the Switch 2 and these are the best",
+      "url": "https://www.theverge.com/reviews/691319/best-switch-2-cases",
       "source": "The Verge",
-      "date": "2026-02-04T15:20:56-05:00",
-      "summary": "Hello and welcome to Regulator, a newsletter for Verge subscribers about the most ambitious crossover event of all time: the infinity war between technology and politics. Not subscribed yet? Come on, ...",
+      "date": "2026-02-05T13:19:56-05:00",
+      "summary": "You might find it kind of sad to put your hard-earned Switch 2 into a protective case. To me, it’s freeing. Sure, it can take away from the slick design. But using a case relieves me of the worry that...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Overwatch: All the news about Blizzard’s hit hero shooter",
-      "original_title": "Overwatch: All the news about Blizzard’s hit hero shooter",
-      "url": "https://www.theverge.com/2022/6/14/23167853/overwatch-2-activision-blizzard-news",
+      "title": "Super Bowl LX ads: all AI everything",
+      "original_title": "Super Bowl LX ads: all AI everything",
+      "url": "https://www.theverge.com/entertainment/874504/super-bowl-lx-ads-big-game",
       "source": "The Verge",
-      "date": "2026-02-04T14:53:54-05:00",
-      "summary": "Overwatch 2, the sequel to Activision Blizzard’s hit hero shooter Overwatch, was announced in 2019 but didn’t arrive for another three years, eventually bringing a shift to five-on-five matches in PvP...",
+      "date": "2026-02-05T13:18:34-05:00",
+      "summary": "Super Bowl LX is nearly here, with the Seattle Seahawks taking on the New England Patriots. While Bad Bunny will be the star of the halftime show, AI could be the star of the commercial breaks, much l...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Who’s who and what’s what in TVs in 2026",
+      "original_title": "Who’s who and what’s what in TVs in 2026",
+      "url": "https://www.theverge.com/tech/874138/tv-manufacturer-technology-2026",
+      "source": "The Verge",
+      "date": "2026-02-05T13:00:00-05:00",
+      "summary": "Each TV company has its own distinct personality and direction. These change over the years, with new technological breakthroughs or at least new business deals. New aspirations shake up the natural o...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
@@ -1061,18 +1061,29 @@
       "original_title": "API Integration in 2025: Meaning, Types, Examples & Real ... - Unizo",
       "url": "https://unizo.ai/blog/api-integration-guide-2025/",
       "source": "Tavily AI",
-      "date": "Thu, 05 Feb 2026 20:28:14 GMT",
+      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
       "summary": "This comprehensive guide explores what API integration means, how it works, the different types available, real-world examples across industries",
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
     },
     {
-      "title": "API Integration Guide 2025: AI Enabled Data Integrations",
-      "original_title": "API Integration Guide 2025: AI Enabled Data Integrations",
+      "title": "A Comprehensive Guide to API Integration in 2025 - Bricks Tech",
+      "original_title": "A Comprehensive Guide to API Integration in 2025 - Bricks Tech",
+      "url": "https://www.brickstech.io/blogs/a-comprehensive-guide-to-api-integration-in-2025",
+      "source": "Tavily AI",
+      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
+      "summary": "Learn what API integration is, how it works, and why it matters in 2025. Explore tools, best practices, and trends to streamline systems and",
+      "tags": [],
+      "category": "tutorial",
+      "category_name": "📖 使用教程"
+    },
+    {
+      "title": "API Integration Guide 2025: Best Practices & Trends - Bizdata",
+      "original_title": "API Integration Guide 2025: Best Practices & Trends - Bizdata",
       "url": "https://www.bizdata360.com/api-integration-marketplaces-ultimate-guide-2025/",
       "source": "Tavily AI",
-      "date": "Thu, 05 Feb 2026 20:28:14 GMT",
+      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
       "summary": "Learn API integration with our 2025 guide. Learn key trends, benefits, and strategies to connect apps, boost efficiency, and scale your",
       "tags": [],
       "category": "tutorial",
@@ -1083,7 +1094,7 @@
       "original_title": "How to Integrate AI APIs into Your Web Projects: A 2025 Guide for ...",
       "url": "https://medium.com/@robin.007660/how-to-integrate-ai-apis-into-your-web-projects-a-2025-guide-for-developers-eca59ed01d6a",
       "source": "Tavily AI",
-      "date": "Thu, 05 Feb 2026 20:28:14 GMT",
+      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
       "summary": "# **How to Integrate AI APIs into Your Web Projects: A 2025 Guide for Developers**. Fast-forward to 2025 — developers are building apps that summarize text, generate images, answer questions, recommend products, and even **understand emotion** — all thanks to AI-powered APIs. And here’s the good news:. * Why AI APIs are the next big unlock for web developers. ## 🚀 Why AI APIs Matter for Developers in 2025. ## 🧠 What AI APIs Should You Learn in 2025? API/PlatformWhat It DoesUse Cases**OpenAI (Cha",
       "tags": [],
       "category": "tutorial",
@@ -1094,51 +1105,11 @@
       "original_title": "What is AI API Integration? A Comprehensive Beginner's Guide - Estha",
       "url": "https://estha.ai/what-is-ai-api-integration-a-comprehensive-beginners-guide/",
       "source": "Tavily AI",
-      "date": "Thu, 05 Feb 2026 20:28:14 GMT",
+      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
       "summary": "At its core, AI API integration is the process of connecting your applications, websites, or systems to pre-built artificial intelligence",
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
-    },
-    {
-      "title": "Complete OpenAI API Integration Guide: How to Use ... - LinkedIn",
-      "original_title": "Complete OpenAI API Integration Guide: How to Use ... - LinkedIn",
-      "url": "https://www.linkedin.com/pulse/complete-openai-api-integration-guide-how-use-your-projects-wezom-razvf",
-      "source": "Tavily AI",
-      "date": "Thu, 05 Feb 2026 20:28:14 GMT",
-      "summary": "Presenting our OpenAI GPT integration tutorial. Here's what you'll get: A simple step-by-step explanation of what OpenAI API is and",
-      "tags": [],
-      "category": "tutorial",
-      "category_name": "📖 使用教程"
-    },
-    {
-      "title": "GPT-5.3-Codex 发布，SWE-Bench Pro 达 57%",
-      "original_title": "OpenAI's CEO Sam Altman announced GPT-5.3-Codex",
-      "url": "https://x.com/Awesome_AI_News/status/2019586482256871690",
-      "source": "Twitter",
-      "date": "Fri, 06 Feb 2026 01:38:34 +0000",
-      "summary": "OpenAI CEO Sam Altman 宣布 GPT-5.3-Codex 发布，在 SWE-Bench Pro 上达到 57%",
-      "tags": [
-        "GPT-5",
-        "OpenAI",
-        "Codex"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Claude Opus 4.6 和 GPT-5.3-Codex 加入 TypingMind",
-      "original_title": "Added Claude Opus 4.6 and GPT Codex 5.3 to TypingMind",
-      "url": "https://x.com/tdinh_me/status/2019586848096673967",
-      "source": "Twitter",
-      "date": "Fri, 06 Feb 2026 01:40:01 +0000",
-      "summary": "Tony Dinh 将 Claude Opus 4.6 和 GPT-5.3-Codex 添加到 TypingMind",
-      "tags": [
-        "Claude",
-        "OpenAI"
-      ],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
     }
   ]
 }
