@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/02/06 10:02",
+  "lastUpdate": "2026/02/06 10:31",
   "categories": [
     {
       "key": "model",
@@ -660,7 +660,7 @@
       "original_title": "Error",
       "url": "https://arxiv.org/help/api/user-manual#sort",
       "source": "arXiv",
-      "date": "2026-02-06T10:01:33.716526",
+      "date": "2026-02-06T10:29:27.508564",
       "summary": "sortOrder必须在: ascending, descending...",
       "tags": [
         "Research",
@@ -674,7 +674,7 @@
       "original_title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:01:27.707004",
+      "date": "2026-02-06T10:29:26.360724",
       "summary": "Downloads: 29 | Likes: 0",
       "tags": [
         "Model",
@@ -688,7 +688,7 @@
       "original_title": "cortexso/intellect-2",
       "url": "https://huggingface.co/cortexso/intellect-2",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:01:27.056993",
+      "date": "2026-02-06T10:29:25.745156",
       "summary": "Downloads: 124 | Likes: 1",
       "tags": [
         "Model",
@@ -702,7 +702,7 @@
       "original_title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:01:26.584423",
+      "date": "2026-02-06T10:29:25.129652",
       "summary": "Downloads: 140 | Likes: 0",
       "tags": [
         "Model",
@@ -716,7 +716,7 @@
       "original_title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:01:26.101828",
+      "date": "2026-02-06T10:29:24.502175",
       "summary": "Downloads: 186 | Likes: 0",
       "tags": [
         "Model",
@@ -730,7 +730,7 @@
       "original_title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:01:25.625652",
+      "date": "2026-02-06T10:29:23.772331",
       "summary": "Downloads: 221 | Likes: 4",
       "tags": [
         "Model",
@@ -744,7 +744,7 @@
       "original_title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:01:25.036805",
+      "date": "2026-02-06T10:29:23.162306",
       "summary": "Downloads: 315 | Likes: 1",
       "tags": [
         "Model",
@@ -758,7 +758,7 @@
       "original_title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:01:24.178629",
+      "date": "2026-02-06T10:29:22.502354",
       "summary": "Downloads: 776 | Likes: 1",
       "tags": [
         "Model",
@@ -772,7 +772,7 @@
       "original_title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:01:23.162935",
+      "date": "2026-02-06T10:29:21.471828",
       "summary": "Downloads: 1,293 | Likes: 0",
       "tags": [
         "Model",
@@ -1061,7 +1061,7 @@
       "original_title": "API Integration in 2025: Meaning, Types, Examples & Real ... - Unizo",
       "url": "https://unizo.ai/blog/api-integration-guide-2025/",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
+      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
       "summary": "This comprehensive guide explores what API integration means, how it works, the different types available, real-world examples across industries",
       "tags": [],
       "category": "tutorial",
@@ -1072,7 +1072,7 @@
       "original_title": "A Comprehensive Guide to API Integration in 2025 - Bricks Tech",
       "url": "https://www.brickstech.io/blogs/a-comprehensive-guide-to-api-integration-in-2025",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
+      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
       "summary": "Learn what API integration is, how it works, and why it matters in 2025. Explore tools, best practices, and trends to streamline systems and",
       "tags": [],
       "category": "tutorial",
@@ -1083,7 +1083,7 @@
       "original_title": "API Integration Guide 2025: Best Practices & Trends - Bizdata",
       "url": "https://www.bizdata360.com/api-integration-marketplaces-ultimate-guide-2025/",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
+      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
       "summary": "Learn API integration with our 2025 guide. Learn key trends, benefits, and strategies to connect apps, boost efficiency, and scale your",
       "tags": [],
       "category": "tutorial",
@@ -1094,7 +1094,7 @@
       "original_title": "How to Integrate AI APIs into Your Web Projects: A 2025 Guide for ...",
       "url": "https://medium.com/@robin.007660/how-to-integrate-ai-apis-into-your-web-projects-a-2025-guide-for-developers-eca59ed01d6a",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
+      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
       "summary": "# **How to Integrate AI APIs into Your Web Projects: A 2025 Guide for Developers**. Fast-forward to 2025 — developers are building apps that summarize text, generate images, answer questions, recommend products, and even **understand emotion** — all thanks to AI-powered APIs. And here’s the good news:. * Why AI APIs are the next big unlock for web developers. ## 🚀 Why AI APIs Matter for Developers in 2025. ## 🧠 What AI APIs Should You Learn in 2025? API/PlatformWhat It DoesUse Cases**OpenAI (Cha",
       "tags": [],
       "category": "tutorial",
@@ -1105,7 +1105,7 @@
       "original_title": "What is AI API Integration? A Comprehensive Beginner's Guide - Estha",
       "url": "https://estha.ai/what-is-ai-api-integration-a-comprehensive-beginners-guide/",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:02:54 GMT",
+      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
       "summary": "At its core, AI API integration is the process of connecting your applications, websites, or systems to pre-built artificial intelligence",
       "tags": [],
       "category": "tutorial",
