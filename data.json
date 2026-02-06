@@ -1,15 +1,15 @@
 {
-  "lastUpdate": "2026/02/05 20:28",
+  "lastUpdate": "2026/02/06 09:42",
   "categories": [
     {
       "key": "model",
       "name": "🗣️ 模型发布",
-      "count": 23
+      "count": 25
     },
     {
       "key": "tutorial",
       "name": "📖 使用教程",
-      "count": 2
+      "count": 7
     },
     {
       "key": "tool",
@@ -1110,6 +1110,35 @@
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
+    },
+    {
+      "title": "GPT-5.3-Codex 发布，SWE-Bench Pro 达 57%",
+      "original_title": "OpenAI's CEO Sam Altman announced GPT-5.3-Codex",
+      "url": "https://x.com/Awesome_AI_News/status/2019586482256871690",
+      "source": "Twitter",
+      "date": "Fri, 06 Feb 2026 01:38:34 +0000",
+      "summary": "OpenAI CEO Sam Altman 宣布 GPT-5.3-Codex 发布，在 SWE-Bench Pro 上达到 57%",
+      "tags": [
+        "GPT-5",
+        "OpenAI",
+        "Codex"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Claude Opus 4.6 和 GPT-5.3-Codex 加入 TypingMind",
+      "original_title": "Added Claude Opus 4.6 and GPT Codex 5.3 to TypingMind",
+      "url": "https://x.com/tdinh_me/status/2019586848096673967",
+      "source": "Twitter",
+      "date": "Fri, 06 Feb 2026 01:40:01 +0000",
+      "summary": "Tony Dinh 将 Claude Opus 4.6 和 GPT-5.3-Codex 添加到 TypingMind",
+      "tags": [
+        "Claude",
+        "OpenAI"
+      ],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     }
   ]
 }
