@@ -49,5 +49,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "🤖 Auto-update AI news - $(date +'%Y-%m-%d %H:%M')"
+            git pull origin master --rebase
             git push origin master
           fi
