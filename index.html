@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>AI News Daily</title>
+    <title>AI NEWS // TERMINAL</title>
     <meta name="description" content="Daily curated AI news, tools, and models.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Sci-Fi Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Visual Effects Layers -->
+    <div class="cyber-grid"></div>
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
+    
     <div class="app-container">
         <main class="main-content">
             <header class="sticky-header">
+                <div class="header-decoration">
+                    <span class="coord">SYS.ROOT.01</span>
+                    <span class="status">ONLINE</span>
+                </div>
+                
                 <div class="header-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-                    <div class="page-title">AI News Daily</div>
+                    <div class="page-title" data-text="AI NEWS DAILY">AI NEWS DAILY</div>
                     <button class="refresh-btn" id="refreshBtn" aria-label="Refresh">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M23 4v6h-6"></path>
-                            <path d="M1 20v-6h6"></path>
-                            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
-                        </svg>
+                        <div class="btn-content">
+                            <span class="icon-bracket">[</span>
+                            <span class="icon-text">SYNC</span>
+                            <span class="icon-bracket">]</span>
+                        </div>
                     </button>
                 </div>
                 
@@ -30,6 +41,7 @@
                         <!-- Categories injected here -->
                     </div>
                 </div>
+                <div class="header-line"></div>
             </header>
 
             <div class="news-feed" id="newsFeed">
@@ -37,12 +49,16 @@
             </div>
             
             <div id="loadingState" class="status-message">
-                <div class="spinner"></div>
-                <p>Loading updates...</p>
+                <div class="cyber-spinner">
+                    <div class="ring"></div>
+                    <div class="ring"></div>
+                    <div class="ring"></div>
+                </div>
+                <p class="blink-text">INITIALIZING DATA STREAM...</p>
             </div>
             
             <div id="emptyState" class="status-message" style="display: none;">
-                <p>No news found in this category.</p>
+                <p>NO DATA FOUND IN SECTOR.</p>
             </div>
         </main>
     </div>
@@ -60,11 +76,11 @@
         const emptyState = document.getElementById('emptyState');
         const refreshBtn = document.getElementById('refreshBtn');
 
-        // Icons (SVG strings)
+        // Icons (SVG strings) - Simplified for tech look or replaced by CSS
         const ICONS = {
-            like: '<svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>',
-            retweet: '<svg viewBox="0 0 24 24"><path d="M23.77 15.67c-.292-.293-.767-.293-1.06 0l-2.22 2.22V7.65c0-2.068-1.683-3.75-3.75-3.75h-5.85c-.414 0-.75.336-.75.75s.336.75.75.75h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22c-.293-.293-.768-.293-1.06 0s-.294.768 0 1.06l3.5 3.5c.145.147.337.22.53.22s.383-.072.53-.22l3.5-3.5c.294-.292.294-.767 0-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22c.148.147.34.22.532.22s.384-.073.53-.22c.293-.293.293-.768 0-1.06l-3.5-3.5c-.293-.294-.768-.294-1.06 0l-3.5 3.5c-.294.292-.294.767 0 1.06s.767.293 1.06 0l2.22-2.22V16.7c0 2.068 1.683 3.75 3.75 3.75h5.85c.414 0 .75-.336.75-.75s-.337-.75-.75-.75z"/></svg>',
-            reply: '<svg viewBox="0 0 24 24"><path d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.135 3.646 8.135 8.138v.427c0 3.072-1.706 5.795-4.287 7.164-1.996 1.057-4.248 1.57-6.527 1.486-1.922-.07-3.79-.64-5.434-1.666-.883.27-2.618.795-4.608 1.403-.686.208-1.393-.332-1.365-1.04.095-2.348.69-3.92 1.096-4.708-1.554-1.96-2.38-4.48-2.38-7.204zm9.336 8.527c2.096.08 4.17-.39 6.002-1.362 2.025-1.074 3.364-3.21 3.364-5.617v-.427c0-3.664-2.972-6.638-6.635-6.638h-4.365c-3.593 0-6.505 2.912-6.505 6.505 0 2.23 1.077 4.29 2.898 5.666.36.273.553.72.502 1.168-.112 1.004-.38 2.073-.66 2.96 1.258-.38 2.457-.757 3.344-1.026.47-.142.97-.087 1.407.16 1.407.8 2.996 1.24 4.646 1.296z"/></svg>'
+            like: '<svg viewBox="0 0 24 24" class="tech-icon"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>',
+            retweet: '<svg viewBox="0 0 24 24" class="tech-icon"><path d="M23.77 15.67c-.292-.293-.767-.293-1.06 0l-2.22 2.22V7.65c0-2.068-1.683-3.75-3.75-3.75h-5.85c-.414 0-.75.336-.75.75s.336.75.75.75h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22c-.293-.293-.768-.293-1.06 0s-.294.768 0 1.06l3.5 3.5c.145.147.337.22.53.22s.383-.072.53-.22l3.5-3.5c.294-.292.294-.767 0-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22c.148.147.34.22.532.22s.384-.073.53-.22c.293-.293.293-.768 0-1.06l-3.5-3.5c-.293-.294-.768-.294-1.06 0l-3.5 3.5c-.294.292-.294.767 0 1.06s.767.293 1.06 0l2.22-2.22V16.7c0 2.068 1.683 3.75 3.75 3.75h5.85c.414 0 .75-.336.75-.75s-.337-.75-.75-.75z"/></svg>',
+            reply: '<svg viewBox="0 0 24 24" class="tech-icon"><path d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.135 3.646 8.135 8.138v.427c0 3.072-1.706 5.795-4.287 7.164-1.996 1.057-4.248 1.57-6.527 1.486-1.922-.07-3.79-.64-5.434-1.666-.883.27-2.618.795-4.608 1.403-.686.208-1.393-.332-1.365-1.04.095-2.348.69-3.92 1.096-4.708-1.554-1.96-2.38-4.48-2.38-7.204zm9.336 8.527c2.096.08 4.17-.39 6.002-1.362 2.025-1.074 3.364-3.21 3.364-5.617v-.427c0-3.664-2.972-6.638-6.635-6.638h-4.365c-3.593 0-6.505 2.912-6.505 6.505 0 2.23 1.077 4.29 2.898 5.666.36.273.553.72.502 1.168-.112 1.004-.38 2.073-.66 2.96 1.258-.38 2.457-.757 3.344-1.026.47-.142.97-.087 1.407.16 1.407.8 2.996 1.24 4.646 1.296z"/></svg>'
         };
 
         // Initialization
@@ -72,9 +88,9 @@
             init();
             
             refreshBtn.addEventListener('click', async () => {
-                refreshBtn.classList.add('spinning');
+                refreshBtn.classList.add('active');
                 await init(); // Re-fetch
-                setTimeout(() => refreshBtn.classList.remove('spinning'), 500);
+                setTimeout(() => refreshBtn.classList.remove('active'), 500);
             });
         });
 
@@ -98,7 +114,7 @@
                 
             } catch (error) {
                 console.error('Error fetching news:', error);
-                loadingState.querySelector('p').textContent = 'Failed to load news.';
+                loadingState.querySelector('p').textContent = 'ERROR: CONNECTION LOST.';
             } finally {
                 loadingState.style.display = 'none';
             }
@@ -109,14 +125,14 @@
             tabsContainer.innerHTML = '';
             
             // "All" Tab
-            const allTab = createTab('all', 'All', '🔥');
+            const allTab = createTab('all', 'ALL NET', '🌐');
             if (activeCategory === 'all') allTab.classList.add('active');
             tabsContainer.appendChild(allTab);
             
             // Dynamic Tabs
             categories.forEach(cat => {
                 if (cat.count > 0) {
-                    const tab = createTab(cat.key, cat.name, cat.icon);
+                    const tab = createTab(cat.key, cat.name.toUpperCase(), cat.icon);
                     if (activeCategory === cat.key) tab.classList.add('active');
                     tabsContainer.appendChild(tab);
                 }
@@ -127,7 +143,7 @@
             const btn = document.createElement('div');
             btn.className = 'tab-item';
             btn.dataset.key = key; // Store key for robust activation
-            btn.textContent = name;
+            btn.innerHTML = `<span class="tab-text" data-text="${name}">${name}</span>`;
             btn.onclick = () => {
                 setActiveCategory(key);
             };
@@ -150,12 +166,6 @@
             filterAndRenderFeed();
         }
 
-        function getCategoryName(key) {
-            if (key === 'all') return 'All';
-            const cat = categories.find(c => c.key === key);
-            return cat ? cat.name : key;
-        }
-
         // Feed Logic
         function filterAndRenderFeed() {
             newsFeed.innerHTML = '';
@@ -174,58 +184,65 @@
 
             // Render cards with staggering
             filtered.forEach((article, index) => {
-                const card = createCard(article);
-                card.style.animationDelay = `${index * 0.05}s`;
+                const card = createCard(article, index);
+                // Staggered entry
+                card.style.animationDelay = `${index * 0.1}s`;
                 newsFeed.appendChild(card);
             });
         }
 
-        function createCard(article) {
+        function createCard(article, index) {
             const card = document.createElement('article');
-            card.className = 'article-card';
+            card.className = 'article-card cyber-border';
             card.onclick = (e) => {
-                // Prevent opening if clicking specific interactive elements if any
                 window.open(article.url, '_blank');
             };
 
-            const author = article.author || { display_name: 'Unknown', username: 'unknown', avatar: '' };
+            const author = article.author || { display_name: 'UNKNOWN', username: 'unknown', avatar: '' };
             const timeAgoStr = timeAgo(article.published_at);
             const metrics = article.metrics || {};
             
-            // Extract domain from URL for "source" if source field is generic
-            const sourceDisplay = article.source || 'Web';
+            // Random index for visual variety if needed, or index
+            const idCode = (Math.random().toString(36).substring(7) + index).toUpperCase();
 
             card.innerHTML = `
-                <div class="author-avatar">
-                    <img src="${author.avatar || 'https://ui-avatars.com/api/?background=random&name=' + encodeURIComponent(author.display_name)}" alt="${author.display_name}" loading="lazy">
-                </div>
-                <div class="article-content">
-                    <div class="article-header">
-                        <span class="author-name">${escapeHtml(author.display_name)}</span>
-                        <span class="author-handle">@${escapeHtml(author.username)}</span>
-                        <span class="dot-separator">·</span>
-                        <span class="publish-time">${timeAgoStr}</span>
+                <div class="card-deco-top"></div>
+                <div class="card-content-wrapper">
+                    <div class="author-section">
+                        <div class="author-avatar">
+                            <img src="${author.avatar || 'https://ui-avatars.com/api/?background=000&color=fff&name=' + encodeURIComponent(author.display_name)}" alt="${author.display_name}" loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">${escapeHtml(author.display_name)}</span>
+                            <div class="author-meta">
+                                <span class="author-handle">@${escapeHtml(author.username)}</span>
+                                <span class="separator">/</span>
+                                <span class="publish-time">T-${timeAgoStr}</span>
+                            </div>
+                        </div>
+                        <div class="id-code">ID:${idCode}</div>
                     </div>
                     
                     <h3 class="article-title">${escapeHtml(article.title)}</h3>
                     <p class="article-summary">${escapeHtml(article.summary || article.content)}</p>
                     
                     <div class="article-meta">
-                        ${(article.tags || []).map(tag => `<span class="meta-pill tag">#${escapeHtml(tag)}</span>`).join('')}
+                        ${(article.tags || []).map(tag => `<span class="cyber-tag">#${escapeHtml(tag)}</span>`).join('')}
                     </div>
 
                     <div class="article-footer">
-                        <div class="metric-item" title="Likes">
+                        <div class="metric-item">
                             ${ICONS.like} <span>${formatMetric(metrics.likes)}</span>
                         </div>
-                        <div class="metric-item" title="Retweets">
+                        <div class="metric-item">
                             ${ICONS.retweet} <span>${formatMetric(metrics.retweets)}</span>
                         </div>
-                        <div class="metric-item" title="Replies">
+                        <div class="metric-item">
                             ${ICONS.reply} <span>${formatMetric(metrics.replies)}</span>
                         </div>
                     </div>
                 </div>
+                <div class="card-deco-bottom"></div>
             `;
             return card;
         }
@@ -252,21 +269,21 @@
             const seconds = Math.floor((now - date) / 1000);
             
             let interval = seconds / 31536000;
-            if (interval > 1) return Math.floor(interval) + 'y';
+            if (interval > 1) return Math.floor(interval) + 'Y';
             
             interval = seconds / 2592000;
-            if (interval > 1) return Math.floor(interval) + 'mo';
+            if (interval > 1) return Math.floor(interval) + 'MO';
             
             interval = seconds / 86400;
-            if (interval > 1) return Math.floor(interval) + 'd';
+            if (interval > 1) return Math.floor(interval) + 'D';
             
             interval = seconds / 3600;
-            if (interval > 1) return Math.floor(interval) + 'h';
+            if (interval > 1) return Math.floor(interval) + 'H';
             
             interval = seconds / 60;
-            if (interval > 1) return Math.floor(interval) + 'm';
+            if (interval > 1) return Math.floor(interval) + 'M';
             
-            return Math.floor(seconds) + 's';
+            return Math.floor(seconds) + 'S';
         }
     </script>
 </body>
