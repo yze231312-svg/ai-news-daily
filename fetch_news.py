@@ -30,7 +30,7 @@ CATEGORIES = {
     },
     "free": {
         "name": "🆓 免费资源",
-        "query": "free AI tool access credit API white-prostitute -is:retweet lang:zh",
+        "query": "free AI tool API credits giveaway no-cost -is:retweet lang:en",
         "icon": "🆓"
     },
     "tool": {
