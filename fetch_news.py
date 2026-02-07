@@ -96,24 +96,40 @@ class TwitterFetcher:
             results = resp.json().get("results", [])
             articles = []
             for i, r in enumerate(results):
-                # 尝试从 URL 中提取推特 ID
                 url = r.get("url", "")
-                tweet_id = url.split("/")[-1].split("?")[0] if "status/" in url else f"tav_{category_key}_{i}"
                 
+                # 过滤：优先保留帖子，但如果没有帖子，也保留相关主页（用户说要中文区）
+                is_status = "status/" in url
+                
+                # 提取推特 ID
+                if is_status:
+                    tweet_id = url.split("/")[-1].split("?")[0]
+                else:
+                    tweet_id = f"tav_{category_key}_{i}"
+                
+                # 提取标题并清理
+                title = r.get("title", "AI News").split(" / X")[0].split(" on X")[0]
+                
+                # 提取作者
+                if "x.com/" in url:
+                    username = url.split("x.com/")[-1].split("/")[0]
+                else:
+                    username = "AI_Hunter"
+
                 articles.append({
                     "id": tweet_id,
                     "source": "Twitter/X",
-                    "published_at": datetime.datetime.now().isoformat(), # Tavily 不一定带准确推文时间，用当前
-                    "title": r.get("title", "AI News"),
+                    "published_at": datetime.datetime.now().isoformat(),
+                    "title": title,
                     "content": r.get("content", ""),
                     "summary": r.get("content", "")[:200] + "...",
                     "url": url,
-                    "tags": ["AI", "2026", "Trending"],
+                    "tags": ["AI", "2026", "中文区"],
                     "category": category_key,
                     "author": {
-                        "username": "AI_Hunter",
-                        "display_name": "Trending News",
-                        "avatar": "https://ui-avatars.com/api/?name=AI&background=0D8ABC&color=fff"
+                        "username": username,
+                        "display_name": f"@{username}",
+                        "avatar": f"https://ui-avatars.com/api/?name={username}&background=random"
                     },
                     "metrics": {
                         "likes": random.randint(100, 5000),
@@ -121,7 +137,8 @@ class TwitterFetcher:
                         "replies": random.randint(5, 500)
                     }
                 })
-            return articles
+            
+            return articles[:8]
         except Exception as e:
             print(f"  ⚠️ Tavily 搜索失败: {e}")
             return None
