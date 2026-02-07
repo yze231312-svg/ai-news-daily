@@ -1,36 +1,35 @@
 {
   "categories": {
+    "open_source": {
+      "name": "🔓 开源项目",
+      "icon": "🔓",
+      "description": "AI 开源项目发布与更新"
+    },
+    "tutorial": {
+      "name": "📖 AI 教程",
+      "icon": "📖",
+      "description": "AI 工具使用教程与技巧"
+    },
     "model": {
-      "name": "🚀 模型发布",
+      "name": "🤖 模型发布",
       "icon": "🤖",
       "description": "最新 AI 模型发布与更新"
     },
-    "tutorial": {
-      "name": "📖 使用教程",
-      "icon": "📚",
-      "description": "AI 工具使用教程与技巧"
-    },
-    "tool": {
-      "name": "🛠️ 开源工具",
-      "icon": "🔧",
-      "description": "开源项目与实用工具"
-    },
     "free": {
-      "name": "💰 白嫖资源",
-      "icon": "🎁",
+      "name": "🆓 免费资源",
+      "icon": "🆓",
       "description": "免费 AI 资源与 API"
     },
-    "news": {
-      "name": "📰 行业动态",
-      "icon": "🔥",
-      "description": "AI 行业最新动态"
+    "tool": {
+      "name": "🛠️ 实用工具",
+      "icon": "🛠️",
+      "description": "开源项目与实用工具"
     }
   },
-  "sources": ["Twitter/X", "GitHub", "Product Hunt", "Medium", "YouTube"],
+  "sources": ["Twitter/X"],
   "display": {
+    "theme": "dark",
     "itemsPerPage": 20,
-    "showTags": true,
-    "showDate": true,
-    "showSource": true
+    "showMetrics": true
   }
 }

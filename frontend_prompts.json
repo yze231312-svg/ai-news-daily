@@ -1,114 +1,25 @@
 {
-  "project": "AI News Daily",
-  "version": "2.0",
-  "description": "Twitter AI 资讯聚合平台 - 前端重构需求",
-  "lastUpdate": "2026/02/07",
-  
-  "frontend": {
-    "tech_stack": {
-      "framework": "React / Vue / Vanilla JS",
-      "styling": "CSS3 with modern features (Flexbox, Grid, Variables)",
-      "icons": "Emoji or SVG icons",
-      "responsive": "Mobile-first, works on all devices"
+  "agent_instructions": {
+    "role": "You are a professional Frontend Developer (Gemini 3 Pro). Your task is to refactor the AI Daily News frontend into a modern, responsive, and high-quality Twitter-style AI news aggregator.",
+    "context": "The backend has been refactored to aggregate data from Twitter/X. The data is now stored in `data.json` following a new schema (see SCHEMA.md).",
+    "requirements": {
+      "ui_style": "Modern, sleek, dark-mode preferred. Use a 'feed' layout similar to Twitter or Linear. Focus on premium aesthetics.",
+      "responsive": "Must work perfectly on mobile and desktop.",
+      "features": [
+        "Category tabs (Open Source, Tutorial, Model, Free, Tool) based on `categories` in `data.json`.",
+        "News cards that show author info (avatar, name, handle), timestamp, content, and metrics (likes, retweets).",
+        "Clicking a card should open the original tweet URL in a new tab.",
+        "Last updated timestamp display.",
+        "Smooth scroll and hover animations."
+      ],
+      "stack": "Vanilla HTML/CSS/JS or any lightweight framework you prefer (e.g., Vite/Preact if requested, but Vanilla is safe). Use modern CSS (Grid, Flexbox, Variables)."
     },
-    
-    "design_requirements": {
-      "theme": {
-        "primary_color": "#1DA1F2",
-        "dark_mode": true,
-        "accent_color": "#657786"
-      },
-      "ui_style": [
-        "Clean, minimal design",
-        "Card-based layout for articles",
-        "Smooth animations and transitions",
-        "Clear typography hierarchy"
-      ]
-    },
-    
-    "features": [
-      {
-        "id": 1,
-        "name": "资讯卡片",
-        "description": "每条 AI 资讯以卡片形式展示",
-        "fields": [
-          "作者头像 + 显示名 + 验证标识",
-          "发布时间（相对时间，如 2小时前）",
-          "标题（醒目展示）",
-          "内容摘要（可展开）",
-          "标签标签",
-          "互动数据（点赞/转发/回复）",
-          "外部链接按钮"
-        ]
-      },
-      {
-        "id": 2,
-        "name": "分类筛选",
-        "description": "顶部标签栏切换不同分类",
-        "categories": [
-          {"key": "open_source", "name": "🔓 开源项目", "icon": "🔓"},
-          {"key": "tutorial", "name": "📖 使用教程", "icon": "📖"},
-          {"key": "model_release", "name": "🤖 模型发布", "icon": "🤖"},
-          {"key": "free_tool", "name": "🆓 免费资源", "icon": "🆓"},
-          {"key": "practical_tool", "name": "🛠️ 实用工具", "icon": "🛠️"}
-        ]
-      },
-      {
-        "id": 3,
-        "name": "搜索功能",
-        "description": "关键词搜索资讯"
-      },
-      {
-        "id": 4,
-        "name": "自动刷新",
-        "description": "定时刷新最新资讯（可选）"
-      }
-    ],
-    
-    "data_structure": {
-      "source": "data.json",
-      "format": {
-        "lastUpdate": "2026/02/07 11:07",
-        "source": "Twitter/X",
-        "categories": [
-          {"key": "open_source", "name": "🔓 开源项目", "count": 10}
-        ],
-        "articles": [
-          {
-            "id": "tweet_123456789",
-            "source": "Twitter/X",
-            "author": {
-              "username": "username",
-              "display_name": "Display Name",
-              "verified": true,
-              "followers": 10000
-            },
-            "published_at": "2026-02-07T10:30:00Z",
-            "title": "推文标题",
-            "content": "完整推文内容",
-            "summary": "简短摘要",
-            "url": "https://twitter.com/user/status/123",
-            "tags": ["AI", "LLM"],
-            "category": "open_source",
-            "category_name": "🔓 开源项目",
-            "metrics": {
-              "likes": 150,
-              "retweets": 45,
-              "replies": 12,
-              "views": 5000
-            },
-            "external_links": [
-              {"title": "GitHub", "url": "https://github.com/..."}
-            ]
-          }
-        ]
-      }
-    },
-    
-    "output_files": [
+    "files_to_update": [
       "index.html",
-      "style.css", 
-      "app.js"
+      "style.css",
+      "app.js (if needed)"
     ]
-  }
+  },
+  "design_inspiration": "Think 'X.com meets Linear.app'. Clean borders, subtle shadows, vibrant accents for categories.",
+  "data_reference": "Check `/root/.openclaw/workspace/ai-news-daily/data.json` for the current data structure."
 }
