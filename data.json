@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/02/07 10:27",
+  "lastUpdate": "2026/02/07 11:17",
   "categories": [
     {
       "key": "model",
@@ -19,7 +19,7 @@
     {
       "key": "research",
       "name": "📚 研究成果",
-      "count": 8
+      "count": 9
     },
     {
       "key": "industry",
@@ -194,12 +194,12 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "在ChatGPT中停用GPT-4o、GPT-4.1、GPT-4.1 mini和OpenAI o4-mini",
-      "original_title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
-      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "title": "大成公司通过ChatGPT塑造下一代人才",
+      "original_title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "url": "https://openai.com/index/taisei",
       "source": "OpenAI Blog",
       "date": "Thu, 29 Jan 2026 00:00:00 GMT",
-      "summary": "2026年2月13日，除了先前宣布的GPT-5 （ Instant、Thinking和Pro ）退役外，我们还将从ChatGPT退役GPT-4.0、GPT-4.1、GPT-4.1 mini和OpenAI o4-mini。在API中， t...",
+      "summary": "Taisei Corporation使用ChatGPT Enterprise来支持人力资源主导的人才发展，并在其全球建筑业务中扩展生成式人工智能....",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
@@ -403,23 +403,23 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "GPT-5.3-Codex简介",
-      "original_title": "Introducing GPT-5.3-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
-      "source": "OpenAI Blog",
-      "date": "Thu, 05 Feb 2026 00:00:00 GMT",
-      "summary": "GPT-5.3-Codex是一个Codex原生代理，它将前沿编码性能与一般推理相结合，以支持长期、真实的技术工作....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
       "title": "GPT-5.3-Codex系统卡",
       "original_title": "GPT-5.3-Codex System Card",
       "url": "https://openai.com/index/gpt-5-3-codex-system-card",
       "source": "OpenAI Blog",
       "date": "Thu, 05 Feb 2026 00:00:00 GMT",
       "summary": "GPT ‑ 5.3-Codex是迄今为止最强大的代理编码模型，将GPT ‑ 5.2-Codex的前沿编码性能与GPT ‑ 5.2的推理和专业知识能力相结合。",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "GPT-5.3-Codex简介",
+      "original_title": "Introducing GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "source": "OpenAI Blog",
+      "date": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "summary": "GPT-5.3-Codex是一个Codex原生代理，它将前沿编码性能与一般推理相结合，以支持长期、真实的技术工作....",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
@@ -656,11 +656,25 @@
       "category_name": "📰 行业动态"
     },
     {
+      "title": "错误",
+      "original_title": "Error",
+      "url": "https://arxiv.org/help/api/user-manual#sort",
+      "source": "arXiv",
+      "date": "2026-02-07T11:15:36.635745",
+      "summary": "sortOrder必须在: ascending, descending...",
+      "tags": [
+        "Research",
+        "AI"
+      ],
+      "category": "research",
+      "category_name": "📚 研究成果"
+    },
+    {
       "title": "cortexso/qwen-qwq",
       "original_title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-07T10:25:19.971284",
+      "date": "2026-02-07T11:14:37.272259",
       "summary": "Downloads: 29 | Likes: 0",
       "tags": [
         "Model",
@@ -674,7 +688,7 @@
       "original_title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-07T10:25:19.379443",
+      "date": "2026-02-07T11:14:36.691891",
       "summary": "Downloads: 120 | Likes: 0",
       "tags": [
         "Model",
@@ -688,7 +702,7 @@
       "original_title": "cortexso/intellect-2",
       "url": "https://huggingface.co/cortexso/intellect-2",
       "source": "HuggingFace",
-      "date": "2026-02-07T10:25:18.836453",
+      "date": "2026-02-07T11:14:36.131945",
       "summary": "Downloads: 132 | Likes: 1",
       "tags": [
         "Model",
@@ -702,7 +716,7 @@
       "original_title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-07T10:25:18.336928",
+      "date": "2026-02-07T11:14:35.467052",
       "summary": "Downloads: 185 | Likes: 0",
       "tags": [
         "Model",
@@ -716,7 +730,7 @@
       "original_title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-07T10:25:17.870592",
+      "date": "2026-02-07T11:14:34.906346",
       "summary": "Downloads: 190 | Likes: 4",
       "tags": [
         "Model",
@@ -730,7 +744,7 @@
       "original_title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-07T10:25:17.412335",
+      "date": "2026-02-07T11:14:34.182350",
       "summary": "Downloads: 323 | Likes: 1",
       "tags": [
         "Model",
@@ -744,7 +758,7 @@
       "original_title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-07T10:25:16.592775",
+      "date": "2026-02-07T11:14:33.053802",
       "summary": "Downloads: 774 | Likes: 1",
       "tags": [
         "Model",
@@ -758,7 +772,7 @@
       "original_title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-07T10:25:15.365986",
+      "date": "2026-02-07T11:14:32.435091",
       "summary": "Downloads: 1,300 | Likes: 0",
       "tags": [
         "Model",
@@ -1043,55 +1057,55 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "API Integration in 2025: Meaning, Types, Examples & Real ... - Unizo",
-      "original_title": "API Integration in 2025: Meaning, Types, Examples & Real ... - Unizo",
+      "title": "API Integration in 2025: Meaning, Types, Examples & Real ...",
+      "original_title": "API Integration in 2025: Meaning, Types, Examples & Real ...",
       "url": "https://unizo.ai/blog/api-integration-guide-2025/",
       "source": "Tavily AI",
-      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
+      "date": "Sat, 07 Feb 2026 11:17:56 GMT",
       "summary": "This comprehensive guide explores what API integration means, how it works, the different types available, real-world examples across industries",
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
     },
     {
-      "title": "API Integration Guide 2025: Best Practices & Trends - Bizdata",
-      "original_title": "API Integration Guide 2025: Best Practices & Trends - Bizdata",
-      "url": "https://www.bizdata360.com/api-integration-marketplaces-ultimate-guide-2025/",
+      "title": "Powerful AI API integration Guide 2025: How to Connect AI ...",
+      "original_title": "Powerful AI API integration Guide 2025: How to Connect AI ...",
+      "url": "https://automatedaihub.com/ai-api-integration-guide-2025/",
       "source": "Tavily AI",
-      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
-      "summary": "Learn API integration with our 2025 guide. Learn key trends, benefits, and strategies to connect apps, boost efficiency, and scale your",
+      "date": "Sat, 07 Feb 2026 11:17:56 GMT",
+      "summary": "AI API integration guide: Connect AI tools to your apps with step-by-step instructions. No coding required options + developer tutorials.",
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
     },
     {
-      "title": "How to Integrate AI APIs into Your Web Projects: A 2025 Guide for ...",
-      "original_title": "How to Integrate AI APIs into Your Web Projects: A 2025 Guide for ...",
+      "title": "How to Integrate AI APIs into Your Web Projects: A 2025 ...",
+      "original_title": "How to Integrate AI APIs into Your Web Projects: A 2025 ...",
       "url": "https://medium.com/@robin.007660/how-to-integrate-ai-apis-into-your-web-projects-a-2025-guide-for-developers-eca59ed01d6a",
       "source": "Tavily AI",
-      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
+      "date": "Sat, 07 Feb 2026 11:17:56 GMT",
       "summary": "# **How to Integrate AI APIs into Your Web Projects: A 2025 Guide for Developers**. Fast-forward to 2025 — developers are building apps that summarize text, generate images, answer questions, recommend products, and even **understand emotion** — all thanks to AI-powered APIs. And here’s the good news:. * Why AI APIs are the next big unlock for web developers. ## 🚀 Why AI APIs Matter for Developers in 2025. ## 🧠 What AI APIs Should You Learn in 2025? API/PlatformWhat It DoesUse Cases**OpenAI (Cha",
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
     },
     {
-      "title": "What is AI API Integration? A Comprehensive Beginner's Guide - Estha",
-      "original_title": "What is AI API Integration? A Comprehensive Beginner's Guide - Estha",
-      "url": "https://estha.ai/what-is-ai-api-integration-a-comprehensive-beginners-guide/",
+      "title": "Complete OpenAI API Integration Guide: How to Use ...",
+      "original_title": "Complete OpenAI API Integration Guide: How to Use ...",
+      "url": "https://www.linkedin.com/pulse/complete-openai-api-integration-guide-how-use-your-projects-wezom-razvf",
       "source": "Tavily AI",
-      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
-      "summary": "At its core, AI API integration is the process of connecting your applications, websites, or systems to pre-built artificial intelligence",
+      "date": "Sat, 07 Feb 2026 11:17:56 GMT",
+      "summary": "Presenting our OpenAI GPT integration tutorial. Here's what you'll get: A simple step-by-step explanation of what OpenAI API is and",
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
     },
     {
-      "title": "How to use an API: Guide for beginners [2025] | Zapier",
-      "original_title": "How to use an API: Guide for beginners [2025] | Zapier",
+      "title": "How to use an API: Guide for beginners [2025]",
+      "original_title": "How to use an API: Guide for beginners [2025]",
       "url": "https://zapier.com/blog/how-to-use-api/",
       "source": "Tavily AI",
-      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
+      "date": "Sat, 07 Feb 2026 11:17:56 GMT",
       "summary": "APIs let you access existing data to build your own apps or integrate two apps. Here's a beginner-friendly, step-by-step guide on how to use",
       "tags": [],
       "category": "tutorial",
