@@ -157,7 +157,7 @@
                 <article class="news-card" onclick="openLink('${article.url}')">
                     <div class="card-header">
                         <span class="source-badge">${article.source || 'Web'}</span>
-                        <span class="date">${formatDate(article.date)}</span>
+                        <span class="date">${formatDate(article.published_at)}</span>
                     </div>
                     <h3 class="card-title">${escapeHtml(article.title)}</h3>
                     <p class="card-summary">${escapeHtml(summary)}</p>
@@ -171,13 +171,20 @@
 
         function formatDate(dateStr) {
             if (!dateStr) return '';
+            
+            // ISO 格式: 2026-02-06T23:15:04.976447
+            if (dateStr.includes('T')) {
+                return dateStr.split('T')[0];
+            }
+            
+            // RSS 格式: Wed, 28 Jan 2026 17:00:00 +0000
             if (dateStr.includes(',')) {
-                // Wed, 28 Jan 2026 格式
                 const parts = dateStr.split(' ');
                 if (parts.length >= 3) {
                     return `${parts[2]}-${getMonth(parts[1])}-${parts[0]}`;
                 }
             }
+            
             return dateStr.substring(0, 10);
         }
 
