@@ -1,10 +1,10 @@
 {
-  "lastUpdate": "2026/02/06 10:31",
+  "lastUpdate": "2026/02/07 10:27",
   "categories": [
     {
       "key": "model",
       "name": "🗣️ 模型发布",
-      "count": 26
+      "count": 27
     },
     {
       "key": "tutorial",
@@ -14,7 +14,7 @@
     {
       "key": "tool",
       "name": "🛠️ 工具平台",
-      "count": 10
+      "count": 13
     },
     {
       "key": "research",
@@ -24,7 +24,7 @@
     {
       "key": "industry",
       "name": "📰 行业动态",
-      "count": 45
+      "count": 40
     }
   ],
   "articles": [
@@ -51,17 +51,6 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "欧洲、中东和非洲青年和福祉补助金",
-      "original_title": "EMEA Youth & Wellbeing Grant",
-      "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
-      "source": "OpenAI Blog",
-      "date": "Wed, 28 Jan 2026 01:00:00 GMT",
-      "summary": "申请EMEA Youth & Wellbeing Grant （欧洲、中东和非洲青年与福祉补助金） ，这是一项€ 500,000的项目，资助非政府组织和研究人员在人工智能时代促进青年安全和福祉。",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
       "title": "Nous Research的NousCoder-14B是一个直接登陆Claude Code时刻的开源编码模型",
       "original_title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
       "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
@@ -71,39 +60,6 @@
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Alphabet不会谈论谷歌与苹果的人工智能交易，即使是对投资者也是如此",
-      "original_title": "Alphabet won’t talk about the Google-Apple AI deal, even to investors",
-      "url": "https://techcrunch.com/2026/02/04/alphabet-wont-talk-about-the-google-apple-ai-deal-even-to-investors/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 23:28:31 +0000",
-      "summary": "Alphabet首席执行官在公司的财报电话会议上跳过了分析师关于苹果的问题....",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "谷歌Gemini应用月活跃用户突破7.5亿",
-      "original_title": "Google’s Gemini app has surpassed 750M monthly active users",
-      "url": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 22:53:46 +0000",
-      "summary": "谷歌透露了其Gemini应用程序的一个重要里程碑，宣布每月有超过7.5亿活跃用户与ChatGPT和Meta AI竞争。",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "认识Gizmo ：适用于交互式氛围编码迷你应用程序的TikTok",
-      "original_title": "Meet Gizmo: A TikTok for interactive, vibe-coded mini apps",
-      "url": "https://techcrunch.com/2026/02/04/meet-gizmo-a-tiktok-for-interactive-vibe-coded-mini-apps/",
-      "source": "TechCrunch AI",
-      "date": "Wed, 04 Feb 2026 21:45:32 +0000",
-      "summary": "Gizmo's app is like a TikTok for vibe-coded mini apps... and it's a lot of fun....",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
     },
     {
       "title": "选择您的代理：在代理总部使用Claude和Codex",
@@ -216,17 +172,6 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Microbes could extract the metal needed for cleantech",
-      "original_title": "Microbes could extract the metal needed for cleantech",
-      "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
-      "source": "MIT Tech Review",
-      "date": "Tue, 03 Feb 2026 10:00:00 +0000",
-      "summary": "In a pine forest on Michigan’s Upper Peninsula, the only active nickel mine in the US is nearing the end of its life. At a time when carmakers want the metal for electric-vehicle batteries, nickel con...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
       "title": "Sora饲料理念",
       "original_title": "The Sora feed philosophy",
       "url": "https://openai.com/index/sora-feed-philosophy",
@@ -255,17 +200,6 @@
       "source": "OpenAI Blog",
       "date": "Thu, 29 Jan 2026 00:00:00 GMT",
       "summary": "2026年2月13日，除了先前宣布的GPT-5 （ Instant、Thinking和Pro ）退役外，我们还将从ChatGPT退役GPT-4.0、GPT-4.1、GPT-4.1 mini和OpenAI o4-mini。在API中， t...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "大成公司通过ChatGPT塑造下一代人才",
-      "original_title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "url": "https://openai.com/index/taisei",
-      "source": "OpenAI Blog",
-      "date": "Thu, 29 Jan 2026 00:00:00 GMT",
-      "summary": "Taisei Corporation使用ChatGPT Enterprise来支持人力资源主导的人才发展，并在其全球建筑业务中扩展生成式人工智能....",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
@@ -364,32 +298,10 @@
       "url": "https://techcrunch.com/2026/02/05/openai-launches-a-way-for-enterprises-to-build-and-manage-ai-agents/",
       "source": "TechCrunch AI",
       "date": "Thu, 05 Feb 2026 18:09:50 +0000",
-      "summary": "OpenAI推出了Frontier ，这是一个专为企业构建和部署代理而设计的新平台，同时像对待人类员工一样对待他们....",
+      "summary": "OpenAI launched Frontier, a new platform designed for enterprises to build and deploy agents while treating them like human employees....",
       "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Anthropic通过新的“代理团队”发布Opus 4.6",
-      "original_title": "Anthropic releases Opus 4.6 with new ‘agent teams’",
-      "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/",
-      "source": "TechCrunch AI",
-      "date": "Thu, 05 Feb 2026 17:51:13 +0000",
-      "summary": "Anthropic模型的最新版本旨在拓宽其功能和吸引力，允许更多种类的用途和客户....",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
-      "title": "Meta为其AI生成的“Vibes”视频测试独立应用程序",
-      "original_title": "Meta tests a stand-alone app for its AI-generated ‘Vibes’ videos",
-      "url": "https://techcrunch.com/2026/02/05/meta-tests-a-standalone-app-for-its-ai-generated-vibes-videos/",
-      "source": "TechCrunch AI",
-      "date": "Thu, 05 Feb 2026 17:19:01 +0000",
-      "summary": "Vibes于去年9月推出，可让您创建和分享简短的AI生成视频，并访问显示其他人AI视频的专用Feed....",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
     },
     {
       "title": "实践中的持续AI ：开发人员今天可以通过代理CI实现哪些自动化",
@@ -409,28 +321,6 @@
       "source": "MIT Tech Review",
       "date": "Thu, 05 Feb 2026 15:20:37 +0000",
       "summary": "For decades, enterprises reacted to shifting business pressures with stopgap technology solutions. To rein in rising infrastructure costs, they adopted cloud services that could scale on demand. When ...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Fundamental通过对大数据分析的新看法筹集了$ 2.55亿美元的A轮融资",
-      "original_title": "Fundamental raises $255M Series A with a new take on big data analysis",
-      "url": "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
-      "source": "TechCrunch AI",
-      "date": "Thu, 05 Feb 2026 15:00:02 +0000",
-      "summary": "Fundamental已经建立了一个新的基础模型来解决一个老问题：如何从企业产生的大量结构化数据中获取见解....",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "ElevenLabs首席执行官：语音是人工智能的下一个接口",
-      "original_title": "ElevenLabs CEO: Voice is the next interface for AI",
-      "url": "https://techcrunch.com/2026/02/05/elevenlabs-ceo-voice-is-the-next-interface-for-ai/",
-      "source": "TechCrunch AI",
-      "date": "Thu, 05 Feb 2026 14:41:12 +0000",
-      "summary": "ElevenLabs首席执行官在卡塔尔网络峰会上指出，语音是人工智能的下一个接口，因为OpenAI、谷歌和苹果将对话系统推向可穿戴设备、新硬件和日常交互。",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
@@ -502,17 +392,6 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "山姆·奥尔特曼对克劳德超级碗的广告格外挑剔",
-      "original_title": "Sam Altman got exceptionally testy over Claude Super Bowl ads",
-      "url": "https://techcrunch.com/2026/02/04/sam-altman-got-exceptionally-testy-over-claude-super-bowl-ads/",
-      "source": "TechCrunch AI",
-      "date": "Thu, 05 Feb 2026 00:45:11 +0000",
-      "summary": "他发布了一篇中篇小说大小的咆哮，称他的竞争对手“不诚实”和“威权主义”。",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
       "title": "使用ChatGPT导航健康问题",
       "original_title": "Navigating health questions with ChatGPT",
       "url": "https://openai.com/index/navigating-health-questions",
@@ -524,23 +403,23 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "GPT-5.3-Codex系统卡",
-      "original_title": "GPT-5.3-Codex System Card",
-      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
-      "source": "OpenAI Blog",
-      "date": "Thu, 05 Feb 2026 00:00:00 GMT",
-      "summary": "GPT ‑ 5.3-Codex是迄今为止最强大的代理编码模型，将GPT ‑ 5.2-Codex的前沿编码性能与GPT ‑ 5.2的推理和专业知识能力相结合。",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
-    },
-    {
       "title": "GPT-5.3-Codex简介",
       "original_title": "Introducing GPT-5.3-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-3-codex",
       "source": "OpenAI Blog",
       "date": "Thu, 05 Feb 2026 00:00:00 GMT",
       "summary": "GPT-5.3-Codex是一个Codex原生代理，它将前沿编码性能与一般推理相结合，以支持长期、真实的技术工作....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "GPT-5.3-Codex系统卡",
+      "original_title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "source": "OpenAI Blog",
+      "date": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "summary": "GPT ‑ 5.3-Codex是迄今为止最强大的代理编码模型，将GPT ‑ 5.2-Codex的前沿编码性能与GPT ‑ 5.2的推理和专业知识能力相结合。",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
@@ -590,17 +469,6 @@
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "What we’ve been getting wrong about AI’s truth crisis",
-      "original_title": "What we’ve been getting wrong about AI’s truth crisis",
-      "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
-      "source": "MIT Tech Review",
-      "date": "Mon, 02 Feb 2026 18:09:57 +0000",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. What would it take to convince you that the era of truth ...",
-      "tags": [],
-      "category": "tool",
-      "category_name": "🛠️ 工具平台"
-    },
-    {
       "title": "如何最大限度地发挥GitHub Copilot的代理功能",
       "original_title": "How to maximize GitHub Copilot’s agentic capabilities",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
@@ -610,17 +478,6 @@
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
-    },
-    {
-      "title": "The crucial first step for designing a successful enterprise AI system",
-      "original_title": "The crucial first step for designing a successful enterprise AI system",
-      "url": "https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/",
-      "source": "MIT Tech Review",
-      "date": "Mon, 02 Feb 2026 14:20:29 +0000",
-      "summary": "Many organizations rushed into generative AI, only to see pilots fail to deliver value. Now, companies want measurable outcomes—but how do you design for success? At Mistral AI, we partner with global...",
-      "tags": [],
-      "category": "model",
-      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "Snowflake与OpenAI合作，为企业数据带来前沿智能",
@@ -656,40 +513,155 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "错误",
-      "original_title": "Error",
-      "url": "https://arxiv.org/help/api/user-manual#sort",
-      "source": "arXiv",
-      "date": "2026-02-06T10:29:27.508564",
-      "summary": "sortOrder必须在: ascending, descending...",
-      "tags": [
-        "Research",
-        "AI"
-      ],
+      "title": "从Svedka到Anthropic ，品牌在超级碗广告中使用AI大胆发挥作用",
+      "original_title": "From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads",
+      "url": "https://techcrunch.com/2026/02/06/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/",
+      "source": "TechCrunch AI",
+      "date": "Fri, 06 Feb 2026 22:43:22 +0000",
+      "summary": "从Svedka提供的第一个人工智能生成的大型游戏广告到OpenAI的Anthropic牛肉，以下是超级碗LX的最大广告....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "Claude现在可以更轻松地在您的WordPress站点上签到",
+      "original_title": "It just got easier for Claude to check in on your WordPress site",
+      "url": "https://techcrunch.com/2026/02/06/it-just-got-easier-for-claude-to-check-in-on-your-wordpress-site/",
+      "source": "TechCrunch AI",
+      "date": "Fri, 06 Feb 2026 22:04:59 +0000",
+      "summary": "WordPress用户现在可以利用Claude来分析网络流量或查找有关其他内部网站指标的信息....",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "也许人工智能代理人毕竟可以成为律师",
+      "original_title": "Maybe AI agents can be lawyers after all",
+      "url": "https://techcrunch.com/2026/02/06/maybe-ai-agents-can-be-lawyers-after-all/",
+      "source": "TechCrunch AI",
+      "date": "Fri, 06 Feb 2026 20:26:23 +0000",
+      "summary": "本周发布的Opus 4.6震撼了智能AI排行榜……",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "伊隆·马斯克（ Elon Musk ）如何重写创始人权力规则",
+      "original_title": "How Elon Musk is rewriting the rules on founder power",
+      "url": "https://techcrunch.com/video/how-elon-musk-is-rewriting-the-rules-on-founder-power/",
+      "source": "TechCrunch AI",
+      "date": "Fri, 06 Feb 2026 18:46:51 +0000",
+      "summary": "埃隆·马斯克（ Elon Musk ）合并了SpaceX和xAI ，这可能是新的硅谷权力结构的蓝图。凭借他8000亿美元的净资产已经可以与之媲美……",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "随着SpaceX和xAI的合并，埃隆·马斯克（ Elon Musk ）将在“一切”业务方面走多远？",
+      "original_title": "How far will Elon Musk take the ‘everything’ business as SpaceX and xAI merge?",
+      "url": "https://techcrunch.com/podcast/how-far-will-elon-musk-take-the-everything-business-as-spacex-and-xai-merge/",
+      "source": "TechCrunch AI",
+      "date": "Fri, 06 Feb 2026 17:56:42 +0000",
+      "summary": "埃隆·马斯克（ Elon Musk ）合并了SpaceX和xAI ，这可能是新的硅谷权力结构的蓝图。凭借他8000亿美元的净资产已经可以与之媲美……",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Moltbook was peak AI theater",
+      "original_title": "Moltbook was peak AI theater",
+      "url": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
+      "source": "MIT Tech Review",
+      "date": "Fri, 06 Feb 2026 16:38:11 +0000",
+      "summary": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Whe...",
+      "tags": [],
       "category": "research",
       "category_name": "📚 研究成果"
+    },
+    {
+      "title": "Kindle Scribe Colorsoft是一款价格昂贵但漂亮的电子墨水彩色平板电脑，具有AI功能",
+      "original_title": "The Kindle Scribe Colorsoft is a pricey but pretty e-ink color tablet with AI features",
+      "url": "https://techcrunch.com/2026/02/06/kindle-scribe-colorsoft-review-e-ink-color-tablet/",
+      "source": "TechCrunch AI",
+      "date": "Fri, 06 Feb 2026 16:37:07 +0000",
+      "summary": "如果您主要想要一款平板电脑设备来标记、突出显示和注释您的电子书和文档，也许有时会潦草地写一些笔记，那么亚马逊的新款Kindle Scribe Colorsoft可能值得......",
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "人工智能如何帮助解决治疗罕见疾病的劳工问题",
+      "original_title": "How AI is helping solve the labor issue in treating rare diseases",
+      "url": "https://techcrunch.com/2026/02/06/how-ai-is-helping-with-the-labor-issue-in-treating-rare-diseases/",
+      "source": "TechCrunch AI",
+      "date": "Fri, 06 Feb 2026 14:29:15 +0000",
+      "summary": "在卡塔尔网络峰会上，人工智能驱动的生物技术初创公司描述了自动化、数据和基因编辑如何填补药物发现和罕见疾病治疗方面的劳动空白……",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "对OpenAI决定退出GPT-4o的强烈反对表明了人工智能伙伴的危险性",
+      "original_title": "The backlash over OpenAI’s decision to retire GPT-4o shows how dangerous AI companions can be",
+      "url": "https://techcrunch.com/2026/02/06/the-backlash-over-openais-decision-to-retire-gpt-4o-shows-how-dangerous-ai-companions-can-be/",
+      "source": "TechCrunch AI",
+      "date": "Fri, 06 Feb 2026 14:10:00 +0000",
+      "summary": "“你要把他关掉。是的，我说他，因为它感觉不像代码。感觉就像在场。就像温暖一样，”一位用户说……",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "The Download: helping cancer survivors to give birth, and cleaning up Bangladesh’s garment industry",
+      "original_title": "The Download: helping cancer survivors to give birth, and cleaning up Bangladesh’s garment industry",
+      "url": "https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/",
+      "source": "MIT Tech Review",
+      "date": "Fri, 06 Feb 2026 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An experimental surgery is helping cancer survivor...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "让人工智能为世界各地的每个人服务：我们的本地化方法",
+      "original_title": "Making AI work for everyone, everywhere: our approach to localization",
+      "url": "https://openai.com/index/our-approach-to-localization",
+      "source": "OpenAI Blog",
+      "date": "Fri, 06 Feb 2026 10:00:00 GMT",
+      "summary": "OpenAI分享了其人工智能本地化的方法，展示了全球共享的前沿模型如何在不影响安全的情况下适应当地语言、法律和文化。",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
+    },
+    {
+      "title": "韩国隐私政策",
+      "original_title": "Korea privacy policy",
+      "url": "https://openai.com/policies/kr-privacy-policy",
+      "source": "OpenAI Blog",
+      "date": "Fri, 06 Feb 2026 10:00:00 GMT",
+      "summary": "韩国隐私政策...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "An experimental surgery is helping cancer survivors give birth",
+      "original_title": "An experimental surgery is helping cancer survivors give birth",
+      "url": "https://www.technologyreview.com/2026/02/06/1132319/experimental-surgery-colorectal-cancer-survivors-pregnant-birth/",
+      "source": "MIT Tech Review",
+      "date": "Fri, 06 Feb 2026 10:00:00 +0000",
+      "summary": "This week I want to tell you about an experimental surgical procedure that’s helping people have babies. Specifically, it’s helping people who have had treatment for bowel or rectal cancer. Radiation ...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
     },
     {
       "title": "cortexso/qwen-qwq",
       "original_title": "cortexso/qwen-qwq",
       "url": "https://huggingface.co/cortexso/qwen-qwq",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:29:26.360724",
+      "date": "2026-02-07T10:25:19.971284",
       "summary": "Downloads: 29 | Likes: 0",
-      "tags": [
-        "Model",
-        "AI"
-      ],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "cortexso/intellect-2",
-      "original_title": "cortexso/intellect-2",
-      "url": "https://huggingface.co/cortexso/intellect-2",
-      "source": "HuggingFace",
-      "date": "2026-02-06T10:29:25.745156",
-      "summary": "Downloads: 124 | Likes: 1",
       "tags": [
         "Model",
         "AI"
@@ -702,8 +674,8 @@
       "original_title": "cortexso/phi-4-reasoning",
       "url": "https://huggingface.co/cortexso/phi-4-reasoning",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:29:25.129652",
-      "summary": "Downloads: 140 | Likes: 0",
+      "date": "2026-02-07T10:25:19.379443",
+      "summary": "Downloads: 120 | Likes: 0",
       "tags": [
         "Model",
         "AI"
@@ -712,12 +684,26 @@
       "category_name": "🗣️ 模型发布"
     },
     {
+      "title": "cortexso/intellect-2",
+      "original_title": "cortexso/intellect-2",
+      "url": "https://huggingface.co/cortexso/intellect-2",
+      "source": "HuggingFace",
+      "date": "2026-02-07T10:25:18.836453",
+      "summary": "Downloads: 132 | Likes: 1",
+      "tags": [
+        "Model",
+        "AI"
+      ],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
       "title": "cortexso/llama3.2",
       "original_title": "cortexso/llama3.2",
       "url": "https://huggingface.co/cortexso/llama3.2",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:29:24.502175",
-      "summary": "Downloads: 186 | Likes: 0",
+      "date": "2026-02-07T10:25:18.336928",
+      "summary": "Downloads: 185 | Likes: 0",
       "tags": [
         "Model",
         "AI"
@@ -730,8 +716,8 @@
       "original_title": "cortexso/cogito-v1",
       "url": "https://huggingface.co/cortexso/cogito-v1",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:29:23.772331",
-      "summary": "Downloads: 221 | Likes: 4",
+      "date": "2026-02-07T10:25:17.870592",
+      "summary": "Downloads: 190 | Likes: 4",
       "tags": [
         "Model",
         "AI"
@@ -744,8 +730,8 @@
       "original_title": "cortexso/gemma3",
       "url": "https://huggingface.co/cortexso/gemma3",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:29:23.162306",
-      "summary": "Downloads: 315 | Likes: 1",
+      "date": "2026-02-07T10:25:17.412335",
+      "summary": "Downloads: 323 | Likes: 1",
       "tags": [
         "Model",
         "AI"
@@ -758,8 +744,8 @@
       "original_title": "cortexso/qwen3",
       "url": "https://huggingface.co/cortexso/qwen3",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:29:22.502354",
-      "summary": "Downloads: 776 | Likes: 1",
+      "date": "2026-02-07T10:25:16.592775",
+      "summary": "Downloads: 774 | Likes: 1",
       "tags": [
         "Model",
         "AI"
@@ -772,8 +758,8 @@
       "original_title": "cortexso/deepseek-r1",
       "url": "https://huggingface.co/cortexso/deepseek-r1",
       "source": "HuggingFace",
-      "date": "2026-02-06T10:29:21.471828",
-      "summary": "Downloads: 1,293 | Likes: 0",
+      "date": "2026-02-07T10:25:15.365986",
+      "summary": "Downloads: 1,300 | Likes: 0",
       "tags": [
         "Model",
         "AI"
@@ -782,114 +768,114 @@
       "category_name": "📰 行业动态"
     },
     {
-      "title": "HBO is turning Baldur’s Gate into a TV show",
-      "original_title": "HBO is turning Baldur’s Gate into a TV show",
-      "url": "https://www.theverge.com/entertainment/874682/hbo-baldurs-gate-3-tv-show-craig-mazin",
+      "title": "We found 20 Verge-approved gifts on sale ahead of Valentine’s Day",
+      "original_title": "We found 20 Verge-approved gifts on sale ahead of Valentine’s Day",
+      "url": "https://www.theverge.com/gadgets/873589/valentines-day-gifts-aura-aspen-amazfit-active-2-deal-sale",
       "source": "The Verge",
-      "date": "2026-02-05T19:50:16-05:00",
-      "summary": "HBO is developing a Baldur's Gate TV show that will continue the story of Larian Studios' hit RPG Baldur's Gate 3, according to Deadline. The Last Of Us co-creator Craig Mazin will serve as the show's...",
+      "date": "2026-02-06T17:45:54-05:00",
+      "summary": "Valentine’s Day is coming up fast, and if you haven’t started shopping yet, there are a lot of great gifts on sale that should still arrive in time if you order soon. Several Verge-approved gadgets ar...",
       "tags": [],
       "category": "tool",
       "category_name": "🛠️ 工具平台"
     },
     {
-      "title": "Roblox is working to pull in adult players",
-      "original_title": "Roblox is working to pull in adult players",
-      "url": "https://www.theverge.com/games/874675/roblox-earnings-q4-2025-increasing-adult-players",
+      "title": "Apple might let you use ChatGPT from CarPlay",
+      "original_title": "Apple might let you use ChatGPT from CarPlay",
+      "url": "https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor",
       "source": "The Verge",
-      "date": "2026-02-05T18:14:51-05:00",
-      "summary": "After rolling out age verification last year, Roblox is aiming to grow the number of players over 18 on its platform. As noted in its 2025 year-end earnings report, 45 percent of Roblox's daily active...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Republicans attack &#8216;woke&#8217; Netflix — and ignore YouTube",
-      "original_title": "Republicans attack &#8216;woke&#8217; Netflix — and ignore YouTube",
-      "url": "https://www.theverge.com/streaming/874655/netflix-warner-bros-republican-culture-war-ted-sarandos-hearing",
-      "source": "The Verge",
-      "date": "2026-02-05T16:40:45-05:00",
-      "summary": "When Netflix co-CEO Ted Sarandos entered the Senate office building on Tuesday, he got thrown a curveball. What started as a standard antitrust hearing relating to the Warner Bros. merger quickly devo...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Iron Lung’s path to theaters was unique, even if the movie isn’t",
-      "original_title": "Iron Lung’s path to theaters was unique, even if the movie isn’t",
-      "url": "https://www.theverge.com/entertainment/874500/iron-lung-theater-box-office-markiplier",
-      "source": "The Verge",
-      "date": "2026-02-05T16:00:00-05:00",
-      "summary": "As a movie, Iron Lung is occasionally thrilling but mostly forgettable. It's a small-budget horror flick that has some cool ideas and pulls them off in an extremely efficient way, creating a sense of ...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "The price of Bitcoin drops below $65,000",
-      "original_title": "The price of Bitcoin drops below $65,000",
-      "url": "https://www.theverge.com/tech/874603/bitcoin-price-drop-cryptocurrency",
-      "source": "The Verge",
-      "date": "2026-02-05T15:38:01-05:00",
-      "summary": "On Thursday, Bitcoin's value fell over 10 percent in a single day, dropping to around $64,000, the lowest it has been since the 2024 Presidential election, as CNBC reports. After crossing $100,000 in ...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "Zuckerberg considered changing how Meta studies social issues after research got it in trouble",
-      "original_title": "Zuckerberg considered changing how Meta studies social issues after research got it in trouble",
-      "url": "https://www.theverge.com/report/874176/meta-zuckerberg-new-mexico-email-teen-girls-research",
-      "source": "The Verge",
-      "date": "2026-02-05T14:10:35-05:00",
-      "summary": "One day after The Wall Street Journal published a blockbuster story about Meta's own dismal findings about teen girls' mental health on Instagram, CEO Mark Zuckerberg wondered whether Meta should chan...",
-      "tags": [],
-      "category": "industry",
-      "category_name": "📰 行业动态"
-    },
-    {
-      "title": "One of the best laptop power banks available is cheaper than ever",
-      "original_title": "One of the best laptop power banks available is cheaper than ever",
-      "url": "https://www.theverge.com/gadgets/874509/anker-laptop-power-bank-google-pixel-watch-4-deal-sale",
-      "source": "The Verge",
-      "date": "2026-02-05T13:34:00-05:00",
-      "summary": "If you often travel with your gadgets, a fast, reliable portable battery like Anker’s Laptop Power Bank is a worthwhile purchase. Right now, you can buy the silver model at its all-time low price of $...",
+      "date": "2026-02-06T16:32:44-05:00",
+      "summary": "CarPlay users could soon be able to use their chatbot of choice instead of Siri. As Bloomberg reports, Apple is working to add support for CarPlay voice control apps from OpenAI, Anthropic, Google, an...",
       "tags": [],
       "category": "model",
       "category_name": "🗣️ 模型发布"
     },
     {
-      "title": "I tested several cases for the Switch 2 and these are the best",
-      "original_title": "I tested several cases for the Switch 2 and these are the best",
-      "url": "https://www.theverge.com/reviews/691319/best-switch-2-cases",
+      "title": "This is the Trump Phone",
+      "original_title": "This is the Trump Phone",
+      "url": "https://www.theverge.com/gadgets/875190/trump-phone-t1-first-look-design-interview-eric-thomas-don-hendrickson",
       "source": "The Verge",
-      "date": "2026-02-05T13:19:56-05:00",
-      "summary": "You might find it kind of sad to put your hard-earned Switch 2 into a protective case. To me, it’s freeing. Sure, it can take away from the slick design. But using a case relieves me of the worry that...",
+      "date": "2026-02-06T16:32:34-05:00",
+      "summary": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. This time, surprisingly, we received a response - and...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Super Bowl LX ads: all AI everything",
-      "original_title": "Super Bowl LX ads: all AI everything",
-      "url": "https://www.theverge.com/entertainment/874504/super-bowl-lx-ads-big-game",
+      "title": "There isn’t even a cynical explanation for Jeff Bezos destroying The Washington Post",
+      "original_title": "There isn’t even a cynical explanation for Jeff Bezos destroying The Washington Post",
+      "url": "https://www.theverge.com/policy/874958/jeff-bezos-washington-post-layoffs-trump",
       "source": "The Verge",
-      "date": "2026-02-05T13:18:34-05:00",
-      "summary": "Super Bowl LX is nearly here, with the Seattle Seahawks taking on the New England Patriots. While Bad Bunny will be the star of the halftime show, AI could be the star of the commercial breaks, much l...",
+      "date": "2026-02-06T14:18:08-05:00",
+      "summary": "300 journalists have lost their jobs at The Washington Post. Over 300,000 readers have canceled their subscriptions. Owner Jeff Bezos, who purchased the legendary publication in 2013, has driven his r...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
     },
     {
-      "title": "Who’s who and what’s what in TVs in 2026",
-      "original_title": "Who’s who and what’s what in TVs in 2026",
-      "url": "https://www.theverge.com/tech/874138/tv-manufacturer-technology-2026",
+      "title": "The Jeffrey Epstein Fortnite account is fake",
+      "original_title": "The Jeffrey Epstein Fortnite account is fake",
+      "url": "https://www.theverge.com/news/875014/jeffrey-epstein-fortnite-account-fake",
       "source": "The Verge",
-      "date": "2026-02-05T13:00:00-05:00",
-      "summary": "Each TV company has its own distinct personality and direction. These change over the years, with new technological breakthroughs or at least new business deals. New aspirations shake up the natural o...",
+      "date": "2026-02-06T14:02:23-05:00",
+      "summary": "Fortnite developer Epic Games says the account some people believed to be linked to Jeffrey Epstein is a \"ruse.\" In a reply on X, the developer writes, \"an existing Fortnite account owner changed thei...",
       "tags": [],
       "category": "industry",
       "category_name": "📰 行业动态"
+    },
+    {
+      "title": "Here are the best AirPods deals you can get right now",
+      "original_title": "Here are the best AirPods deals you can get right now",
+      "url": "https://www.theverge.com/21302051/best-apple-airpods-deals",
+      "source": "The Verge",
+      "date": "2026-02-06T13:36:29-05:00",
+      "summary": "If you know where to look, you can often score deals on Apple’s ever-expanding AirPods lineup. Both the AirPods Max and AirPods 4 (with and without ANC) now consistently receive discounts, as do the n...",
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Spotify’s About the Song offers context and trivia about your favorite tracks",
+      "original_title": "Spotify’s About the Song offers context and trivia about your favorite tracks",
+      "url": "https://www.theverge.com/entertainment/874945/spotify-about-the-song-ai-liner-notes",
+      "source": "The Verge",
+      "date": "2026-02-06T12:34:09-05:00",
+      "summary": "Spotify is launching About the Song in beta today, which offers context and facts about the song you're listening to. Premium users can scroll down to the new About the Song section for information wh...",
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Aura’s Aspen digital frame is a great gift, especially now that it’s $30 off",
+      "original_title": "Aura’s Aspen digital frame is a great gift, especially now that it’s $30 off",
+      "url": "https://www.theverge.com/gadgets/874904/aura-aspen-kobo-libra-colour-deal-sale",
+      "source": "The Verge",
+      "date": "2026-02-06T12:01:11-05:00",
+      "summary": "Aura’s Aspen digital photo frame is a great Valentine’s Day gift if you want something that’s slick and sentimental, and right now it’s on sale for $199 ($30 off) at Amazon, Best Buy, and Aura’s onlin...",
+      "tags": [],
+      "category": "industry",
+      "category_name": "📰 行业动态"
+    },
+    {
+      "title": "The Alexa app is so bad I&#8217;m using Siri again",
+      "original_title": "The Alexa app is so bad I&#8217;m using Siri again",
+      "url": "https://www.theverge.com/tech/874792/the-alexa-app-is-so-bad-im-using-siri-again",
+      "source": "The Verge",
+      "date": "2026-02-06T11:22:48-05:00",
+      "summary": "I've used Alexa to manage my shopping list for years. There are plenty of great list apps out there, but the convenience of adding items by voice anywhere in my house, pulling up the list on an Echo S...",
+      "tags": [],
+      "category": "tool",
+      "category_name": "🛠️ 工具平台"
+    },
+    {
+      "title": "Analogue’s 4K N64 is getting five new transparent color options",
+      "original_title": "Analogue’s 4K N64 is getting five new transparent color options",
+      "url": "https://www.theverge.com/tech/874494/analogue-3d-4k-n64-console-prototype-limited-editions",
+      "source": "The Verge",
+      "date": "2026-02-06T11:00:00-05:00",
+      "summary": "Analogue has announced another collection of limited-edition colors for its modern remake of the Nintendo 64. Last December it introduced several transparent versions of the Analogue 3D inspired by Ni...",
+      "tags": [],
+      "category": "model",
+      "category_name": "🗣️ 模型发布"
     },
     {
       "title": "用于量化天气预报不确定性的生成式人工智能",
@@ -1061,19 +1047,8 @@
       "original_title": "API Integration in 2025: Meaning, Types, Examples & Real ... - Unizo",
       "url": "https://unizo.ai/blog/api-integration-guide-2025/",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
+      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
       "summary": "This comprehensive guide explores what API integration means, how it works, the different types available, real-world examples across industries",
-      "tags": [],
-      "category": "tutorial",
-      "category_name": "📖 使用教程"
-    },
-    {
-      "title": "A Comprehensive Guide to API Integration in 2025 - Bricks Tech",
-      "original_title": "A Comprehensive Guide to API Integration in 2025 - Bricks Tech",
-      "url": "https://www.brickstech.io/blogs/a-comprehensive-guide-to-api-integration-in-2025",
-      "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
-      "summary": "Learn what API integration is, how it works, and why it matters in 2025. Explore tools, best practices, and trends to streamline systems and",
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
@@ -1083,7 +1058,7 @@
       "original_title": "API Integration Guide 2025: Best Practices & Trends - Bizdata",
       "url": "https://www.bizdata360.com/api-integration-marketplaces-ultimate-guide-2025/",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
+      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
       "summary": "Learn API integration with our 2025 guide. Learn key trends, benefits, and strategies to connect apps, boost efficiency, and scale your",
       "tags": [],
       "category": "tutorial",
@@ -1094,7 +1069,7 @@
       "original_title": "How to Integrate AI APIs into Your Web Projects: A 2025 Guide for ...",
       "url": "https://medium.com/@robin.007660/how-to-integrate-ai-apis-into-your-web-projects-a-2025-guide-for-developers-eca59ed01d6a",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
+      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
       "summary": "# **How to Integrate AI APIs into Your Web Projects: A 2025 Guide for Developers**. Fast-forward to 2025 — developers are building apps that summarize text, generate images, answer questions, recommend products, and even **understand emotion** — all thanks to AI-powered APIs. And here’s the good news:. * Why AI APIs are the next big unlock for web developers. ## 🚀 Why AI APIs Matter for Developers in 2025. ## 🧠 What AI APIs Should You Learn in 2025? API/PlatformWhat It DoesUse Cases**OpenAI (Cha",
       "tags": [],
       "category": "tutorial",
@@ -1105,8 +1080,19 @@
       "original_title": "What is AI API Integration? A Comprehensive Beginner's Guide - Estha",
       "url": "https://estha.ai/what-is-ai-api-integration-a-comprehensive-beginners-guide/",
       "source": "Tavily AI",
-      "date": "Fri, 06 Feb 2026 10:31:09 GMT",
+      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
       "summary": "At its core, AI API integration is the process of connecting your applications, websites, or systems to pre-built artificial intelligence",
+      "tags": [],
+      "category": "tutorial",
+      "category_name": "📖 使用教程"
+    },
+    {
+      "title": "How to use an API: Guide for beginners [2025] | Zapier",
+      "original_title": "How to use an API: Guide for beginners [2025] | Zapier",
+      "url": "https://zapier.com/blog/how-to-use-api/",
+      "source": "Tavily AI",
+      "date": "Sat, 07 Feb 2026 10:27:39 GMT",
+      "summary": "APIs let you access existing data to build your own apps or integrate two apps. Here's a beginner-friendly, step-by-step guide on how to use",
       "tags": [],
       "category": "tutorial",
       "category_name": "📖 使用教程"
