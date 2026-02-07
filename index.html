@@ -3,311 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤖 AI News Daily - 每日人工智能资讯 + Prompt 库</title>
-    <meta name="description" content="每日精选AI资讯 + 高质量Prompt库：编程、写作、分析、创意">
+    <title>AI News Daily - Twitter 精选</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🤖 AI News Daily</h1>
-            <p class="subtitle">每日人工智能资讯 · Prompt 精选库</p>
-            <div class="header-tabs">
-                <button class="tab-btn active" data-tab="news" onclick="switchTab('news')">
-                    📰 资讯
-                </button>
-                <button class="tab-btn" data-tab="prompts" onclick="switchTab('prompts')">
-                    💡 Prompt 库
+    <div class="bg-gradient"></div>
+    
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">🤖</span>
+                <h1>AI News Daily</h1>
+            </div>
+            <div class="header-meta">
+                <span class="update-time" id="updateTime"></span>
+                <button class="refresh-btn" onclick="refreshNews()">
+                    <span>🔄</span> 刷新
                 </button>
             </div>
-            <div class="meta-info">
-                <span id="updateTime">加载中...</span>
-                <button class="refresh-btn" onclick="refreshAllData()" id="refreshBtn">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
-                    </svg>
-                    刷新
-                </button>
-            </div>
-        </header>
-        
-        <!-- 新闻板块 -->
-        <div id="news-section">
-            <div class="categories" id="categories">
-                <button class="cat-btn active" data-cat="all">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
-                    全部
-                </button>
-                <button class="cat-btn" data-cat="model">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-                    模型发布
-                </button>
-                <button class="cat-btn" data-cat="tool">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-                    工具平台
-                </button>
-                <button class="cat-btn" data-cat="research">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                    研究成果
-                </button>
-                <button class="cat-btn" data-cat="tutorial">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
-                    📖 使用教程
-                </button>
-                <button class="cat-btn" data-cat="industry">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8z"/></svg>
-                    行业动态
-                </button>
-            </div>
-            
-            <div class="stats-bar" id="stats"></div>
-            <div class="news-grid" id="newsList"></div>
         </div>
-        
-        <!-- Prompt 库板块 -->
-        <div id="prompts-section" style="display: none;">
-            <div class="categories" id="prompt-categories">
-                <button class="cat-btn active" data-cat="all">
-                    全部
-                </button>
-                <button class="cat-btn" data-cat="coding">
-                    💻 编程
-                </button>
-                <button class="cat-btn" data-cat="writing">
-                    📝 写作
-                </button>
-                <button class="cat-btn" data-cat="analysis">
-                    🧠 分析
-                </button>
-                <button class="cat-btn" data-cat="creative">
-                    🎨 创意
-                </button>
-            </div>
-            
-            <div class="stats-bar" id="prompt-stats"></div>
-            <div class="prompts-grid" id="promptsList"></div>
+    </header>
+
+    <nav class="category-nav">
+        <div class="category-container" id="categoryContainer">
+            <button class="category-btn active" data-category="all">全部</button>
         </div>
-        
-        <footer>
-            <p>资讯来源：HuggingFace · GitHub · ArXiv · OpenAI · Anthropic · TechCrunch</p>
-            <p>Powered by Tavily AI Search · Prompt 精选库</p>
-        </footer>
+    </nav>
+
+    <div class="stats-bar" id="statsBar">
+        <span class="stat-item">📊 共 <strong id="totalCount">0</strong> 条资讯</span>
+        <span class="stat-item">🕐 <span id="lastUpdate">-</span></span>
     </div>
 
+    <main class="news-container">
+        <div class="news-grid" id="newsGrid"></div>
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>加载中...</p>
+        </div>
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <span class="empty-icon">📭</span>
+            <p>暂无资讯</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>🤖 Powered by AI • Data from GitHub/OpenAI/HuggingFace</p>
+    </footer>
+
     <script>
-        let allData = null;
-        let allPrompts = null;
-        let currentTab = 'news';
-        let currentCat = 'all';
-        let currentPromptCat = 'all';
-
-        // 数据源中文翻译
-        const sourceCN = {
-            'HuggingFace': '🤗 模型库',
-            'GitHub': '⭐ GitHub',
-            'arXiv': '📄 论文库',
-            'Product Hunt': '🚀 发现',
-            'OpenAI': '🤖 OpenAI',
-            'Anthropic': '🧠 Anthropic',
-            'Google AI': '🔍 谷歌',
-            'Meta AI': '📘 Meta',
-            'TechCrunch': '📰 TechCrunch',
-            'TechCrunch AI': '📰 TechCrunch',
-            'VentureBeat': '🎮 VentureBeat',
-            'MIT Tech Review': '🔬 MIT科技',
-            'The Verge': '📱 The Verge',
-            'Wired': '🔌 Wired',
-            'Vercel': '⚡ Vercel',
-            'Tavily AI': '🔍 AI搜索'
-        };
-
-        // 分类图标
-        const categoryIcons = {
+        let currentCategory = 'all';
+        let articles = [];
+        
+        // 图标映射
+        const iconMap = {
             'model': '🤖',
+            'tutorial': '📖',
             'tool': '🛠️',
             'research': '📚',
-            'tutorial': '📖',
-            'industry': '📰'
+            'industry': '🔥'
         };
 
-        // 加载数据
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData();
+        });
+
         async function loadData() {
+            showLoading(true);
             try {
-                // 并行加载资讯和 Prompts
-                const [newsRes, promptsRes] = await Promise.all([
-                    fetch('data.json?v=' + Date.now()),
-                    fetch('prompts.json')
-                ]);
+                const response = await fetch('data.json');
+                const data = await response.json();
+                articles = data.articles || [];
                 
-                if (newsRes.ok) {
-                    allData = await newsRes.json();
-                    document.getElementById('updateTime').textContent = '资讯更新: ' + allData.lastUpdate;
-                    updateStats();
-                    renderNews();
-                }
-                
-                if (promptsRes.ok) {
-                    allPrompts = await promptsRes.json();
-                    document.getElementById('prompt-stats').textContent = '共 ' + allPrompts.prompts.length + ' 个精选 Prompt';
-                    renderPrompts();
-                }
-                
-                // 如果当前是 prompts tab，更新更新时间
-                if (currentTab === 'prompts') {
-                    document.getElementById('updateTime').textContent = 'Prompt 更新: ' + (allPrompts?.lastUpdate || allData?.lastUpdate);
-                }
-                
-            } catch (e) {
-                console.error('加载失败:', e);
-                document.getElementById('newsList').innerHTML = 
-                    '<div class="error-state"><p>加载失败: ' + e.message + '</p><button class="retry-btn" onclick="loadData()">重试</button></div>';
+                updateStats(data);
+                initCategories(data.categories || []);
+                renderNews();
+            } catch (error) {
+                console.error('加载失败:', error);
+                showEmpty();
             }
+            showLoading(false);
         }
 
-        // 切换 Tab
-        function switchTab(tab) {
-            currentTab = tab;
-            document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.tab === tab);
+        function updateStats(data) {
+            document.getElementById('totalCount').textContent = articles.length || data.categories?.reduce((sum, c) => sum + (c.count || 0), 0);
+            document.getElementById('lastUpdate').textContent = data.lastUpdate || '-';
+            document.getElementById('updateTime').textContent = new Date().toLocaleTimeString('zh-CN');
+        }
+
+        function initCategories(categories) {
+            const container = document.getElementById('categoryContainer');
+            
+            categories.forEach(cat => {
+                if (cat.count > 0) {
+                    const btn = document.createElement('button');
+                    btn.className = 'category-btn';
+                    btn.dataset.category = cat.key;
+                    
+                    // 提取图标
+                    let icon = iconMap[cat.key] || '📌';
+                    let name = cat.name.replace(/^[^\s]+\s*/, '');
+                    
+                    btn.innerHTML = `${icon} ${name} <span class="count">${cat.count}</span>`;
+                    btn.onclick = () => filterCategory(cat.key);
+                    container.appendChild(btn);
+                }
             });
-            
-            document.getElementById('news-section').style.display = tab === 'news' ? 'block' : 'none';
-            document.getElementById('prompts-section').style.display = tab === 'prompts' ? 'block' : 'none';
-            
-            if (tab === 'prompts' && allPrompts) {
-                document.getElementById('updateTime').textContent = 'Prompt 更新: ' + allPrompts.lastUpdate;
-            } else if (tab === 'news' && allData) {
-                document.getElementById('updateTime').textContent = '资讯更新: ' + allData.lastUpdate;
-            }
         }
 
-        function updateStats() {
-            const total = allData.articles.length;
-            const counts = allData.categories.map(c => c.name + ' ' + c.count).join(' | ');
-            document.getElementById('stats').textContent = '共 ' + total + ' 条资讯 | ' + counts;
+        function filterCategory(category) {
+            currentCategory = category;
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.category === category);
+            });
+            renderNews();
         }
 
-        // 渲染新闻
         function renderNews() {
-            const container = document.getElementById('newsList');
-            let articles = allData.articles;
+            const grid = document.getElementById('newsGrid');
             
-            if (currentCat !== 'all') {
-                articles = articles.filter(a => a.category === currentCat);
-            }
+            // 过滤
+            let filtered = currentCategory === 'all' 
+                ? articles 
+                : articles.filter(a => a.category === currentCategory);
             
-            if (articles.length === 0) {
-                container.innerHTML = '<div class="loading-state"><p>暂无该分类资讯</p></div>';
+            if (filtered.length === 0) {
+                showEmpty();
                 return;
             }
             
-            container.innerHTML = articles.map(a => {
-                const cat = allData.categories.find(c => c.key === a.category);
-                const catName = cat ? cat.name : '资讯';
-                const date = formatDate(a.date);
-                const tags = (a.tags || []).slice(0,4).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
-                const source = sourceCN[a.source] || a.source;
-                const icon = sourceCN[a.source] ? '' : getSourceIcon(a.source);
-                const categoryClass = a.category || 'industry';
-                const catIcon = categoryIcons[a.category] || '📌';
-                
-                return '<article class="news-card cat-' + categoryClass + '">' +
-                    '<div class="card-header">' +
-                    '<span class="card-tag">' + catIcon + ' ' + catName + '</span>' +
-                    '<span class="card-date">' + date + '</span>' +
-                    '</div>' +
-                    '<h3 class="card-title"><a href="' + escapeHtml(a.url) + '" target="_blank" rel="noopener">' + escapeHtml(a.title) + '</a></h3>' +
-                    '<p class="card-summary">' + escapeHtml(a.summary || '') + '</p>' +
-                    '<div class="card-footer">' +
-                    '<span class="card-source"><span class="source-icon">' + icon + '</span> ' + source + '</span>' +
-                    (tags ? '<div class="news-tags">' + tags + '</div>' : '') +
-                    '</div></article>';
-            }).join('');
+            hideEmpty();
+            grid.innerHTML = filtered.map(article => createCard(article)).join('');
+            animateCards();
         }
 
-        // 渲染 Prompts
-        function renderPrompts() {
-            const container = document.getElementById('promptsList');
-            let prompts = allPrompts.prompts;
+        function createCard(article) {
+            const tags = (article.tags || []).slice(0, 3).map(t => 
+                `<span class="tag">${t}</span>`
+            ).join('');
             
-            if (currentPromptCat !== 'all') {
-                prompts = prompts.filter(p => p.category === currentPromptCat);
-            }
+            // 获取图标
+            let icon = iconMap[article.category] || '📌';
+            let catName = (article.category_name || '').replace(/^[^\s]+\s*/, '') || '资讯';
             
-            if (prompts.length === 0) {
-                container.innerHTML = '<div class="loading-state"><p>暂无该分类 Prompt</p></div>';
-                return;
-            }
+            // 清理摘要中的 HTML
+            let summary = article.summary || '';
+            summary = summary.replace(/<[^>]+>/g, '').substring(0, 200);
             
-            container.innerHTML = prompts.map(p => {
-                const cat = allPrompts.categories.find(c => c.key === p.category);
-                const catName = cat ? cat.name : 'Prompt';
-                const tags = (p.tags || []).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
-                
-                return '<article class="prompt-card">' +
-                    '<div class="prompt-header">' +
-                    '<span class="prompt-category">' + (cat?.icon || '💡') + ' ' + catName + '</span>' +
-                    '<button class="copy-btn" onclick="copyPrompt(' + p.id + ')" id="copy-btn-' + p.id + '">📋 复制</button>' +
-                    '</div>' +
-                    '<h3 class="prompt-title">' + escapeHtml(p.title) + '</h3>' +
-                    '<p class="prompt-desc">' + escapeHtml(p.description) + '</p>' +
-                    '<div class="prompt-content" id="prompt-' + p.id + '">' + escapeHtml(p.prompt) + '</div>' +
-                    '<div class="prompt-footer">' +
-                    (tags ? '<div class="prompt-tags">' + tags + '</div>' : '') +
-                    '</div></article>';
-            }).join('');
-        }
-
-        // 复制 Prompt
-        function copyPrompt(id) {
-            const prompt = allPrompts.prompts.find(p => p.id === id);
-            if (!prompt) return;
-            
-            navigator.clipboard.writeText(prompt.prompt).then(() => {
-                const btn = document.getElementById('copy-btn-' + id);
-                const original = btn.textContent;
-                btn.textContent = '✅ 已复制!';
-                setTimeout(() => btn.textContent = original, 2000);
-            });
+            return `
+                <article class="news-card" onclick="openLink('${article.url}')">
+                    <div class="card-header">
+                        <span class="source-badge">${article.source || 'Web'}</span>
+                        <span class="date">${formatDate(article.date)}</span>
+                    </div>
+                    <h3 class="card-title">${escapeHtml(article.title)}</h3>
+                    <p class="card-summary">${escapeHtml(summary)}</p>
+                    <div class="card-footer">
+                        <div class="tags">${tags}</div>
+                        <span class="category-tag">${icon} ${catName}</span>
+                    </div>
+                </article>
+            `;
         }
 
         function formatDate(dateStr) {
-            try {
-                const date = new Date(dateStr);
-                const now = new Date();
-                const diff = now - date;
-                const minutes = Math.floor(diff / 60000);
-                const hours = Math.floor(diff / 3600000);
-                const days = Math.floor(diff / 86400000);
-                
-                if (minutes < 1) return '刚刚';
-                if (minutes < 60) return minutes + ' 分钟前';
-                if (hours < 24) return hours + ' 小时前';
-                if (days < 7) return days + ' 天前';
-                
-                return date.toLocaleDateString('zh-CN');
-            } catch (e) {
-                return dateStr;
+            if (!dateStr) return '';
+            if (dateStr.includes(',')) {
+                // Wed, 28 Jan 2026 格式
+                const parts = dateStr.split(' ');
+                if (parts.length >= 3) {
+                    return `${parts[2]}-${getMonth(parts[1])}-${parts[0]}`;
+                }
             }
+            return dateStr.substring(0, 10);
         }
 
-        function getSourceIcon(source) {
-            const icons = {
-                'GitHub': '⭐',
-                'HuggingFace': '🤗',
-                'arXiv': '📄',
-                'Product Hunt': '🚀',
-                'OpenAI': '🤖',
-                'Anthropic': '🧠',
-                'Google AI': '🔍',
-                'TechCrunch': '📰',
-                'VentureBeat': '🎮',
-                'MIT Tech Review': '🔬',
-                'The Verge': '📱',
-                'Wired': '🔌',
-                'Vercel': '⚡'
-            };
-            return icons[source] || '📌';
+        function getMonth(m) {
+            const months = {'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 
+                          'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
+                          'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'};
+            return months[m] || '01';
+        }
+
+        function openLink(url) {
+            window.open(url, '_blank');
+        }
+
+        async function refreshNews() {
+            const btn = document.querySelector('.refresh-btn');
+            btn.disabled = true;
+            btn.innerHTML = '<span>⏳</span> 加载中...';
+            
+            try {
+                // 触发后端更新
+                await fetch('/.netlify/functions/update', { method: 'POST' }).catch(() => {});
+                await loadData();
+            } catch (e) {
+                console.log('刷新完成');
+            }
+            
+            btn.disabled = false;
+            btn.innerHTML = '<span>🔄</span> 刷新';
         }
 
         function escapeHtml(text) {
@@ -316,58 +215,25 @@
             return div.innerHTML;
         }
 
-        // 资讯分类切换
-        document.getElementById('categories').addEventListener('click', function(e) {
-            if (e.target.classList.contains('cat-btn')) {
-                document.querySelectorAll('#categories .cat-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                currentCat = e.target.dataset.cat;
-                renderNews();
-            }
-        });
+        function showLoading(show) {
+            document.getElementById('loading').style.display = show ? 'block' : 'none';
+        }
 
-        // Prompt 分类切换
-        document.getElementById('prompt-categories').addEventListener('click', function(e) {
-            if (e.target.classList.contains('cat-btn')) {
-                document.querySelectorAll('#prompt-categories .cat-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                currentPromptCat = e.target.dataset.cat;
-                renderPrompts();
-            }
-        });
+        function showEmpty() {
+            document.getElementById('newsGrid').style.display = 'none';
+            document.getElementById('emptyState').style.display = 'flex';
+        }
 
-        // 初始化
-        loadData();
-        
-        // 刷新数据
-        async function refreshAllData() {
-            const btn = document.getElementById('refreshBtn');
-            const oldText = btn.innerHTML;
-            
-            btn.classList.add('loading');
-            btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;animation:spin 1s linear infinite"><circle cx="12" cy="12" r="10" stroke-opacity="0.25"/><path d="M12 2a10 10 0 019.95 9" stroke-linecap="round"/></svg> 刷新中...';
-            
-            try {
-                const res = await fetch('data.json?t=' + Date.now() + '&v=' + Date.now());
-                if (!res.ok) throw new Error('数据加载失败');
-                allData = await res.json();
-                
-                if (currentTab === 'news') {
-                    document.getElementById('updateTime').textContent = '资讯更新: ' + allData.lastUpdate;
-                    updateStats();
-                    renderNews();
-                } else {
-                    document.getElementById('updateTime').textContent = 'Prompt 更新: ' + allData.lastUpdate;
-                }
-                
-                btn.innerHTML = oldText;
-            } catch (e) {
-                console.error('刷新失败:', e);
-                btn.innerHTML = oldText;
-                alert('刷新失败，请重试');
-            }
-            
-            btn.classList.remove('loading');
+        function hideEmpty() {
+            document.getElementById('newsGrid').style.display = 'grid';
+            document.getElementById('emptyState').style.display = 'none';
+        }
+
+        function animateCards() {
+            const cards = document.querySelectorAll('.news-card');
+            cards.forEach((card, i) => {
+                card.style.animationDelay = `${i * 0.05}s`;
+            });
         }
     </script>
 </body>

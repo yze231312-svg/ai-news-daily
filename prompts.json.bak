@@ -1,0 +1,91 @@
+{
+  "lastUpdate": "2026/02/05 20:00",
+  "categories": [
+    {"key": "coding", "name": "💻 编程", "icon": "⌨️"},
+    {"key": "writing", "name": "📝 写作", "icon": "✍️"},
+    {"key": "analysis", "name": "🧠 分析", "icon": "📊"},
+    {"key": "creative", "name": "🎨 创意", "icon": "💡"}
+  ],
+  "prompts": [
+    {
+      "id": 1,
+      "title": "代码审查助手",
+      "description": "专业代码审查，发现潜在 Bug、性能问题和安全漏洞",
+      "category": "coding",
+      "tags": ["review", "security", "performance"],
+      "prompt": "请作为高级软件工程师审查以下代码。重点关注：\n1. 潜在 Bug 和边界情况处理\n2. 性能优化建议\n3. 安全漏洞检查\n4. 代码可读性和可维护性\n5. 最佳实践建议\n\n请给出详细的审查报告，包括具体问题位置和改进建议。\n\n```\n{代码}\n```"
+    },
+    {
+      "id": 2,
+      "title": "Bug 修复专家",
+      "description": "分析错误日志，定位问题根因并提供修复方案",
+      "category": "coding",
+      "tags": ["debug", "error", "fix"],
+      "prompt": "我遇到了以下错误，请帮我分析：\n\n**错误信息：**\n{错误日志}\n\n**相关代码：**\n```{语言}\n{代码片段}\n```\n\n请：\n1. 分析错误根因\n2. 提供修复方案\n3. 解释为什么会出现这个错误\n4. 给出预防建议"
+    },
+    {
+      "id": 3,
+      "title": "代码重构助手",
+      "description": "优化代码结构，提高可读性和可维护性",
+      "category": "coding",
+      "tags": ["refactor", "optimize", "architecture"],
+      "prompt": "请重构以下代码，使其：\n1. 更清晰易读\n2. 遵循 SOLID 原则\n3. 提高可维护性\n4. 保持功能不变\n5. 添加必要的注释\n\n原始代码：\n```{语言}\n{代码}\n```\n\n请先解释重构思路，然后给出重构后的代码。"
+    },
+    {
+      "id": 4,
+      "title": "技术文档写作",
+      "description": "将复杂技术概念转化为易懂的技术文档",
+      "category": "writing",
+      "tags": ["documentation", "technical", "explain"],
+      "prompt": "请将以下技术概念编写成清晰的技术文档：\n\n**主题：**{主题}\n**目标读者：**{读者}\n**技术深度：**{初级/中级/高级}\n\n请包含：\n1. 简介\n2. 核心概念解释\n3. 代码示例\n4. 实际应用场景\n5. 常见问题解答"
+    },
+    {
+      "id": 5,
+      "title": "专业邮件撰写",
+      "description": "撰写专业、得体的商务邮件",
+      "category": "writing",
+      "tags": ["email", "business", "professional"],
+      "prompt": "请帮我撰写一封专业邮件：\n\n**邮件目的：**{目的}\n**收件人关系：**{关系}\n**关键信息：**{信息}\n\n**语气要求：**\n- 正式程度：{非常正式/一般/友好}\n- 是否需要紧急程度表达\n\n请生成完整邮件，包含主题、正文和恰当的结束语。"
+    },
+    {
+      "id": 6,
+      "title": "数据可视化建议",
+      "description": "根据数据特点推荐最佳可视化方案",
+      "category": "analysis",
+      "tags": ["data", "visualization", "chart"],
+      "prompt": "我有以下数据需要可视化：\n\n**数据类型：**\n{数据描述}\n\n**分析目标：**\n{目标}\n\n**数据量级：**\n{量级}\n\n请推荐最适合的可视化图表类型，并解释原因。如果有多个合适选项，请对比优缺点。"
+    },
+    {
+      "id": 7,
+      "title": "决策分析助手",
+      "description": "多角度分析决策选项，量化优劣势",
+      "category": "analysis",
+      "tags": ["decision", "strategy", "business"],
+      "prompt": "我需要做出以下决策：\n\n**决策问题：**\n{问题描述}\n\n**可选方案：**\n1. {方案1}\n2. {方案2}\n3. {方案3}\n\n**评估标准：**\n- {标准1} (权重)\n- {标准2} (权重)\n\n请从多个角度分析每个方案，并给出量化评分和最终建议。"
+    },
+    {
+      "id": 8,
+      "title": "头脑风暴助手",
+      "description": "激发创意，产生多样化的想法",
+      "category": "creative",
+      "tags": ["brainstorm", "ideas", "innovation"],
+      "prompt": "请帮我进行头脑风暴：\n\n**主题：**{主题}\n\n**约束条件：**\n{约束}\n\n**期望数量：**{数量} 个想法\n\n请发散思维，生成多样化的创意想法，即使看起来不太实际也没关系。\n每个想法请简短说明核心概念。"
+    },
+    {
+      "id": 9,
+      "title": "故事创作引擎",
+      "description": "根据主题创作引人入胜的故事",
+      "category": "creative",
+      "tags": ["story", "writing", "creative"],
+      "prompt": "请根据以下要素创作一个短故事：\n\n**主题：**{主题}\n**风格：**{风格：悬疑/温馨/励志/科幻/其他}\n**主角：**{描述}\n**核心冲突：**{冲突}\n\n请创作一个结构完整、有吸引力的故事，包含开端、发展、高潮和结局。"
+    },
+    {
+      "id": 10,
+      "title": "学习计划定制",
+      "description": "根据目标和基础定制个性化学习路径",
+      "category": "analysis",
+      "tags": ["learning", "education", "plan"],
+      "prompt": "请帮我制定一个学习计划：\n\n**学习目标：**{目标}\n**当前基础：**{基础}\n**可用时间：**{时间}\n**学习偏好：**{偏好}\n\n请制定一个星期的学习计划，包括：\n1. 每日学习内容\n2. 推荐资源\n3. 进度检查点\n4. 实践项目"
+    }
+  ]
+}
