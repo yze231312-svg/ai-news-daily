@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/02/07 11:15",
+  "lastUpdate": "2026/02/07 11:22",
   "categories": [
     {
       "key": "open_source",
@@ -34,88 +34,13 @@
   ],
   "articles": [
     {
-      "id": "mock_tool_0",
-      "source": "Twitter/X",
-      "published_at": "2026-02-06T23:15:04.976447",
-      "title": "Cursor AI: The best coding experience in 2026",
-      "content": "Cursor's new 'Tab' feature is basically reading my mind. It's not just auto-complete, it's auto-architecture. #Cursor #CodingAI",
-      "summary": "Cursor's new 'Tab' feature is basically reading my mind. It's not just auto-complete, it's auto-architecture. #Cursor #CodingAI...",
-      "url": "https://x.com/webdev_hub/status/133402",
-      "tags": [
-        "AI",
-        "tool",
-        "2026"
-      ],
-      "category": "tool",
-      "author": {
-        "username": "webdev_hub",
-        "display_name": "Web Dev Hub",
-        "avatar": "https://ui-avatars.com/api/?name=Web Dev Hub&background=random"
-      },
-      "metrics": {
-        "likes": 2100,
-        "retweets": 300,
-        "replies": 58
-      }
-    },
-    {
-      "id": "mock_free_0",
-      "source": "Twitter/X",
-      "published_at": "2026-02-06T16:15:04.976435",
-      "title": "Groq: Free API Credits for Developers",
-      "content": "Groq is offering free tier API access for Llama 3.1 405B. The speed is unbelievable (500 t/s). Get your key at groq.com/developers #FreeAI #Groq",
-      "summary": "Groq is offering free tier API access for Llama 3.1 405B. The speed is unbelievable (500 t/s). Get your key at groq.com/developers #FreeAI #Groq...",
-      "url": "https://x.com/dev_tools/status/397958",
-      "tags": [
-        "AI",
-        "free",
-        "2026"
-      ],
-      "category": "free",
-      "author": {
-        "username": "dev_tools",
-        "display_name": "Dev Tools",
-        "avatar": "https://ui-avatars.com/api/?name=Dev Tools&background=random"
-      },
-      "metrics": {
-        "likes": 4200,
-        "retweets": 1500,
-        "replies": 108
-      }
-    },
-    {
-      "id": "mock_model_0",
-      "source": "Twitter/X",
-      "published_at": "2026-02-06T02:15:04.976419",
-      "title": "Claude 3.7 Opus Rumors heating up",
-      "content": "Rumors suggest Anthropic is preparing to launch Claude 3.7 Opus next week. Expecting massive leaps in coding and agency. #Anthropic #Claude37",
-      "summary": "Rumors suggest Anthropic is preparing to launch Claude 3.7 Opus next week. Expecting massive leaps in coding and agency. #Anthropic #Claude37...",
-      "url": "https://x.com/llm_insights/status/965422",
-      "tags": [
-        "AI",
-        "model",
-        "2026"
-      ],
-      "category": "model",
-      "author": {
-        "username": "llm_insights",
-        "display_name": "LLM Insights",
-        "avatar": "https://ui-avatars.com/api/?name=LLM Insights&background=random"
-      },
-      "metrics": {
-        "likes": 2800,
-        "retweets": 600,
-        "replies": 169
-      }
-    },
-    {
       "id": "mock_open_source_0",
       "source": "Twitter/X",
-      "published_at": "2026-02-05T23:15:04.976289",
+      "published_at": "2026-02-07T10:22:34.476993",
       "title": "DeepSeek-V3: The New Open Source SOTA",
       "content": "DeepSeek-V3 is here! Outperforming GPT-4o on many reasoning tasks. Fully open weights and training logs. Check it out: github.com/deepseek-ai/DeepSeek-V3 #AI #OpenSource",
       "summary": "DeepSeek-V3 is here! Outperforming GPT-4o on many reasoning tasks. Fully open weights and training logs. Check it out: github.com/deepseek-ai/DeepSeek...",
-      "url": "https://x.com/deepseek_ai/status/518611",
+      "url": "https://x.com/deepseek_ai/status/653648",
       "tags": [
         "AI",
         "open_source",
@@ -130,42 +55,42 @@
       "metrics": {
         "likes": 5200,
         "retweets": 1200,
-        "replies": 61
+        "replies": 79
       }
     },
     {
-      "id": "mock_open_source_1",
+      "id": "mock_tool_0",
       "source": "Twitter/X",
-      "published_at": "2026-02-05T21:15:04.976289",
-      "title": "Flux.1: Next-Gen Image Generation",
-      "content": "Black Forest Labs released Flux.1. The details in these images are insane. Better than Midjourney v6? Try it now on HuggingFace. #Flux1 #GenerativeAI",
-      "summary": "Black Forest Labs released Flux.1. The details in these images are insane. Better than Midjourney v6? Try it now on HuggingFace. #Flux1 #GenerativeAI...",
-      "url": "https://x.com/ai_art_daily/status/837031",
+      "published_at": "2026-02-06T14:22:34.477069",
+      "title": "Cursor AI: The best coding experience in 2026",
+      "content": "Cursor's new 'Tab' feature is basically reading my mind. It's not just auto-complete, it's auto-architecture. #Cursor #CodingAI",
+      "summary": "Cursor's new 'Tab' feature is basically reading my mind. It's not just auto-complete, it's auto-architecture. #Cursor #CodingAI...",
+      "url": "https://x.com/webdev_hub/status/328009",
       "tags": [
         "AI",
-        "open_source",
+        "tool",
         "2026"
       ],
-      "category": "open_source",
+      "category": "tool",
       "author": {
-        "username": "ai_art_daily",
-        "display_name": "AI Art Daily",
-        "avatar": "https://ui-avatars.com/api/?name=AI Art Daily&background=random"
+        "username": "webdev_hub",
+        "display_name": "Web Dev Hub",
+        "avatar": "https://ui-avatars.com/api/?name=Web Dev Hub&background=random"
       },
       "metrics": {
-        "likes": 3100,
-        "retweets": 800,
-        "replies": 10
+        "likes": 2100,
+        "retweets": 300,
+        "replies": 29
       }
     },
     {
       "id": "mock_tutorial_0",
       "source": "Twitter/X",
-      "published_at": "2026-02-05T17:15:04.976389",
+      "published_at": "2026-02-06T13:22:34.477028",
       "title": "How to deploy Llama 3.3 locally with Ollama",
       "content": "Thread: 🧵 A complete guide to running the latest Llama 3.3 on your laptop. \n1. Install Ollama\n2. Pull llama3.3:70b\n3. Set up memory optimization...\nFull tutorial here: [Link]",
       "summary": "Thread: 🧵 A complete guide to running the latest Llama 3.3 on your laptop. \n1. Install Ollama\n2. Pull llama3.3:70b\n3. Set up memory optimization...\nFu...",
-      "url": "https://x.com/the_ai_guide/status/367180",
+      "url": "https://x.com/the_ai_guide/status/455851",
       "tags": [
         "AI",
         "tutorial",
@@ -180,7 +105,82 @@
       "metrics": {
         "likes": 1500,
         "retweets": 450,
-        "replies": 41
+        "replies": 148
+      }
+    },
+    {
+      "id": "mock_free_0",
+      "source": "Twitter/X",
+      "published_at": "2026-02-05T19:22:34.477057",
+      "title": "Groq: Free API Credits for Developers",
+      "content": "Groq is offering free tier API access for Llama 3.1 405B. The speed is unbelievable (500 t/s). Get your key at groq.com/developers #FreeAI #Groq",
+      "summary": "Groq is offering free tier API access for Llama 3.1 405B. The speed is unbelievable (500 t/s). Get your key at groq.com/developers #FreeAI #Groq...",
+      "url": "https://x.com/dev_tools/status/189531",
+      "tags": [
+        "AI",
+        "free",
+        "2026"
+      ],
+      "category": "free",
+      "author": {
+        "username": "dev_tools",
+        "display_name": "Dev Tools",
+        "avatar": "https://ui-avatars.com/api/?name=Dev Tools&background=random"
+      },
+      "metrics": {
+        "likes": 4200,
+        "retweets": 1500,
+        "replies": 74
+      }
+    },
+    {
+      "id": "mock_model_0",
+      "source": "Twitter/X",
+      "published_at": "2026-02-05T18:22:34.477045",
+      "title": "Claude 3.7 Opus Rumors heating up",
+      "content": "Rumors suggest Anthropic is preparing to launch Claude 3.7 Opus next week. Expecting massive leaps in coding and agency. #Anthropic #Claude37",
+      "summary": "Rumors suggest Anthropic is preparing to launch Claude 3.7 Opus next week. Expecting massive leaps in coding and agency. #Anthropic #Claude37...",
+      "url": "https://x.com/llm_insights/status/363516",
+      "tags": [
+        "AI",
+        "model",
+        "2026"
+      ],
+      "category": "model",
+      "author": {
+        "username": "llm_insights",
+        "display_name": "LLM Insights",
+        "avatar": "https://ui-avatars.com/api/?name=LLM Insights&background=random"
+      },
+      "metrics": {
+        "likes": 2800,
+        "retweets": 600,
+        "replies": 39
+      }
+    },
+    {
+      "id": "mock_open_source_1",
+      "source": "Twitter/X",
+      "published_at": "2026-02-05T18:22:34.476993",
+      "title": "Flux.1: Next-Gen Image Generation",
+      "content": "Black Forest Labs released Flux.1. The details in these images are insane. Better than Midjourney v6? Try it now on HuggingFace. #Flux1 #GenerativeAI",
+      "summary": "Black Forest Labs released Flux.1. The details in these images are insane. Better than Midjourney v6? Try it now on HuggingFace. #Flux1 #GenerativeAI...",
+      "url": "https://x.com/ai_art_daily/status/438452",
+      "tags": [
+        "AI",
+        "open_source",
+        "2026"
+      ],
+      "category": "open_source",
+      "author": {
+        "username": "ai_art_daily",
+        "display_name": "AI Art Daily",
+        "avatar": "https://ui-avatars.com/api/?name=AI Art Daily&background=random"
+      },
+      "metrics": {
+        "likes": 3100,
+        "retweets": 800,
+        "replies": 103
       }
     }
   ]
