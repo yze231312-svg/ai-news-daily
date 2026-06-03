@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/06/02 12:19",
+  "lastUpdate": "2026/06/03 12:38",
   "categories": [
     {
       "key": "open_source",
@@ -36,7 +36,32 @@
     {
       "id": "tav_tool_7",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:16.775064",
+      "published_at": "2026-06-03T12:38:50.484274",
+      "title": "\"#生产力工具\" - Results",
+      "content": "别光盯着Copilot和OpenAI的免费课！真正解放生产力的是那种低调、但能无缝融入工作流的AI工具。 比如可以试试Flowith AI，免费体验完整的DeepSeek R1，直接在画布上对比模型",
+      "summary": "别光盯着Copilot和OpenAI的免费课！真正解放生产力的是那种低调、但能无缝融入工作流的AI工具。 比如可以试试Flowith AI，免费体验完整的DeepSeek R1，直接在画布上对比模型...",
+      "url": "https://x.com/hashtag/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7?src=hashtag_click",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "hashtag",
+        "display_name": "@hashtag",
+        "avatar": "https://ui-avatars.com/api/?name=hashtag&background=random"
+      },
+      "metrics": {
+        "likes": 3406,
+        "retweets": 84,
+        "replies": 66
+      }
+    },
+    {
+      "id": "tav_tool_6",
+      "source": "Twitter/X",
+      "published_at": "2026-06-03T12:38:50.484267",
       "title": "\"#开发者工具\" - Results",
       "content": "❌ 标题党满天飞，找个真资源比登天还难？ 试试这款：AI资源搜索Agent 3秒定位！高效检索与避坑指南 #AI工具 #效率神器 #开发者工具 #设计师日常 · ahhhhfs's Image on",
       "summary": "❌ 标题党满天飞，找个真资源比登天还难？ 试试这款：AI资源搜索Agent 3秒定位！高效检索与避坑指南 #AI工具 #效率神器 #开发者工具 #设计师日常 · ahhhhfs's Image on...",
@@ -53,15 +78,15 @@
         "avatar": "https://ui-avatars.com/api/?name=hashtag&background=random"
       },
       "metrics": {
-        "likes": 2236,
-        "retweets": 172,
-        "replies": 391
+        "likes": 2828,
+        "retweets": 932,
+        "replies": 312
       }
     },
     {
-      "id": "tav_tool_6",
+      "id": "tav_tool_5",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:16.775058",
+      "published_at": "2026-06-03T12:38:50.484257",
       "title": "\"#编程\" - Results",
       "content": "编程神器内卷！Cursor Composer 2吊打Kimi K2.5？ AI编程助手大战开卷，你会pick ... 强烈推荐给程序员兄弟们，效率直接起飞 #AI #编程 #效率工具 来源: Joe",
       "summary": "编程神器内卷！Cursor Composer 2吊打Kimi K2.5？ AI编程助手大战开卷，你会pick ... 强烈推荐给程序员兄弟们，效率直接起飞 #AI #编程 #效率工具 来源: Joe...",
@@ -78,40 +103,15 @@
         "avatar": "https://ui-avatars.com/api/?name=hashtag&background=random"
       },
       "metrics": {
-        "likes": 3133,
-        "retweets": 767,
-        "replies": 413
-      }
-    },
-    {
-      "id": "tav_tool_5",
-      "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:16.775050",
-      "title": "GitTrend (@GitTrend0x) / Posts",
-      "content": "2026 年下半场，AI Agent Skills 赛道彻底引爆。从反slop、知识图谱、视频生成到完整harness 框架，基础设施正在快速成熟。谁先把这些工具链玩透，谁就掌握下一波生产力红利。",
-      "summary": "2026 年下半场，AI Agent Skills 赛道彻底引爆。从反slop、知识图谱、视频生成到完整harness 框架，基础设施正在快速成熟。谁先把这些工具链玩透，谁就掌握下一波生产力红利。...",
-      "url": "https://x.com/GitTrend0x",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "tool",
-      "author": {
-        "username": "GitTrend0x",
-        "display_name": "@GitTrend0x",
-        "avatar": "https://ui-avatars.com/api/?name=GitTrend0x&background=random"
-      },
-      "metrics": {
-        "likes": 1004,
-        "retweets": 563,
-        "replies": 321
+        "likes": 1675,
+        "retweets": 577,
+        "replies": 11
       }
     },
     {
       "id": "2050910910642819254",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:16.775042",
+      "published_at": "2026-06-03T12:38:50.484250",
       "title": "指令遵循度极高，与ChatGPT 深度集成通义万相：擅长中国风及东方 ...",
       "content": "2026年热门AI工具总结清单 一、通用AI 用于聊天、写作、逻辑推理和简单指令执行 ChatGPT：全球综合实力最均衡的标杆 DeepSeek：国产之光，数学与代码推理",
       "summary": "2026年热门AI工具总结清单 一、通用AI 用于聊天、写作、逻辑推理和简单指令执行 ChatGPT：全球综合实力最均衡的标杆 DeepSeek：国产之光，数学与代码推理...",
@@ -128,15 +128,15 @@
         "avatar": "https://ui-avatars.com/api/?name=web3houzi&background=random"
       },
       "metrics": {
-        "likes": 1220,
-        "retweets": 96,
-        "replies": 237
+        "likes": 4175,
+        "retweets": 644,
+        "replies": 353
       }
     },
     {
       "id": "tav_tool_3",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:16.775036",
+      "published_at": "2026-06-03T12:38:50.484243",
       "title": "阿正老師(@quicktop) / Posts",
       "content": "OpenAI Codex Chrome 套件完整教學：讓AI 幫你操控瀏覽器，工作學習效率大提升（2026） ... 那你一定要試試看Google的超強AI工具「NotebookLM」，它能幫你快速讀完你丟給",
       "summary": "OpenAI Codex Chrome 套件完整教學：讓AI 幫你操控瀏覽器，工作學習效率大提升（2026） ... 那你一定要試試看Google的超強AI工具「NotebookLM」，它能幫你快速讀完你丟給...",
@@ -153,15 +153,15 @@
         "avatar": "https://ui-avatars.com/api/?name=quicktop&background=random"
       },
       "metrics": {
-        "likes": 2201,
-        "retweets": 895,
-        "replies": 404
+        "likes": 2004,
+        "retweets": 370,
+        "replies": 485
       }
     },
     {
       "id": "tav_tool_2",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:16.775030",
+      "published_at": "2026-06-03T12:38:50.484235",
       "title": "Luu (@Luu612971773126) / Posts",
       "content": "编程/效率AI工具 • GitHub Copilot：代码补全神器，集成VS Code。 • Cursor：AI原生代码编辑器。 • 其他：Ollama（本地运行开源模型，隐私优先）、Dify（构建AI",
       "summary": "编程/效率AI工具 • GitHub Copilot：代码补全神器，集成VS Code。 • Cursor：AI原生代码编辑器。 • 其他：Ollama（本地运行开源模型，隐私优先）、Dify（构建AI...",
@@ -178,15 +178,15 @@
         "avatar": "https://ui-avatars.com/api/?name=Luu612971773126&background=random"
       },
       "metrics": {
-        "likes": 3581,
-        "retweets": 633,
-        "replies": 347
+        "likes": 857,
+        "retweets": 285,
+        "replies": 85
       }
     },
     {
       "id": "2059791904641105922",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:16.775024",
+      "published_at": "2026-06-03T12:38:50.484226",
       "title": "AI奶爸(@zstmfhy)",
       "content": "工具推荐和资源清单：表现最强，适合长期做。典型爆款是2026-04-22 德国 ... 长期栏目：奶爸Agent工具箱、AI工具情报站、踩坑一分钟、奶爸站运营",
       "summary": "工具推荐和资源清单：表现最强，适合长期做。典型爆款是2026-04-22 德国 ... 长期栏目：奶爸Agent工具箱、AI工具情报站、踩坑一分钟、奶爸站运营...",
@@ -203,19 +203,19 @@
         "avatar": "https://ui-avatars.com/api/?name=zstmfhy&background=random"
       },
       "metrics": {
-        "likes": 2093,
-        "retweets": 214,
-        "replies": 480
+        "likes": 2154,
+        "retweets": 82,
+        "replies": 197
       }
     },
     {
-      "id": "tav_tool_0",
+      "id": "2030213808913039846",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:16.774996",
-      "title": "\"#效率神器\" - Results",
-      "content": "2026必备Agentic AI工具包（2/23最新版）： 1. Grok 4.20 4 Agents 2. Claude Opus 4.6 Agent Teams 3. Cursor + Lovable代码Agent … 我每天用前两个已省4小时+ 完整",
-      "summary": "2026必备Agentic AI工具包（2/23最新版）： 1. Grok 4.20 4 Agents 2. Claude Opus 4.6 Agent Teams 3. Cursor + Lovable代码Agent … 我每天用前两个已省4小时+ 完整...",
-      "url": "https://x.com/hashtag/%E6%95%88%E7%8E%87%E7%A5%9E%E5%99%A8?src=hashtag_click",
+      "published_at": "2026-06-03T12:38:50.484195",
+      "title": "小灰也是NotebookLM的重度爱好者",
+      "content": "我可以断言：2026年，商务人士最应该深度使用的AI工具，就是NotebookLM。 ... AI提效率\"的人，其实没有察觉AI在撒谎。信任的崩塌，比错误本身更严重",
+      "summary": "我可以断言：2026年，商务人士最应该深度使用的AI工具，就是NotebookLM。 ... AI提效率\"的人，其实没有察觉AI在撒谎。信任的崩塌，比错误本身更严重...",
+      "url": "https://x.com/XiaohuiAI666/status/2030213808913039846",
       "tags": [
         "AI",
         "2026",
@@ -223,24 +223,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "hashtag",
-        "display_name": "@hashtag",
-        "avatar": "https://ui-avatars.com/api/?name=hashtag&background=random"
+        "username": "XiaohuiAI666",
+        "display_name": "@XiaohuiAI666",
+        "avatar": "https://ui-avatars.com/api/?name=XiaohuiAI666&background=random"
       },
       "metrics": {
-        "likes": 1210,
-        "retweets": 158,
-        "replies": 457
+        "likes": 3655,
+        "retweets": 804,
+        "replies": 98
       }
     },
     {
-      "id": "tav_free_7",
+      "id": "2026629038421471591",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:15.686326",
-      "title": "anoxia (@anoxialiu) / Posts",
-      "content": "实测体验：Kilo 的集成度很高，如果你本身就在使用他们的Code 或CLI 工具，接入GLM-5 几乎是零成本。但如果只是为了白嫖API，性价比不如NVIDIA NIM。 推荐指数",
-      "summary": "实测体验：Kilo 的集成度很高，如果你本身就在使用他们的Code 或CLI 工具，接入GLM-5 几乎是零成本。但如果只是为了白嫖API，性价比不如NVIDIA NIM。 推荐指数...",
-      "url": "https://x.com/anoxialiu",
+      "published_at": "2026-06-03T12:38:49.463001",
+      "title": "Post by M.",
+      "content": "本文整理了目前所有可以免费使用GLM-5 的渠道，包括速度、并发限制、使用门槛等关键信息，帮你找到最适合自己的白嫖方案。 一、白山云：送钱的白嫖平台. 平台",
+      "summary": "本文整理了目前所有可以免费使用GLM-5 的渠道，包括速度、并发限制、使用门槛等关键信息，帮你找到最适合自己的白嫖方案。 一、白山云：送钱的白嫖平台. 平台...",
+      "url": "https://x.com/wlzh/status/2026629038421471591",
       "tags": [
         "AI",
         "2026",
@@ -248,20 +248,20 @@
       ],
       "category": "free",
       "author": {
-        "username": "anoxialiu",
-        "display_name": "@anoxialiu",
-        "avatar": "https://ui-avatars.com/api/?name=anoxialiu&background=random"
+        "username": "wlzh",
+        "display_name": "@wlzh",
+        "avatar": "https://ui-avatars.com/api/?name=wlzh&background=random"
       },
       "metrics": {
-        "likes": 1906,
-        "retweets": 441,
-        "replies": 395
+        "likes": 2472,
+        "retweets": 857,
+        "replies": 408
       }
     },
     {
       "id": "tav_free_6",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:15.686318",
+      "published_at": "2026-06-03T12:38:49.462995",
       "title": "葡语Crazy777 复刻游戏/源码/api接口出售出租[TG@gameapi25]",
       "content": "中国API 代理服务（中转站）以官方价10% 的价格倒卖Claude 访问权。 ——— 便宜到离谱的背后，是怎么做到的？ 1️⃣ 批量注册Anthropic 账号，白嫖免费API 额度 2️⃣",
       "summary": "中国API 代理服务（中转站）以官方价10% 的价格倒卖Claude 访问权。 ——— 便宜到离谱的背后，是怎么做到的？ 1️⃣ 批量注册Anthropic 账号，白嫖免费API 额度 2️⃣...",
@@ -278,15 +278,40 @@
         "avatar": "https://ui-avatars.com/api/?name=search?q=%E8%91%A1%E8%AF%ADCrazy777+%E5%A4%8D%E5%88%BB%E6%B8%B8%E6%88%8F%2F%E6%BA%90%E7%A0%81%2Fapi%E6%8E%A5%E5%8F%A3%E5%87%BA%E5%94%AE%E5%87%BA%E7%A7%9F%5BTG%40gameapi25%5D&background=random"
       },
       "metrics": {
-        "likes": 3841,
-        "retweets": 403,
-        "replies": 483
+        "likes": 4973,
+        "retweets": 512,
+        "replies": 295
       }
     },
     {
       "id": "tav_free_5",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:15.686312",
+      "published_at": "2026-06-03T12:38:49.462990",
+      "title": "2026保姆级教程：Claude Code + CC Switch + 国产套餐，打造你的 ...",
+      "content": "Q：想先免费体验？ 关注那些提供试用额度的中转平台（很多技术博主会分享最新链接），先白嫖一两周，觉得合适再小额充值。 ⚠️ 风控提醒：即便用上了",
+      "summary": "Q：想先免费体验？ 关注那些提供试用额度的中转平台（很多技术博主会分享最新链接），先白嫖一两周，觉得合适再小额充值。 ⚠️ 风控提醒：即便用上了...",
+      "url": "https://x.com/YiTalksx/article/2060633136195854631",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "free",
+      "author": {
+        "username": "YiTalksx",
+        "display_name": "@YiTalksx",
+        "avatar": "https://ui-avatars.com/api/?name=YiTalksx&background=random"
+      },
+      "metrics": {
+        "likes": 2602,
+        "retweets": 694,
+        "replies": 178
+      }
+    },
+    {
+      "id": "tav_free_4",
+      "source": "Twitter/X",
+      "published_at": "2026-06-03T12:38:49.462984",
       "title": "Open Innovation AI鼓勵大家在健康中體驗慈善的快樂。身體的力量與 ...",
       "content": "中国API 代理服务（中转站）以官方价10% 的价格倒卖Claude 访问权。 ——— 便宜到离谱的背后，是怎么做到的？ 1️⃣ 批量注册Anthropic 账号，白嫖免费API 额度 2️⃣",
       "summary": "中国API 代理服务（中转站）以官方价10% 的价格倒卖Claude 访问权。 ——— 便宜到离谱的背后，是怎么做到的？ 1️⃣ 批量注册Anthropic 账号，白嫖免费API 额度 2️⃣...",
@@ -303,44 +328,19 @@
         "avatar": "https://ui-avatars.com/api/?name=search?src=unknown&q=Open+Innovation+AI%E8%A9%90%E9%A8%99%E6%98%AF%E7%9C%9F%E7%9A%84%E5%97%8E%EF%BC%9F%E5%8F%B0%E8%A8%8A%E6%96%B0%E8%81%9E%EF%BC%9AOpen+Innovation+AI%E4%B8%A6%E9%9D%9E%E8%A9%90%E9%A8%99%E3%80%82Open+Innovation+AI%E6%8E%A8%E5%8B%95%E3%80%8C%E5%81%A5%E5%BA%B7%E5%96%84%E8%A1%8C%E9%81%8B%E5%8B%95%E3%80%8D%EF%BC%8C%E5%80%A1%E5%B0%8E%E8%BA%AB%E5%BF%83%E5%B9%B3%E8%A1%A1%E7%9A%84%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F%E3%80%82%E9%80%8F%E9%81%8E%E9%81%8B%E5%8B%95%E7%A4%BE%E7%BE%A4%E8%88%87%E5%85%AC%E7%9B%8A%E5%81%A5%E8%B5%B0%E6%B4%BB%E5%8B%95%EF%BC%8COpen+Innovation+AI%E9%BC%93%E5%8B%B5%E5%A4%A7%E5%AE%B6%E5%9C%A8%E5%81%A5%E5%BA%B7%E4%B8%AD%E9%AB%94%E9%A9%97%E6%85%88%E5%96%84%E7%9A%84%E5%BF%AB%E6%A8%82%E3%80%82%E8%BA%AB%E9%AB%94%E7%9A%84%E5%8A%9B%E9%87%8F%E8%88%87%E5%BF%83%E9%9D%88%E7%9A%84%E5%96%84%E6%84%8F%E4%BA%A4%E8%9E%8D%EF%BC%8C%E5%BD%A2%E6%88%90%E4%B8%80%E7%A8%AE%E7%94%9F%E5%91%BD%E7%9A%84%E5%92%8C%E8%AB%A7%E7%AF%80%E5%A5%8F%E3%80%82.ixo&background=random"
       },
       "metrics": {
-        "likes": 3030,
-        "retweets": 765,
-        "replies": 387
-      }
-    },
-    {
-      "id": "tav_free_4",
-      "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:15.686305",
-      "title": "YangDi (@yangdi) / Posts",
-      "content": "第一头：收你的充值费。第二头：用逆向或退款套利白嫖上游API额度。第三头：把你的完整对话记录打包卖掉。编程场景下用户的代码、推理链、工程决策，都是高质量的模型训练数据，",
-      "summary": "第一头：收你的充值费。第二头：用逆向或退款套利白嫖上游API额度。第三头：把你的完整对话记录打包卖掉。编程场景下用户的代码、推理链、工程决策，都是高质量的模型训练数据，...",
-      "url": "https://x.com/yangdi",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "free",
-      "author": {
-        "username": "yangdi",
-        "display_name": "@yangdi",
-        "avatar": "https://ui-avatars.com/api/?name=yangdi&background=random"
-      },
-      "metrics": {
-        "likes": 4677,
-        "retweets": 368,
-        "replies": 196
+        "likes": 872,
+        "retweets": 951,
+        "replies": 116
       }
     },
     {
       "id": "tav_free_3",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:15.686299",
-      "title": "0xjsx (@0xjsx) / Posts",
-      "content": "AI 工具的工作流自动化能卸掉这笔税。重复性运营任务可以被配置为自动发生 ... 白嫖GPT-5.5额度. Token 多到用不完的话，可以分享给家人朋友用，也可以挂出去卖",
-      "summary": "AI 工具的工作流自动化能卸掉这笔税。重复性运营任务可以被配置为自动发生 ... 白嫖GPT-5.5额度. Token 多到用不完的话，可以分享给家人朋友用，也可以挂出去卖...",
-      "url": "https://x.com/0xjsx",
+      "published_at": "2026-06-03T12:38:49.462977",
+      "title": "API中转站,比贩毒还赚| 黄小木(@ai_xiaomu)",
+      "content": "Google Cloud给AI初创公司最高送35万美元免费额度，两年随便用。有资源的人注册一堆壳公司，拿到免费额度转手给中转站当上游。成本为零，卖多少都是纯",
+      "summary": "Google Cloud给AI初创公司最高送35万美元免费额度，两年随便用。有资源的人注册一堆壳公司，拿到免费额度转手给中转站当上游。成本为零，卖多少都是纯...",
+      "url": "https://x.com/ai_xiaomu/article/2051099012288356592",
       "tags": [
         "AI",
         "2026",
@@ -348,24 +348,24 @@
       ],
       "category": "free",
       "author": {
-        "username": "0xjsx",
-        "display_name": "@0xjsx",
-        "avatar": "https://ui-avatars.com/api/?name=0xjsx&background=random"
+        "username": "ai_xiaomu",
+        "display_name": "@ai_xiaomu",
+        "avatar": "https://ui-avatars.com/api/?name=ai_xiaomu&background=random"
       },
       "metrics": {
-        "likes": 4638,
-        "retweets": 919,
-        "replies": 343
+        "likes": 256,
+        "retweets": 736,
+        "replies": 465
       }
     },
     {
       "id": "tav_free_2",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:15.686293",
-      "title": "loveabit (@justloveabit) / Posts",
-      "content": "永久免费、无需绑卡：API直接白嫖，开发者天天跑Demo、建Agents都不心疼。官方说“不是demo，是真生产模型”。 性能真能打：在Agent评测（ClawEval、PinchBench）上冲进全球Top",
-      "summary": "永久免费、无需绑卡：API直接白嫖，开发者天天跑Demo、建Agents都不心疼。官方说“不是demo，是真生产模型”。 性能真能打：在Agent评测（ClawEval、PinchBench）上冲进全球Top...",
-      "url": "https://x.com/justloveabit",
+      "published_at": "2026-06-03T12:38:49.462970",
+      "title": "超高性价比养  攻略！小白必看| 阿川| AI thinking (@AI_jacksaku)",
+      "content": "本来以为开源项目免费就能白嫖，结果才踩坑明白：软件本身一分钱不花，真正的吞金兽是AI 模型的API 调用。每说一句话、每跑一个定时任务、每调一次",
+      "summary": "本来以为开源项目免费就能白嫖，结果才踩坑明白：软件本身一分钱不花，真正的吞金兽是AI 模型的API 调用。每说一句话、每跑一个定时任务、每调一次...",
+      "url": "https://x.com/AI_jacksaku/article/2028275888991658208",
       "tags": [
         "AI",
         "2026",
@@ -373,20 +373,20 @@
       ],
       "category": "free",
       "author": {
-        "username": "justloveabit",
-        "display_name": "@justloveabit",
-        "avatar": "https://ui-avatars.com/api/?name=justloveabit&background=random"
+        "username": "AI_jacksaku",
+        "display_name": "@AI_jacksaku",
+        "avatar": "https://ui-avatars.com/api/?name=AI_jacksaku&background=random"
       },
       "metrics": {
-        "likes": 608,
-        "retweets": 234,
-        "replies": 485
+        "likes": 537,
+        "retweets": 977,
+        "replies": 364
       }
     },
     {
       "id": "tav_free_1",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:15.686286",
+      "published_at": "2026-06-03T12:38:49.462962",
       "title": "Results for \"ai工具合集网,ai绘图无限制网站,ai写作网站免费,免费的ai ...",
       "content": "第五件事，AI 接口。 这是2026 年的独立开发者最爽的一件事——AI API 的价格已经低到几乎不要钱。 国内首推DeepSeek API，输入0.5 元/ 百万token，输出1.5 元/ 百万token。",
       "summary": "第五件事，AI 接口。 这是2026 年的独立开发者最爽的一件事——AI API 的价格已经低到几乎不要钱。 国内首推DeepSeek API，输入0.5 元/ 百万token，输出1.5 元/ 百万token。...",
@@ -403,15 +403,15 @@
         "avatar": "https://ui-avatars.com/api/?name=search?q=ai%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86%E7%BD%91%2Cai%E7%BB%98%E5%9B%BE%E6%97%A0%E9%99%90%E5%88%B6%E7%BD%91%E7%AB%99%2Cai%E5%86%99%E4%BD%9C%E7%BD%91%E7%AB%99%E5%85%8D%E8%B4%B9%2C%E5%85%8D%E8%B4%B9%E7%9A%84ai%E7%94%BB%E7%94%BB%E7%BD%91%E7%AB%99%2Cai%E9%85%8D%E9%9F%B3+%E7%BD%91%E7%AB%99%2C%E7%AD%89%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE%E8%B1%8C%E8%B1%86Ai%E7%AB%99%E7%BE%A4%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%B3%BB%E7%BB%9F%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%3Awww.wd.chat&background=random"
       },
       "metrics": {
-        "likes": 2744,
-        "retweets": 23,
-        "replies": 267
+        "likes": 3150,
+        "retweets": 296,
+        "replies": 284
       }
     },
     {
       "id": "2060317316349559266",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:15.686258",
+      "published_at": "2026-06-03T12:38:49.462935",
       "title": "AI搞钱研究院(@gaoqian2580)",
       "content": "这是2026 年的独立开发者最爽的一件事——AI API 的价格已经低到几乎不要钱。 ... 如果你需要更多额度，Brevo（原SendinBlue）每天免费300 封，是无限期的免费额度",
       "summary": "这是2026 年的独立开发者最爽的一件事——AI API 的价格已经低到几乎不要钱。 ... 如果你需要更多额度，Brevo（原SendinBlue）每天免费300 封，是无限期的免费额度...",
@@ -428,19 +428,19 @@
         "avatar": "https://ui-avatars.com/api/?name=gaoqian2580&background=random"
       },
       "metrics": {
-        "likes": 2462,
-        "retweets": 788,
-        "replies": 441
+        "likes": 1491,
+        "retweets": 834,
+        "replies": 102
       }
     },
     {
       "id": "tav_model_7",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:13.582931",
-      "title": "Jing Wang (@jingwangtalk) / Posts",
-      "content": "集成了GPT-3.5、LLaMA、PaLM 三种模型。 优点：结构清晰中间产物可审查、快速 ... GPT-5.4 / Claude Opus 4.6：约贵50 倍. 昇腾950 下半年量产后，Pro 价格还有",
-      "summary": "集成了GPT-3.5、LLaMA、PaLM 三种模型。 优点：结构清晰中间产物可审查、快速 ... GPT-5.4 / Claude Opus 4.6：约贵50 倍. 昇腾950 下半年量产后，Pro 价格还有...",
-      "url": "https://x.com/jingwangtalk",
+      "published_at": "2026-06-03T12:38:48.188003",
+      "title": "爱搞搞(@aigaogaoUSA) / Posts",
+      "content": "建网站玩法：接上Claude/GPT模型后，它可以帮你生成完整网站代码、上传到服务器、甚至监控网站运行。 适合：想要“AI数字员工”全自动干活的感觉，完全免费开源（自己",
+      "summary": "建网站玩法：接上Claude/GPT模型后，它可以帮你生成完整网站代码、上传到服务器、甚至监控网站运行。 适合：想要“AI数字员工”全自动干活的感觉，完全免费开源（自己...",
+      "url": "https://x.com/aigaogaoUSA",
       "tags": [
         "AI",
         "2026",
@@ -448,20 +448,45 @@
       ],
       "category": "model",
       "author": {
-        "username": "jingwangtalk",
-        "display_name": "@jingwangtalk",
-        "avatar": "https://ui-avatars.com/api/?name=jingwangtalk&background=random"
+        "username": "aigaogaoUSA",
+        "display_name": "@aigaogaoUSA",
+        "avatar": "https://ui-avatars.com/api/?name=aigaogaoUSA&background=random"
       },
       "metrics": {
-        "likes": 1190,
-        "retweets": 74,
-        "replies": 376
+        "likes": 180,
+        "retweets": 273,
+        "replies": 481
       }
     },
     {
       "id": "tav_model_6",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:13.582921",
+      "published_at": "2026-06-03T12:38:48.187995",
+      "title": "PrimerYang (@yangzhizheng1) / Posts",
+      "content": "GPT-5、Claude Opus 5、Gemini 3 会越来越强。但越来越多的真实场景正在证明：一个花了$173 训练的4B 小模型，在你自己的数据上，比你花$200/月订阅的通用大模型更好用。",
+      "summary": "GPT-5、Claude Opus 5、Gemini 3 会越来越强。但越来越多的真实场景正在证明：一个花了$173 训练的4B 小模型，在你自己的数据上，比你花$200/月订阅的通用大模型更好用。...",
+      "url": "https://x.com/yangzhizheng1",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "model",
+      "author": {
+        "username": "yangzhizheng1",
+        "display_name": "@yangzhizheng1",
+        "avatar": "https://ui-avatars.com/api/?name=yangzhizheng1&background=random"
+      },
+      "metrics": {
+        "likes": 4718,
+        "retweets": 669,
+        "replies": 280
+      }
+    },
+    {
+      "id": "tav_model_5",
+      "source": "Twitter/X",
+      "published_at": "2026-06-03T12:38:48.187990",
       "title": "karminski-牙医 (@karminski3)",
       "content": "# karminski-牙医 (@karminski3) / X. People on X are the first to know. [Log in](https://x.com/login). [Sign up](https://x.com/i/flow/signup). # [](https://x.com/). [![Image 1](https://pbs.twimg.com/profile_banners/1071224721046261760/1736987799/600x200)](https://x.com/karminski3/header_photo). [![Image 2: Opens profile photo](https://pbs.twimg.com/profile_images/1071225168360427520/2tY0hY6b_200x200.jpg)](https://x.com/karminski3/photo). Asia/Beijing[kcores.com](https://t.co/LWSjN208w4). [Joined December 2018](https://x.com/karminski3/about). [1,535 Following](https://x.com/karminski3/following). [37.4K Followers](https://x.com/karminski3/verified_followers). [Posts](https://x.com/karminski3). [Replies](https://x.com/karminski3/with_replies). [Media](https://x.com/karminski3/media). [![Image 3](https://pbs.twimg.com/profile_images/1071225168360427520/2tY0hY6b_normal.jpg)](https://x.com/karminski3). [karminski-牙医](https://x.com/karminski3). [@karminski3](https://x.com/karminski3). [Jul 2, 2025](https://x.com/karminski3/status/1940210595367985627). 你有没有一直想学大模型原理，但是感觉教程都太晦涩难懂了？ 中文教程来了！happy-llm，这个教程教你从0构建一个参数大小为 215M 的大模型。看的时候一定要记得那个小技巧哦：看不懂的地方直接复制给大模型，问它我这里看不懂，你给我解释下。 教程：[http://github.com/datawhalechina/happy-llm…](https://t.co/xLaPN1W60s). [![Image 4: Image](https://pbs.twimg.com/media/Gu0DPgdXUAElyWD?format=jpg&name=small)](https://x.com/karminski3/status/1940210595367985627/photo/1). [133K](https://x.com/karminski3/status/1940210595367985627/analytics). [![Image 5](https://pbs.twimg.com/profile_images/1071225168360427520/2tY0hY6b_normal.jpg)](https://x.com/karminski3). [karminski-牙医](https://x.com/karminski3). [@karminski3](https://x.com/karminski3). [Oct 16, 2025](https://x.com/karminski3/status/1978971686251720737). [![Image 6: Image](https://pbs.twimg.com/media/G3a4PV3WUAAGzpF?format=jpg&name=small)](https://x.com/karminski3/status/1978971686251720737/photo/1). [452K](https://x.com/karminski3/status/1978971686251720737/analytics). [![Image 7](https://pbs.twimg.com/profile_images/1071225168360427520/2tY0hY6b_normal.jpg)](https://x.com/karminski3). [karminski-牙医](https://x.com/karminski3). [@karminski3](https://x.com/karminski3). [Mar 15, 2025](https://x.com/karminski3/status/1900735914550456563). 分享个 MCP server 网站，收录了2617个MCP Server。 地址：[http://mcp.so](https://t.co/eKXmGNGeHs). [![Image 8: Image](https://pbs.twimg.com/media/GmDFChIbcAAu58h?format=jpg&name=small)](https://x.com/karminski3/status/1900735914550456563/photo/1). [180K](https://x.com/karminski3/status/1900735914550456563/analytics). [![Image 9](https://pbs.twimg.com/profile_images/1071225168360427520/2tY0hY6b_normal.jpg)](https://x.com/karminski3). [karminski-牙医](https://x.com/karminski3). [@karminski3](https://x.com/karminski3). [Apr 2, 2025](https://x.com/karminski3/status/1907577329557319845). [![Image 10: Image](https://pbs.twimg.com/media/GnkTdxvaMAINgM3?format=png&name=small)](https://x.com/karminski3/status/1907577329557319845/photo/1). [131K](https://x.com/karminski3/status/1907577329557319845/analytics). [![Image 11](https://pbs.twimg.com/profile_images/1071225168360427520/2tY0hY6b_normal.jpg)](https://x.com/karminski3). [karminski-牙医](https://x.com/karminski3). [@karminski3](https://x.com/karminski3). [Feb 7, 2025](https://x.com/karminski3/status/1887995051701379171). [Video 1](blob:https://x.com/dbee0563-28e9-468e-8993-6e6c4f189b0a). ![Image 12](https://pbs.twimg.com/ext_tw_video_thumb/1887994680849350656/pu/img/3c78kfH-srBo61TB.jpg). [180K](https://x.com/karminski3/status/1887995051701379171/analytics). [![Image 13](https://pbs.twimg.com/profile_images/1071225168360427520/2tY0hY6b_normal.jpg)](https://x.com/karminski3). [karminski-牙医](https://x.com/karminski3). [@karminski3](https://x.com/karminski3). [Apr 4, 2025](https://x.com/karminski3/status/1908006613820027274). Anime.js 刚发了个大版本，官网demo是真的炫酷，没错，你在这个视频看到的全都是用anime.js 这个库实现的动画 地址：[http://animejs.com](https://t.co/Ki1SY5oxlp). [Video 2](blob:https://x.com/3baed9ec-014e-48ec-8156-cd2b26fc5b8d). ![Image 14](https://pbs.twimg.com/ext_tw_video_thumb/1907969082084962306/pu/img/QDUchqiwPThKl3Om.jpg). [121K](https://x.com/karminski3/status/1908006613820027274/analytics). [![Image 15](https://pbs.twimg.com/profile_images/1071225168360427520/2tY0hY6b_normal.jpg)](https://x.com/karminski3). [karminski-牙医](https://x.com/karminski3). [@karminski3](https://x.com/karminski3). [Mar 1, 2025](https://x.com/karminski3/status/1895730555754594456). [![Image 16: Image](https://pbs.twimg.com/media/Gk784kWXgAAP0UF?format=jpg&name=small)](https://x.com/karminski3/status/1895730555754594456/photo/1). [273K](https://x.com/karminski3/status/1895730555754594456/analytics). ## New to X? [Create account](https://x.com/i/flow/signup). By signing up, you agree to the [Terms of Service](https://x.com/tos) and [Privacy Policy](https://x.com/privacy), including [Cookie Use.](https://help.x.com/rules-and-policies/twitter-cookies). [Terms of Service](https://x.com/tos). [Privacy Policy](https://x.com/privacy). [Cookie Policy](https://support.x.com/articles/20170514). [Accessibility](https://help.x.com/resources/accessibility). [Ads info](https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo).",
       "summary": "# karminski-牙医 (@karminski3) / X. People on X are the first to know. [Log in](https://x.com/login). [Sign up](https://x.com/i/flow/signup). # [](https://x.com/). [![Image 1](https://pbs.twimg.com/prof...",
@@ -478,15 +503,15 @@
         "avatar": "https://ui-avatars.com/api/?name=karminski3&background=random"
       },
       "metrics": {
-        "likes": 2640,
-        "retweets": 133,
-        "replies": 432
+        "likes": 106,
+        "retweets": 650,
+        "replies": 20
       }
     },
     {
-      "id": "tav_model_5",
+      "id": "tav_model_4",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:13.582914",
+      "published_at": "2026-06-03T12:38:48.187984",
       "title": "\"Gbase-数据-Database-cloud database未来最新解决方案推荐 ...",
       "content": "1M Context 已成为2026 年旗舰模型的标配，Claude Opus 4.7、Sonnet 4.6、GPT-5.2、Gemini 3.1 Pro、DeepSeek V4 均已支持. Ring-2.6-1T 支持可调节Reasoning Effort",
       "summary": "1M Context 已成为2026 年旗舰模型的标配，Claude Opus 4.7、Sonnet 4.6、GPT-5.2、Gemini 3.1 Pro、DeepSeek V4 均已支持. Ring-2.6-1T 支持可调节Reasoning Effort...",
@@ -503,15 +528,15 @@
         "avatar": "https://ui-avatars.com/api/?name=search?q=Gbase-%E6%95%B0%E6%8D%AE-Database-cloud+database%E6%9C%AA%E6%9D%A5%E6%9C%80%E6%96%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%8E%A8%E8%8D%90&src=live&background=random"
       },
       "metrics": {
-        "likes": 368,
-        "retweets": 12,
-        "replies": 16
+        "likes": 3297,
+        "retweets": 787,
+        "replies": 290
       }
     },
     {
-      "id": "tav_model_4",
+      "id": "tav_model_3",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:13.582908",
+      "published_at": "2026-06-03T12:38:48.187979",
       "title": "Alex Yeh (@alex_yehya) / Posts",
       "content": "We released Claude Opus 4.6 just two months ago. Today we're sharing ... 小米最近发布了新的模型，也开源了一些背后的技术，我觉得对社区做出了很大的贡献",
       "summary": "We released Claude Opus 4.6 just two months ago. Today we're sharing ... 小米最近发布了新的模型，也开源了一些背后的技术，我觉得对社区做出了很大的贡献...",
@@ -528,40 +553,15 @@
         "avatar": "https://ui-avatars.com/api/?name=alex_yehya&background=random"
       },
       "metrics": {
-        "likes": 2679,
-        "retweets": 412,
-        "replies": 84
-      }
-    },
-    {
-      "id": "tav_model_3",
-      "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:13.582901",
-      "title": "谷歌搜索引流〘 ҉飞҉机҉            ❽❽〙google搜索排名.hta - Twitter",
-      "content": "• 是什么事:Anthropic 正式发布最新旗舰模型Claude Opus 4.8，与OpenAI 的GPT‑5.5 形成正面竞争。 • 为什么重要:这标志着最前沿大模型竞赛进入白热化阶段，两大顶级",
-      "summary": "• 是什么事:Anthropic 正式发布最新旗舰模型Claude Opus 4.8，与OpenAI 的GPT‑5.5 形成正面竞争。 • 为什么重要:这标志着最前沿大模型竞赛进入白热化阶段，两大顶级...",
-      "url": "https://x.com/search?src=typed_query&q=%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E5%BC%95%E6%B5%81%E3%80%98+%D2%89%E9%A3%9E%D2%89%E6%9C%BA%D2%89%F0%9F%85%A2%F0%9F%85%94%F0%9F%85%9E%F0%9F%85%A5%F0%9F%85%98%F0%9F%85%9F%E2%9D%BD%E2%9D%BD%E3%80%99google%E6%90%9C%E7%B4%A2%E6%8E%92%E5%90%8D.hta",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "model",
-      "author": {
-        "username": "search?src=typed_query&q=%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E5%BC%95%E6%B5%81%E3%80%98+%D2%89%E9%A3%9E%D2%89%E6%9C%BA%D2%89%F0%9F%85%A2%F0%9F%85%94%F0%9F%85%9E%F0%9F%85%A5%F0%9F%85%98%F0%9F%85%9F%E2%9D%BD%E2%9D%BD%E3%80%99google%E6%90%9C%E7%B4%A2%E6%8E%92%E5%90%8D.hta",
-        "display_name": "@search?src=typed_query&q=%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E5%BC%95%E6%B5%81%E3%80%98+%D2%89%E9%A3%9E%D2%89%E6%9C%BA%D2%89%F0%9F%85%A2%F0%9F%85%94%F0%9F%85%9E%F0%9F%85%A5%F0%9F%85%98%F0%9F%85%9F%E2%9D%BD%E2%9D%BD%E3%80%99google%E6%90%9C%E7%B4%A2%E6%8E%92%E5%90%8D.hta",
-        "avatar": "https://ui-avatars.com/api/?name=search?src=typed_query&q=%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E5%BC%95%E6%B5%81%E3%80%98+%D2%89%E9%A3%9E%D2%89%E6%9C%BA%D2%89%F0%9F%85%A2%F0%9F%85%94%F0%9F%85%9E%F0%9F%85%A5%F0%9F%85%98%F0%9F%85%9F%E2%9D%BD%E2%9D%BD%E3%80%99google%E6%90%9C%E7%B4%A2%E6%8E%92%E5%90%8D.hta&background=random"
-      },
-      "metrics": {
-        "likes": 3184,
-        "retweets": 512,
-        "replies": 205
+        "likes": 3990,
+        "retweets": 884,
+        "replies": 414
       }
     },
     {
       "id": "tav_model_2",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:13.582894",
+      "published_at": "2026-06-03T12:38:48.187973",
       "title": "DataDan｜AI Data Engineering (@ba_niu80557) / Posts",
       "content": "Most teams I audit in 2026 have the same mental model: \"bigger context window = better memory.\" Claude has 1M tokens. Gemini has 2M. GPT-5.4 has 1.05M. Problem",
       "summary": "Most teams I audit in 2026 have the same mental model: \"bigger context window = better memory.\" Claude has 1M tokens. Gemini has 2M. GPT-5.4 has 1.05M. Problem...",
@@ -578,15 +578,15 @@
         "avatar": "https://ui-avatars.com/api/?name=ba_niu80557&background=random"
       },
       "metrics": {
-        "likes": 870,
-        "retweets": 413,
-        "replies": 392
+        "likes": 209,
+        "retweets": 242,
+        "replies": 44
       }
     },
     {
       "id": "tav_model_1",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:13.582886",
+      "published_at": "2026-06-03T12:38:48.187966",
       "title": "Rourou (@Rourou0413) / Posts",
       "content": "1.1 主流模型家族. Anthropic Claude 4.X 系列. Claude Opus 4.7：2026 年5 月发布，1M context，支持高分辨率图像，代码和复杂任务表现优异. Claude Sonnet 4.6：2026 年",
       "summary": "1.1 主流模型家族. Anthropic Claude 4.X 系列. Claude Opus 4.7：2026 年5 月发布，1M context，支持高分辨率图像，代码和复杂任务表现优异. Claude Sonnet 4.6：2026 年...",
@@ -603,15 +603,15 @@
         "avatar": "https://ui-avatars.com/api/?name=Rourou0413&background=random"
       },
       "metrics": {
-        "likes": 1435,
-        "retweets": 271,
-        "replies": 165
+        "likes": 3357,
+        "retweets": 902,
+        "replies": 445
       }
     },
     {
       "id": "2054046163188494435",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:13.582856",
+      "published_at": "2026-06-03T12:38:48.187941",
       "title": "好全面的文章， 先收藏了",
       "content": "1M Context 已成为2026 年旗舰模型的标配，Claude Opus 4.7、Sonnet 4.6、GPT-5.2、Gemini 3.1 Pro、DeepSeek V4 均已支持. Ring-2.6-1T 支持可调节",
       "summary": "1M Context 已成为2026 年旗舰模型的标配，Claude Opus 4.7、Sonnet 4.6、GPT-5.2、Gemini 3.1 Pro、DeepSeek V4 均已支持. Ring-2.6-1T 支持可调节...",
@@ -628,15 +628,40 @@
         "avatar": "https://ui-avatars.com/api/?name=AshlynHe1129&background=random"
       },
       "metrics": {
-        "likes": 372,
-        "retweets": 545,
-        "replies": 189
+        "likes": 1801,
+        "retweets": 956,
+        "replies": 299
       }
     },
     {
       "id": "tav_tutorial_7",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:12.064095",
+      "published_at": "2026-06-03T12:38:47.273311",
+      "title": "AI花生(@XMRer) / Posts",
+      "content": "最近关于Claude code 的skills ，在x 上面各路大佬分享的技巧、教程、工具 ... Claude Skills 确实在2025 年10 月中旬就发布了，但直到2026 年1 月才真正爆火。这",
+      "summary": "最近关于Claude code 的skills ，在x 上面各路大佬分享的技巧、教程、工具 ... Claude Skills 确实在2025 年10 月中旬就发布了，但直到2026 年1 月才真正爆火。这...",
+      "url": "https://x.com/XMRer",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tutorial",
+      "author": {
+        "username": "XMRer",
+        "display_name": "@XMRer",
+        "avatar": "https://ui-avatars.com/api/?name=XMRer&background=random"
+      },
+      "metrics": {
+        "likes": 2683,
+        "retweets": 937,
+        "replies": 173
+      }
+    },
+    {
+      "id": "tav_tutorial_6",
+      "source": "Twitter/X",
+      "published_at": "2026-06-03T12:38:47.273301",
       "title": "Rush (@RushCMC) / Posts",
       "content": "... AI agent、Oracle等产品，十年如一日为用户和行业打造可信的数据基础设施 ... 再附上官方的中文学习教程指南：. https://docs.openclaw.ai/zh-CN/start/showcase.",
       "summary": "... AI agent、Oracle等产品，十年如一日为用户和行业打造可信的数据基础设施 ... 再附上官方的中文学习教程指南：. https://docs.openclaw.ai/zh-CN/start/showcase....",
@@ -653,15 +678,40 @@
         "avatar": "https://ui-avatars.com/api/?name=RushCMC&background=random"
       },
       "metrics": {
-        "likes": 4443,
-        "retweets": 196,
-        "replies": 326
+        "likes": 3484,
+        "retweets": 129,
+        "replies": 260
       }
     },
     {
-      "id": "tav_tutorial_6",
+      "id": "tav_tutorial_5",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:12.064086",
+      "published_at": "2026-06-03T12:38:47.273296",
+      "title": "Christina (@0xAmoy) / Posts",
+      "content": "2026最值得关注的AI/出海/创业/独立开发/副业博主大合集！共129个，分领域整理，建议收藏. 经过Gemini、Grok、ChatGPT",
+      "summary": "2026最值得关注的AI/出海/创业/独立开发/副业博主大合集！共129个，分领域整理，建议收藏. 经过Gemini、Grok、ChatGPT...",
+      "url": "https://x.com/0xAmoy",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tutorial",
+      "author": {
+        "username": "0xAmoy",
+        "display_name": "@0xAmoy",
+        "avatar": "https://ui-avatars.com/api/?name=0xAmoy&background=random"
+      },
+      "metrics": {
+        "likes": 1225,
+        "retweets": 399,
+        "replies": 318
+      }
+    },
+    {
+      "id": "tav_tutorial_4",
+      "source": "Twitter/X",
+      "published_at": "2026-06-03T12:38:47.273283",
       "title": "AIxWeb3 School (@aiweb3school) / Posts",
       "content": "AI x Web3 School 入门指南 . 看到很多新加入@aiweb3school 的同学对于平台模块逻辑还有点懵，于是我基于目前公开信息和自己的理解，整理了一份基础指南，供大家参考。",
       "summary": "AI x Web3 School 入门指南 . 看到很多新加入@aiweb3school 的同学对于平台模块逻辑还有点懵，于是我基于目前公开信息和自己的理解，整理了一份基础指南，供大家参考。...",
@@ -678,40 +728,15 @@
         "avatar": "https://ui-avatars.com/api/?name=aiweb3school&background=random"
       },
       "metrics": {
-        "likes": 1122,
-        "retweets": 987,
-        "replies": 418
+        "likes": 2642,
+        "retweets": 587,
+        "replies": 112
       }
     },
     {
-      "id": "tav_tutorial_5",
+      "id": "tav_tutorial_3",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:12.064077",
-      "title": "安仔(@geekshellio) / Posts",
-      "content": "Riley Brown 这个Codex 教程，我觉得是目前零基础入门AI Agent 工具最值得看的一课。 整理了几个我觉得最值得先让你理解的点： 1. 先搞清楚Codex 到底",
-      "summary": "Riley Brown 这个Codex 教程，我觉得是目前零基础入门AI Agent 工具最值得看的一课。 整理了几个我觉得最值得先让你理解的点： 1. 先搞清楚Codex 到底...",
-      "url": "https://x.com/geekshellio",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "tutorial",
-      "author": {
-        "username": "geekshellio",
-        "display_name": "@geekshellio",
-        "avatar": "https://ui-avatars.com/api/?name=geekshellio&background=random"
-      },
-      "metrics": {
-        "likes": 800,
-        "retweets": 769,
-        "replies": 135
-      }
-    },
-    {
-      "id": "tav_tutorial_4",
-      "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:12.064067",
+      "published_at": "2026-06-03T12:38:47.273278",
       "title": "AI花生(@XMRer) / Posts and Replies",
       "content": "GitHub - EdwardWason/Skills-desk: 汇总优质Claude Code & Openclaw & Hermes 的Skills 资源教程。方便自己，分享他人，欢迎... ... 为什么Claude Skills 的爆发点在2026 年1",
       "summary": "GitHub - EdwardWason/Skills-desk: 汇总优质Claude Code & Openclaw & Hermes 的Skills 资源教程。方便自己，分享他人，欢迎... ... 为什么Claude Skills 的爆发点在2026 年1...",
@@ -728,19 +753,19 @@
         "avatar": "https://ui-avatars.com/api/?name=XMRer&background=random"
       },
       "metrics": {
-        "likes": 3162,
-        "retweets": 897,
-        "replies": 408
+        "likes": 2980,
+        "retweets": 350,
+        "replies": 420
       }
     },
     {
-      "id": "tav_tutorial_3",
+      "id": "2058740603450806527",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:12.064060",
-      "title": "松鼠AI (@manonglianai) / Posts",
-      "content": "AI教程类长文稳定10万以上，纯投资内容很难过5万。来这个账号的人想看\"AI怎么用 ... 此外，还可以卖自动化课程、自己的AI软件、内容创作教学。就靠这个打法，这个",
-      "summary": "AI教程类长文稳定10万以上，纯投资内容很难过5万。来这个账号的人想看\"AI怎么用 ... 此外，还可以卖自动化课程、自己的AI软件、内容创作教学。就靠这个打法，这个...",
-      "url": "https://x.com/manonglianai",
+      "published_at": "2026-06-03T12:38:47.273271",
+      "title": "爆裂队长NEXT (@thinkszyg)",
+      "content": "AI 正在提高你的创业失败率. 我手搓了一个Chrome 插件，把X 收藏夹批量整理成Obsidian 知识库. DeepSeek 一张JD，就是2026 年AI 入行说明书. 管10个AI",
+      "summary": "AI 正在提高你的创业失败率. 我手搓了一个Chrome 插件，把X 收藏夹批量整理成Obsidian 知识库. DeepSeek 一张JD，就是2026 年AI 入行说明书. 管10个AI...",
+      "url": "https://x.com/thinkszyg/status/2058740603450806527",
       "tags": [
         "AI",
         "2026",
@@ -748,49 +773,24 @@
       ],
       "category": "tutorial",
       "author": {
-        "username": "manonglianai",
-        "display_name": "@manonglianai",
-        "avatar": "https://ui-avatars.com/api/?name=manonglianai&background=random"
+        "username": "thinkszyg",
+        "display_name": "@thinkszyg",
+        "avatar": "https://ui-avatars.com/api/?name=thinkszyg&background=random"
       },
       "metrics": {
-        "likes": 1615,
-        "retweets": 376,
-        "replies": 343
-      }
-    },
-    {
-      "id": "tav_tutorial_2",
-      "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:12.064052",
-      "title": "Edward (@zhan22200) / Posts",
-      "content": "你需要做的是“教”你的AI 智能体：那些持久的上下文该放在哪，哪些上下文需要 ... 按这个标准，2026 年5 月的AI 企业市场，有\"PMF 的雏形\"，但还没有\"PMF 的胜利",
-      "summary": "你需要做的是“教”你的AI 智能体：那些持久的上下文该放在哪，哪些上下文需要 ... 按这个标准，2026 年5 月的AI 企业市场，有\"PMF 的雏形\"，但还没有\"PMF 的胜利...",
-      "url": "https://x.com/zhan22200",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "tutorial",
-      "author": {
-        "username": "zhan22200",
-        "display_name": "@zhan22200",
-        "avatar": "https://ui-avatars.com/api/?name=zhan22200&background=random"
-      },
-      "metrics": {
-        "likes": 270,
-        "retweets": 797,
-        "replies": 189
+        "likes": 2127,
+        "retweets": 434,
+        "replies": 285
       }
     },
     {
       "id": "tav_tutorial_1",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:12.064043",
-      "title": "Jason Zhu (@GoSailGlobal) / Posts",
-      "content": "[Log in](https://x.com/login). [Sign up](https://x.com/i/flow/signup). # [](https://x.com/). [![Image 1](https://pbs.twimg.com/profile_banners/1928711169419956224/1755945863/600x200)](https://x.com/GoSailGlobal/header_photo). [![Image 2: Opens profile photo](https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_200x200.jpg)](https://x.com/GoSailGlobal/photo). [Joined May 2025](https://x.com/GoSailGlobal/about). [1,965 Following](https://x.com/GoSailGlobal/following). [32.1K Followers](https://x.com/GoSailGlobal/verified_followers). [Posts](https://x.com/GoSailGlobal). [Replies](https://x.com/GoSailGlobal/with_replies). [Media](https://x.com/GoSailGlobal/media). [![Image 5](https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_normal.jpg)](https://x.com/GoSailGlobal). [Jason Zhu](https://x.com/GoSailGlobal). [@GoSailGlobal](https://x.com/GoSailGlobal). [6h](https://x.com/GoSailGlobal/status/2060189601281552410). [@ManusAI](https://x.com/ManusAI). [@Meta](https://x.com/Meta). [![Image 9: Image](https://pbs.twimg.com/media/HJdDWIyXkAAykz3?format=jpg&name=small)](https://x.com/GoSailGlobal/status/2060189601281552410/photo/1). ![Image 10](https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_mini.jpg). [![Image 11: Image](https://pbs.twimg.com/media/HJa0eJ0asAApb43?format=jpg&name=240x240)](https://x.com/GoSailGlobal/status/2060032314206474661/photo/1). ![Image 12: 🌟](https://abs.twimg.com/emoji/v2/svg/1f31f.svg) 目前社区公认最全、最实用的 Claude / Anthropic 必关注名单 v1.0 一键关注 Anthropic / Claude 团队，这次连grok都被我问的真·没有了 ![Image 13: 😂](https://abs.twimg.com/emoji/v2/svg/1f602.svg)![Image 14: 1️⃣](https://abs.twimg.com/emoji/v2/svg/31-20e3.svg) 官方账号 (Official) @AnthropicAI — 官方发布、版本更新、研究公告最权威来源 @claudeai — 官方产品账号 ![Image 15: 2️⃣](https://abs.twimg.com/emoji/v2/svg/32-20e3.svg) 创始人 / 领导层 (Leadership & x.com/19287111694199…. [3.3K](https://x.com/GoSailGlobal/status/2060189601281552410/analytics). [![Image 16](https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_normal.jpg)](https://x.com/GoSailGlobal). [Jason Zhu](https://x.com/GoSailGlobal). [@GoSailGlobal](https://x.com/GoSailGlobal). [Sep 18, 2025](https://x.com/GoSailGlobal/status/1968569350102700504). [1.5M](https://x.com/GoSailGlobal/status/1968569350102700504/analytics). [![Image 17](https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_normal.jpg)](https://x.com/GoSailGlobal). [Jason Zhu](https://x.com/GoSailGlobal). [@GoSailGlobal](https://x.com/GoSailGlobal). [Sep 21, 2025](https://x.com/GoSailGlobal/status/1969704967138312637). ![Image 24](https://pbs.twimg.com/profile_images/1941793198600499200/xsaeVopM_mini.jpg). [3.4M](https://x.com/GoSailGlobal/status/1969704967138312637/analytics). [![Image 25](https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_normal.jpg)](https://x.com/GoSailGlobal). [Jason Zhu](https://x.com/GoSailGlobal). [@GoSailGlobal](https://x.com/GoSailGlobal). [Aug 1, 2025](https://x.com/GoSailGlobal/status/1951432193034928230). [![Image 29: Image](https://pbs.twimg.com/media/GxThOjTaIAA6fb4?format=jpg&name=small)](https://x.com/GoSailGlobal/status/1951432193034928230/photo/1). [![Image 30: Image](https://pbs.twimg.com/media/GxThOjcaIAQ_7uK?format=jpg&name=small)](https://x.com/GoSailGlobal/status/1951432193034928230/photo/2). [![Image 31: Image](https://pbs.twimg.com/media/GxThOjbaAAAS4mo?format=jpg&name=small)](https://x.com/GoSailGlobal/status/1951432193034928230/photo/3). [![Image 32: Image](https://pbs.twimg.com/media/GxThOjTaIAI-WOf?format=jpg&name=small)](https://x.com/GoSailGlobal/status/1951432193034928230/photo/4). [377K](https://x.com/GoSailGlobal/status/1951432193034928230/analytics). [![Image 33](https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_normal.jpg)](https://x.com/GoSailGlobal). [Jason Zhu](https://x.com/GoSailGlobal). [@GoSailGlobal](https://x.com/GoSailGlobal). [Nov 12, 2025](https://x.com/GoSailGlobal/status/1988426307496276067). 免费在线影视资源指南｜2025最新版收藏帖（全网实测版）（收藏） 复刻了下神老师的内容，给大家找了免费在线影视资源 平台原因无法直接发这么多地址。 别再为找剧一个个测试网站了。 我整理了一份覆盖高清、4K、动漫和剧集的免费影视资源清单。 全网实测、避坑过滤、按可用性排序。 ![Image 34: 🟢](https://abs.twimg.com/emoji/v2/svg/1f7e2.svg)[https://x.com/berryxia_ai/st/berryxia_ai/status/1987541122403758428…](https://x.com/berryxia_ai/status/1987541122403758428). [![Image 35: Image](https://pbs.twimg.com/media/G5hO0mMbcAIfI8d?format=jpg&name=small)](https://x.com/GoSailGlobal/status/1988426307496276067/photo/1). [851K](https://x.com/GoSailGlobal/status/1988426307496276067/analytics). [![Image 36](https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_normal.jpg)](https://x.com/GoSailGlobal). [Jason Zhu](https://x.com/GoSailGlobal). [@GoSailGlobal](https://x.com/GoSailGlobal). [Jul 27, 2025](https://x.com/GoSailGlobal/status/1949467524669776131). [![Image 37: Image](https://pbs.twimg.com/media/Gw3mXOdasAENfri?format=jpg&name=small)](https://x.com/GoSailGlobal/status/1949467524669776131/photo/1). [![Image 38: Image](https://pbs.twimg.com/media/Gw3mXOXaAAAZwkE?format=jpg&name=small)](https://x.com/GoSailGlobal/status/1949467524669776131/photo/2). [![Image 39: Image](https://pbs.twimg.com/media/Gw3mXOWaIAAw8r8?format=jpg&name=360x360)](https://x.com/GoSailGlobal/status/1949467524669776131/photo/3). [269K](https://x.com/GoSailGlobal/status/1949467524669776131/analytics). [Create account](https://x.com/i/flow/signup). [Terms of Service](https://x.com/tos). [Privacy Policy](https://x.com/privacy). [Cookie Policy](https://support.x.com/articles/20170514). [Accessibility](https://help.x.com/resources/accessibility).",
-      "summary": "[Log in](https://x.com/login). [Sign up](https://x.com/i/flow/signup). # [](https://x.com/). [![Image 1](https://pbs.twimg.com/profile_banners/1928711169419956224/1755945863/600x200)](https://x.com/Go...",
-      "url": "https://x.com/GoSailGlobal",
+      "published_at": "2026-06-03T12:38:47.273263",
+      "title": "foxhu (@foxhu007) / Posts",
+      "content": "训练小模型：2026 年最被低估的AI 技能 2026 年5 月11 日，一个叫CJ Zafir 的人发了一条推文。他想教普通人fine-tune 开源模型。 2538 个赞，316 次转发，178,000 次观看。",
+      "summary": "训练小模型：2026 年最被低估的AI 技能 2026 年5 月11 日，一个叫CJ Zafir 的人发了一条推文。他想教普通人fine-tune 开源模型。 2538 个赞，316 次转发，178,000 次观看。...",
+      "url": "https://x.com/foxhu007",
       "tags": [
         "AI",
         "2026",
@@ -798,24 +798,24 @@
       ],
       "category": "tutorial",
       "author": {
-        "username": "GoSailGlobal",
-        "display_name": "@GoSailGlobal",
-        "avatar": "https://ui-avatars.com/api/?name=GoSailGlobal&background=random"
+        "username": "foxhu007",
+        "display_name": "@foxhu007",
+        "avatar": "https://ui-avatars.com/api/?name=foxhu007&background=random"
       },
       "metrics": {
-        "likes": 4862,
-        "retweets": 239,
-        "replies": 486
+        "likes": 320,
+        "retweets": 534,
+        "replies": 337
       }
     },
     {
       "id": "tav_tutorial_0",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:12.064014",
-      "title": "yekyos (@kelaxie) / Posts",
-      "content": "2026 年，AI 编程工具出现能力跃升。一个熟练开发者用Claude Code 几周就能复制一个中等SaaS 产品的核心功能。 采购经理开始拿这个当谈判筹码——即使他不会真的自己开发",
-      "summary": "2026 年，AI 编程工具出现能力跃升。一个熟练开发者用Claude Code 几周就能复制一个中等SaaS 产品的核心功能。 采购经理开始拿这个当谈判筹码——即使他不会真的自己开发...",
-      "url": "https://x.com/kelaxie",
+      "published_at": "2026-06-03T12:38:47.273237",
+      "title": "土豆本豆(@Potatoloogs) / Posts",
+      "content": "放在2026年AI的语境下读，会发现循环依然成立： 第1步：机器人干不了我的工作。 第2步：好吧，它会很多事，但我做的事它不一定都会。 第3步：好吧，我做的事它都会了",
+      "summary": "放在2026年AI的语境下读，会发现循环依然成立： 第1步：机器人干不了我的工作。 第2步：好吧，它会很多事，但我做的事它不一定都会。 第3步：好吧，我做的事它都会了...",
+      "url": "https://x.com/Potatoloogs",
       "tags": [
         "AI",
         "2026",
@@ -823,24 +823,24 @@
       ],
       "category": "tutorial",
       "author": {
-        "username": "kelaxie",
-        "display_name": "@kelaxie",
-        "avatar": "https://ui-avatars.com/api/?name=kelaxie&background=random"
+        "username": "Potatoloogs",
+        "display_name": "@Potatoloogs",
+        "avatar": "https://ui-avatars.com/api/?name=Potatoloogs&background=random"
       },
       "metrics": {
-        "likes": 2139,
-        "retweets": 303,
-        "replies": 8
+        "likes": 1107,
+        "retweets": 642,
+        "replies": 409
       }
     },
     {
-      "id": "tav_open_source_7",
+      "id": "2038406683865624800",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:11.107903",
-      "title": "Zichen Chen (  ,  ) (@my_cat_can_code) / Highlights",
-      "content": "The AI Scientist [6] (Nature, 2026) generates research papers end-to-end. AutoLab builds on ideas from several of these, particularly COFFE's instruction",
-      "summary": "The AI Scientist [6] (Nature, 2026) generates research papers end-to-end. AutoLab builds on ideas from several of these, particularly COFFE's instruction...",
-      "url": "https://x.com/my_cat_can_code/highlights",
+      "published_at": "2026-06-03T12:38:46.165295",
+      "title": "飞书CLI 开源了，为什么AI Agent 时代",
+      "content": "类似的CLI 还很多，三周前Google 也开源了gws，让AI Agent 操作Google Workspace。2026 年了，所有想接入AI Agent 的产品，都在做CLI。 【1】先说CLI 是什么",
+      "summary": "类似的CLI 还很多，三周前Google 也开源了gws，让AI Agent 操作Google Workspace。2026 年了，所有想接入AI Agent 的产品，都在做CLI。 【1】先说CLI 是什么...",
+      "url": "https://x.com/dotey/status/2038406683865624800",
       "tags": [
         "AI",
         "2026",
@@ -848,24 +848,24 @@
       ],
       "category": "open_source",
       "author": {
-        "username": "my_cat_can_code",
-        "display_name": "@my_cat_can_code",
-        "avatar": "https://ui-avatars.com/api/?name=my_cat_can_code&background=random"
+        "username": "dotey",
+        "display_name": "@dotey",
+        "avatar": "https://ui-avatars.com/api/?name=dotey&background=random"
       },
       "metrics": {
-        "likes": 1701,
-        "retweets": 988,
-        "replies": 345
+        "likes": 645,
+        "retweets": 697,
+        "replies": 134
       }
     },
     {
-      "id": "2058356542626464012",
+      "id": "2038555397234020404",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:11.107894",
-      "title": "今天GitHub 被高质量AI Agent 技能继续屠榜   5 个星标暴增最狠的 ...",
-      "content": "开源托管Agent 平台，把编码Agent 变成真正队友：分配任务、追踪进度、复合技能。 从“单兵作战”进化到“Agent 团队作战”。 直达： github.com/multica-ai/",
-      "summary": "开源托管Agent 平台，把编码Agent 变成真正队友：分配任务、追踪进度、复合技能。 从“单兵作战”进化到“Agent 团队作战”。 直达： github.com/multica-ai/...",
-      "url": "https://x.com/GitTrend0x/status/2058356542626464012",
+      "published_at": "2026-06-03T12:38:46.165284",
+      "title": "2026大家一直提的赚钱方式： 「一人公司」「自媒体」「金融投资 ...",
+      "content": "14 vnpy(VeighNa)：国内最流行的开源量化交易平台开发框架。支持股票、期货、期权等多交易品种，内置套利、网格等十余种成熟策略，适合想要在国内市场实战自动化交易的投资",
+      "summary": "14 vnpy(VeighNa)：国内最流行的开源量化交易平台开发框架。支持股票、期货、期权等多交易品种，内置套利、网格等十余种成熟策略，适合想要在国内市场实战自动化交易的投资...",
+      "url": "https://x.com/Saccc_c/status/2038555397234020404",
       "tags": [
         "AI",
         "2026",
@@ -873,20 +873,70 @@
       ],
       "category": "open_source",
       "author": {
-        "username": "GitTrend0x",
-        "display_name": "@GitTrend0x",
-        "avatar": "https://ui-avatars.com/api/?name=GitTrend0x&background=random"
+        "username": "Saccc_c",
+        "display_name": "@Saccc_c",
+        "avatar": "https://ui-avatars.com/api/?name=Saccc_c&background=random"
+      },
+      "metrics": {
+        "likes": 2386,
+        "retweets": 720,
+        "replies": 320
+      }
+    },
+    {
+      "id": "tav_open_source_5",
+      "source": "Twitter/X",
+      "published_at": "2026-06-03T12:38:46.165278",
+      "title": "Giorgio Robino (@solyarisoftware) / Posts",
+      "content": "Pydantic AI version 1.96.1 is out!. Release v1.96.1 (2026-05-14) · pydantic/pydantic-ai. github.com. 1.",
+      "summary": "Pydantic AI version 1.96.1 is out!. Release v1.96.1 (2026-05-14) · pydantic/pydantic-ai. github.com. 1....",
+      "url": "https://x.com/solyarisoftware",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "open_source",
+      "author": {
+        "username": "solyarisoftware",
+        "display_name": "@solyarisoftware",
+        "avatar": "https://ui-avatars.com/api/?name=solyarisoftware&background=random"
+      },
+      "metrics": {
+        "likes": 2926,
+        "retweets": 714,
+        "replies": 69
+      }
+    },
+    {
+      "id": "tav_open_source_4",
+      "source": "Twitter/X",
+      "published_at": "2026-06-03T12:38:46.165272",
+      "title": "氪200刀，乔帮主开源8个工具、5个精选Skill，六一宠粉节 - Twitter",
+      "content": "把AI 生成的HTML、Markdown、SVG、Mermaid 变成一个微信里能阅读的网页。 一键免费部署到你的Cloudflare 账号。 开源地址：. https://github.com/joeseesun",
+      "summary": "把AI 生成的HTML、Markdown、SVG、Mermaid 变成一个微信里能阅读的网页。 一键免费部署到你的Cloudflare 账号。 开源地址：. https://github.com/joeseesun...",
+      "url": "https://x.com/vista8/article/2061443708374208769",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "open_source",
+      "author": {
+        "username": "vista8",
+        "display_name": "@vista8",
+        "avatar": "https://ui-avatars.com/api/?name=vista8&background=random"
       },
       "metrics": {
         "likes": 4430,
-        "retweets": 192,
-        "replies": 471
+        "retweets": 272,
+        "replies": 174
       }
     },
     {
       "id": "2042504026542260458",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:11.107887",
+      "published_at": "2026-06-03T12:38:46.165265",
       "title": "YC CEO Garry Tan 刚开源了他的「第二大脑」系统GBrain，我看完 ...",
       "content": "Garry Tan 上个月刚开源了gstack——他的Claude Code 工作流，两天内就突破了一万颗星，成为2026 年GitHub 上增长最快的开发者工具之一。 那个项目是关于「",
       "summary": "Garry Tan 上个月刚开源了gstack——他的Claude Code 工作流，两天内就突破了一万颗星，成为2026 年GitHub 上增长最快的开发者工具之一。 那个项目是关于「...",
@@ -903,65 +953,15 @@
         "avatar": "https://ui-avatars.com/api/?name=ZainanZhou&background=random"
       },
       "metrics": {
-        "likes": 4687,
-        "retweets": 283,
-        "replies": 130
-      }
-    },
-    {
-      "id": "tav_open_source_4",
-      "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:11.107881",
-      "title": "向阳乔木(@vista8) / Posts",
-      "content": "强烈推荐每周看下Huggingface 的AI 论文榜。 https://huggingface.co/papers/. 安装指令. 开源地址. https://github.com/joeseesun/qiaomu-paper-",
-      "summary": "强烈推荐每周看下Huggingface 的AI 论文榜。 https://huggingface.co/papers/. 安装指令. 开源地址. https://github.com/joeseesun/qiaomu-paper-...",
-      "url": "https://x.com/vista8",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "open_source",
-      "author": {
-        "username": "vista8",
-        "display_name": "@vista8",
-        "avatar": "https://ui-avatars.com/api/?name=vista8&background=random"
-      },
-      "metrics": {
-        "likes": 4682,
-        "retweets": 83,
-        "replies": 465
-      }
-    },
-    {
-      "id": "tav_open_source_3",
-      "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:11.107874",
-      "title": "MortyC137 (@MileyFu) / Posts",
-      "content": "基于K8s开源项目 AI OS佛系捞一捞人： 之前openshift相关的 或者对linux底层熟 ... The EU AI Act, fully applicable from August 2026, introduces risk-based",
-      "summary": "基于K8s开源项目 AI OS佛系捞一捞人： 之前openshift相关的 或者对linux底层熟 ... The EU AI Act, fully applicable from August 2026, introduces risk-based...",
-      "url": "https://x.com/MileyFu",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "open_source",
-      "author": {
-        "username": "MileyFu",
-        "display_name": "@MileyFu",
-        "avatar": "https://ui-avatars.com/api/?name=MileyFu&background=random"
-      },
-      "metrics": {
-        "likes": 625,
-        "retweets": 894,
-        "replies": 408
+        "likes": 1924,
+        "retweets": 360,
+        "replies": 323
       }
     },
     {
       "id": "tav_open_source_2",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:11.107864",
+      "published_at": "2026-06-03T12:38:46.165253",
       "title": "Chao Peng (@chao_peng_) / Posts",
       "content": "还整了个开源 AI Agent 项目——Trae Agent 简单说，就是： 🛠️ 会写代码、改文件、跑命令、做推理 一次接好多个 LLM（OpenAI / Claude / Gemini / 本地 Ollama",
       "summary": "还整了个开源 AI Agent 项目——Trae Agent 简单说，就是： 🛠️ 会写代码、改文件、跑命令、做推理 一次接好多个 LLM（OpenAI / Claude / Gemini / 本地 Ollama...",
@@ -978,19 +978,19 @@
         "avatar": "https://ui-avatars.com/api/?name=chao_peng_&background=random"
       },
       "metrics": {
-        "likes": 4331,
-        "retweets": 498,
-        "replies": 433
+        "likes": 131,
+        "retweets": 71,
+        "replies": 27
       }
     },
     {
-      "id": "2056195833830539768",
+      "id": "tav_open_source_1",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:11.107855",
-      "title": "先思考再动手AI 最大的问题是“太听话”，你说啥它就写啥，从不质疑这 ...",
-      "content": "Karpathy 发布了一个github开源项目，狠狠让我惊艳到了 这个项目叫andrej-karpathy-skills,GitHub 13 万+ star,我愿称之为2026 最有用的AI 工程项目",
-      "summary": "Karpathy 发布了一个github开源项目，狠狠让我惊艳到了 这个项目叫andrej-karpathy-skills,GitHub 13 万+ star,我愿称之为2026 最有用的AI 工程项目...",
-      "url": "https://x.com/yaohui12138/status/2056195833830539768",
+      "published_at": "2026-06-03T12:38:46.165242",
+      "title": "MortyC137 (@MileyFu) / Posts",
+      "content": "基于K8s开源项目 AI OS佛系捞一捞人： 之前openshift相关的 或者对linux底层熟 ... The EU AI Act, fully applicable from August 2026, introduces risk-based",
+      "summary": "基于K8s开源项目 AI OS佛系捞一捞人： 之前openshift相关的 或者对linux底层熟 ... The EU AI Act, fully applicable from August 2026, introduces risk-based...",
+      "url": "https://x.com/MileyFu",
       "tags": [
         "AI",
         "2026",
@@ -998,20 +998,20 @@
       ],
       "category": "open_source",
       "author": {
-        "username": "yaohui12138",
-        "display_name": "@yaohui12138",
-        "avatar": "https://ui-avatars.com/api/?name=yaohui12138&background=random"
+        "username": "MileyFu",
+        "display_name": "@MileyFu",
+        "avatar": "https://ui-avatars.com/api/?name=MileyFu&background=random"
       },
       "metrics": {
-        "likes": 511,
-        "retweets": 656,
-        "replies": 426
+        "likes": 1266,
+        "retweets": 740,
+        "replies": 221
       }
     },
     {
       "id": "2054192420884189597",
       "source": "Twitter/X",
-      "published_at": "2026-06-02T12:19:11.107824",
+      "published_at": "2026-06-03T12:38:46.165205",
       "title": "每天都诞生各种各样AI 智能体，想要快速找到适合特定业务场景的 ...",
       "content": "GitHub 上的awesome-ai-agents-2026 开源项目，正好整理了一份详细的当下主流AI 智能体工具。 收录了340 多个项目，涵盖代码编写、语音交互、创意生成、工作",
       "summary": "GitHub 上的awesome-ai-agents-2026 开源项目，正好整理了一份详细的当下主流AI 智能体工具。 收录了340 多个项目，涵盖代码编写、语音交互、创意生成、工作...",
@@ -1028,9 +1028,9 @@
         "avatar": "https://ui-avatars.com/api/?name=GitHub_Daily&background=random"
       },
       "metrics": {
-        "likes": 451,
-        "retweets": 833,
-        "replies": 69
+        "likes": 4240,
+        "retweets": 542,
+        "replies": 498
       }
     }
   ]
