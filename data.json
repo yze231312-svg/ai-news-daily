@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/08/21 09:27",
+  "lastUpdate": "2026/08/22 09:22",
   "categories": [
     {
       "key": "open_source",
@@ -34,13 +34,13 @@
   ],
   "articles": [
     {
-      "id": "tav_tool_7",
+      "id": "2025798702053601780",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:31.885283",
-      "title": "AI字幕神器Buzz, 免费开源的AI语音转文字工具，我已经不用剪映生成字幕了，比 妙幕 · SmartSub 还简单 | Mike·Long (@MikeLong404)",
-      "content": "跨平台支持 Windows / macOs / Linux\n\n不仅支持中文，也支持很多个国家的语言，还能将结果翻译，不过只能翻译成英文\n\nBuzz 上手使用体验\n\nChatGPT 自今年初火爆以来，至今热度不止，不光是 ChatGPT，AI 内容和工具也非常火热。今年给大家推荐的这款效率软件，就是基于开发了 ChatGPT 的人工智能公司「 OpenAI」 开源的 Whisper 模型做的软件 Buzz，能高效地将视频和音频自动转化为文本。\n\n初次打开 Buzz， 会把 AI 模型下载到本地，下载完成后所有的语音转录文字过程都在自己的电脑运行，转换速度很快。\n\n上面都是抄来的，总之个人使用之后感觉确实不错，准确率高速度快，唯一的问题就是中文生成后都是繁体，这个问题还没找到解决方式。 [...] ## Article\n\nLog inSign up\n\n## Article\n\n# AI字幕神器Buzz, 免费开源的AI语音转文字工具，我已经不用剪映生成字幕了，比 妙幕 · SmartSub 还简单\n\nCover image for AI字幕神器Buzz, 免费开源的AI语音转文字工具，我已经不用剪映生成字幕了，比 妙幕 · SmartSub 还简单\n\nMike·Long\n\nMike·Long@MikeLong404··Updated 2026-01-09\n\nBuzz 是一款可以自动识别语音为文本字幕的软件工具，基于 OpenAI 开源的 Whisper 自动语音识别模型，可以批量将音频或者是视频中的内容自动转化为带有时间的字幕，速度非常快，是一款能极大提高效率的生产力小工具。\n\n从github上进行下载，下载地址\n\n📷\n\nBuzz 语音转文字工具的特点\n\n高准确率：基于 OpenAI 开源的 Whisper 自动语音识别模型，这是一款非常强大的机器学习模型\n\n转换速度快：Buzz 的模型都离线存在本地，转换过程无需联网，因此转换速度很快，适合批量转换语音",
-      "summary": "跨平台支持 Windows / macOs / Linux\n\n不仅支持中文，也支持很多个国家的语言，还能将结果翻译，不过只能翻译成英文\n\nBuzz 上手使用体验\n\nChatGPT 自今年初火爆以来，至今热度不止，不光是 ChatGPT，AI 内容和工具也非常火热。今年给大家推荐的这款效率软件，就是基于开发了 ChatGPT 的人工智能公司「 OpenAI」 开源的 Whisper 模型做的软件 B...",
-      "url": "https://x.com/MikeLong404/article/2009474089749287257",
+      "published_at": "2026-08-22T09:22:55.474747",
+      "title": "铁锤人",
+      "content": "配置 API\n\n  第一步：我们先下载牛马 AI，登录上面的网站：\n\n  下载下来就这样，因为这个是个支持多种 API 接入的免费软件，所以你得先配置一下用自己API。\n\n  选择模型，进行配置APIKEY：\n\n  我这里登录了 Kimi 新建了 APIKEY：\n\n  填入进去测试一下就能使用了。\n\n  上传Skill：\n\n  没有 Skills，牛马干活起来不是很高效，下面教大家如何迁移 Skills 过来\n\n  我上传了两个 skills，一个是生成封面提示词的，一个是调用 API 生成图片，然后/就能调用\n\n  生成封面\n\n  输入提示词，斜杠调用封面 Skills，就给我生成提示词了：\n\n  下一步就是让它帮我生成图片，选用生成封面的 SKills，就能帮我生成了\n\n  成品是上面呢？就是这篇文章的封面啦。\n\n  总结\n\n  这个产品是我好朋友做的产品，今天友情推荐，而且是免费的。\n\n  这个软件主要的优点就是免费的，不会进行数据劫持。而且可以使用你喜欢的 API，能完成很多任务了。 今年上班的时候可以试用一下。\n\n  最后喜欢的文章可以关注我的公众号： [...] Log inSign up\n\n## Post\n\n user avatar\n\n  铁锤人\n\n  @lxfater\n\n  Article cover image\n\n  # 回城当牛马，用牛马 AI\n\n  不知道大家看到这篇文章的时候，是否在回去上班的路上。\n\n  相比在老家的轻松惬意，回去上班当牛马真的很让人痛苦。所以，今天给大家介绍我一个朋友的软件：牛马 AI，让今年大家在上班时候多点时间摸鱼。\n\n  经历过 AI 的洗礼后，大家已经清楚明白 AI 是能提高生产力的了。但是往往操作复杂，这又贴提示词，又是上传文件。做 PPT 用这个平台，改 excel 就用那个平台。\n\n  一通闹下来，一下子订阅了很多软件，花销一大堆。更可气的是，为了捆抱住你，挟持你的数据。不让你再使用其他工具。\n\n  今天我给你介绍的牛马 AI即将解决上面的问题： 1. 支持多 API 接入，一次配置省钱省力\n\n  支持牛马（Agent skills），一下子替代掉一大堆订阅制软件\n\n  不挟持你的数据，全部数据放在你电脑本地\n\n  今天我将一步一步教你，如何配置 API，使用 Skills，做出本篇的文章封面图： [...] 5:03 AM · Feb 23, 202664.8KViews\n user avatar\n\n  Berryxia.AI\n\n  @berryxia\n\n  Feb 23\n\n  我正在测嘿嘿",
+      "summary": "配置 API\n\n  第一步：我们先下载牛马 AI，登录上面的网站：\n\n  下载下来就这样，因为这个是个支持多种 API 接入的免费软件，所以你得先配置一下用自己API。\n\n  选择模型，进行配置APIKEY：\n\n  我这里登录了 Kimi 新建了 APIKEY：\n\n  填入进去测试一下就能使用了。\n\n  上传Skill：\n\n  没有 Skills，牛马干活起来不是很高效，下面教大家如何迁移 Ski...",
+      "url": "https://x.com/lxfater/status/2025798702053601780",
       "tags": [
         "AI",
         "2026",
@@ -48,24 +48,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "MikeLong404",
-        "display_name": "@MikeLong404",
-        "avatar": "https://ui-avatars.com/api/?name=MikeLong404&background=random"
+        "username": "lxfater",
+        "display_name": "@lxfater",
+        "avatar": "https://ui-avatars.com/api/?name=lxfater&background=random"
       },
       "metrics": {
-        "likes": 3145,
-        "retweets": 95,
-        "replies": 433
+        "likes": 2824,
+        "retweets": 388,
+        "replies": 411
       }
     },
     {
-      "id": "2031922722931163542",
+      "id": "tav_tool_6",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:31.885278",
-      "title": "纯洁的微笑",
-      "content": "实测20款 OpenClaw 产品！腾讯阿里字节华为百度小米全线下场，最快部署仅需 1 分钟？（全名单） 在 2026 年，如果你部署一个 OpenClaw（小龙虾）还需要超过 1 分钟，那你已经输在起跑线上了。 我深测了国内近 20 款 OpenClaw 产品，帮你死磕出了最值得关注的 TOP 10 榜单。 👇 建议先点赞收藏，这是目前最全的避坑指南： 📱 一、 手机厂商：系统级 Agent（最便捷） 小米 miClaw：首家支持 OpenClaw。它不是聊天机器人，而是系统级 Agent。能直接调用手机内所有应用，封测阶段表现极佳。 华为 小艺 Claw：基于鸿蒙，主打“个人智能体”。处理文档、写 PPT、自动回邮件，甚至能预设不同人格，办公神器。 🧠 二、 AI 大模型公司：API 亲儿子（最原生） Kimi Claw：199元/月。虽然收费，但胜在稳定，直接帮你在线部署好，省去了配置 API 的烦恼。 Minimax MaxClaw：思路同上，价格更卷，只要 139元/月。对于不想折腾服务器的同学，这是首选。 智谱 [...] 智谱 AutoClaw：诚意十足！直接做了套壳客户端，交互体验比网页版好太多，不仅卖 Token，更懂用户体验。 🏢 三、 互联网大厂：全生态碾压（最强资源） 腾讯 WorkBuddy：目前下载即用，虽然功能还在打磨，但背后是腾讯海量的办公资源支持。 腾讯 QClaw（最期待）：传闻将内嵌微信！这意味着你可以在微信对话框直接指挥“小龙虾”在电脑上干活。 百度 DuClaw：百度云发布的零部署服务。无需选镜像、配 Key，真正实现零门槛“养虾”。 阿里 JVS Claw：内测中（需邀请码）。送 8000 额度，有效期 14 天。它的 Bot 创建门槛极低，适合小白上手。 猎豹 EasyClaw：惊喜之作。融入了老牌安全软件的功能，对“环境安全”有执念的同学必看。 🚀 终极推荐：字节跳动·飞书妙搭 OpenClaw 这是我实测中最重磅的产品，没有之一！ 速度：一键部署，实测不到 1 分钟。 优势：自动打通飞书生态。以往接入飞书需要几十步配置，现在点一下按钮全搞定。 福利：目前每人每日领「百万 Token」，首日加码至 400 万！截止到本月底，简直是慈善机构。 [...] user avatar\n\n  纯洁的微笑\n\n  @ityouknows\n\n  Mar 12\n\n  Article cover image\n\n  Article\n\n  实测20款 OpenClaw 产品！腾讯阿里字节华为百度小米全线下场，最快部署仅需 1 分钟？（全名单）\n\n  天下武功，唯快不破。 在 AI 的时代，那就更快了，我估计小龙虾都不知道，自己为啥在2026年，会这么火？ 今天给大家汇总一下，国内所有热门龙虾类产品，最后一个部署竟然真的只需要一分钟（99%的人都可成功）。...\n\n  2:38 AM · Mar 12, 20266.4KViews\n user avatar\n\n  Erwin\n\n  @Erwinminion\n\n  Mar 12\n\n  大厂鼓吹的“一分钟部署”，本质只是为了用最短路径把你锁死在他们昂贵的Token计费流水线上。等真上了生产环境你就会发现，哪怕是基础的并发调度和显存隔离，都足够让这些速成玩具全军覆没。",
-      "summary": "实测20款 OpenClaw 产品！腾讯阿里字节华为百度小米全线下场，最快部署仅需 1 分钟？（全名单） 在 2026 年，如果你部署一个 OpenClaw（小龙虾）还需要超过 1 分钟，那你已经输在起跑线上了。 我深测了国内近 20 款 OpenClaw 产品，帮你死磕出了最值得关注的 TOP 10 榜单。 👇 建议先点赞收藏，这是目前最全的避坑指南： 📱 一、 手机厂商：系统级 Agent（最...",
-      "url": "https://x.com/ityouknows/status/2031922722931163542",
+      "published_at": "2026-08-22T09:22:55.474741",
+      "title": "Toolient (@toolient)",
+      "content": "Mar 22\n\n  Most ecommerce brands are optimizing the wrong thing… visuals that look good, not visuals that convert. If you’re serious about scaling your store, you need to understand WHEN each one works — and when it fails. Read the full breakdown now 👇 🔗 toolient.com/2026/03/ai-lif…\n\n  \n user avatar\n\n  Toolient\n\n  @toolient\n\n  Mar 21 [...] Mar 25\n\n  Here’s the uncomfortable truth 👇 AI didn’t make your product pages better… it made them sound like everyone else. The fix isn’t “better AI tools” It’s stricter brand voice rules. 👉 Want the full system? 🔗 toolient.com/2026/03/avoid-… #EcommerceSEO #Copywriting #Toolient\n\n  \n user avatar\n\n  Toolient\n\n  @toolient\n\n  Mar 23 [...] Mar 23\n\n  Most ecommerce stores don’t have a traffic problem… they have a copy problem. You can drive thousands of visitors to your product page — but if your copy doesn’t remove hesitation, your conversion rate stays flat. 🔗 toolient.com/2026/03/ai-ab-… #EcommerceGrowth #Toolient\n\n  \n user avatar\n\n  Toolient\n\n  @toolient\n\n  Mar 22",
+      "summary": "Mar 22\n\n  Most ecommerce brands are optimizing the wrong thing… visuals that look good, not visuals that convert. If you’re serious about scaling your store, you need to understand WHEN each one works...",
+      "url": "https://x.com/toolient?lang=en",
       "tags": [
         "AI",
         "2026",
@@ -73,24 +73,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "ityouknows",
-        "display_name": "@ityouknows",
-        "avatar": "https://ui-avatars.com/api/?name=ityouknows&background=random"
+        "username": "toolient?lang=en",
+        "display_name": "@toolient?lang=en",
+        "avatar": "https://ui-avatars.com/api/?name=toolient?lang=en&background=random"
       },
       "metrics": {
-        "likes": 512,
-        "retweets": 725,
-        "replies": 480
+        "likes": 1610,
+        "retweets": 362,
+        "replies": 176
       }
     },
     {
-      "id": "2040675213000704100",
+      "id": "2050206545078878409",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:31.885272",
-      "title": "GitTrend",
-      "content": "Zapier 的开源自动化神器被彻底干翻了！ 2026 省钱自动化神器，一个月帮你省下 Zapier 订阅费（轻松 100-500+ 美元）！ 兄弟姐妹们，醒醒！还在给 Zapier 交月费做自动化工作流、连接 App 吗？ 这个可视化工作流 + 原生 AI 节点的开源神器，GitHub 上 n8n 直接把 Zapier 按在地上摩擦！ 它叫 n8n，GitHub 60k+ 星、完全自托管、可视化拖拽、支持 400+ 节点 + AI 集成，数据全在自己服务器，零订阅零限制！ 🟢 以前每个月给 Zapier 交的智商税，现在 0 元白嫖，而且工作流更灵活、AI 更强！ 1. 一次性省下 Zapier Professional 年费（轻松 100-500+ 美元） 2. 拒绝云端数据泄露，自托管隐私 100% 掌控 3. 开发者/产品/运营/小团队 每天自动同步数据、发通知、处理表单，以前一年工具费上千，现在 0 成本 4. 更狠的省钱链：自动化效率拉满 → 人工时间节省 70%+ → 间接省人力/外包费！ 🟢🟢 真实功能有多香？ • 400+ [...] 年自动化要靠开源？ Zapier 越来越贵、越来越限额，n8n 用自托管把所有痛点干掉。省下来的钱，可以买服务器、买咖啡，或者投到下一个自动化项目里。 还在用哪个付费自动化工具？评论区说出来，下次继续挖！ 2026 年，拒绝被割韭菜，从 n8n 开始🔥 [...] 🟢🟢 真实功能有多香？ • 400+ 原生节点（Slack、Notion、Google、CRM 等）+ HTTP + AI 节点 • 可视化拖拽工作流 + 错误处理 + 调度 + Webhook • 原生支持本地 LLM + 高级 AI 代理 • Docker 一键部署 + 云端可选（但自托管最香） • 团队协作 + 版本控制 + 执行历史完整记录 • 完全开源，商用无限制 Fair-code 开源，随便改随便商用！ 🟢🟢🟢 怎么白嫖？2 分钟上手 1. 打开主仓库：github.com/n8n-io/n8n 2. Docker 一键启动（最推荐）：docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n docker.n8n.io/n8nio/n8n 3. 浏览器打开  → 拖拽节点建工作流 → 立即执行/定时跑 4. 想要云端？官方也有免费社区版，但自托管党直接本地跑完事！ 实测：比 Zapier 还快还稳，2026 年自动化圈标配！ 🟢🟢🟢🟢 为什么 2026 年自动化要靠开源？ Zapier",
-      "summary": "Zapier 的开源自动化神器被彻底干翻了！ 2026 省钱自动化神器，一个月帮你省下 Zapier 订阅费（轻松 100-500+ 美元）！ 兄弟姐妹们，醒醒！还在给 Zapier 交月费做自动化工作流、连接 App 吗？ 这个可视化工作流 + 原生 AI 节点的开源神器，GitHub 上 n8n 直接把 Zapier 按在地上摩擦！ 它叫 n8n，GitHub 60k+ 星、完全自托管、可视化...",
-      "url": "https://x.com/GitTrend0x/status/2040675213000704100",
+      "published_at": "2026-08-22T09:22:55.474735",
+      "title": "Jass",
+      "content": "## Post\n\nLog inSign up\n\n## Post\n\n# Jass on X: \"🤖2026 AI AGENTS OF THE YEAR, MEET NEW AI TOOLS FOR GROWING, CHECK OUT OUR BLOG: ( #chatgpt #aigenerated #aitool #makemoneyonline #AI2026 #earnmoney\"\n\n user avatar\n\n  Jass\n\n  @Newaitools2026\n\n  🤖2026 AI AGENTS OF THE YEAR, MEET NEW AI TOOLS FOR GROWING, CHECK OUT OUR BLOG: (newaitools2026.blogspot.com/2026/04/ai-age…) #chatgpt #aigenerated #aitool #makemoneyonline #AI2026 #earnmoney\n\n  \n\n  1:31 PM · May 1, 202618Views",
+      "summary": "## Post\n\nLog inSign up\n\n## Post\n\n# Jass on X: \"🤖2026 AI AGENTS OF THE YEAR, MEET NEW AI TOOLS FOR GROWING, CHECK OUT OUR BLOG: ( #chatgpt #aigenerated #aitool #makemoneyonline #AI2026 #earnmoney\"\n\n us...",
+      "url": "https://x.com/Newaitools2026/status/2050206545078878409",
       "tags": [
         "AI",
         "2026",
@@ -98,24 +98,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "GitTrend0x",
-        "display_name": "@GitTrend0x",
-        "avatar": "https://ui-avatars.com/api/?name=GitTrend0x&background=random"
+        "username": "Newaitools2026",
+        "display_name": "@Newaitools2026",
+        "avatar": "https://ui-avatars.com/api/?name=Newaitools2026&background=random"
       },
       "metrics": {
-        "likes": 3348,
-        "retweets": 89,
-        "replies": 333
+        "likes": 4411,
+        "retweets": 904,
+        "replies": 40
       }
     },
     {
-      "id": "tav_tool_4",
+      "id": "2047150392274993624",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:31.885265",
-      "title": "🔥 全网最完整！AI科研终极指南：10大核心步骤+7天速成法，从工具选择到投稿发表的超详细全流程实战手册 | Vincent (@Vincent_AINotes)",
-      "content": "Log inSign up\n\n## Article\n\n# 🔥 全网最完整！AI科研终极指南：10大核心步骤+7天速成法，从工具选择到投稿发表的超详细全流程实战手册\n\nCover image for 🔥 全网最完整！AI科研终极指南：10大核心步骤+7天速成法，从工具选择到投稿发表的超详细全流程实战手册\n\nVincent\n\nVincent@Vincent\\_AINotes··Updated 2026-04-14\n\n📊 一、整体流程全景图：10步打造高效科研闭环\n\n🔄 完整流程图解\n\n工具选择 → 期刊定位 → 论文下载 → 写作拆解 → 实验拆解\n\n实验开发 → 论文撰写 → 降重处理 → 排版组装 → 投稿发表\n\n📋 10步详细说明\n\n⏰ 时间分配建议（以7天为例）\n\n🛠️ 二、第一步：工具选择——科研效率的基石\n\n❌ 为什么聊天框式AI不适合科研实战？\n\n✅ 推荐工具详解\n\n1. Claude Code（科研写作神器）\n\n超长上下文：支持100K+ token的上下文，可处理完整论文\n\n国产模型支持：可接入通义千问、ERNIE Bot等国产模型\n\n2. Cursor（代码开发革命者） [...] 2. Cursor（代码开发革命者）\n\n核心优势：\n\n具体使用场景：\n\n🔑 Skill系统：科研效率的加速器\n\n1. Skill商店（新手首选）\n\n主流平台：Cursor Skill Store、Claude Skills Marketplace\n\n2. GitHub开源Skill（进阶选择）\n\n搜索关键词：\"AI research skill\"\n\n\"scientific writing assistant\"\n\n\"experimental design AI\"\n\n\"paper review automation\"\n\n安装步骤：# 克隆仓库\n\ngit clone \n\n# 安装依赖\n\npip install -r requirements.txt\n\n# 配置环境变量\n\nexport SKILL\\_API\\_KEY=your\\_api\\_key\n\n# 启动服务\n\npython main.py\n\n3. 自定义Skill开发（专家级）\n\nfrom langchain.agents import Tool\n\nfrom langchain.chains import LLMChain [...] 🔑 核心成功要素\n\n工具链整合：Claude Code + Cursor + Skill系统 = 完整科研工作流\n\n📈 效率提升量化指标\n\n工作环节 传统方式耗时 AI辅助耗时 提升倍数\n\n文献调研 40-60小时 8-12小时 5x\n\n实验设计 20-30小时 4-6小时 5x\n\n代码实现 60-100小时 15-25小时 4x\n\n论文写作 80-120小时 20-30小时 4x\n\n格式排版 10-15小时 1-2小时 10x\n\n总计 210-325小时 48-75小时 4.4x\n\n🚀 未来科研范式展望\n\n#AI科研 #科研效率 #论文写作 #学术干货 #研究生必备 #科研工具 #人工智能 #学术发表",
-      "summary": "Log inSign up\n\n## Article\n\n# 🔥 全网最完整！AI科研终极指南：10大核心步骤+7天速成法，从工具选择到投稿发表的超详细全流程实战手册\n\nCover image for 🔥 全网最完整！AI科研终极指南：10大核心步骤+7天速成法，从工具选择到投稿发表的超详细全流程实战手册\n\nVincent\n\nVincent@Vincent\\_AINotes··Updated 2026...",
-      "url": "https://x.com/Vincent_AINotes/article/2043898323925598384",
+      "published_at": "2026-08-22T09:22:55.474728",
+      "title": "铁锤人",
+      "content": "输入下面命令安装：\n\n  这里有个有趣的点，大多数人订 Digest 是为了让 AI 帮他读完省时间，大概知道一些AI新闻，但我还有它干一件事：挑出今天最值得深读的那一篇文章。\n\n  下面是本文的核心\n\n  第二步：让 LLM Wiki 将newsletter拆进知识库\n\n  终于到了最核心的部分，利用 LLM Wiki 技术去消化知识。\n\n  你可能会一脸懵，LLM Wiki 是啥？\n\n  我打个比方：\n\n  它像个实习生，每天你扔一篇文章给它，它把里面的概念、实体、主张、开放问题一个个拆出来，每个做一张索引卡片贴在墙上，再用线把这张新卡片和墙上已有的相关卡片连起来，久了这堵墙就是一张活的知识图。\n\n  这是 Karpathy 2026 年提出的：他说 RAG 检索太窄，LLM 真正该干的是知识编译器。一经提出，火爆全球。\n\n  具体怎么操作？\n\n  让Hermes给出邮箱里面你感兴趣的文章，告诉它：这篇编译到我的 Wiki\n\n  跑完之后，你会获得一个互相链接的Markdown文件，构成一个知识网络，彼此用链接连起来。\n\n  打开Obsidian知识图图谱功能： [...] 内测名额有限，我这有个邀请码可以直接通过：CLAW3C02D3891B6C，邀请码使用上限200次\n\n  本次文章就这样，假如你觉得有用，欢迎点赞转发。\n\n  #网易邮箱 #网易邮箱ClawEmail #ClawEmail #AI工具 #跨平台沟通 #Agent跨平台互通 #多Agent协同 #养龙虾 #网易龙虾邮箱\n\n  Paid partnership\n\n  3:07 AM · Apr 23, 2026173.1KViews\n user avatar\n\n  大水壶\n\n  @XxsBig\n\n  Apr 27\n\n  感谢大佬，我之前没用过龙虾，最近才买的mac，装了hermes后跟着你的教程跑通了，还挺不容易的，弄好后爽到了🤣\n user avatar\n\n  Apr 23\n\n  ClawEmail 不支持Hermes\n user avatar\n\n  Apr 23 [...] 把 Wiki index 地址给AI，问一个概念：Verification Loop是什么？它扫一里面相关主题的知识，直接吐出一张下面的信息图。\n\n  这还不是最有价值的，我们还可以用这个来串联知识，进而提高文章质量。\n\n  自己写文章，AI 做脑爆\n\n  大多数人以为 AI 写文章就是 AI 帮你写，但真正让你写出好文章还是你自己把事情想明白,AI 只做脑爆，提高多做可能性。\n\n  写的时候碰到想不清楚的地方，对着Hermes 问：\n\n  这个概念我上周读过哪几篇支持？\n\n  那个观点我怎么反驳？\n\n  还有哪些角度我没考虑到？\n\n  让Hermes 利用llmwiki功能给你灵感和解决你的盲点\n\n  写好文章后，如果你不想排版，可以参考我这篇文章，自动AI排版和发布。\n\n  最后一件事\n\n  这整套流程用的是网易邮箱新出的 ClawEmail：这是一种新邮箱，是给Agent 用的。\n\n  这也是电子邮件的未来！！\n\n  如果你对给Agent接入邮箱感兴趣，想自己搞一个，可以到官网",
+      "summary": "输入下面命令安装：\n\n  这里有个有趣的点，大多数人订 Digest 是为了让 AI 帮他读完省时间，大概知道一些AI新闻，但我还有它干一件事：挑出今天最值得深读的那一篇文章。\n\n  下面是本文的核心\n\n  第二步：让 LLM Wiki 将newsletter拆进知识库\n\n  终于到了最核心的部分，利用 LLM Wiki 技术去消化知识。\n\n  你可能会一脸懵，LLM Wiki 是啥？\n\n  我打...",
+      "url": "https://x.com/lxfater/status/2047150392274993624",
       "tags": [
         "AI",
         "2026",
@@ -123,24 +123,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "Vincent_AINotes",
-        "display_name": "@Vincent_AINotes",
-        "avatar": "https://ui-avatars.com/api/?name=Vincent_AINotes&background=random"
+        "username": "lxfater",
+        "display_name": "@lxfater",
+        "avatar": "https://ui-avatars.com/api/?name=lxfater&background=random"
       },
       "metrics": {
-        "likes": 102,
-        "retweets": 267,
-        "replies": 327
+        "likes": 1584,
+        "retweets": 651,
+        "replies": 457
       }
     },
     {
-      "id": "tav_tool_3",
+      "id": "2031320595992887586",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:31.885259",
-      "title": "再见豆包专业版，卸载网页聊天框，吊打kimi work！这四款编程式 AI 神器好用到哭 | 周彦充 (@zycbat888)",
-      "content": "很多人一听到'编程式'三个字，第一反应就是：我又不会写代码，这不是程序员专用的吗？\n\n大错特错！在 2026 年，编程式 AI 软件的真正含义，不是要求你去敲代码，而是给 AI 提供一套具备编程架构的物理运行环境。\n\n在这个环境里，AI 模型不再只是一个只会吐字的说客，而是一个拥有系统最高权限、带有一整套生化机械臂的超级执行官。\n\n来看四款真正的重型武器：\n\n第一款：谷歌反重力平台（Antigravity）\n\n这是谷歌专为高阶智能体打造的重型工作台。在反重力平台里，你面对的不是单一模型，而是一个可以自主分工的 Agent 兵团。\n\n昨天gemini 3.6 flash更新了，全网都在骂谷歌不行了，gemini垃圾。\n\n其实，我的体验而已，是非常棒，太牛了。\n\n速度太快了，超级快，质量也很OK，吊打国内AI。\n\n这篇文章，就是gemini 3.6 flash写的初稿。\n\n为什么？\n\n因为，fabel5 和 workbuddy还在慢慢思考。\n\n第二款：Codex 桌面控制端\n\n如果说反重力平台是多兵种联合作战指挥部，那 Codex 就是深入系统底层的工程装甲车。 [...] 为啥，因为最近免费，无限token，太爽了，昨天我又让我帮我干了个通宵。重写了我的57篇付费的Ai专栏文章，每篇都强制5000字以上。\n\n3｜普通人不写代码，为什么更应该选择杀鸡用牛刀？\n\n写到这里，我知道很多读者心里在打鼓：\n\n'老周，你说得都对。但我就是个做运营的/做行政的/写文案的，我连 Git 是什么都不知道，我怎么可能去用谷歌反重力平台、Codex 或者 Cloud Code？'\n\n这正是大多数人最深沉的认知误区。\n\n在 AI 时代，技术壁垒的倒塌是双向的。\n\n在过去，只有顶级程序员才配使用 IDE 和命令行，因为你需要记忆几百个复杂的指令和语法；但在 2026 年，编程式 AI 软件已经彻底被自然语言统一了。\n\n你在 Cloud Code 或者反重力平台里，根本不需要敲任何一行 C 语言、Python 或 Bash 代码。\n\n你只需要用日常的汉语粗话向它下达指令，和在网页版聊天一模一样简单。\n\n而且使用超级简单，就是下一个桌面客户端而已。\n\n就这么简单，我的obsidian是让workbuddy帮我下载安装好的。 [...] Log inSign up\n\n## Article\n\n# 再见豆包专业版，卸载网页聊天框，吊打kimi work！这四款编程式 AI 神器好用到哭\n\nCover image for 再见豆包专业版，卸载网页聊天框，吊打kimi work！这四款编程式 AI 神器好用到哭\n\n周彦充\n\n周彦充@zycbat888··Updated 2026-07-22\n\n你还在网页聊天框里跟 AI 傻乎乎对话？\n\n天天打开网页版 ChatGPT、豆包，拖进去一个 PDF 问它能不能帮你想个总结？\n\n如果这就是你用 AI 的日常，那我必须泼一盆冷水：你这根本不叫用 AI，你只是在给 AI 当免费的打字员和搬运工！\n\n你以为你在体验科技前沿，其实你被锁在一个无手无脚的囚笼里。\n\n在 2026 年的今天，真正懂行的人早就放弃了所有网页版聊天框。我们在用的绝招极其粗暴，总结成六个字：杀鸡用牛刀。\n\n能用谷歌反重力平台（Antigravity）、Codex、Cloud Code ，workbuddy这种编程式软件去完成日常工作，就绝不去碰任何网页版的简易聊天工具。\n\n这绝不是极客的炫技，而是生产力维度上的降维打击。",
-      "summary": "很多人一听到'编程式'三个字，第一反应就是：我又不会写代码，这不是程序员专用的吗？\n\n大错特错！在 2026 年，编程式 AI 软件的真正含义，不是要求你去敲代码，而是给 AI 提供一套具备编程架构的物理运行环境。\n\n在这个环境里，AI 模型不再只是一个只会吐字的说客，而是一个拥有系统最高权限、带有一整套生化机械臂的超级执行官。\n\n来看四款真正的重型武器：\n\n第一款：谷歌反重力平台（Antigra...",
-      "url": "https://x.com/zycbat888/article/2079839872618205649",
+      "published_at": "2026-08-22T09:22:55.474723",
+      "title": "meng shao",
+      "content": "字节跳动 @Trae\\_ai 发布的这份「2026 企业级 AI 编程实践手册」质量不错，推荐朋友们看看。 第一部分：AI 时代的企业级编程方法论 对 Context Engineering、Skills、MCP、Spec、Rules、Agent 等做了很详尽的分享。 第二部分：用 TRAE 开发 TRAE 的实践 一个很典型的 AI Coding Agent 的自举过程，很实战，值得细看。 在第一部分中，TRAE 的分享了他们沉淀和推荐的 MCP 和 Skills，一起看看。 MCP Servers Top 10: 1. Context7 2. Puppeteer 3. Sequential Thinking 4. GitHub 5. Figma AI Bridge 6. Playwright 7. Memory 8. Excel 9. File System 10. Chrome DevTools MCP bytedance.larkoffice.com/wiki/SOQXwFtwm… Skills Top 10: 1. frontend-design 2. [...] @nykdotdev\n\n  Mar 9\n\n  Article cover image\n\n  Article\n\n  Claude + Obsidian: The Memory Stack That Compounds\n\n  Teams burn 30-40 minutes per Claude session re-explaining what they already knew yesterday. That's a full workday per week lost to repetition. Everything is a context problem. When people say AI... [...] frontend-design 2. cache-components 3. fullstack-developer 4. frontend-code-review 5. code-reviewer 6. wepapp-testing 7. pr-creator 8. fix 9. update-docs 10. find-skills bytedance.larkoffice.com/wiki/YQWWwcyEB… 手册在线地址： lcnziv86vkx6.feishu.cn/wiki/XZOSwI51w…",
+      "summary": "字节跳动 @Trae\\_ai 发布的这份「2026 企业级 AI 编程实践手册」质量不错，推荐朋友们看看。 第一部分：AI 时代的企业级编程方法论 对 Context Engineering、Skills、MCP、Spec、Rules、Agent 等做了很详尽的分享。 第二部分：用 TRAE 开发 TRAE 的实践 一个很典型的 AI Coding Agent 的自举过程，很实战，值得细看。 在第...",
+      "url": "https://x.com/shao__meng/status/2031320595992887586",
       "tags": [
         "AI",
         "2026",
@@ -148,24 +148,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "zycbat888",
-        "display_name": "@zycbat888",
-        "avatar": "https://ui-avatars.com/api/?name=zycbat888&background=random"
+        "username": "shao__meng",
+        "display_name": "@shao__meng",
+        "avatar": "https://ui-avatars.com/api/?name=shao__meng&background=random"
       },
       "metrics": {
-        "likes": 588,
-        "retweets": 52,
-        "replies": 454
+        "likes": 751,
+        "retweets": 200,
+        "replies": 91
       }
     },
     {
-      "id": "tav_tool_2",
+      "id": "2053814849092911472",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:31.885253",
-      "title": "AI奶爸 X 内容战略 Source of Truth 深度分析报告 | AI奶爸 (@zstmfhy)",
-      "content": "工具推荐和资源清单：表现最强，适合长期做。典型爆款是 2026-04-22 德国 0.02 欧元 eSIM，1764 赞、300 转、2450 收藏、48.1 万浏览；2026-03-02 agent-browser，951 赞、197 转、1642 收藏。用户喜欢原因是\"稀缺资源 + 低成本 + 立刻可用\"。应增加，但必须从搬运升级为\"筛选标准 + 使用场景 + 风险提醒 + 替代方案\"。\n\n教程步骤：收藏率最高，适合系列化和导流。Hermes SSH 端口转发小坑 99 赞、145 收藏，收藏高于点赞，说明小而具体的故障解法非常适合做工具库。应增加。\n\nAI Agent / Claude Code / Codex 工作流：是你未来最值得押注的主线。Agent-browser、Agent Reach、OpenClaw 70个用例、飞书 CLI 等都证明用户要的是\"让AI能干活\"的路径，不只是新闻。应做成固定栏目。 [...] 他们焦虑的是方向太多、项目太碎、真假机会难分。你 2026-04-13 的自媒体收入复盘有 362 赞、166 回复、237 收藏，说明用户对\"钱怎么来、广告怎么接、账号怎么长\"极度敏感。此类内容评论高，是因为它触发了\"我也想这么做\"的提问。\n\n2026-04-20 \"副总吃饭，200多家企业想上AI Agent\"获得 744 赞、110 转、283 回复、917 收藏。它不是工具推荐，而是场景机会判断。受众包括企业数字化负责人、AI服务商、Agent开发者、咨询顾问。他们评论是因为想对接、求合作、问需求、问能力栈。\n\nSeedance、即梦、GPT-Image、诗词图片 skill 等内容有明显收藏动机。2026-05-26 诗词图片 skill 350 赞、42 转、81 回复、324 收藏，说明\"亲子场景 + skill 自动化 + 可打印成果\"比单纯晒图更有传播力。 [...] AI Agent 实战工作流\n\n适合你，因为爆款和主页身份都指向这里。形式：长帖、线程、截图、命令示例、踩坑复盘。选题示例：Claude Code 自动维护项目、Codex 管理机器人、OpenClaw 真实用例、Agent浏览器对比、RAG落地清单、企业知识库选型、AI工作流夜间自动化、MCP工具链、Agent记忆库、从0搭一个客服Agent。指标看收藏和评论。\n\n奶爸工具情报站\n\n形式：每周清单、单工具测评、资源地图。选题示例：本周10个值得star的AI仓库、最省钱海外手机号、免费抓取工具、AI视频工具榜、图片工具榜、浏览器自动化工具、开源知识库工具、低成本订阅方案、开发者必备CLI、我删掉的5个工具。指标看收藏和转发。\n\n中转站/AI产品运营日志\n\n形式：数据复盘、事故复盘、用户问题、成本透明。选题示例：缓存命中率如何影响成本、为什么只做OpenAI、企业版怎么设计、号池风控怎么处理、退款案例、稳定性指标、价格测算、客户最常问问题、B端采购流程、从个人用户到企业用户。指标看评论、私信、点击。\n\nAI创作自动化",
-      "summary": "工具推荐和资源清单：表现最强，适合长期做。典型爆款是 2026-04-22 德国 0.02 欧元 eSIM，1764 赞、300 转、2450 收藏、48.1 万浏览；2026-03-02 agent-browser，951 赞、197 转、1642 收藏。用户喜欢原因是\"稀缺资源 + 低成本 + 立刻可用\"。应增加，但必须从搬运升级为\"筛选标准 + 使用场景 + 风险提醒 + 替代方案\"。\n\n教...",
-      "url": "https://x.com/zstmfhy/article/2059791904641105922",
+      "published_at": "2026-08-22T09:22:55.474717",
+      "title": "Your Tech Girl en X: \"60 AI tools you can’t Ignore in 2026:👇👇 1. https://t.co/7hthtogOCh – solves anything 2. https://t.co/VxYcmbCk8q – rank higher on Google, ChatGPT, Claude, Etc! 3. https://t.co/lTYZRw6bNt - create viral AI videos that you can monetize 4. https://t.co/HWorfNvJqf - AI powered https://t.co/BzD6RlBCep\"",
+      "content": "60 AI tools you can’t Ignore in 2026: 1. http://Claude.ai – solves anything 2. http://Ranked.ai – rank higher on Google, ChatGPT, Claude, Etc! 3. http://Syllaby.io - create viral AI videos that you can monetize 4.",
+      "summary": "60 AI tools you can’t Ignore in 2026: 1. http://Claude.ai – solves anything 2. http://Ranked.ai – rank higher on Google, ChatGPT, Claude, Etc! 3. http://Syllaby.io - create viral AI videos that you ca...",
+      "url": "https://x.com/yourtechgirl24/status/2053814849092911472",
       "tags": [
         "AI",
         "2026",
@@ -173,24 +173,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "zstmfhy",
-        "display_name": "@zstmfhy",
-        "avatar": "https://ui-avatars.com/api/?name=zstmfhy&background=random"
+        "username": "yourtechgirl24",
+        "display_name": "@yourtechgirl24",
+        "avatar": "https://ui-avatars.com/api/?name=yourtechgirl24&background=random"
       },
       "metrics": {
-        "likes": 4723,
-        "retweets": 650,
-        "replies": 144
+        "likes": 356,
+        "retweets": 430,
+        "replies": 110
       }
     },
     {
-      "id": "2063903611382300794",
+      "id": "2076927682202472488",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:31.885246",
-      "title": "给你一个选择策略： 1. 主力工具选1-2 ...",
-      "content": "3. 每季度重新评估一次，AI工具迭代太快，去年的最优解今年可能过时了 你现在最离不开哪个AI工具？分享一下 #AI工具推荐 #效率神器 #2026. 0. 0.",
-      "summary": "3. 每季度重新评估一次，AI工具迭代太快，去年的最优解今年可能过时了 你现在最离不开哪个AI工具？分享一下 #AI工具推荐 #效率神器 #2026. 0. 0....",
-      "url": "https://x.com/sharon15998/status/2063903611382300794",
+      "published_at": "2026-08-22T09:22:55.474709",
+      "title": "小樱💞｜实用工具分享",
+      "content": "– AI工具库 37. whiteboard.microsoft.com – ChatGPT接入白板 38. bubble.io – 快速建应用和网站 39. userlytics.com – 模拟用户测试 40. n8n.io – AI代理团队 41. khoros.com – AI客户留存 42. churn.ai – 流失率降低 43. synthesia.io – 产品视频快速生成 44. stripe.com – 初创企业法律平台 45. zapier.com – 自动化一切 46. substack.com – 创作者最佳通讯 47. blur.by – 隐藏敏感信息 48. perplexity.ai – 最好用的AI搜索 49. drift.com – 网站访客转化为线索 50. mailchimp.com – AI营销工具 [...] adroll.com – 广告投放工具 19. canva.com – 设计一切 20. headshotpro.com – AI证件照生成 21. relai.ai – AI情感顾问 22. threading.ai – 生成爆款Facebook帖子 23. figma.com – 前端原型设计 24. soundraw.io – AI音乐创作 25. unbounce.com – 提升广告转化 26. imagen.ai – 谷歌AI视频生成 27. beautiful.ai – 设计精美演示文稿 28. remove.bg – 一键去背景 29. uizard.io – 草图转UI原型 30. amper.ai – AI音乐制作 31. penpot.app – 设计转代码 32. replika.ai – AI陪伴机器人 33. descript.com – 任何内容转播客 34. notionai.com – 照片转文字笔记 35. perplexity.ai – 深度研究文章 36. futuretools.io – AI工具库 37. [...] 2026年必备的50个AI工具，我挑了一遍 这些工具覆盖内容、设计、营销、代码各个领域，根据你的需求挑几个上手 1. openai.com – 啥都能搞定 2. synthesia.io – 视频制作和发布 3. midjourney.com – AI画图 4. compliance.ai – 营销合规检查 5. synthesia.io – 生成AI虚拟形象 6. soundraw.io – 几秒钟出音乐 7. surfer.com – 谷歌SEO优化 8. opus.pro – 长视频剪成短视频 9. gamma.app – 自动生成演示文稿 10. topazlabs.com – 快速修图 11. tome.app – 生成电子书 12. bible.com – 圣经学习助手 13. replit.com – 编程写应用 14. shareasale.com – 联盟营销平台 15. hopin.com – 网络研讨会助手 16. vidiq.com – YouTube优化工具 17. quillbot.com – 写爆款评论 18. adroll.com – 广告投放工具",
+      "summary": "– AI工具库 37. whiteboard.microsoft.com – ChatGPT接入白板 38. bubble.io – 快速建应用和网站 39. userlytics.com – 模拟用户测试 40. n8n.io – AI代理团队 41. khoros.com – AI客户留存 42. churn.ai – 流失率降低 43. synthesia.io – 产品视频快速生成 44....",
+      "url": "https://x.com/xiaoying_eth/status/2076927682202472488",
       "tags": [
         "AI",
         "2026",
@@ -198,24 +198,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "sharon15998",
-        "display_name": "@sharon15998",
-        "avatar": "https://ui-avatars.com/api/?name=sharon15998&background=random"
+        "username": "xiaoying_eth",
+        "display_name": "@xiaoying_eth",
+        "avatar": "https://ui-avatars.com/api/?name=xiaoying_eth&background=random"
       },
       "metrics": {
-        "likes": 873,
-        "retweets": 120,
-        "replies": 26
+        "likes": 1186,
+        "retweets": 465,
+        "replies": 311
       }
     },
     {
-      "id": "tav_tool_0",
+      "id": "2042825813016613028",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:31.885215",
-      "title": "🚀《2026中文区X价值账号集合》——穿越信息噪音，找到真正值得长期关注的中文区思想源🔥 | JING静姐聊Web3🔸BTC (@jingjiebtc)",
-      "content": "3. altFINSAI筛币、形态、交易机会 打开 → 扫一遍市场 → 找出可能的交易机会\n\n分类推荐语： AI工具不再是科幻，而是交易员的新助理。这些账号/产品结合最新大模型，提供自动化行情分析、套利监测、智能提醒等服务。比如TradingTopAI会给出BTC量比、价格支撑点位等AI建议。需要注意：AI结果需验证，避免黑箱过度信任。总体来看，它们能节省盯盘时间，让你做交易前先做功课。\n\nTradingTopAI：一款主打「AI看盘」的交易助手。它自动收集市场消息、链上数据，然后用模型告诉你“这波情绪如何”（贪婪/恐惧指数），并解析K线支撑阻力。适合不能24小时盯盘的普通交易者和日内参与者。亮点： 自动生成交易机会、24H预警。风险： AI仅辅助、策略建议需结合资金管理；此工具可以去他们官推申请试用！\n\n🚀 第七类) AI效率提升达人（5人）\n\n排名 昵称 X用户名 粉丝量级 标签\n\n🥇 宝玉 @dotey ~20万 #AI工具 #Prompt教学 #生产力\n\n🥈 歸藏 @op7418 16万 Codex、新模型、Agent、Kimi K3、AI工具实测、开源项目。 [...] 🥉 向阳乔木 @vista8 11.9万 “AI工具 + 产品思维 + 实操教学”\n\n4️⃣ 小樱 @xiaoying\\_eth 13万 12个开源工具 → 用什么场景 → 怎么部署 → 能替代什么付费工具\n\n5️⃣ Orange AI @oran\\_ge 17万+ AI产品 → AI Native → Agent → 开发效率 → 公司实践\n\n分类推荐语： 无论上班族还是创作者，AI都是新的技能必备。关注这些AI效率博主，他们会介绍最实用的办公自动化神器、脚本写作模板、创意生成工具，甚至课程和案例解析。\n\n💡第八类) X 做号增长高手（5人）\n\n定位：从0到1打造IP，粉丝涨不停。\n\n排名 网名 / 团队 X用户名 粉丝量级 更新频率 主要标签\n\n🥇 Mr Panda / 熊老板@PandaTalk8 Panda = 通用 X 增长#个人IP #涨粉技巧 #内容策略\n\n🥈 鸟哥｜蓝鸟会@NFTCPS 鸟哥 = 币圈 X 增长、起号、涨粉、KOL运营、互动、变现\n\n🥉 纯洁的微笑@ityouknows 不是只教理论，而是近期亲自做号、亲自验证。 [...] 🥉 3@haze0x On-chain / Meme / 交易数据数据化、工具化能力强，链上视角很实用\n\n4 王小二 @brc20niubi“链上 + 市场嗅觉型 Alpha Hunter”。 Meme / 市场情绪热点感非常强，中文区影响力大\n\n5. Paul Xue | BTC 链上数据研究 @paulxue1979 用链上数据分析市场行情\n\n专注 链上数据和挖掘赛道。他们会给出下一代牛项目的提示：哪个公链要发大招？哪个币种被巨鲸悄悄积累？以专业研究著称，不玩悬浮炒作。尤其适合靠策略建仓、不想冒无知风险的聪明人。\n\n🤖 第六类) AI交易工具 / 智能投资助手（3个）\n\n定位：带你进入“半自动化交易”时代：AI分析助手的使用指南。\n\n排名 工具/项目名 X用户名 功能亮点 适用场景\n\n1 TradingTopAI @TradingTop2025 AI交易信号/决策助手预测点位、交易信号、逻辑分析、自动化\n\n2. NansenAI+聪明钱+链上+直接交易 500M+ 标记钱包、实时 AI Agent、链上研究和交易执行",
-      "summary": "3. altFINSAI筛币、形态、交易机会 打开 → 扫一遍市场 → 找出可能的交易机会\n\n分类推荐语： AI工具不再是科幻，而是交易员的新助理。这些账号/产品结合最新大模型，提供自动化行情分析、套利监测、智能提醒等服务。比如TradingTopAI会给出BTC量比、价格支撑点位等AI建议。需要注意：AI结果需验证，避免黑箱过度信任。总体来看，它们能节省盯盘时间，让你做交易前先做功课。\n\nTra...",
-      "url": "https://x.com/jingjiebtc/article/2088245908995739911",
+      "published_at": "2026-08-22T09:22:55.474675",
+      "title": "Ejaz Bashir",
+      "content": "- Designs AI - Brandmark - Stockimg AI - Namecheap 16. Audio - Lovo ai - Eleven labs - Songburst AI - Adobe Podcast 17. Productivity - Merlin - Tinywow - Notion AI - Adobe Sensei - Personal AI 18. Social media management - Tapilo - Typefully - Hypefury - TweetHunter Follow @Ejaz\\_bashir1 for more. [...] - Fireflies 8. SEO - VidIQ - Seona AI - BlogSEO - Keywrds ai 9. Chatbot - Droxy - Chatbase - Mutual info - Chatsimple 10. Presentation - Decktopus - Slides AI - Gamma AI - Designs AI - Beautiful AI 11. Automation - Make - Zapier - Xembly - Bardeen 12. Prompts - FlowGPT - Alicent AI - PromptBox - Promptbase - Snack Prompt 13. UI/UX - Figma - Uizard - UiMagic - Photoshop 14. Design - Canva - Flair AI - Designify - Clipdrop - Autodraw - Magician design 15. Logo Generator - Looka - Designs AI - [...] 4:43 AM · Apr 11, 20264.1KViews",
+      "summary": "- Designs AI - Brandmark - Stockimg AI - Namecheap 16. Audio - Lovo ai - Eleven labs - Songburst AI - Adobe Podcast 17. Productivity - Merlin - Tinywow - Notion AI - Adobe Sensei - Personal AI 18. Soc...",
+      "url": "https://x.com/Ejaz_bashir1/status/2042825813016613028?lang=en",
       "tags": [
         "AI",
         "2026",
@@ -223,24 +223,24 @@
       ],
       "category": "tool",
       "author": {
-        "username": "jingjiebtc",
-        "display_name": "@jingjiebtc",
-        "avatar": "https://ui-avatars.com/api/?name=jingjiebtc&background=random"
+        "username": "Ejaz_bashir1",
+        "display_name": "@Ejaz_bashir1",
+        "avatar": "https://ui-avatars.com/api/?name=Ejaz_bashir1&background=random"
       },
       "metrics": {
-        "likes": 1811,
-        "retweets": 490,
-        "replies": 108
+        "likes": 2209,
+        "retweets": 991,
+        "replies": 96
       }
     },
     {
-      "id": "2068620982919860541",
+      "id": "tav_free_7",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:29.784586",
-      "title": "Baru sadar ada produk lokal yang ngasih API key ...",
-      "content": "June 21, 2026 - Baru sadar ada produk lokal yang ngasih API key gratis buat testing AI. Namanya NaraRouter. Kamu mendapatkan 5M token dan di reset setiap hari jam 7 pagi. => https://t.co/CnE7Mp9rXv • Klik \"Start Free\" • Daftar pakai google • Credit 5M token langsung masuk Gunakan endpoint",
-      "summary": "June 21, 2026 - Baru sadar ada produk lokal yang ngasih API key gratis buat testing AI. Namanya NaraRouter. Kamu mendapatkan 5M token dan di reset setiap hari jam 7 pagi. => https://t.co/CnE7Mp9rXv • ...",
-      "url": "https://x.com/meliasiih/status/2068620982919860541",
+      "published_at": "2026-08-22T09:22:48.720332",
+      "title": "Mysterious Ox Alpha AI Model Delivers Frontier Performance for Free",
+      "content": "Log inSign up\n\n## Trending\n\n# Mysterious Ox Alpha AI Model Delivers Frontier Performance for Free\n\nLast updated Aug 21, 2026 [...] @opencode\n\n19h\n\nOx Alpha (stealth model) is free for the next week - 1M Context - Multi-modal - Zero Data Retention Generous rate limits, near unlimited usage We have capacity for 100T tokens per day, lets see what you can do\n\nuser avatar\n\nBen Davis\n\n@davis7\n\n11h [...] @opencode\n\n19h\n\nOx Alpha (stealth model) is free for the next week - 1M Context - Multi-modal - Zero Data Retention Generous rate limits, near unlimited usage We have capacity for 100T tokens per day, lets see what you can do\n\nuser avatar\n\nBen Davis\n\n@davis7\n\n12h",
+      "summary": "Log inSign up\n\n## Trending\n\n# Mysterious Ox Alpha AI Model Delivers Frontier Performance for Free\n\nLast updated Aug 21, 2026 [...] @opencode\n\n19h\n\nOx Alpha (stealth model) is free for the next week - ...",
+      "url": "https://x.com/i/trending/2090647410486001976?lang=en",
       "tags": [
         "AI",
         "2026",
@@ -248,20 +248,20 @@
       ],
       "category": "free",
       "author": {
-        "username": "meliasiih",
-        "display_name": "@meliasiih",
-        "avatar": "https://ui-avatars.com/api/?name=meliasiih&background=random"
+        "username": "i",
+        "display_name": "@i",
+        "avatar": "https://ui-avatars.com/api/?name=i&background=random"
       },
       "metrics": {
-        "likes": 2369,
-        "retweets": 876,
-        "replies": 37
+        "likes": 1439,
+        "retweets": 10,
+        "replies": 326
       }
     },
     {
       "id": "1920691334332944884",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:29.784580",
+      "published_at": "2026-08-22T09:22:48.720326",
       "title": "Poixe AI 正式推出免费模型，支持API调用，配额每日自动 ...",
       "content": "May 9, 2025 - Poixe AI 正式推出免费模型，支持API调用，配额每日自动刷新 https://t.co/C9G48vWpa8 https://t.co/63ZEFz0VBu",
       "summary": "May 9, 2025 - Poixe AI 正式推出免费模型，支持API调用，配额每日自动刷新 https://t.co/C9G48vWpa8 https://t.co/63ZEFz0VBu...",
@@ -278,15 +278,40 @@
         "avatar": "https://ui-avatars.com/api/?name=PoixeAI&background=random"
       },
       "metrics": {
-        "likes": 565,
-        "retweets": 147,
-        "replies": 78
+        "likes": 2437,
+        "retweets": 267,
+        "replies": 260
+      }
+    },
+    {
+      "id": "2040808375118692394",
+      "source": "Twitter/X",
+      "published_at": "2026-08-22T09:22:48.720322",
+      "title": "X Freeze",
+      "content": "user avatar\n\n  Chris Park\n\n  X\n\n  @chrisparkX\n\n  Apr 5\n\n  We’ve made major upgrades to X API: • Pay-Per-Use now GA worldwide • XMCP Server + xurl for agents • Official Python & TypeScript XDKs • API Playground - free realistic simulations New releases coming will be a game changer. Start building → docs.x.com 🚢\n\n  3:06 PM · Apr 5, 20269.7MViews\n user avatar\n\n  Martin Auer\n\n  @Arcurus1\n\n  Apr 5 [...] Apr 5\n\n  Would be great that if you have a super grok subscription you get some free X and XAi Api use per day.\n user avatar\n\n  ZaxtR\n\n  @AmX\\_ZaxTr\n\n  Apr 5\n\n  \n user avatar\n\n  Goalden\n\n  @Goalden\\_Gaol\n\n  Apr 5\n\n  Spare some API Credits Sir [...] read context and execute actions on the platform • Official Python & TypeScript XDKs: First-party tools to help you build and ship significantly faster • API Playground: Free, realistic simulations to safely test your agent's code before going live You also get up to 20% back in FREE xAI API credits when you purchase 𝕏 API credits (based on your total spend) Start building here → docs.x.com",
+      "summary": "user avatar\n\n  Chris Park\n\n  X\n\n  @chrisparkX\n\n  Apr 5\n\n  We’ve made major upgrades to X API: • Pay-Per-Use now GA worldwide • XMCP Server + xurl for agents • Official Python & TypeScript XDKs • API P...",
+      "url": "https://x.com/XFreeze/status/2040808375118692394?lang=en",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "free",
+      "author": {
+        "username": "XFreeze",
+        "display_name": "@XFreeze",
+        "avatar": "https://ui-avatars.com/api/?name=XFreeze&background=random"
+      },
+      "metrics": {
+        "likes": 790,
+        "retweets": 573,
+        "replies": 293
       }
     },
     {
       "id": "2050825715415937197",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:29.784576",
+      "published_at": "2026-08-22T09:22:48.720316",
       "title": "10 things I stopped paying for in 2026 because AI made ...",
       "content": "May 3, 2026 - 10 things I stopped paying for in 2026 because AI made them free. Every single one used to cost real money. Bookmark this list — it will save you at least $2,000 this year. 1. ChatGPT Plus ($20/month) Replaced with: Claude free + ChatGPT free + Perplexity. Stack all three. You",
       "summary": "May 3, 2026 - 10 things I stopped paying for in 2026 because AI made them free. Every single one used to cost real money. Bookmark this list — it will save you at least $2,000 this year. 1. ChatGPT Pl...",
@@ -303,15 +328,15 @@
         "avatar": "https://ui-avatars.com/api/?name=heynavtoor&background=random"
       },
       "metrics": {
-        "likes": 1836,
-        "retweets": 246,
-        "replies": 371
+        "likes": 1895,
+        "retweets": 648,
+        "replies": 335
       }
     },
     {
       "id": "1942645130533679519",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:29.784570",
+      "published_at": "2026-08-22T09:22:48.720308",
       "title": "JounQin",
       "content": "## Post\n\nLog inSign up\n\n## Post\n\n# JounQin on X: \"Claude AI 公益站，免费领 50 刀 API 额度。❤️ \n\n user avatar\n\n  JounQin\n\n  @JounQin\n\n  Claude AI 公益站，免费领 50 刀 API 额度。❤️ anyrouter.top/register?aff=X…\n\n  6:01 PM · Jul 8, 20252KViews",
       "summary": "## Post\n\nLog inSign up\n\n## Post\n\n# JounQin on X: \"Claude AI 公益站，免费领 50 刀 API 额度。❤️ \n\n user avatar\n\n  JounQin\n\n  @JounQin\n\n  Claude AI 公益站，免费领 50 刀 API 额度。❤️ anyrouter.top/register?aff=X…\n\n  6:01 PM · ...",
@@ -328,19 +353,19 @@
         "avatar": "https://ui-avatars.com/api/?name=JounQin&background=random"
       },
       "metrics": {
-        "likes": 3608,
-        "retweets": 738,
-        "replies": 414
+        "likes": 3747,
+        "retweets": 838,
+        "replies": 59
       }
     },
     {
-      "id": "tav_free_3",
+      "id": "2087093357067526332",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:29.784564",
-      "title": "API (@apivault)",
-      "content": "June 8, 2026 - Free AI API directory.",
-      "summary": "June 8, 2026 - Free AI API directory....",
-      "url": "https://x.com/APivault",
+      "published_at": "2026-08-22T09:22:48.720302",
+      "title": "AYi",
+      "content": "8:26 AM · Aug 11, 202625.7KViews\n user avatar\n\n  AYi\n\n  @AYi\\_AInotes\n\n  Aug 11\n\n  链接：openai.com/form/codex-for… ， 有通过的朋友可以在评论区说下多久收到的，给后面的人参考\n\n  Codex for Open Source text is shown over a blue gradient image.\n\n  Codex for Open SourceFrom openai.com\n user avatar\n\n  Hi.Elwyn\n\n  @Hi\\_Elwyn\n\n  Aug 12\n\n  \n\n  GitHub - Elwynnn-AI/startup-email-finder: 每天自动从 Toolify、There’s An AI For That、Product Hunt 三个 AI...From github.com [...] 怎么申请价值1200 美元的6个月免费 ChatGPT Pro？ 今天看到很多人都拿到了6个月免费 ChatGPT Pro（包含Codex编程能力），价值1200 美元（约合人民币 8600–8700 元）， 如果你还在自己掏钱续 ChatGPT Pro，可以看下OpenAI 专门给开源维护者开了个通道， 叫 Codex for Open Source， 入选能白嫖 6 个月 ChatGPT Pro， 大概值 1200 美元，Codex 编程能力也在里面。 这个计划最关键的几件事： 1、6 个月免费 ChatGPT Pro，含 Codex 2、可能再给 API 额度，能拿去做自动化和 PR 审查 3、够条件的项目还能申请 Codex Security 门槛其实没大家想的那么高： 是公开开源项目的核心维护者或主要贡献者， 项目要有实际使用量，或者对生态比较重要。 没有硬性 Star 数量要求， 不过大家的经验是 100-200+ Star 成功率更高， 项目还得持续活跃，有审查 PR、处理 Issue、正常发版。 申请就四步： 1、准备好你的开源项目 2、打开入口链接，具体🔗评论区 [...] 2、打开入口链接，具体🔗评论区 3、用 GitHub 登录，认真写项目介绍、角色、使用情况 4、提交后滚动审核，没有固定截止日期 有人反馈从申请到收到大概不到一周， 之前申过没动静的可以重新提。 已经有订阅的，得等当前订阅过期才能真正用上这 6 个月， 提交不保证入选，福利绑的是你的 ChatGPT 账号。 开源维护者平时像天天义务给整条街修水管， 这次至少有人把半年顶配工具箱塞你手里。 维护着有点影响力的开源项目，就去申一下， 白嫖半年约 1200 美元的 Pro，总比空着划算。",
+      "summary": "8:26 AM · Aug 11, 202625.7KViews\n user avatar\n\n  AYi\n\n  @AYi\\_AInotes\n\n  Aug 11\n\n  链接：openai.com/form/codex-for… ， 有通过的朋友可以在评论区说下多久收到的，给后面的人参考\n\n  Codex for Open Source text is shown over a blue gradie...",
+      "url": "https://x.com/AYi_AInotes/status/2087093357067526332",
       "tags": [
         "AI",
         "2026",
@@ -348,73 +373,23 @@
       ],
       "category": "free",
       "author": {
-        "username": "APivault",
-        "display_name": "@APivault",
-        "avatar": "https://ui-avatars.com/api/?name=APivault&background=random"
+        "username": "AYi_AInotes",
+        "display_name": "@AYi_AInotes",
+        "avatar": "https://ui-avatars.com/api/?name=AYi_AInotes&background=random"
       },
       "metrics": {
-        "likes": 2452,
-        "retweets": 393,
-        "replies": 449
-      }
-    },
-    {
-      "id": "2083521122713362547",
-      "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:29.784557",
-      "title": "得否",
-      "content": "3 weeks ago - 整理了一波当下能白嫖的 API 额度，全部国内直连！ 1、智谱注册送2000万Token（永久有效） 2、硅基流动送2000万（同样永久） 3、火山引擎稍微绕一步：先自动到账50万，再去控制台手动开一个「协作奖励计划」，能解锁每天200万的刷新额度 4、Cerebras 每天1M tokens免费，注册不用绑卡 光这几家不用花一分钱，日常测试和轻量开发基本够用了。 装个 One-API 把这些 key 聚合起来，自动切换，用完不心疼。 申请入口 👇 1、智谱 BigModel open.bigmodel.cn API Key：登录 → 个人中心 / API Keys bigmodel.cn/usercenter/pro…",
-      "summary": "3 weeks ago - 整理了一波当下能白嫖的 API 额度，全部国内直连！ 1、智谱注册送2000万Token（永久有效） 2、硅基流动送2000万（同样永久） 3、火山引擎稍微绕一步：先自动到账50万，再去控制台手动开一个「协作奖励计划」，能解锁每天200万的刷新额度 4、Cerebras 每天1M tokens免费，注册不用绑卡 光这几家不用花一分钱，日常测试和轻量开发基本够用了。 装个...",
-      "url": "https://x.com/wangdefou/status/2083521122713362547",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "free",
-      "author": {
-        "username": "wangdefou",
-        "display_name": "@wangdefou",
-        "avatar": "https://ui-avatars.com/api/?name=wangdefou&background=random"
-      },
-      "metrics": {
-        "likes": 3219,
-        "retweets": 615,
-        "replies": 436
-      }
-    },
-    {
-      "id": "2073423026113396875",
-      "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:29.784549",
-      "title": "huzaifa",
-      "content": "July 4, 2026 - Just found this NaraRouter gives developers up to 7M free AI tokens daily (resets every day) 🤯 No credit card. No subscriptions. What you get for $0: -> ~7 million tokens per day -> 30+ models (Mistral, DeepSeek, GLM and more) -> Full OpenAI-compatible API -> Smart routing",
-      "summary": "July 4, 2026 - Just found this NaraRouter gives developers up to 7M free AI tokens daily (resets every day) 🤯 No credit card. No subscriptions. What you get for $0: -> ~7 million tokens per day -> 30+...",
-      "url": "https://x.com/hs5402395/status/2073423026113396875?lang=en",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "free",
-      "author": {
-        "username": "hs5402395",
-        "display_name": "@hs5402395",
-        "avatar": "https://ui-avatars.com/api/?name=hs5402395&background=random"
-      },
-      "metrics": {
-        "likes": 2792,
-        "retweets": 987,
-        "replies": 327
+        "likes": 715,
+        "retweets": 745,
+        "replies": 389
       }
     },
     {
       "id": "2016397483728125974",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:29.784518",
+      "published_at": "2026-08-22T09:22:48.720294",
       "title": "老范讲故事🎙️",
-      "content": "6:26 AM · Jan 28, 20262.2KViews\n user avatar\n\n  老范讲故事🎙️\n\n  @lukfan\n\n  Jan 28\n\n  现在看来，X修改了他们的收费标准，取消了免费套餐，直接变成了pay-per-use模式，就是发一条一美分。\n user avatar\n\n  长安老张\n\n  @JasonChangan\n\n  Jan 28\n\n  范总， 我真的不知道api发帖的意义在哪？ AI自动信息汇总 发发信息？还是发article。 大部分自动发的不能说是垃圾，反正基本没有什么意思。 而且 有时花个几十秒 几分钟顺手发了的东西。 真没有必要 调试提示词 工作流什么的 [...] Log inSign up\n\n## Post\n\n# 老范讲故事🎙️ on X: \"💸 X (Twitter) API 2026 收费避坑指南 1. Free Tier ($0): 只能发帖 (1500条/月)，不能读取，极不稳定。 2. Basic ($200/月): 门槛极高，读写额度依然可怜。 3. Pay-Per-Use (新): 类似OpenAI充值模式，适合低频开发者。 结论：想白嫖读取数据？不可能。建议只用API发帖，读取靠外部搜索。\"\n\n user avatar\n\n  老范讲故事🎙️\n\n  @lukfan\n\n  💸 X (Twitter) API 2026 收费避坑指南 1. Free Tier ($0): 只能发帖 (1500条/月)，不能读取，极不稳定。 2. Basic ($200/月): 门槛极高，读写额度依然可怜。 3. Pay-Per-Use (新): 类似OpenAI充值模式，适合低频开发者。 结论：想白嫖读取数据？不可能。建议只用API发帖，读取靠外部搜索。 #TwitterAPI #X #Dev #Tech",
-      "summary": "6:26 AM · Jan 28, 20262.2KViews\n user avatar\n\n  老范讲故事🎙️\n\n  @lukfan\n\n  Jan 28\n\n  现在看来，X修改了他们的收费标准，取消了免费套餐，直接变成了pay-per-use模式，就是发一条一美分。\n user avatar\n\n  长安老张\n\n  @JasonChangan\n\n  Jan 28\n\n  范总， 我真的不知道api发帖...",
+      "content": "## Post\n\n## Post\n\n# 老范讲故事🎙️ on X: \"💸 X (Twitter) API 2026 收费避坑指南 1. Free Tier ($0): 只能发帖 (1500条/月)，不能读取，极不稳定。 2. Basic ($200/月): 门槛极高，读写额度依然可怜。 3. Pay-Per-Use (新): 类似OpenAI充值模式，适合低频开发者。 结论：想白嫖读取数据？不可能。建议只用API发帖，读取靠外部搜索。\"\n\nuser avatar\nuser avatar\nuser avatar\n\n## Log in or sign up for X\n\nSee what’s happening and join the conversation\n\n## Relevant people\n\nAvatar\n\n## Trending now",
+      "summary": "## Post\n\n## Post\n\n# 老范讲故事🎙️ on X: \"💸 X (Twitter) API 2026 收费避坑指南 1. Free Tier ($0): 只能发帖 (1500条/月)，不能读取，极不稳定。 2. Basic ($200/月): 门槛极高，读写额度依然可怜。 3. Pay-Per-Use (新): 类似OpenAI充值模式，适合低频开发者。 结论：想白嫖读取数据？不可能...",
       "url": "https://x.com/lukfan/status/2016397483728125974",
       "tags": [
         "AI",
@@ -428,40 +403,40 @@
         "avatar": "https://ui-avatars.com/api/?name=lukfan&background=random"
       },
       "metrics": {
-        "likes": 1324,
-        "retweets": 570,
-        "replies": 76
+        "likes": 2136,
+        "retweets": 618,
+        "replies": 111
       }
     },
     {
-      "id": "2067329643905253730",
+      "id": "2083521122713362547",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:25.631946",
-      "title": "Artificial Analysis",
-      "content": "A standout number in Z ai’s GLM-5.2 launch is CritPt, a benchmark of unpublished research-level physics problems where it ties with Claude Opus 4.8 and is well above other open weights models Key takeaways: ➤ @Zai\\_org ’s GLM-5.2 (max reasoning effort) leads open weights by a wide margin: the next open model, DeepSeek V4 Pro, scores 12.9% ➤ GLM-5.2 matches Claude Opus 4.8 (20.9%) and beats several proprietary models, including GPT-5.5, Gemini 3.1 Pro, and Claude Opus 4.7 ➤ Only proprietary [...] ➤ Only proprietary models score higher with GPT-5.5 Pro topping the benchmark at 30.6% ➤ A 4.5× generational jump: GLM-5.1 scored just 4.6% on CritPt ten weeks ago [...] 7:32 PM · Jun 17, 202641.8KViews\n user avatar\n\n  Artificial Analysis\n\n  @ArtificialAnlys\n\n  Jun 17\n\n  Context on the result: CritPt is hard. It focuses on frontier physics problems developed by Argonne and UIUC through contributions from 60+ researchers globally, with the answer key and grading kept private. Models are independently benchmarked by Artificial Analysis. Even the\n user avatar\n\n  Manish Baghel\n\n  @ManishBaghelz\n\n  Jun 17",
-      "summary": "A standout number in Z ai’s GLM-5.2 launch is CritPt, a benchmark of unpublished research-level physics problems where it ties with Claude Opus 4.8 and is well above other open weights models Key take...",
-      "url": "https://x.com/ArtificialAnlys/status/2067329643905253730",
+      "published_at": "2026-08-22T09:22:48.720263",
+      "title": "得否",
+      "content": "11:52 AM · Aug 1, 202663.6KViews\n user avatar\n\n  コッコロ大好き\n\n  @Makal\\_1\n\n  Aug 2\n\n  少了个阿里，学生优惠也送\n user avatar\n\n  Jason Lee\n\n  @skaas777\n\n  Aug 1\n\n  听哥一句劝，火山引擎的免费 token 不要用，用超了就扣费，而且扣超多\n user avatar\n\n  shiquda\n\n  @shiquda123321\n\n  Aug 2\n\n  两千万在Agentic时代塞牙缝都不够，用v4 flash加缓存几块钱的东西，浪费这么多时间太不值得了 [...] → 开通/系统相关 →「协作奖励计划」 （先领新用户额度，再在控制台手动开通协作计划） 4、Cerebras Inference （约 1M tokens/天，一般不用绑卡） cloud.cerebras.ai API 兼容：api.cerebras.ai/v1 One-API（聚合多 key） github.com/songquanpeng/o… [...] 整理了一波当下能白嫖的 API 额度，全部国内直连！ 1、智谱注册送2000万Token（永久有效） 2、硅基流动送2000万（同样永久） 3、火山引擎稍微绕一步：先自动到账50万，再去控制台手动开一个「协作奖励计划」，能解锁每天200万的刷新额度 4、Cerebras 每天1M tokens免费，注册不用绑卡 光这几家不用花一分钱，日常测试和轻量开发基本够用了。 装个 One-API 把这些 key 聚合起来，自动切换，用完不心疼。 申请入口 👇 1、智谱 BigModel open.bigmodel.cn API Key：登录 → 个人中心 / API Keys bigmodel.cn/usercenter/pro… 2、硅基流动 SiliconCloud cloud.siliconflow.cn （官网硅基流动 → 登录进控制台也可） API Key：控制台 → API 密钥 3、火山引擎 · 方舟（协作奖励计划） 产品/文档：volcengine.com/product/ark 控制台：console.volcengine.com 路径参考：方舟控制台 → 开通/系统相关",
+      "summary": "11:52 AM · Aug 1, 202663.6KViews\n user avatar\n\n  コッコロ大好き\n\n  @Makal\\_1\n\n  Aug 2\n\n  少了个阿里，学生优惠也送\n user avatar\n\n  Jason Lee\n\n  @skaas777\n\n  Aug 1\n\n  听哥一句劝，火山引擎的免费 token 不要用，用超了就扣费，而且扣超多\n user avatar\n\n  s...",
+      "url": "https://x.com/wangdefou/status/2083521122713362547",
       "tags": [
         "AI",
         "2026",
         "中文区"
       ],
-      "category": "model",
+      "category": "free",
       "author": {
-        "username": "ArtificialAnlys",
-        "display_name": "@ArtificialAnlys",
-        "avatar": "https://ui-avatars.com/api/?name=ArtificialAnlys&background=random"
+        "username": "wangdefou",
+        "display_name": "@wangdefou",
+        "avatar": "https://ui-avatars.com/api/?name=wangdefou&background=random"
       },
       "metrics": {
-        "likes": 1378,
-        "retweets": 624,
-        "replies": 10
+        "likes": 2605,
+        "retweets": 712,
+        "replies": 234
       }
     },
     {
       "id": "1993150286945562878",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:25.631940",
+      "published_at": "2026-08-22T09:22:41.937110",
       "title": "歸藏(guizang.ai)",
       "content": "$15 / $120 - Gemini 3 Pro: $2-4 / $12-18 ## 效率大幅提升：更聪明意味着更省钱 Opus 4.5 引入了一个新参数叫 effort（努力程度），你可以根据任务选择不同的思考深度。 在 medium effort 模式下，Opus 4.5 达到了 Sonnet 4.5 的最佳分数，但只用了 24% 的输出 tokens。换句话说，少用了 76% 的 tokens。 即使在 highest effort 模式下，Opus 4.5 的表现超过 Sonnet 4.5 有 4.3 个百分点，同时还少用了 48% 的 tokens。 这说明模型变聪明了：更少的回溯、更少的冗余探索、更精准的推理。对于长期运行的代理任务，这个效率提升会直接转化为成本节省。 [...] user avatar\n\n  zdhpeter\n\n  @peter6759\n\n  Nov 25, 2025\n\n  Replying to @tbpn and @\\_sholtodouglas [...] Anthropic 急了，发布了 Claude Opus 4.5 同时终于从原来死贵的 75 美元变成了 25 美元，当然还是比 Gemini 3 Pro 贵不少。 介绍一下详细更新内容： ## 性能表现：编程任务世界第一 SWE-bench Verified 是测试真实软件工程能力的标准 benchmark，Opus 4.5 在这个榜上拿了第一。 Anthropic 内部还做了个有意思的测试：他们让 Opus 4.5 做性能工程师的入职考试（2小时限时），结果模型的分数超过了所有人类候选人。 不只是编程，Opus 4.5 在数学、视觉、推理等各个维度都有提升。在多语言编程 benchmark（SWE-bench Multilingual）上，8 种编程语言里它拿了 7 个第一。 ## 价格定位：不是最便宜，但性价比相对高 这是关键信息。我把几家的定价列出来对比一下： 顶级模型价格对比（per million tokens）： - Claude Opus 4.5: $5 / $25 - GPT-5.1: $1.25 / $10 - GPT-5-pro: $15 / $120 -",
       "summary": "$15 / $120 - Gemini 3 Pro: $2-4 / $12-18 ## 效率大幅提升：更聪明意味着更省钱 Opus 4.5 引入了一个新参数叫 effort（努力程度），你可以根据任务选择不同的思考深度。 在 medium effort 模式下，Opus 4.5 达到了 Sonnet 4.5 的最佳分数，但只用了 24% 的输出 tokens。换句话说，少用了 76% 的 toke...",
@@ -478,15 +453,90 @@
         "avatar": "https://ui-avatars.com/api/?name=op7418&background=random"
       },
       "metrics": {
-        "likes": 4143,
-        "retweets": 643,
-        "replies": 71
+        "likes": 2306,
+        "retweets": 710,
+        "replies": 331
+      }
+    },
+    {
+      "id": "1925612141371170941",
+      "source": "Twitter/X",
+      "published_at": "2026-08-22T09:22:41.937104",
+      "title": "宝玉",
+      "content": "Claude 4 全新发布 转译自anthropic 官方： 今天，我们正式发布下一代Claude模型：Claude Opus 4 和 Claude Sonnet 4，在编程能力、高级推理和AI智能体方面树立了全新标杆。 Claude Opus 4 是当前全球最强的编程模型，能长时间稳定处理复杂任务和智能体工作流；而 Claude Sonnet 4 在上一代基础上大幅提升，编程和推理能力更强，指令执行更加精准。 本次还推出了一些重要更新： 扩展思维工具（测试版）：两款新模型均能在扩展思考过程中使用工具（如网络搜索），交替进行推理与工具调用，持续优化答案质量。 新功能升级：新模型支持并行使用多个工具，执行指令更加精准；开发者提供本地文件访问权限后，模型能显著提升记忆力，提取和保存关键信息，以长期保持连贯性并积累隐性知识。 Claude Code 正式上线：广受好评的Claude Code现在全面开放。它可通过GitHub Actions执行后台任务，并与VS Code、JetBrains无缝集成，在编辑器中直接呈现代码修改，助力流畅的协作式编程体验。 [...] 全新API能力：Anthropic API 新增四项功能，包括代码执行工具、MCP连接器、文件API，以及提示缓存功能（缓存时间长达1小时），帮助开发者构建更强大的AI智能体。 Claude Opus 4 和 Sonnet 4均提供两种工作模式：即时响应模式和扩展思考模式。Claude Pro、Max、Team 和 Enterprise套餐用户可享用全部功能，免费用户也能体验Sonnet 4的强大。两种模型均已通过Anthropic API、Amazon Bedrock 和 Google Cloud的Vertex AI平台上线，定价保持不变：Opus 4为每百万tokens输入15美元/输出75美元，Sonnet 4为每百万tokens输入3美元/输出15美元。 Claude 4 新模型亮点 Claude Opus 4 是迄今为止Claude最强大的模型，凭借在 SWE-bench（72.5%）和 [...] 4 更加适合日常和广泛的应用场景。 各行业反馈如下： GitHub 认为Sonnet 4 在智能体场景表现卓越，并将用作新一代GitHub Copilot编程助手的基础模型。 Manus 肯定其理解复杂指令能力大幅提升，推理清晰度更高，输出效果更美观。 iGent 强调其多功能APP开发方面表现优异，极大减少代码导航中的错误率。 Sourcegraph 表示Sonnet 4在软件开发中的问题理解更深入，代码质量更优雅。 Augment Code 赞誉Sonnet 4 在复杂任务中表现更谨慎、编辑更加精准、成功率更高，成为他们的首选模型。 这些进步推动用户AI战略的全面升级：Opus 4 扩展了编码、研究、写作与科学探索的极限；Sonnet 4则提供了日常应用场景的显著升级。 Claude 4在 SWE-bench 基准测试中排名领先，完整方法见附录。 Claude 4在编程、推理、多模态和智能体任务中均展现出卓越性能，完整方法见附录。 模型进一步优化 除了上述能力，两款新模型显著减少了“走捷径”或“钻漏洞”的行为，在智能体任务上，这种负面行为比Sonnet 3.7减少了65%。",
+      "summary": "Claude 4 全新发布 转译自anthropic 官方： 今天，我们正式发布下一代Claude模型：Claude Opus 4 和 Claude Sonnet 4，在编程能力、高级推理和AI智能体方面树立了全新标杆。 Claude Opus 4 是当前全球最强的编程模型，能长时间稳定处理复杂任务和智能体工作流；而 Claude Sonnet 4 在上一代基础上大幅提升，编程和推理能力更强，指令...",
+      "url": "https://x.com/dotey/status/1925612141371170941",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "model",
+      "author": {
+        "username": "dotey",
+        "display_name": "@dotey",
+        "avatar": "https://ui-avatars.com/api/?name=dotey&background=random"
+      },
+      "metrics": {
+        "likes": 3980,
+        "retweets": 372,
+        "replies": 47
+      }
+    },
+    {
+      "id": "tav_model_5",
+      "source": "Twitter/X",
+      "published_at": "2026-08-22T09:22:41.937096",
+      "title": "Anthropic、Claude Opus 5をリリース 半額でFable 5級性能",
+      "content": "Log inSign up\n\n## Trending\n\n# Anthropic、Claude Opus 5をリリース 半額でFable 5級性能\n\nLast updated Jul 26, 2026\n\nClaude Opus 5はClaude 5ファミリーのミッドレンジモデルで、コーディングや知識作業、エージェントタスクで優位性を発揮。ベンチマークではFrontier-BenchでFable 5を上回り、独立評価のIntelligence Indexでも首位を獲得し、タスクコストはFable 5の3分の1です。利用者からは興奮の声が上がる一方、プロンプト適応やoverthinkingの課題も指摘され、低effort推奨の声があります。安全面では生物・サイバー領域を抑え、CursorやNotionに即統合可能です。\n\nThis story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs. [...] ## Related Trending Stories on X\n\n AnthropicがClaudeの新機能「Cowork」を発表、Claude Codeが1週間半で100%開発\n\n  Other · 87.6K posts\n Anthropic Releases Claude Opus 4.8 to Challenge OpenAI's GPT-5.5 in Coding\n\n  Other · 39.2K posts\n Anthropic's Claude Opus 5 Draws Mixed Early Reactions\n\n  Other · 5.1K posts\n\nuser avatar\n\nClaude\n\nAnthropic\n\n@claudeai\n\nJul 24\n\nIntroducing Claude Opus 5. It's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price.\n\n00:00 [...] Jul 24\n\nClaude Opus 5 is narrowly the most intelligent model on the Artificial Analysis Intelligence Index, offering comparable intelligence to Fable 5 at 26% lower Cost per Task We supported @AnthropicAI to evaluate Claude Opus 5 ahead of release: it sets the highest GDPval-AA v2 and\n\n\n\nuser avatar\n\nCursor\n\nSpaceXAI\n\n@cursor\\_ai\n\nJul 24",
+      "summary": "Log inSign up\n\n## Trending\n\n# Anthropic、Claude Opus 5をリリース 半額でFable 5級性能\n\nLast updated Jul 26, 2026\n\nClaude Opus 5はClaude 5ファミリーのミッドレンジモデルで、コーディングや知識作業、エージェントタスクで優位性を発揮。ベンチマークではFrontier-BenchでFable 5を...",
+      "url": "https://x.com/i/trending/2080705400475635938",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "model",
+      "author": {
+        "username": "i",
+        "display_name": "@i",
+        "avatar": "https://ui-avatars.com/api/?name=i&background=random"
+      },
+      "metrics": {
+        "likes": 3690,
+        "retweets": 702,
+        "replies": 7
+      }
+    },
+    {
+      "id": "2019467372609040752",
+      "source": "Twitter/X",
+      "published_at": "2026-08-22T09:22:41.937090",
+      "title": "Claude",
+      "content": "user avatar\n\n  Introducing Claude Opus 4.6. Our smartest model got an upgrade. Opus 4.6 plans more carefully, sustains agentic tasks for longer, operates reliably in massive codebases, and catches its own mistakes. It’s also our first Opus-class model with 1M token context in beta.\n\n  \n\n  00:00\n\n  5:45 PM · Feb 5, 202610.6MViews\n user avatar\n\n  Claude\n\n  Anthropic\n\n  @claudeai\n\n  Feb 5 [...] Benchmark comparison table showing Claude Opus 4.6 leading or matching top scores across 15 evaluations — including agentic coding, tool use, reasoning, and search — against Opus 4.5, Sonnet 4.5, Gemini 3 Pro, and GPT-5.2.\n\n  user avatar\n\n  Claude\n\n  Anthropic\n\n  @claudeai\n\n  Feb 5 [...] Feb 5\n\n  New on the API: we're giving developers better control over model effort and more flexibility for long-running agents. Adaptive thinking lets Claude calibrate its reasoning depth to each task, and context compaction keeps long-running tasks from hitting limits.\n\n  user avatar\n\n  Claude\n\n  Anthropic\n\n  @claudeai\n\n  Feb 5",
+      "summary": "user avatar\n\n  Introducing Claude Opus 4.6. Our smartest model got an upgrade. Opus 4.6 plans more carefully, sustains agentic tasks for longer, operates reliably in massive codebases, and catches its...",
+      "url": "https://x.com/claudeai/status/2019467372609040752",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "model",
+      "author": {
+        "username": "claudeai",
+        "display_name": "@claudeai",
+        "avatar": "https://ui-avatars.com/api/?name=claudeai&background=random"
+      },
+      "metrics": {
+        "likes": 1846,
+        "retweets": 474,
+        "replies": 402
       }
     },
     {
       "id": "2072836468847022376",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:25.631931",
+      "published_at": "2026-08-22T09:22:41.937083",
       "title": "0xMarioNawfal",
       "content": "12:15 AM · Jul 3, 202661.6KViews\n user avatar\n\n  Gene Douglass\n\n  @efdouglass\n\n  Jul 3\n\n  @grok any comment? 🤔\n user avatar\n\n  Quantro Global\n\n  @quantroglobal\\_\n\n  Jul 4\n\n  What about Claude?\n user avatar\n\n  Eduardo Italo\n\n  @eduardo\\_ip\n\n  Jul 3\n\n  GLM [...] AI MODELS RUMORED TO BE RELEASING THIS MONTH: \\ OpenAI GPT-5.6 (wider public rollout) \\ OpenAI GPT-5.6 Thinking \\ OpenAI GPT-5.6 Mini \\ Meta next flagship open-weight model (Llama successor, name unconfirmed) \\ Google Gemini update (Gemini 3.x / Flash refresh) \\ xAI Grok 4.4 (or another Grok 4-series update) \\ Mistral Medium/Large refresh \\ DeepSeek V4 family update \\ Alibaba Qwen 3.x update \\ Moonshot AI Kimi K2 update \\ Z.ai GLM update \\ Cohere North refresh Which are you most excited [...] Log inSign up\n\n## Post\n\n# 0xMarioNawfal on X: \"AI MODELS RUMORED TO BE RELEASING THIS MONTH: \\ OpenAI GPT-5.6 (wider public rollout) \\ OpenAI GPT-5.6 Thinking \\ OpenAI GPT-5.6 Mini \\ Meta next flagship open-weight model (Llama successor, name unconfirmed) \\ Google Gemini update (Gemini 3.x / Flash refresh) \\ xAI Grok 4.4 (or\"\n\n user avatar\n\n  0xMarioNawfal\n\n  @RoundtableSpace",
       "summary": "12:15 AM · Jul 3, 202661.6KViews\n user avatar\n\n  Gene Douglass\n\n  @efdouglass\n\n  Jul 3\n\n  @grok any comment? 🤔\n user avatar\n\n  Quantro Global\n\n  @quantroglobal\\_\n\n  Jul 4\n\n  What about Claude?\n user a...",
@@ -503,15 +553,15 @@
         "avatar": "https://ui-avatars.com/api/?name=RoundtableSpace&background=random"
       },
       "metrics": {
-        "likes": 4542,
-        "retweets": 779,
-        "replies": 416
+        "likes": 3662,
+        "retweets": 602,
+        "replies": 299
       }
     },
     {
       "id": "2021782563275317482",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:25.631922",
+      "published_at": "2026-08-22T09:22:41.937076",
       "title": "わど🐏AI界のマスコット",
       "content": "Claude vs GPT vs Gemini。 2026年の正解は「全部使う」。 「どれが最強？」じゃなくて 「どのタスクにどれが最適か」で選ぶ時代。 マルチAIユーザーが20%超え。 使い分けた方が結果が出る。 【2026年 タスク別AI選択マップ】 □ コーディング → Claude Opus 4.6 SWE-bench 80.8%。1Mトークン。 長いコードの理解と修正はClaude一択。 （Anthropic公式 2026-02-05） □ 推論・複雑な分析 → Gemini 3 Pro 多仮説同時探索（Deep Think）。 Agent機能でGmail/Calendar連携。 □ 汎用タスク・日常質問 → GPT-5.2 GPT-5.3-Codexが2/5にリリースされたが 汎用はまだGPT-5.2が安定。 □ 画像分析 → Gemini 3 Flash Agentic Vision搭載。画像を見て コード実行→再検査のループ。 □ 長文執筆・リサーチ → Claude Opus 4.6 1Mトークン＝本1冊分を一気に処理。 適応型思考4段階で深い分析。 [...] 適応型思考4段階で深い分析。 【判断が面倒な人向け：最小構成】 メイン: Claude Opus 4.6（コード＋長文） サブ: Gemini 3 Flash（画像＋速度重視） 無料: GPT-5.2（日常の質問） 明日の作業1つを、いつもと違うAIでやってみて [...] ## Post\n\nLog inSign up\n\n## Post\n\n# わど🐏AI界のマスコット on X: \"Claude vs GPT vs Gemini。 2026年の正解は「全部使う」。 「どれが最強？」じゃなくて 「どのタスクにどれが最適か」で選ぶ時代。 マルチAIユーザーが20%超え。 使い分けた方が結果が出る。 【2026年 タスク別AI選択マップ】 □ コーディング → Claude Opus 4.6 SWE-bench 80.8%。1Mトークン。\"\n\n user avatar\n\n  わど🐏AI界のマスコット\n\n  @wad0427",
       "summary": "Claude vs GPT vs Gemini。 2026年の正解は「全部使う」。 「どれが最強？」じゃなくて 「どのタスクにどれが最適か」で選ぶ時代。 マルチAIユーザーが20%超え。 使い分けた方が結果が出る。 【2026年 タスク別AI選択マップ】 □ コーディング → Claude Opus 4.6 SWE-bench 80.8%。1Mトークン。 長いコードの理解と修正はClaude一択。...",
@@ -528,68 +578,18 @@
         "avatar": "https://ui-avatars.com/api/?name=wad0427&background=random"
       },
       "metrics": {
-        "likes": 4644,
-        "retweets": 729,
-        "replies": 348
-      }
-    },
-    {
-      "id": "2090085614989533532",
-      "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:25.631914",
-      "title": "Rohan Paul",
-      "content": "user avatar\n\n  Ornith\n\n  @ornith\\_\n\n  Aug 19\n\n  Aloha! 🌺Introducing Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, trained with self-improving strategies. It achieves state-of-the-art performance among open-source models of comparable size and delivers performance comparable to Claude Opus\n\n  \n\n  Paid partnership\n\n  2:36 PM · Aug 19, 20266.9KViews\n user avatar\n\n  Rohan Paul\n\n  @rohanpaul\\_ai\n\n  Aug 19 [...] inputs than static examples alone. Labs with richer places to generate and verify new tasks could improve faster even without starting from the largest human-built dataset. [...] Log inSign up\n\n## Post\n\n# Rohan Paul on X: \"Another brilliant open-source model release. Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, Only 397B weights, but 4 wins over Claude Opus 4.8: Terminal-Bench 2.1 (86.1 v 85), SWE-bench Verified (86 v 85.8), WideSearch (80.8 v 72.9),\"\n\n user avatar\n\n  Rohan Paul\n\n  @rohanpaul\\_ai",
-      "summary": "user avatar\n\n  Ornith\n\n  @ornith\\_\n\n  Aug 19\n\n  Aloha! 🌺Introducing Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, trained with self-improving strategies. It achiev...",
-      "url": "https://x.com/rohanpaul_ai/status/2090085614989533532?lang=en",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "model",
-      "author": {
-        "username": "rohanpaul_ai",
-        "display_name": "@rohanpaul_ai",
-        "avatar": "https://ui-avatars.com/api/?name=rohanpaul_ai&background=random"
-      },
-      "metrics": {
-        "likes": 3330,
-        "retweets": 774,
-        "replies": 5
-      }
-    },
-    {
-      "id": "2043101905115635790",
-      "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:25.631907",
-      "title": "Aboo",
-      "content": "## Post\n\nLog inSign up\n\n## Post\n\n# Aboo on X: \"LLM landscape 2026: • GPT-5.4 shipping, 5.5 spotted internally • Claude Opus 4.5 setting benchmarks • Gemini 3 Pro pushing multimodal • Anthropic hit $30B revenue run rate The model wars are far from over. \n\n user avatar\n\n  Aboo\n\n  @azarnoush\n\n  LLM landscape 2026: • GPT-5.4 shipping, 5.5 spotted internally • Claude Opus 4.5 setting benchmarks • Gemini 3 Pro pushing multimodal • Anthropic hit $30B revenue run rate The model wars are far from over. [...] humai.blog\n\n  Best AI Models 2026: GPT-5 vs Claude 4.5 Opus vs Gemini 3 Pro (Complete Comparison)\n\n  Compare GPT-5.2, Claude Opus 4.5, and Gemini 3 Pro in this comprehensive 2026 guide. Performance benchmarks, pricing, real-world use cases, and expert recommendations.\n\n  11:00 PM · Apr 11, 2026196Views",
-      "summary": "## Post\n\nLog inSign up\n\n## Post\n\n# Aboo on X: \"LLM landscape 2026: • GPT-5.4 shipping, 5.5 spotted internally • Claude Opus 4.5 setting benchmarks • Gemini 3 Pro pushing multimodal • Anthropic hit $30...",
-      "url": "https://x.com/azarnoush/status/2043101905115635790",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "model",
-      "author": {
-        "username": "azarnoush",
-        "display_name": "@azarnoush",
-        "avatar": "https://ui-avatars.com/api/?name=azarnoush&background=random"
-      },
-      "metrics": {
-        "likes": 1894,
-        "retweets": 812,
-        "replies": 187
+        "likes": 2602,
+        "retweets": 896,
+        "replies": 15
       }
     },
     {
       "id": "2079618788140482647",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:25.631892",
+      "published_at": "2026-08-22T09:22:41.937068",
       "title": "宝玉",
-      "content": "Flash 是 165 tokens/s，接近翻倍。对于需要多步推理、反复调用工具的 Agent 工作流来说，每一步快一倍，最终的完成时间差距会被放大。 智能水平方面，3.6 Flash 在 Artificial Analysis Intelligence Index 上得分 50，和 3.5 Flash 持平，但用更少的 token 达到了同样的分数。在知识工作基准 GDPval-AA 上，3.6 Flash 拿到 1421 分，3.5 Flash 是 1349。Computer Use 能力在 OSWorld-Verified 上从 78.4% 提升到 83%。知识截止日期也从 2025 年 1 月跳到了 2026 年 3 月，意味着模型终于知道过去一年多的事了。 放到竞品里看，3.6 Flash 在 OSWorld 和两项长上下文测试上领先，但 GPT 5.6 Luna 在 DeepSWE 和 Terminal-bench 上更强，Grok 4.5 在 SWE-Bench Pro 上领先，Claude Sonnet 5 在 MLE-Bench 和 GDPVal-AA v2 [...] user avatar\n\n  Google\n\n  @Google\n\n  Jul 21\n\n  Today we’re expanding the Gemini family with three new models built to be faster, more token efficient, and reliable at scale. Meet the new Gemini models ↓\n\n  \n\n  00:00\n\n  5:25 PM · Jul 21, 202665.7KViews\n user avatar\n\n  ePsychic\n\n  @epsychic\\_\n\n  Jul 21\n\n  感觉也对，如果3.5Pro在编程上无法逼近GPT 5.6 Sol或Claude Fable 5，就根本没必要发布。不如直接押注Gemini 4算了\n user avatar\n\n  Ziheng Li｜AI 独立开发\n\n  @zihengli163713\n\n  Jul 22\n\n  我不知道真正有没有人来做过复杂代码，真的是美国版豆包吗？现在体验怎么样了呢？😥\n user avatar [...] 月底用新数据重新训练后结果仍然不理想。目前 3.5 Pro 只在少数合作伙伴和美国政府那里做测试，公开日期未知。 上次 3.5 Pro 跳票时，Google 推出了 Gemini 3.5 Flash，结果这个 Flash 模型反而在多项编码和 Agent 基准上打败了 Gemini 3.1 Pro。Gemini 3.6 Flash 看起来也是类似：不需要和 GPT-5.6 或 Claude 争排行榜顶端，先把更快更便宜的生态位占住。 Google 同时确认，下一代 Gemini 4 已经启动了迄今最大规模的预训练。",
-      "summary": "Flash 是 165 tokens/s，接近翻倍。对于需要多步推理、反复调用工具的 Agent 工作流来说，每一步快一倍，最终的完成时间差距会被放大。 智能水平方面，3.6 Flash 在 Artificial Analysis Intelligence Index 上得分 50，和 3.5 Flash 持平，但用更少的 token 达到了同样的分数。在知识工作基准 GDPval-AA 上，3....",
+      "content": "user avatar\n\n  Google\n\n  @Google\n\n  Jul 21\n\n  Today we’re expanding the Gemini family with three new models built to be faster, more token efficient, and reliable at scale. Meet the new Gemini models ↓\n\n  \n\n  00:00\n\n  5:25 PM · Jul 21, 202665.7KViews\n user avatar\n\n  ePsychic\n\n  @epsychic\\_\n\n  Jul 21\n\n  感觉也对，如果3.5Pro在编程上无法逼近GPT 5.6 Sol或Claude Fable 5，就根本没必要发布。不如直接押注Gemini 4算了\n user avatar\n\n  Zhongxing Sun\n\n  @Zhongxing\\_Sun\n\n  Jul 21 [...] Flash 是 165 tokens/s，接近翻倍。对于需要多步推理、反复调用工具的 Agent 工作流来说，每一步快一倍，最终的完成时间差距会被放大。 智能水平方面，3.6 Flash 在 Artificial Analysis Intelligence Index 上得分 50，和 3.5 Flash 持平，但用更少的 token 达到了同样的分数。在知识工作基准 GDPval-AA 上，3.6 Flash 拿到 1421 分，3.5 Flash 是 1349。Computer Use 能力在 OSWorld-Verified 上从 78.4% 提升到 83%。知识截止日期也从 2025 年 1 月跳到了 2026 年 3 月，意味着模型终于知道过去一年多的事了。 放到竞品里看，3.6 Flash 在 OSWorld 和两项长上下文测试上领先，但 GPT 5.6 Luna 在 DeepSWE 和 Terminal-bench 上更强，Grok 4.5 在 SWE-Bench Pro 上领先，Claude Sonnet 5 在 MLE-Bench 和 GDPVal-AA v2 [...] 月底用新数据重新训练后结果仍然不理想。目前 3.5 Pro 只在少数合作伙伴和美国政府那里做测试，公开日期未知。 上次 3.5 Pro 跳票时，Google 推出了 Gemini 3.5 Flash，结果这个 Flash 模型反而在多项编码和 Agent 基准上打败了 Gemini 3.1 Pro。Gemini 3.6 Flash 看起来也是类似：不需要和 GPT-5.6 或 Claude 争排行榜顶端，先把更快更便宜的生态位占住。 Google 同时确认，下一代 Gemini 4 已经启动了迄今最大规模的预训练。",
+      "summary": "user avatar\n\n  Google\n\n  @Google\n\n  Jul 21\n\n  Today we’re expanding the Gemini family with three new models built to be faster, more token efficient, and reliable at scale. Meet the new Gemini models ...",
       "url": "https://x.com/dotey/status/2079618788140482647",
       "tags": [
         "AI",
@@ -603,15 +603,15 @@
         "avatar": "https://ui-avatars.com/api/?name=dotey&background=random"
       },
       "metrics": {
-        "likes": 856,
-        "retweets": 552,
-        "replies": 199
+        "likes": 1918,
+        "retweets": 601,
+        "replies": 454
       }
     },
     {
       "id": "2024611287091589499",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:25.631862",
+      "published_at": "2026-08-22T09:22:41.937037",
       "title": "宝玉",
       "content": "的 34.5% 和 Claude Sonnet 4.6 的 33.2%。GPQA Diamond（科学知识）拿到 94.3%，同样是所有模型最高。 编码和 Agent：全面提升 LiveCodeBench Pro（竞赛级编程）的 Elo 从 2439 提升到 2887，大幅领先 GPT-5.2 的 2393。SWE-Bench Verified（实际代码修复）上得分 80.6%，与 Claude Opus 4.6 的 80.8% 基本持平——头部模型在工程编码上已非常接近。 Agent 方面提升更为显著。APEX-Agents（长链专业任务）从 18.4% 跳到 33.5%，接近翻倍，超过 Claude Opus 4.6 的 29.8%。BrowseComp（Agent 搜索）以 85.9% 排名第一。Google 还专门推出了 gemini-3.1-pro-preview-customtools 端点，针对混合使用 bash 命令和自定义函数的Agent场景做了优化。 不过 3.1 Pro 并非所有维度都领先。在 LM Arena 用户投票排名中，Claude Opus 4.6 [...] Google 发布 Gemini 3.1 Pro：推理能力翻倍，重回 AI 模型第一梯队 2026 年 2 月 19 日，距离 Gemini 3 Pro 上线仅三个月，Google 就发布了 Gemini 3.1 Pro。这次升级的核心卖点：推理能力翻倍，价格不变。目前以 Preview 形式向开发者、企业和消费者全面开放。 Gemini 3 Pro 去年 11 月上线时曾短暂登顶，随后被 OpenAI 和 Anthropic 反超。这次从第三方评测机构 Artificial Analysis 的数据看，Google 重新拿回了综合智能指数的榜首。 推理能力：核心突破 3.1 Pro 最大的亮点在推理。ARC-AGI-2（测试模型解决全新逻辑模式的能力）得分从 Gemini 3 Pro 的 31.1% 跳到 77.1%，翻了一倍多。对比竞品：Claude Opus 4.6 得分 68.8%，GPT-5.2 为 52.9%。 Humanity's Last Exam（高级学术推理）上 3.1 Pro 得分 44.4%，也高于 GPT-5.2 的 34.5% 和 Claude [...] Opus 4.6 在文本和编码类别仍然靠前。GDPval-AA（专家任务）上 Claude Sonnet 4.6 以 1633 大幅领先 3.1 Pro 的 1317。不同测试反映不同维度，没有哪个模型在所有任务上占绝对优势。 开发者关注点 API 层面有几个实用更新：文件上传限制从 20MB 提升到 100MB，支持直接传入 YouTube URL 分析视频，新增 medium 级别的 thinking level 方便在推理深度和成本间灵活切换。 注意一个破坏性变更：total\\_reasoning\\_tokens 字段已更名为 total\\_thought\\_tokens。 模型支持最多 100 万 token 输入上下文和 6.4 万 token 输出，原生多模态（文本、图片、音频、视频、代码仓库）。 定价和使用 定价与 Gemini 3 Pro 完全一致：200k token 以内输入 $2/百万 token，输出 $12/百万 token；超过 200k 则为 $4/$18。能力大幅提升但价格不变，性价比明显提高。对比参考：Claude Opus 4.6 为",
       "summary": "的 34.5% 和 Claude Sonnet 4.6 的 33.2%。GPQA Diamond（科学知识）拿到 94.3%，同样是所有模型最高。 编码和 Agent：全面提升 LiveCodeBench Pro（竞赛级编程）的 Elo 从 2439 提升到 2887，大幅领先 GPT-5.2 的 2393。SWE-Bench Verified（实际代码修复）上得分 80.6%，与 Claude ...",
@@ -628,15 +628,15 @@
         "avatar": "https://ui-avatars.com/api/?name=dotey&background=random"
       },
       "metrics": {
-        "likes": 4829,
-        "retweets": 936,
-        "replies": 401
+        "likes": 4201,
+        "retweets": 987,
+        "replies": 498
       }
     },
     {
       "id": "tav_tutorial_7",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:21.668087",
+      "published_at": "2026-08-22T09:22:38.186219",
       "title": "Threads Of AI (@threadsofAI)",
       "content": "Log inSign up\n\nThreads Of AI\n\nThreads Of AI profile banner\n\nuser avatar\n\n# Threads Of AI\n\n@threadsofAI\n\nJoined October 2024\n\n0\n\nFollowing1\n\nFollowers\n\nRepliesRepliesMediaMedia\n\n user avatar\n\n  Threads Of AI\n\n  @threadsofAI\n\n  Jul 21, 2025 [...] threadsofai.com\n\n  Supercharge Your Email Campaigns: The Top 3 AI Newsletter Name Generators for 2025 - Threads of AI\n\n  That's where a AI Newsletter Name Generator comes in. These AI tool sparks your creativity, save time, and also help you find the ideal name for your brand [...] Jul 14, 2025\n\n  Struggling with content chaos? Here's how to automate your social media—and it’s FREE! 💡 Use tools like Canva, Predis.ai, Buffer, Postly generate captions + create visuals + schedule posts smoothly 👉 threadsofai.com/how-to-automat… #SocialMedia #AI #ContentAutomation\n user avatar\n\n  Threads Of AI\n\n  @threadsofAI\n\n  May 28, 2025",
       "summary": "Log inSign up\n\nThreads Of AI\n\nThreads Of AI profile banner\n\nuser avatar\n\n# Threads Of AI\n\n@threadsofAI\n\nJoined October 2024\n\n0\n\nFollowing1\n\nFollowers\n\nRepliesRepliesMediaMedia\n\n user avatar\n\n  Threads...",
@@ -653,19 +653,19 @@
         "avatar": "https://ui-avatars.com/api/?name=threadsofAI&background=random"
       },
       "metrics": {
-        "likes": 636,
-        "retweets": 931,
-        "replies": 471
+        "likes": 462,
+        "retweets": 16,
+        "replies": 287
       }
     },
     {
-      "id": "tav_tutorial_6",
+      "id": "2026592396486782986",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:21.668082",
-      "title": "How To Build a One-Person Company Using Grok Bot | Rahul (@sairahul1)",
-      "content": "Put multiple bots in one group chat and they coordinate without you.\n\nThey pass work between each other. They assign ownership. They pull you in only for judgment calls.\n\nYou give the group an objective, not a task list.\n\nA task list means you already did the decomposition.\n\nAn objective lets the bots split it, which is the whole point.\n\nThe handoff, one bot deciding another is better suited and passing ownership, is something that did not exist in any AI tool before this. [...] Still in early beta. Because bots click through real interfaces, a redesigned layout or random popup can trip them. Anything touching money, legal, or live customer emails needs a guardrail.\n\nHand it reversible, low-stakes jobs first. Watch the early runs more closely than you think you need to. Only let it off the leash once it has earned it.\n\nWho this is actually for:\n\n→ If your AI budget is $20/month and you are still learning, this is not your next step. Get fluent with Claude first. [...] One of their engineers described previous personal agents like this:\n\n\"Configuring, provisioning, delegating, and triaging instead of doing useful things.\"\n\nGrok Bot inverts that.\n\nYou describe a job in a sentence.\n\nThe bot has the computer, the logins, the memory, and the time.\n\nYou have the decisions.\n\nThat shift from prompting to delegating is the entire thing.\n\nStep 1 — Get access\n\nThree ways in:\n\n→ SuperGrok Heavy: $300/month from xAI",
-      "summary": "Put multiple bots in one group chat and they coordinate without you.\n\nThey pass work between each other. They assign ownership. They pull you in only for judgment calls.\n\nYou give the group an objecti...",
-      "url": "https://x.com/sairahul1/article/2089995692874068433?lang=en",
+      "published_at": "2026-08-22T09:22:38.186214",
+      "title": "过年都在写这个，尝试梳理2026 年的Agent 发生了什么变化我过年写 ...",
+      "content": "最近看了很多文章。都在说我们已经迈过了奇点，Agent 时代来了。 海外一位做了六年 AI 创业的 Matt Shumer 写了篇长文叫《Something Big Is Happening》快一亿曝光。...\n\n  9:37 AM · Feb 25, 202656.2KViews [...] Log inSign up\n\n## Post\n\n# 歸藏(guizang.ai) on X: \"过年都在写这个，尝试梳理 2026 年的 Agent 发生了什么变化 我过年写了一篇一万字的文章，如果你最近很焦虑建议看看。 我会尝试告诉你这一个月 AI 领域发生了什么，为什么大家都这么焦虑。这些变化可能会带来什么影响\"\n\n user avatar\n\n  歸藏(guizang.ai)\n\n  @op7418\n\n  过年都在写这个，尝试梳理 2026 年的 Agent 发生了什么变化 我过年写了一篇一万字的文章，如果你最近很焦虑建议看看。 我会尝试告诉你这一个月 AI 领域发生了什么，为什么大家都这么焦虑。这些变化可能会带来什么影响\n\n  user avatar\n\n  歸藏(guizang.ai)\n\n  @op7418\n\n  Feb 25\n\n  Article cover image\n\n  Article\n\n  过了个年，AI 圈变天了？但没人告诉你为什么",
+      "summary": "最近看了很多文章。都在说我们已经迈过了奇点，Agent 时代来了。 海外一位做了六年 AI 创业的 Matt Shumer 写了篇长文叫《Something Big Is Happening》快一亿曝光。...\n\n  9:37 AM · Feb 25, 202656.2KViews [...] Log inSign up\n\n## Post\n\n# 歸藏(guizang.ai) on X: \"过年都在...",
+      "url": "https://x.com/op7418/status/2026592396486782986",
       "tags": [
         "AI",
         "2026",
@@ -673,22 +673,22 @@
       ],
       "category": "tutorial",
       "author": {
-        "username": "sairahul1",
-        "display_name": "@sairahul1",
-        "avatar": "https://ui-avatars.com/api/?name=sairahul1&background=random"
+        "username": "op7418",
+        "display_name": "@op7418",
+        "avatar": "https://ui-avatars.com/api/?name=op7418&background=random"
       },
       "metrics": {
-        "likes": 2116,
-        "retweets": 410,
-        "replies": 248
+        "likes": 3645,
+        "retweets": 924,
+        "replies": 331
       }
     },
     {
       "id": "2061887500541366489",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:21.668076",
-      "title": "Microsoft AI",
-      "content": "Microsoft\n\n  Seven new models launching at Build: let’s go! Reasoning. Code. Image. Transcribe. Voice. Built from scratch on a clean data lineage, designed for efficiency, working seamlessly as a family of models Thread 🧵 #MSBuild\n\n  Graphic titled ‘Microsoft AI: 7 New Models’ showing icons for Image, Transcribe, Thinking, Voice, and Code models in a grid\n\n  7:07 PM · Jun 2, 2026403.1KViews\n user avatar\n\n  Microsoft AI\n\n  Microsoft\n\n  @MicrosoftAI\n\n  Jun 2 [...] Log inSign up\n\n## Post\n\n# Microsoft AI on X: \"Seven new models launching at Build: let’s go! Reasoning. Code. Image. Transcribe. Voice. Built from scratch on a clean data lineage, designed for efficiency, working seamlessly as a family of models Thread 🧵 #MSBuild\"\n\n user avatar\n\n  Microsoft AI\n\n  Microsoft [...] Jun 2\n\n  MAI-Voice-2 + MAI-Voice-2-Flash. Our most expressive text-to-speech model yet: 🌍 15 languages with emotion control (excited, whispered, embarrassed and more) 🎭 Stable speaker identity across long-form content 🗣️ Code-switching for Hindi-English and Spanish-English ✅\n\n  \n\n  00:00\n\n  user avatar\n\n  Microsoft AI\n\n  Microsoft\n\n  @MicrosoftAI\n\n  Jun 2",
+      "published_at": "2026-08-22T09:22:38.186209",
+      "title": "Microsoft AI (@MicrosoftAI)",
+      "content": "Microsoft\n\n  Seven new models launching at Build: let’s go! Reasoning. Code. Image. Transcribe. Voice. Built from scratch on a clean data lineage, designed for efficiency, working seamlessly as a family of models Thread 🧵 #MSBuild\n\n  Graphic titled ‘Microsoft AI: 7 New Models’ showing icons for Image, Transcribe, Thinking, Voice, and Code models in a grid\n\n  7:07 PM · Jun 2, 2026403.2KViews\n user avatar\n\n  Microsoft AI\n\n  Microsoft\n\n  @MicrosoftAI\n\n  Jun 2 [...] Log inSign up\n\n## Post\n\n# Microsoft AI on X: \"Seven new models launching at Build: let’s go! Reasoning. Code. Image. Transcribe. Voice. Built from scratch on a clean data lineage, designed for efficiency, working seamlessly as a family of models Thread 🧵 #MSBuild\"\n\n user avatar\n\n  Microsoft AI\n\n  Microsoft [...] Jun 2\n\n  Introducing MAI-Thinking-1: our flagship reasoning model.\n\n  \n\n  00:00\n\n  user avatar\n\n  Microsoft AI\n\n  Microsoft\n\n  @MicrosoftAI\n\n  Jun 2\n\n  MAI-Thinking-1: A powerful reasoning model developed from scratch that is competitive with models of similar size on STEM reasoning and coding tasks. Our pre-training focused on a simple scaling emphasizing data-driven iterative improvements to our architecture and data. Our",
       "summary": "Microsoft\n\n  Seven new models launching at Build: let’s go! Reasoning. Code. Image. Transcribe. Voice. Built from scratch on a clean data lineage, designed for efficiency, working seamlessly as a fami...",
       "url": "https://x.com/MicrosoftAI/status/2061887500541366489",
       "tags": [
@@ -703,18 +703,18 @@
         "avatar": "https://ui-avatars.com/api/?name=MicrosoftAI&background=random"
       },
       "metrics": {
-        "likes": 1108,
-        "retweets": 656,
-        "replies": 494
+        "likes": 4966,
+        "retweets": 88,
+        "replies": 371
       }
     },
     {
       "id": "2007493400325492915",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:21.668069",
+      "published_at": "2026-08-22T09:22:38.186204",
       "title": "Inkfy",
-      "content": "Jan 3\n\n  10. When reposting, keep it to minimum. I learned from my experience to not spam on Twitter. If you do, you will be shadowbanned or considered a bot. Post your art 1-2 times a day or 3-4 times a week for reposts. Space them out a bit to avoid this problem.\n\n  user avatar\n\n  Inkfy\n\n  @inkfycreates\n\n  Jan 3 [...] Jan 3\n\n  9. Post consistently! You can look up what is the most common times zones that Twitter users are active in for your country and schedule your posts. If you can't post every day, but have a decent amount of work, schedule reposts at optimal times.\n\n  user avatar\n\n  Inkfy\n\n  @inkfycreates\n\n  Jan 3 [...] Jan 3\n\n  Lastly, the most important thing to note is that social media is fickle. Twitter has a persistent bot problem and reach has been nuked for most artists using the platform for years, frankly. Likes have never been the best measure of engagement. What matters is ACTIVITY.\n\n  user avatar\n\n  Inkfy\n\n  @inkfycreates\n\n  Jan 3",
-      "summary": "Jan 3\n\n  10. When reposting, keep it to minimum. I learned from my experience to not spam on Twitter. If you do, you will be shadowbanned or considered a bot. Post your art 1-2 times a day or 3-4 time...",
+      "content": "January 3, 2026 - Here's guide to navigating Twitter's 2026 algorithm as an artist:",
+      "summary": "January 3, 2026 - Here's guide to navigating Twitter's 2026 algorithm as an artist:...",
       "url": "https://x.com/inkfycreates/status/2007493400325492915?lang=en",
       "tags": [
         "AI",
@@ -728,19 +728,19 @@
         "avatar": "https://ui-avatars.com/api/?name=inkfycreates&background=random"
       },
       "metrics": {
-        "likes": 3126,
-        "retweets": 271,
-        "replies": 381
+        "likes": 1939,
+        "retweets": 896,
+        "replies": 468
       }
     },
     {
       "id": "tav_tutorial_3",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:21.668059",
-      "title": "How to build and scale a one-person business with AI: | Machina (@EXM7777)",
-      "content": "Log inSign up\n\n## Article\n\n# How to build and scale a one-person business with AI:\n\nCover image for How to build and scale a one-person business with AI:\n\nMachina\n\nMachina@EXM7777··Updated 2026-07-26\n\nI'm going to teach you the exact blueprint for running an AI-powered business entirely by yourself - Five lanes of your company producing on autopilot: content, projects, outreach, finance, ads, while you only make the decisions\n\nhere's what you're getting: [...] the playbooks: how a project runs, stage by stage, with the checklists\n\nthe rulings: every decision you've made that should never be re-argued\n\nthe rulings note is the one nobody builds and everyone needs... every time you correct an agent, the correction gets one line there, and every agent reads it before working\n\nthat is how a correction becomes permanent instead of repeated\n\nthe knowledge base is the training... the agents are interchangeable, the vault is the business [...] rule 3 - you review, on a schedule: two windows a day to clear the queue of drafts and approvals, because the lanes produce faster than you read\n\nrule 4 - cap the bill before it teaches you: every AI worker meters usage one way or another... so before the first brief, set a hard monthly spend cap, and quote-before-execute goes in every context message\n\nscaling: when to add the next lane",
-      "summary": "Log inSign up\n\n## Article\n\n# How to build and scale a one-person business with AI:\n\nCover image for How to build and scale a one-person business with AI:\n\nMachina\n\nMachina@EXM7777··Updated 2026-07-26\n...",
-      "url": "https://x.com/EXM7777/article/2081017272924361162",
+      "published_at": "2026-08-22T09:22:38.186196",
+      "title": "Mr. Buzzoni (@polydao)",
+      "content": "Aug 15\n\n  LOOPS VS GRAPHS: THE ONE DISTINCTION THAT GETS YOU PROMOTED IN 2026 ask ten engineers running Claude which one they're using. eight won't know. that's the gap > loop: you set the frame, the agent finds the path. best when nobody knows the route yet > graph: you draw the path,\n\n  \n\n  00:00\n\n  user avatar\n\n  Mr. Buzzoni\n\n  @polydao\n\n  Jul 31\n\n  Article cover image\n\n  Article\n\n  CLAUDE LOOP ENGINEERING: HOW TO BUILD AN AGENT THAT WORKS WHILE YOU SLEEP [...] @polydao\n\n  5h\n\n  ANDREW NG BROKE DOWN THE FOUR SKILLS THAT ACTUALLY GET YOU HIRED IN 2026 he pulled it from 10,000+ job postings, dozens of interviews with hiring managers, and real survey data - not opinion the four: building AI apps, software fundamentals, running coding agents, shaping the\n\n  \n\n  user avatar\n\n  Andrew Ng\n\n  @AndrewYNg\n\n  Aug 14\n\n  New: A map of the most important skills in AI Engineering.\n\n  Article cover image\n\n  Article\n\n  The AI Engineering Skills Map [...] I am delighted to present The AI Engineering Skills Map. AI allows us to build software very differently today than in 2022, and everyone with the skills to take advantage of this shift has numerous...\n user avatar\n\n  Mr. Buzzoni\n\n  @polydao\n\n  Aug 15",
+      "summary": "Aug 15\n\n  LOOPS VS GRAPHS: THE ONE DISTINCTION THAT GETS YOU PROMOTED IN 2026 ask ten engineers running Claude which one they're using. eight won't know. that's the gap > loop: you set the frame, the ...",
+      "url": "https://x.com/polydao?lang=en",
       "tags": [
         "AI",
         "2026",
@@ -748,20 +748,20 @@
       ],
       "category": "tutorial",
       "author": {
-        "username": "EXM7777",
-        "display_name": "@EXM7777",
-        "avatar": "https://ui-avatars.com/api/?name=EXM7777&background=random"
+        "username": "polydao?lang=en",
+        "display_name": "@polydao?lang=en",
+        "avatar": "https://ui-avatars.com/api/?name=polydao?lang=en&background=random"
       },
       "metrics": {
-        "likes": 3882,
-        "retweets": 452,
-        "replies": 282
+        "likes": 2460,
+        "retweets": 242,
+        "replies": 54
       }
     },
     {
       "id": "2027806043980419576",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:21.668052",
+      "published_at": "2026-08-22T09:22:38.186187",
       "title": "Khan 🧢 🌟",
       "content": "Last week I was in Nairobi preparing for a talk. I had the ideas, the research, and a rough outline in my head. What I did not have was time. So I opened Claude Cowork, described the presentation I...\n\n  6:00 PM · Feb 28, 20264.7KViews [...] Log inSign up\n\n## Post\n\n# Khan 🧢 🌟 on X: \"Read this guide now. By the time AI is everywhere, you will already understand how to use it!\"\n\n user avatar\n\n  Khan 🧢 🌟\n\n  @Khanstilldayy\n\n  Read this guide now. By the time AI is everywhere, you will already understand how to use it!\n\n  user avatar\n\n  Iseunife The First\n\n  @Shawnife\n\n  Feb 28\n\n  Article cover image\n\n  Article\n\n  The Beginner's Step-by-Step Guide to Claude Cowork: Everything You Need to Know to Get Started",
       "summary": "Last week I was in Nairobi preparing for a talk. I had the ideas, the research, and a rough outline in my head. What I did not have was time. So I opened Claude Cowork, described the presentation I......",
@@ -778,41 +778,16 @@
         "avatar": "https://ui-avatars.com/api/?name=Khanstillday&background=random"
       },
       "metrics": {
-        "likes": 1884,
-        "retweets": 852,
-        "replies": 225
-      }
-    },
-    {
-      "id": "2046990550273065277",
-      "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:21.668043",
-      "title": "Rohit",
-      "content": "AI stopped being a thing you talk to. It became a thing you build around.\n\n  Once you see it that way, the rest of 2026 makes sense in a way it did not a year ago.\n\n  The year prompts stopped mattering\n\n  Two years ago the winning skill in AI was prompt engineering. You learned the right phrasing, the right persona, the right chain of thought, and you got better outputs than the person next to you. That skill had a half-life of maybe eighteen months. [...] This is why every serious AI team in 2026 is obsessing over the same set of problems. Context management. State persistence. Tool reliability. Error recovery. Permission systems. Observability. None of these sit inside the model. All of them sit in the layer around it. [...] A month from now you will be looking at the person still typing prompts into a chat window and wondering how you ever did it that way.\n\n  That is what 2026 is. Not a better model year. Not a benchmark year. A year where the people who stopped talking to AI and started building around it ran away with the next decade of leverage.\n\n  The rest of this year is about whether you join them now or catch up later.\n\n  4:32 PM · Apr 22, 20261.3MViews\n user avatar\n\n  Rohit\n\n  @rohit4verse\n\n  Apr 22",
-      "summary": "AI stopped being a thing you talk to. It became a thing you build around.\n\n  Once you see it that way, the rest of 2026 makes sense in a way it did not a year ago.\n\n  The year prompts stopped matterin...",
-      "url": "https://x.com/rohit4verse/status/2046990550273065277?lang=en",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "tutorial",
-      "author": {
-        "username": "rohit4verse",
-        "display_name": "@rohit4verse",
-        "avatar": "https://ui-avatars.com/api/?name=rohit4verse&background=random"
-      },
-      "metrics": {
-        "likes": 185,
-        "retweets": 951,
-        "replies": 199
+        "likes": 3552,
+        "retweets": 514,
+        "replies": 380
       }
     },
     {
       "id": "2033351611792375950",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:21.668014",
-      "title": "Yanhua",
+      "published_at": "2026-08-22T09:22:38.186178",
+      "title": "2026年看到最硬核的AI产品出海完整实操指南",
       "content": "Berryxia.AI\n\n  @berryxia\n\n  Mar 16\n\n  你出的咋样了哈哈\n user avatar\n\n  jaime\n\n  @jaimesolis\n\n  Mar 16\n\n  出海指南听起来不错，但问题是执行率。我见过太多团队有完美的playbook，结果死在本地化和支付这两关。你的指南里具体怎么处理合规和渠道差异的？ [...] Log inSign up\n\n## Post\n\n# Yanhua on X: \"2026年看到最硬核的AI产品出海完整实操指南，推荐给探索出海的朋友们。\"\n\n user avatar\n\n  Yanhua\n\n  @yanhua1010\n\n  2026年看到最硬核的AI产品出海完整实操指南，推荐给探索出海的朋友们。\n\n  user avatar\n\n  小耳朵sir\n\n  @watreejane\n\n  Mar 15\n\n  Article cover image\n\n  Article\n\n  摸索一年，走上出海web道路月入 4w 刀，万字记录历程，分享实操\n\n  大家好，我是小耳朵。最近一年多，做了不少项目，绕了一大圈，因为 AI 的出现，又回到互联网开始了AI web出海，最终也拿到了不错的正反馈。...\n\n  1:16 AM · Mar 16, 20267.3KViews\n user avatar\n\n  Mr Richard@AI+Crypto\n\n  @lala\\_oldtang\n\n  Mar 16\n\n  差点看成币圈那个女KOL小耳朵😂\n user avatar",
       "summary": "Berryxia.AI\n\n  @berryxia\n\n  Mar 16\n\n  你出的咋样了哈哈\n user avatar\n\n  jaime\n\n  @jaimesolis\n\n  Mar 16\n\n  出海指南听起来不错，但问题是执行率。我见过太多团队有完美的playbook，结果死在本地化和支付这两关。你的指南里具体怎么处理合规和渠道差异的？ [...] Log inSign up\n\n## Post\n\n...",
       "url": "https://x.com/yanhua1010/status/2033351611792375950",
@@ -828,19 +803,44 @@
         "avatar": "https://ui-avatars.com/api/?name=yanhua1010&background=random"
       },
       "metrics": {
-        "likes": 2653,
-        "retweets": 512,
-        "replies": 273
+        "likes": 4279,
+        "retweets": 881,
+        "replies": 415
+      }
+    },
+    {
+      "id": "2071183310210883777",
+      "source": "Twitter/X",
+      "published_at": "2026-08-22T09:22:38.186147",
+      "title": "Rohit Ghumare",
+      "content": "June 28, 2026 - Learn AI step-by-step complete Roadmap for 2026: 503 practical lessons 20 structured phases 35k+ GitHub stars MIT licensed curriculum - Build raw tokenizers - Learn dense embeddings - Implement positional encodings - Wire causal attention - Build multihead attention - Stack transformer blocks - Train mini transformers - Compare training objectives - Build decoding samplers - Add speculative decoding - Implement KV caching - Explore grouped queries - Extend context windows - Study flash attention - Estimate hardware budgets - Build sparse experts - Measure routing tradeoffs - Explore linear att",
+      "summary": "June 28, 2026 - Learn AI step-by-step complete Roadmap for 2026: 503 practical lessons 20 structured phases 35k+ GitHub stars MIT licensed curriculum - Build raw tokenizers - Learn dense embeddings - ...",
+      "url": "https://x.com/ghumare64/status/2071183310210883777",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tutorial",
+      "author": {
+        "username": "ghumare64",
+        "display_name": "@ghumare64",
+        "avatar": "https://ui-avatars.com/api/?name=ghumare64&background=random"
+      },
+      "metrics": {
+        "likes": 4806,
+        "retweets": 175,
+        "replies": 70
       }
     },
     {
       "id": "tav_open_source_7",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:18.393600",
-      "title": "Highlights by Zhiding Yu (@ZhidingYu)",
-      "content": "·\n\nMay 28\n\nThis #CVPR2026 paper from our research team is trending #1 on @HuggingFaceImage 7: 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to\n\nVideo 1\n\nImage 8\n\n4\n\n35\n\n5.2K\n\nImage 9\n\nZhiding Yu\n\n@ZhidingYu\n\n·\n\nApr 22, 2025 [...] Terms\n\n·\n\nPrivacy\n\n·\n\nCookies\n\n·\n\nAccessibility\n\n·\n\nAds Info\n\n·\n\nMore\n\n© 2026 X Corp.",
-      "summary": "·\n\nMay 28\n\nThis #CVPR2026 paper from our research team is trending #1 on @HuggingFaceImage 7: 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI age...",
-      "url": "https://x.com/ZhidingYu/highlights",
+      "published_at": "2026-08-22T09:22:34.787432",
+      "title": "Tony Deng (@wolfdeng)",
+      "content": "Zvec这个项目有Proxima 底子（淘宝搜索/支付宝人脸/阿里妈妈跑了4 年）加上原生 FTS + MultiQuery 混合检索特性。适合本地 RAG / 个人知识库、桌面应用 / CLI 工具 / IDE 插件、AI Agent 的短期/中期记忆、边缘设备 / IoT / 移动端、Serverless / 函数计算场景。\n user avatar\n\n  Tony Deng\n\n  @wolfdeng\n\n  May 16\n\n  GitHub - tt-a1i/archify: Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export · GitHub [...] Oct 25, 2025\n\n  现在已经分不清人还是AI的创作了\n\n  user avatar\n\n  Captainstar（100％互fo）\n\n  @StarYou397691\n\n  Oct 24, 2025\n\n  【国风画作】 敦煌飞天神女\n\n  \n user avatar\n\n  Tony Deng\n\n  @wolfdeng\n\n  Jan 19, 2023\n\n  PR github.com/shieldfy/API-S…\n\n  user avatar\n\n  JS0N Haddix\n\n  Jan 18, 2023 [...] GitHub - tt-a1i/archify: Agent skill for beautiful, verifiable architecture, workflow, sequence,...From github.com\n user avatar\n\n  Tony Deng\n\n  @wolfdeng\n\n  Oct 25, 2025\n\n  可以作为AI提示词的输入\n\n  user avatar\n\n  李继刚\n\n  @lijigang\n\n  Oct 24, 2025\n\n  按朱邦复老师的理念，拆解「概念」系统： ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;; Meta info ;; ;; - author: 李继刚 ;; - name: 概念本体论 ;; - usage: 运用系统方法论与道家哲思，对任一「概念」进行统一框架下的本体剖析与动态推演。 ;; - version: 2.3 ;; - date: 2025-10-22\n user avatar\n\n  Tony Deng\n\n  @wolfdeng\n\n  Oct 25, 2025",
+      "summary": "Zvec这个项目有Proxima 底子（淘宝搜索/支付宝人脸/阿里妈妈跑了4 年）加上原生 FTS + MultiQuery 混合检索特性。适合本地 RAG / 个人知识库、桌面应用 / CLI 工具 / IDE 插件、AI Agent 的短期/中期记忆、边缘设备 / IoT / 移动端、Serverless / 函数计算场景。\n user avatar\n\n  Tony Deng\n\n  @wolf...",
+      "url": "https://x.com/wolfdeng",
       "tags": [
         "AI",
         "2026",
@@ -848,20 +848,45 @@
       ],
       "category": "open_source",
       "author": {
-        "username": "ZhidingYu",
-        "display_name": "@ZhidingYu",
-        "avatar": "https://ui-avatars.com/api/?name=ZhidingYu&background=random"
+        "username": "wolfdeng",
+        "display_name": "@wolfdeng",
+        "avatar": "https://ui-avatars.com/api/?name=wolfdeng&background=random"
       },
       "metrics": {
-        "likes": 3894,
-        "retweets": 411,
-        "replies": 193
+        "likes": 3334,
+        "retweets": 720,
+        "replies": 336
       }
     },
     {
       "id": "tav_open_source_6",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:18.393591",
+      "published_at": "2026-08-22T09:22:34.787421",
+      "title": "Computer Vision News (@CVCND)",
+      "content": "@CVCND\n\n  Aug 18\n\n  Papers with Code #CVPR2026: Browse accepted papers from CVPR 2026 in Denver, grouped by research area and task, with code, project links, evals and Hugging Face artifacts where available. #ComputerVision\n\n  \n\n  Papers with CodeFrom paperswithcode.co\n user avatar\n\n  Computer Vision News\n\n  @CVCND\n\n  Aug 18 [...] @CVCND\n\n  Aug 16\n\n  This month's clearest AI trend: vision-language-action models are leaving the browser tab behind and getting wired into real warehouse hardware at scale — an \"Embodied AI\" boom turning perception into physical action. #ComputerVision #EmbodiedAI\n\n  \n\n  AI Updates August 2026: 15 Explosive Stories to KnowFrom imfounder.com [...] @CVCND\n\n  Aug 18\n\n  Best AI Models in August 2026: Updated Rankings and Comparisons - Best AI Models in 2026 Rankings, comparisons, and deep dives, updated monthly as new models ship. Claude Opus 5 still sits on top, but ...\n\n  felloai.com\n\n  Best AI Models in August 2026: Updated Rankings and Comparisons\n\n  The best AI models ranked by use case. Updated August 2026 with benchmarks and pricing.\n user avatar\n\n  Computer Vision News\n\n  @CVCND\n\n  Aug 17",
+      "summary": "@CVCND\n\n  Aug 18\n\n  Papers with Code #CVPR2026: Browse accepted papers from CVPR 2026 in Denver, grouped by research area and task, with code, project links, evals and Hugging Face artifacts where ava...",
+      "url": "https://x.com/CVCND",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "open_source",
+      "author": {
+        "username": "CVCND",
+        "display_name": "@CVCND",
+        "avatar": "https://ui-avatars.com/api/?name=CVCND&background=random"
+      },
+      "metrics": {
+        "likes": 635,
+        "retweets": 823,
+        "replies": 336
+      }
+    },
+    {
+      "id": "tav_open_source_5",
+      "source": "Twitter/X",
+      "published_at": "2026-08-22T09:22:34.787416",
       "title": "开源视频翻译配音项目KrillinAI发布 2.0 版本，除了人类可以使用，AI Agent现在也可以使用了 | KrillinAI 小林 (@KrillinAI)",
       "content": "Log inSign up\n\n## Article\n\n# 开源视频翻译配音项目KrillinAI发布 2.0 版本，除了人类可以使用，AI Agent现在也可以使用了\n\nCover image for 开源视频翻译配音项目KrillinAI发布 2.0 版本，除了人类可以使用，AI Agent现在也可以使用了\n\nKrillinAI 小林\n\nKrillinAI 小林@KrillinAI··Updated 2026-05-31\n\n今天KrillinAI发布 2.0 版本，除了人类可以使用，AI Agent现在也可以使用了。\n\n项目地址：\n\n这次更新是一次架构层面的升级——我们在保留原有\"一键视频翻译配音\"能力的同时，系统性地引入了对 AI Agent 的原生支持，让 KrillinAI 从一个人类使用的工具，进化为可以被人类和AI Agent共同驱动的生产力平台。\n\n万星成就达成\n\n当时因为自己翻译视频的时候，没有找到好用的视频翻译工具，于是做了这个开源项目KrillinAI。没想到去年4月意外爆火，然后又用了1年时间，达成万星成就，感觉不可思议。\n\n为什么要做这次升级？ [...] 2. Skills 集合\n\n视频下载，视频转录，视频翻译，字幕下载，封面生成，TTS配音，竖屏转换等能力，均已Skill化，支持独立调用，也支持按需编排。这样一来，使得原来单一功能的工作流，变成了拥有多项能力的工具集合。\n\n配置帮助\n\n按照我们一贯的风格，详细的配置文档已经更新到Repo。\n\n配置文件分为几个部分：[app]、[server]、[llm]、[transcribe] 和 [tts]。一个任务由语音识别（transcribe）+ 大模型翻译（llm）+ 可选的语音服务（tts）组成。理解这一点将帮助您更好地掌握配置文件。\n\n最简单和最快的配置：\n\n仅用于字幕翻译：\n\n在 [transcribe] 部分，将 provider.name 设置为 openai。\n\n然后，您只需在 [llm] 块中填写您的 OpenAI API 密钥即可开始进行字幕翻译。app.proxy、model 和 openai.base\\_url 可根据需要填写。\n\n平衡成本、速度和质量（使用本地语音识别）： [...] 为什么要做这次升级？\n\n上次更新已经是去年8月了，其实本来没有计划再去动这个项目。因为1.x 版本已经能够覆盖字幕翻译、TTS 配音、竖屏转换等完整链路，用户通过桌面客户端或 Web UI 就能完成端到端的内容本地化，如今已经有很多用户在常态化使用。\n\n但是，想想如今自己的工作流程已经大比例Agent化了，界面化的产品越用越少。未来的产品形态，从面向人类，升级为面向AI Agent，是必然趋势。看到每天还有用户在持续下载和使用我们的开源项目，于是就决定把它改造一下。\n\n原有的 GUI/Web 交互方式天然不适合自动化编排。于是 2.0 的核心目标变得清晰：在不破坏原有使用方式的前提下，把每一项核心能力暴露为可被 Agent 稳定调用的接口。\n\n2.0版本核心更新\n\n1. 阶段化 CLI\n\nKrillinAI 现在提供阶段化 CLI，适合脚本、自动化流水线和 AI Agent 调用。CLI 默认同步执行，完成后在 stdout 输出一行 JSON，并在工作目录写入 krillinai\\_manifest.json，方便后续阶段复用已有产物。\n\n2. Skills 集合",
       "summary": "Log inSign up\n\n## Article\n\n# 开源视频翻译配音项目KrillinAI发布 2.0 版本，除了人类可以使用，AI Agent现在也可以使用了\n\nCover image for 开源视频翻译配音项目KrillinAI发布 2.0 版本，除了人类可以使用，AI Agent现在也可以使用了\n\nKrillinAI 小林\n\nKrillinAI 小林@KrillinAI··Updat...",
@@ -878,40 +903,15 @@
         "avatar": "https://ui-avatars.com/api/?name=KrillinAI&background=random"
       },
       "metrics": {
-        "likes": 3231,
-        "retweets": 814,
-        "replies": 293
-      }
-    },
-    {
-      "id": "2044309893885346249",
-      "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:18.393585",
-      "title": "币世王 🦅",
-      "content": "自进化 AI Agent推荐 Hermes之后，这些会自己长大的 Agent 最值得冲！ 兄弟们，Hermes Agent 火爆全网后、大家都在问除了 Nous Research 这个越用越聪明的数字分身，还有没有类似的自进化 AI Agent？ 答案是：有，而且2026年已经爆发了一波自我进化浪潮。 这些项目核心都抓住了 Hermes 的灵魂：闭环学习、自主提炼技能、持久记忆、自我优化，不再是一次性的临时工，而是真正会成长的长期伙伴。我全网刷了GitHub、arXiv、Reddit、知乎、B 站，挑出最接近 Hermes 的 5 个开源/框架项目，按相似度+实用性排序。每个都附 GitHub、核心杀招、上手难度和与Hermes的对比，帮你快速选型： 🟢 1. EvoAgentX（最推荐！最像Hermes的“进化生态”） • GitHub：github.com/EvoAgentX/EvoA… • 核心杀招：完整自进化框架，支持构建→评估→进化闭环。用检索增强、变异、引导搜索等策略自动优化Agent工作流和技能。内置Self-Evolution [...] + github.com/EvoAgentX/Awes…（最全） • 核心杀招：不是单个框架，而是自进化Agent全景调研，包含记忆进化、反射能力、终身学习等。Awesome列表收录了2025-2026所有顶尖论文、基准和开源项目，一站式了解生态。 • 与Hermes对比：Hermes是实战型，这个系列是“理论+工具箱”。想深入自进化机制的，必看！ • 上手难度：低（调研向）→中（跟着代码玩）。  Hermes 是单兵，这个是自进化全家桶+路线图。 [...] GitHub - EvoAgentX/EvoAgentX: 🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI AgentsFrom github.com\n\n  7:00 AM · Apr 15, 202611.8KViews\n user avatar\n\n  0xZeno\n\n  @0x10Me\n\n  Apr 15\n\n  这几个自进化 Agent 项目看起来都很有潜力的样子\n user avatar\n\n  迪士尼在逃MiKi💋\n\n  @babemiki209\n\n  Apr 15\n\n  学到了\n user avatar\n\n  1PageDaily\\_kr\n\n  @ikhpark\n\n  Apr 16\n\n  맞다! Hermes agent is awesome!!",
-      "summary": "自进化 AI Agent推荐 Hermes之后，这些会自己长大的 Agent 最值得冲！ 兄弟们，Hermes Agent 火爆全网后、大家都在问除了 Nous Research 这个越用越聪明的数字分身，还有没有类似的自进化 AI Agent？ 答案是：有，而且2026年已经爆发了一波自我进化浪潮。 这些项目核心都抓住了 Hermes 的灵魂：闭环学习、自主提炼技能、持久记忆、自我优化，不再是一...",
-      "url": "https://x.com/0xKingsKuan/status/2044309893885346249",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "open_source",
-      "author": {
-        "username": "0xKingsKuan",
-        "display_name": "@0xKingsKuan",
-        "avatar": "https://ui-avatars.com/api/?name=0xKingsKuan&background=random"
-      },
-      "metrics": {
-        "likes": 3977,
-        "retweets": 823,
-        "replies": 196
+        "likes": 3362,
+        "retweets": 614,
+        "replies": 56
       }
     },
     {
       "id": "tav_open_source_4",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:18.393577",
+      "published_at": "2026-08-22T09:22:34.787411",
       "title": "2026年最香AI工具曝光：Claude Skill免费白嫖，小白友好，开箱即用，绝了！ | 向阳乔木 (@vista8)",
       "content": "\"Sisyphus（西西弗斯）\"是它的主控Agent，通常由高智商模型扮演（如 Opus 4.5 High）。\n\n然后指挥它的子Agent干活，比如：\n\nOracle：架构师、调试大神（GPT 5.2 Medium）\n\nFrontend UI/UX Engineer：前端与设计专家（Gemini 3 Pro）\n\nLibrarian：翻阅文档、查开源实现、代码库探险（Claude Sonnet 4.5）\n\nExplore：极速代码库扫描（Grok Code）\n\n其次，它内置了常用的MCP，比如：\n\nExa（联网搜索）\n\nContext7（官方文档查询）\n\nGrep.app（GitHub 代码海搜）\n\n最后，也是最重要的，它实现了跟Claude Code的兼容。\n\n同样支持Command、Agent、Skill、MCP、Hook等技术方案。\n\n这样才能让我们在OpenCode中轻松玩Skill。\n\n还有很多超酷的东西和效果，太牛逼了！\n\n安装使用Skill\n\n安装Skill非常简单。\n\n比如Obsidian CEO写的Skills最近超级火。\n\n只需要打开Opencode，输入： [...] 你如果订阅了GPT、Gemini可以输入/connect\n\n选中OpenAI或Google，打开浏览器登录账号授权后就能用Codex和Gemini模型。\n\n他们一共提供75+模型供应商。\n\n不乏一些知名海外模型和中转API，比如Mistral、OpenRouter、Groq等。\n\n甚至还能添加本地Ollama安装的模型，相当的全面。\n\n后续用GLM 4.7演示，除了免费，还有两个原因：\n\n1. 代码生成能力不错\n\nSWE-Bench，解决开源Python项目中的真实GitHub问题，GLM 成绩是 73.8%，绝对第一梯队水平。\n\nHumanEval，Python编程问题 GLM-4.7 得分94.2%，依然优秀。\n\n2. 工具调用和指令遵循能力\n\nIFEval 主要测指令遵循能力，成绩 88% 。\n\nGSM8k 考察多步推理能力，成绩 98%。\n\n感觉GLM-4.7对AI编程场景做了很多强化，极大提升了Agentic Coding能力。\n\n尤其是代码生成、指令遵循能力，这对创建和调用Skill非常重要。\n\n另外，经常有朋友夸 GLM-4.7 前端审美好，算锦上添花。 [...] OpenCode 直接免费提供这个模型，敞开了用就是。\n\n安装最强Agent框架Oh-My-Opencode\n\nOpenCode不仅开源，提供免费模型，授权登录用付费模型。\n\n好口碑的另一面来源于活跃的开发者生态。\n\n备受推崇的就是Oh-My-Opencode（后面简称OMO）\n\n装上这个，OpenCode编程体验直接起飞。\n\n据说是作者烧了2.4万美元Token 换来的AI Agent编程框架。\n\n如何安装？\n\n你只需跟OpenCode说：“帮我安装 oh-my-opencode 插件”\n\nGLM 4.7 会思考推理，调用搜索工具等，找到安装指令。\n\nOMO是一个Agent框架，为了更好整合、编排模型。\n\n它会询问你是否有Claude、ChatGPT或Gemini订阅，为了后续集成。\n\n你可以回答有哪些，如果都没有也能继续安装。\n\n很快就能安装成功。\n\n后续也能添加订阅，输入opencode auth login即可。\n\n为啥一定要安装OMO插件呢？\n\n首先，它内置了符合AI编程实践的常用Agent。",
       "summary": "\"Sisyphus（西西弗斯）\"是它的主控Agent，通常由高智商模型扮演（如 Opus 4.5 High）。\n\n然后指挥它的子Agent干活，比如：\n\nOracle：架构师、调试大神（GPT 5.2 Medium）\n\nFrontend UI/UX Engineer：前端与设计专家（Gemini 3 Pro）\n\nLibrarian：翻阅文档、查开源实现、代码库探险（Claude Sonnet 4....",
@@ -928,15 +928,15 @@
         "avatar": "https://ui-avatars.com/api/?name=vista8&background=random"
       },
       "metrics": {
-        "likes": 2443,
-        "retweets": 457,
-        "replies": 127
+        "likes": 2875,
+        "retweets": 136,
+        "replies": 55
       }
     },
     {
       "id": "tav_open_source_3",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:18.393557",
+      "published_at": "2026-08-22T09:22:34.787403",
       "title": "AI Agent、自动化开发越来越火，哪些热门GitHub 项目值得了解？ | AdsPower指纹浏览器 (@adspowercn)",
       "content": "Log inSign up\n\n## Article\n\n# AI Agent、自动化开发越来越火，哪些热门GitHub 项目值得了解？\n\nCover image for AI Agent、自动化开发越来越火，哪些热门GitHub 项目值得了解？\n\nAdsPower指纹浏览器\n\nAdsPower指纹浏览器@adspowercn··Updated 2026-06-30\n\nAI Agent、浏览器自动化、工作流编排……2026 年，越来越多开发者开始围绕这些方向构建自己的工具链。打开 GitHub 不难发现，一批围绕 AI Agent、Browser Automation、LLM、网页数据处理等领域的开源项目持续保持高热度，Star 数不断增长，也逐渐成为开发者日常工作中的“常驻工具”。如果你也在做自动化开发、跨境运营、AI Agent 或浏览器相关项目，不妨看看下面这几个值得关注的仓库。\n\n8 个值得了解的 GitHub 项目\n\n1、AdsPower/localAPI\n\n🔗 [...] 5、 Ollama\n\n🔗 \n\n目前很受受欢迎的本地大模型运行框架之一，可快速部署 DeepSeek、Qwen、Llama、Gemma 等模型。如果你的自动化项目需要本地运行大模型，Ollama 是非常成熟的选择；而浏览器环境的稳定性依然可以交给 AdsPower 。\n\n6、 n8n\n\n🔗 \n\n知名开源自动化工作流平台，可以把 OpenAI、Slack、Telegram、Gmail、Webhook 等服务连接起来，快速搭建自动化流程。\n\n非常适合把 AdsPower 自动化任务串联到整个业务流程，实现浏览器操作、AI 分析、消息通知等自动执行。\n\n7、 Crawl4AI\n\n🔗 \n\n专为 AI 应用设计的网页采集工具，可以将网页转换为 Markdown、JSON 等更适合大模型处理的数据格式，在 RAG 和知识库场景中十分流行。\n\nCrawl4AI 负责网页内容处理，AdsPower 负责浏览器环境，两者结合能够构建更加稳定的网页采集方案。\n\n8、LiteLLM\n\n🔗 [...] 🔗 \n\n这是 AdsPower 官方提供的 Python 版 MCP Server，方便 Python 开发者快速将 AdsPower Local API 集成到自己的 AI Agent 或自动化项目中。\n\n相比通用版本，它更适合 Python 技术栈，能够与 LangGraph、AutoGen、CrewAI 等常见 AI Agent 框架结合使用。如果你的项目主要基于 Python 开发，希望快速构建能够调用浏览器的 AI Agent，这个仓库可以作为一个非常好的起点。\n\n4、CC Switch\n\n🔗 \n\nCC Switch 是近期 AI Coding 圈讨论度非常高的开源项目，可以统一管理 Claude Code、Codex CLI、Gemini CLI 等 AI 开发工具，并支持模型切换、MCP 管理、Skills 配置等功能。\n\n如果你经常在不同 AI Coding 工具之间切换，CC Switch 可以帮助统一管理开发环境。当需要调用 AdsPower 的 MCP Server 时，它也可以作为统一入口，与 AdsPower 官方仓库形成互补，而不是替代关系。",
       "summary": "Log inSign up\n\n## Article\n\n# AI Agent、自动化开发越来越火，哪些热门GitHub 项目值得了解？\n\nCover image for AI Agent、自动化开发越来越火，哪些热门GitHub 项目值得了解？\n\nAdsPower指纹浏览器\n\nAdsPower指纹浏览器@adspowercn··Updated 2026-06-30\n\nAI Agent、浏览器自动化、...",
@@ -953,18 +953,18 @@
         "avatar": "https://ui-avatars.com/api/?name=adspowercn&background=random"
       },
       "metrics": {
-        "likes": 2584,
-        "retweets": 401,
-        "replies": 251
+        "likes": 4334,
+        "retweets": 643,
+        "replies": 207
       }
     },
     {
       "id": "2042504026542260458",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:18.393544",
+      "published_at": "2026-08-22T09:22:34.787390",
       "title": "Zainan Victor Zhou",
-      "content": "7:24 AM · Apr 10, 202611.4KViews\n user avatar\n\n  Zainan Victor Zhou\n\n  @ZainanZhou\n\n  Apr 10\n\n  github.com\n\n  GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent Brain\n\n  Garry's Opinionated OpenClaw/Hermes Agent Brain. Contribute to garrytan/gbrain development by creating an account on GitHub.\n user avatar\n\n  AiMote\n\n  @AiMote2030\n\n  May 5 [...] 这是他真实在用的系统。 设计哲学很有意思： 每一个知识页面的结构都一样： •顶部：当前最佳认知（随时可改写，是你对这件事的「编译后真相」） •底部：只增不删的时间线（所有证据原始记录，永远不修改） 这个设计解决了知识管理最大的矛盾：你既需要一个「当前结论」随时可查，又需要保留「认知演变过程」不被覆盖。 最酷的部分：AI 在你睡觉时工作。 他叫这个机制「Dream Cycle」——每天晚上，agent 自动扫描当天所有对话，补全缺失的实体，修复断掉的引用，整合新的记忆。 他说：「我醒来的时候，大脑比我睡着时更聪明了。」 这不是比喻。这是一个真实运行的 cron job。 它能做什么？ 举几个他 README 里写的例子： “Who should I invite to dinner who knows both Pedro and Diana?” —— 跨 3000+ 人关系图谱做交叉检索 “What have I said about the relationship between shame and founder performance?” —— [...] YC CEO Garry Tan 刚开源了他的「第二大脑」系统 GBrain，我看完觉得这是今年最值得关注的个人知识管理项目之一。 先说背景。 Garry Tan 上个月刚开源了 gstack——他的 Claude Code 工作流，两天内就突破了一万颗星，成为 2026 年 GitHub 上增长最快的开发者工具之一。 那个项目是关于「怎么用 AI 写代码」的。而 GBrain 解决的是另一个问题：怎么用 AI 管理你脑子里的知识。 他建了什么？ 不是什么花哨的 SaaS 产品。就是一个 markdown 文件的 git repo，加上一层 AI agent + Postgres 的检索层。 但规模震撼： •10,000+ markdown 文件，全部可检索 •3,000+ 人的人物档案，记录关系史和互动记录 •13 年日历数据，21,000+ 个日程条目 •5,800+ 条 Apple Notes，追溯到 2009 年 •280+ 场会议记录，附带 AI 分析 •300+ 个原创想法，按论点分类整理 •500+ 个媒体页面（视频转录、书、文章） 这是他真实在用的系统。",
-      "summary": "7:24 AM · Apr 10, 202611.4KViews\n user avatar\n\n  Zainan Victor Zhou\n\n  @ZainanZhou\n\n  Apr 10\n\n  github.com\n\n  GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent Brain\n\n  Garry's Opini...",
+      "content": "7:24 AM · Apr 10, 202611.4KViews\n user avatar\n\n  Zainan Victor Zhou\n\n  @ZainanZhou\n\n  Apr 10\n\n  \n\n  GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent BrainFrom github.com\n user avatar\n\n  AiMote\n\n  @AiMote2030\n\n  May 5 [...] 这是他真实在用的系统。 设计哲学很有意思： 每一个知识页面的结构都一样： •顶部：当前最佳认知（随时可改写，是你对这件事的「编译后真相」） •底部：只增不删的时间线（所有证据原始记录，永远不修改） 这个设计解决了知识管理最大的矛盾：你既需要一个「当前结论」随时可查，又需要保留「认知演变过程」不被覆盖。 最酷的部分：AI 在你睡觉时工作。 他叫这个机制「Dream Cycle」——每天晚上，agent 自动扫描当天所有对话，补全缺失的实体，修复断掉的引用，整合新的记忆。 他说：「我醒来的时候，大脑比我睡着时更聪明了。」 这不是比喻。这是一个真实运行的 cron job。 它能做什么？ 举几个他 README 里写的例子： “Who should I invite to dinner who knows both Pedro and Diana?” —— 跨 3000+ 人关系图谱做交叉检索 “What have I said about the relationship between shame and founder performance?” —— [...] YC CEO Garry Tan 刚开源了他的「第二大脑」系统 GBrain，我看完觉得这是今年最值得关注的个人知识管理项目之一。 先说背景。 Garry Tan 上个月刚开源了 gstack——他的 Claude Code 工作流，两天内就突破了一万颗星，成为 2026 年 GitHub 上增长最快的开发者工具之一。 那个项目是关于「怎么用 AI 写代码」的。而 GBrain 解决的是另一个问题：怎么用 AI 管理你脑子里的知识。 他建了什么？ 不是什么花哨的 SaaS 产品。就是一个 markdown 文件的 git repo，加上一层 AI agent + Postgres 的检索层。 但规模震撼： •10,000+ markdown 文件，全部可检索 •3,000+ 人的人物档案，记录关系史和互动记录 •13 年日历数据，21,000+ 个日程条目 •5,800+ 条 Apple Notes，追溯到 2009 年 •280+ 场会议记录，附带 AI 分析 •300+ 个原创想法，按论点分类整理 •500+ 个媒体页面（视频转录、书、文章） 这是他真实在用的系统。",
+      "summary": "7:24 AM · Apr 10, 202611.4KViews\n user avatar\n\n  Zainan Victor Zhou\n\n  @ZainanZhou\n\n  Apr 10\n\n  \n\n  GitHub - garrytan/gbrain: Garry's Opinionated OpenClaw/Hermes Agent BrainFrom github.com\n user avata...",
       "url": "https://x.com/ZainanZhou/status/2042504026542260458",
       "tags": [
         "AI",
@@ -978,15 +978,15 @@
         "avatar": "https://ui-avatars.com/api/?name=ZainanZhou&background=random"
       },
       "metrics": {
-        "likes": 1142,
-        "retweets": 491,
-        "replies": 195
+        "likes": 3594,
+        "retweets": 990,
+        "replies": 483
       }
     },
     {
       "id": "tav_open_source_1",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:18.393534",
+      "published_at": "2026-08-22T09:22:34.787381",
       "title": "vincent",
       "content": "Log inSign up\n\n## Post\n\n user avatar\n\n  Article cover image\n\n  # 2026 最热个人开源 AI Agent：OpenClaw + Ollama 本地无敌组合完整搭建与使用指南\n\n  2026 年，AI 已经彻底从“聊天框”进化成了“数字分身”。你不再需要打开十几个 App 去处理琐事——清邮箱、发邮件、管理日历、查航班、监控 GitHub、自动化日常工作……一个真正能“干活”的 Agent，就能直接在你常用的聊天软件里帮你完成。\n\n  今天要详细分享的就是目前 GitHub Stars 已突破 10 万⭐、被无数开发者誉为“2026 最热个人 Agent”的开源项目 —— \\\\OpenClaw\\\\（前身 Clawdbot / Moltbot）。\n\n  项目地址：\n\n  - 直接在 WhatsApp、Telegram、Slack、Discord 等聊天 App 里指挥 AI\n\n  - 真实执行任务（不是只会说说），支持邮箱、日历、航班、GitHub 等数十种真实操作 [...] - 支持任意大模型，完全自托管，数据 100% 留在本地，隐私极致安全\n\n  而最无敌的组合，就是 \\\\OpenClaw + Ollama\\\\：用本地模型零成本跑顶级 Agent，推理飞快、不烧钱、不依赖云端。\n\n  这篇文章将手把手带你从零搭建整个环境，\\\\每一步都配截图\\\\，哪怕你是小白也能 30 分钟内跑起来。走起！\n\n  ### 一、为什么 OpenClaw 能在 2026 年爆火？\n\n  （如上图所示，类似的自托管 AI Agent 核心架构：浏览器自动化、文件控制、系统脚本、自主工作流）\n\n  ### 二、先搭建 Ollama：本地模型零成本运行基础\n\n  Ollama 是目前最丝滑的本地模型运行方案。安装简单、资源占用可控、模型切换一键完成。\n\n  #### 1. Ollama 安装（三平台全覆盖，截图演示）\n\n  \\\\官网下载页面\\\\（macOS / Windows 直接下载安装包）：\n\n  （如图：打开 \n\n  \\\\macOS / Windows\\\\：下载后双击安装，一路 Next。\n\n  \\\\Linux\\\\：终端一键安装脚本。 [...] ```\n\n  把 Bot 加到你的聊天 App，开始指挥！\n\n  ### 四、进阶玩法\n\n  - 社区技能：搜索 awesome-openclaw-skills 添加\n\n  - 自定义 Agent：Dashboard 中配置多 Agent 工作区\n\n  - 本地优先：所有敏感操作默认走 Ollama\n\n  ### 五、为什么所有人该试 OpenClaw + Ollama？\n\n  - 零成本（除了硬件）\n\n  - 极致隐私\n\n  - 秒级响应\n\n  - 无限扩展\n\n  2026 年，AI Agent 的核心是“能干活 + 私人”。OpenClaw 就是你的数字分身。\n\n  #AI #OpenClaw #AIAgent #本地AI #Ollama #开源AI #AI干货 #数字分身\n\n  3:58 AM · Feb 9, 202634Views",
       "summary": "Log inSign up\n\n## Post\n\n user avatar\n\n  Article cover image\n\n  # 2026 最热个人开源 AI Agent：OpenClaw + Ollama 本地无敌组合完整搭建与使用指南\n\n  2026 年，AI 已经彻底从“聊天框”进化成了“数字分身”。你不再需要打开十几个 App 去处理琐事——清邮箱、发邮件、管理日历、查航班、监控 GitH...",
@@ -1003,15 +1003,15 @@
         "avatar": "https://ui-avatars.com/api/?name=sopneo&background=random"
       },
       "metrics": {
-        "likes": 2491,
-        "retweets": 785,
-        "replies": 307
+        "likes": 4731,
+        "retweets": 150,
+        "replies": 469
       }
     },
     {
       "id": "2065630344012087602",
       "source": "Twitter/X",
-      "published_at": "2026-08-21T09:27:18.393497",
+      "published_at": "2026-08-22T09:22:34.787345",
       "title": "鸟哥 | 蓝鸟会🕊️",
       "content": "6️⃣ LangGraph 2026年想做生产级AI智能体,这套编排骨架绕不开。 🔗 github.com/langchain-ai/l… 7️⃣ Cloudflare Agentic Inbox 自托管邮箱,AI自动读信起草回复,从此告别邮件焦虑。 🔗 github.com/cloudflare/age… 8️⃣ Browser Use 98,000个星,智能体自己上网填表爬数据约会议,真正的数字打工人。 🔗 github.com/browser-use/br… 9️⃣ awesome-mcp-servers 智能体插件大全,GitHub、Slack、Linear、Stripe、Postgres、Notion全都能接。 🔗 github.com/punkpeye/aweso… 🔟 claude-task-master 基于Claude Code的多智能体编排,一句话指令,AI团队就在你睡觉时把功能开发完了。 🔗 github.com/eyaltoledano/c… 存好别弄丢。100%免费,100%开源,这年头不用就是亏。 [...] 睡觉的时候,AI帮你把活全干了,而你还在担心被裁? 2026年这10个GitHub项目,建议你现在就存好,晚了别怪我没提醒。 1️⃣ OpenHands 自主编程智能体,76,500个星。苹果谷歌亚马逊奈飞英伟达的工程师都在偷偷用,你还在手搓代码? 🔗 github.com/OpenHands/Open… 2️⃣ Hermes Agent Nous Research二月才发的,三个月狂揽191,000个星。会自我进化的私人AI,养着养着它比你还懂你。 🔗 github.com/NousResearch/h… 3️⃣ CrewAI 多智能体协作真能落地干活,60%的财富500强都在用。 🔗 github.com/crewAIInc/crew… 4️⃣ Aider 终端里的AI结对编程,自动提交干净diff,独立开发者效率直接翻5倍。 🔗 github.com/Aider-AI/aider 5️⃣ n8n 开源版Zapier,400多个集成,自托管永久跑,不用交一分钱订阅。 🔗 github.com/n8n-io/n8n 6️⃣ LangGraph [...] user avatar\n\n  鸟哥 | 蓝鸟会🕊️\n\n  @NFTCPS\n\n  Jun 13\n\n  刚扒到个狠货：Seedance2-skill，专门伺候字节Seedance 2.0和即梦的。别以为又是那种烂大街的提示词合集，人家是真把硬功夫打包好了： 1️⃣ 电影级的镜头语言 2️⃣ 专业的分镜结构 3️⃣ 运镜设计 4️⃣ 素材引用 整套塞给AI就完事了。 以前想拍出电影感，你得啃半年书练半年功；现在呢？复制粘贴，搞定。\n\n  \n\n  3:00 AM · Jun 13, 202630.8KViews\n user avatar\n\n  xfholly wang\n\n  @xfhollywang\n\n  Jun 13\n\n  vLLM Learning Journey · 30 天从后端到 AI 推理工程师 一名 10 年后端工程师，用 30 天系统补齐 vLLM 推理引擎 + LLM 服务化网关 的实战记录。 学习风格：踩坑实录 + 原理科普 + 单卡可实操，每天一个主题，当天动手 + 当天笔记 + 当天 commit。",
       "summary": "6️⃣ LangGraph 2026年想做生产级AI智能体,这套编排骨架绕不开。 🔗 github.com/langchain-ai/l… 7️⃣ Cloudflare Agentic Inbox 自托管邮箱,AI自动读信起草回复,从此告别邮件焦虑。 🔗 github.com/cloudflare/age… 8️⃣ Browser Use 98,000个星,智能体自己上网填表爬数据约会议,真正的数...",
@@ -1028,9 +1028,9 @@
         "avatar": "https://ui-avatars.com/api/?name=NFTCPS&background=random"
       },
       "metrics": {
-        "likes": 3408,
-        "retweets": 337,
-        "replies": 485
+        "likes": 1587,
+        "retweets": 36,
+        "replies": 65
       }
     }
   ]
