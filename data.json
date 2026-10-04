@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/10/03 12:30",
+  "lastUpdate": "2026/10/04 13:01",
   "categories": [
     {
       "key": "open_source",
@@ -29,14 +29,214 @@
       "key": "tool",
       "name": "🛠️ 实用工具",
       "icon": "🛠️",
-      "count": 1
+      "count": 8
     }
   ],
   "articles": [
     {
+      "id": "2085960202197905740",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:22.302426",
+      "title": "WEEX AI Labs",
+      "content": "AI工具收藏了一堆，真正要用时却一个也想不起来？ WEEX AI Labs做了一个AI神器库：小唯秘密仓库 目前已经收录500+款AI工具，覆盖写作、绘图、视频、编程、办公、",
+      "summary": "AI工具收藏了一堆，真正要用时却一个也想不起来？ WEEX AI Labs做了一个AI神器库：小唯秘密仓库 目前已经收录500+款AI工具，覆盖写作、绘图、视频、编程、办公、...",
+      "url": "https://x.com/WEEXAILabs/status/2085960202197905740",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "WEEXAILabs",
+        "display_name": "@WEEXAILabs",
+        "avatar": "https://ui-avatars.com/api/?name=WEEXAILabs&background=random"
+      },
+      "metrics": {
+        "likes": 2785,
+        "retweets": 991,
+        "replies": 423
+      }
+    },
+    {
+      "id": "2071896526444446176",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:22.302420",
+      "title": "你不需要手动复制几十个文件的代码。只需通过Gitingest ...",
+      "content": "推荐一个提升AI 代码分析效率的神器：Gitingest。 很多开发者在用AI 辅助看代码时，经常会遇到一个痛点：直接把GitHub 仓库链接丢给ChatGPT 或Claude",
+      "summary": "推荐一个提升AI 代码分析效率的神器：Gitingest。 很多开发者在用AI 辅助看代码时，经常会遇到一个痛点：直接把GitHub 仓库链接丢给ChatGPT 或Claude...",
+      "url": "https://x.com/immersivetran/status/2071896526444446176",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "immersivetran",
+        "display_name": "@immersivetran",
+        "avatar": "https://ui-avatars.com/api/?name=immersivetran&background=random"
+      },
+      "metrics": {
+        "likes": 4642,
+        "retweets": 849,
+        "replies": 211
+      }
+    },
+    {
+      "id": "2063903611382300794",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:22.302413",
+      "title": "1. 主力工具选1-2个深度使用，比蜻蜓点水10个强2. 免费版够用就 ...",
+      "content": "别贪多，给你一个选择策略： 1. 主力工具选1-2个深度使用，比蜻蜓点水10个强2. 免费版够用就别付费，很多工具免费额度很慷慨3. 每季度重新评估一次，AI工具迭代太快，",
+      "summary": "别贪多，给你一个选择策略： 1. 主力工具选1-2个深度使用，比蜻蜓点水10个强2. 免费版够用就别付费，很多工具免费额度很慷慨3. 每季度重新评估一次，AI工具迭代太快，...",
+      "url": "https://x.com/sharon15998/status/2063903611382300794",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "sharon15998",
+        "display_name": "@sharon15998",
+        "avatar": "https://ui-avatars.com/api/?name=sharon15998&background=random"
+      },
+      "metrics": {
+        "likes": 3308,
+        "retweets": 112,
+        "replies": 267
+      }
+    },
+    {
+      "id": "1",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:22.302408",
+      "title": "唐华斑竹🦅",
+      "content": "推荐一个我喜欢的AI工具给你（22） Flourish 又是一个黑科技AI工具网站，只要动动鼠标就能把表格变成超炫酷的图表。上传个Excel表格，选个模板，几分钟就能自动生成",
+      "summary": "推荐一个我喜欢的AI工具给你（22） Flourish 又是一个黑科技AI工具网站，只要动动鼠标就能把表格变成超炫酷的图表。上传个Excel表格，选个模板，几分钟就能自动生成...",
+      "url": "https://x.com/uniswap12/status/2055902858801766781/photo/1",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "uniswap12",
+        "display_name": "@uniswap12",
+        "avatar": "https://ui-avatars.com/api/?name=uniswap12&background=random"
+      },
+      "metrics": {
+        "likes": 879,
+        "retweets": 374,
+        "replies": 340
+      }
+    },
+    {
+      "id": "tav_tool_3",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:22.302399",
+      "title": "Ta Te (@TaTe168198)",
+      "content": "Jul 12\n\n  推荐好工具：TBL开源翻译神器 想读英文原版书？直接AI翻译常排版乱、目录丢。 TBL完美保留格式，支持EPUB、SRT字幕、Word等，几百页小说也能轻松处理，还能断点续翻！支持DeepSeek、Ollama等。 GitHub：github.com/hydropix/Trans… 强烈推荐外语阅读党收藏！\n\n  \n\n  GitHub - hydropix/TranslateBooksWithLLMs: Translate full-length books and documents with Ollama,...From github.com\n @TaTe168198\n\n  Ta Te@TaTe168198\n\n  Jul 12\n\n  🚀 AI短视频神器推荐！Pixelle-Video一键输入主题，自动生成文案+配图+配音+BGM+成片！ GitHub 2.5万星，开源免费，支持本地模型和API。创作者必备！ [...] Log inSign up\n\nLog inSign up\n\nTa Te\n\n@TaTe168198\n\n# Ta Te\n\n@TaTe168198\n\nAI印钞机玩家｜小龙虾养成中 ｜coze工作流智能体｜漫剧制作工厂 MoneyPrinter · OpenClaw · AI搞钱 让工具赚钱，别让自己太累\n\nJoined April 2024\n\n123\n\nFollowing16\n\nFollowers\n\nRepliesRepliesRepostsRepostsMediaMedia\n\n @TaTe168198\n\n  Ta Te@TaTe168198\n\n  Aug 30\n\n  想玩转WorkBuddy，优先关注这个WorkBuddyGuide！ 日常办公耗时间的大多是找文件、核对数据、同步进度这类琐事。这套指南整合核心能力，覆盖80%高频工作场景，不用挨个折腾15个项目。 照着文档快速配置上手，落地实用自动化，能用起来的工具才是真高效。 [...] 你是否也想尝试 AIGC 创作，但总是因为价格原因劝退？ 今年 8 月初发布的 MiniMax H3，直接改变了这一局面。得益于模型开源和云端 GPU，即使没有高性能电脑，也能以极低的成本生成高清视频。...\n @TaTe168198\n\n  Ta Te@TaTe168198\n\n  Aug 9\n\n  强烈推荐开源神器 Audiblez！一键把EPUB电子书变成专业有声书。超逼真音色，支持多语言，十几万字不到5分钟，带图形界面，小白也能自己做有声书了！GitHub 8k+ Star，完全免费！ 地址：\n\n  \n\n  GitHub - santinic/audiblez: Generate audiobooks from e-booksFrom github.com\n @TaTe168198\n\n  Ta Te@TaTe168198\n\n  Jul 12",
+      "summary": "Jul 12\n\n  推荐好工具：TBL开源翻译神器 想读英文原版书？直接AI翻译常排版乱、目录丢。 TBL完美保留格式，支持EPUB、SRT字幕、Word等，几百页小说也能轻松处理，还能断点续翻！支持DeepSeek、Ollama等。 GitHub：github.com/hydropix/Trans… 强烈推荐外语阅读党收藏！\n\n  \n\n  GitHub - hydropix/TranslateB...",
+      "url": "https://x.com/TaTe168198",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "TaTe168198",
+        "display_name": "@TaTe168198",
+        "avatar": "https://ui-avatars.com/api/?name=TaTe168198&background=random"
+      },
+      "metrics": {
+        "likes": 4461,
+        "retweets": 987,
+        "replies": 19
+      }
+    },
+    {
+      "id": "1634726651987886081",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:22.302393",
+      "title": "\"在ChatGPT 时代，如何更好的使用AI 工具，决定了我们的 ...",
+      "content": "推荐一个浏览器插件Glarity，基于chatgpt 和Youtube 字幕生成视频摘要，配合中文翻译，20 秒看完梗概，用来看外文视频（特别是web3项目方更新）效率高",
+      "summary": "推荐一个浏览器插件Glarity，基于chatgpt 和Youtube 字幕生成视频摘要，配合中文翻译，20 秒看完梗概，用来看外文视频（特别是web3项目方更新）效率高...",
+      "url": "https://x.com/starzqeth/status/1634726651987886081",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "starzqeth",
+        "display_name": "@starzqeth",
+        "avatar": "https://ui-avatars.com/api/?name=starzqeth&background=random"
+      },
+      "metrics": {
+        "likes": 2968,
+        "retweets": 465,
+        "replies": 380
+      }
+    },
+    {
+      "id": "2074782221618032738",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:22.302386",
+      "title": "AI搞钱Hacker",
+      "content": "00:00\n\n  @gaoqian2580\n\n  AI搞钱Hacker@gaoqian2580\n\n  Jul 8\n\n  Article cover image\n\n  Article\n\n  WorkBuddy高阶玩法--究极版小白慎入\n\n  大家好，我是AI搞钱Hacker 入门版让你知道 WorkBuddy 能干什么，进阶版让你把它用成一支 AI 军团。 今天这篇是 高阶版。小白勿入，看不懂就先看我之前的文章哈。...\n\n  9:06 AM · Jul 8, 2026·19.7K\n\n  Views\n\n  15\n @hiryan0x\n\n  Ryan C@hiryan0x\n\n  Jul 9\n\n  一键进入封号程序\n\n  1\n @An_yhl\n\n  @An\\_yhl\n\n  Jul 8\n\n  1 [...] 00:00\n\n@gaoqian2580\n\nAI搞钱Hacker@gaoqian2580\n\nJul 8\n\nArticle cover image\n\nArticle\n\nWorkBuddy高阶玩法--究极版小白慎入\n\n大家好，我是AI搞钱Hacker 入门版让你知道 WorkBuddy 能干什么，进阶版让你把它用成一支 AI 军团。 今天这篇是 高阶版。小白勿入，看不懂就先看我之前的文章哈。...\n\n9:06 AM · Jul 8, 2026·19.7K\n\nViews\n\n15\n\n @gaoqian2580\n\n  AI搞钱Hacker@gaoqian2580 [...] # AI搞钱Hacker on X: \"🔥 重磅推荐！小红书AI自动化神器来了： xiaohongshu-mcp 🚀 尤其是做小红书笔记、搞钱内容创作的AI小白/独立开发者，赶紧冲这个开源宝藏！ 这是专为小红书打造的 MCP 服务器，让你的 Claude、Cursor、Grok 等 AI 助手直接调用小红书能力，实现自动化操作！不再是简单浏览，而是真·AI 代理运营。 核心杀手功能： 📸 一键发布图文/视频：支持本地路径图片/视频，AI 自动写标题+文案+标签，超稳！ 🔍 智能搜索 + 推荐列表 + 帖子详情：快速抓取爆款笔记、评论数据、用户主页 💬 自动评论/回复/点赞/收藏：互动自动化，拉新涨粉神器 支持 Docker / 二进制 / 插件版（非技术党友好），Mac 用户超丝滑！ 我这种AI小白用起来都顺手，结合 Firecrawl + 多模型，批量生成+发布笔记效率直接起飞！适合短内容创作者。 Star 已经破万+，快去 Star + Fork 试试！部署教程超详细，5分钟上手。 搞钱不摆烂，就靠工具降维打击！💰 如何你想自己做一个mcp，直接让workbuddy帮你",
+      "summary": "00:00\n\n  @gaoqian2580\n\n  AI搞钱Hacker@gaoqian2580\n\n  Jul 8\n\n  Article cover image\n\n  Article\n\n  WorkBuddy高阶玩法--究极版小白慎入\n\n  大家好，我是AI搞钱Hacker 入门版让你知道 WorkBuddy 能干什么，进阶版让你把它用成一支 AI 军团。 今天这篇是 高阶版。小白勿入，看不懂就先看...",
+      "url": "https://x.com/gaoqian2580/status/2074782221618032738",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "gaoqian2580",
+        "display_name": "@gaoqian2580",
+        "avatar": "https://ui-avatars.com/api/?name=gaoqian2580&background=random"
+      },
+      "metrics": {
+        "likes": 815,
+        "retweets": 976,
+        "replies": 79
+      }
+    },
+    {
+      "id": "tav_tool_0",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:22.302360",
+      "title": "🧰 Mac 日常AI办公软件全家桶（2026 版，持续更新） | Modengsir AI (@ModengSir)",
+      "content": "• mole / Tabbit / typeless：常用的基础小工具，按需取用。｜偶尔｜随个人习惯\n\n━━━━━━━━━━\n\n### ⚡ 二、效率启动 & 窗口管理\n\n━━━━━━━━━━\n\n• Raycast：效率神器，直接替掉系统 Spotlight，还能替代 Alfred。快捷启动、剪贴板、插件生态全都有。｜每天｜几乎所有人，效率控必装\n\n• Rectangle：免费窗口分屏。｜每天｜多窗口办公党\n\n• macsyZones：屏幕分屏分区管理，比 Rectangle 更结构化。｜每天｜需要固定布局的设计/办公\n\n• Vanilla：隐藏/整理菜单栏图标。｜每天｜菜单栏被挤爆的强迫症\n\n### ━━━━━━━━━━\n\n### 📝 三、协作 & 笔记 & 知识库\n\n━━━━━━━━━━\n\n• 飞书：沟通 + 文档 + 会议一体，国内协作绕不开。｜每天｜团队办公\n\n• Obsidian：本地优先笔记，双向链接 + 知识图谱。｜每天｜重视隐私、做知识沉淀的人\n\n• Notion：全能数据库，项目/看板/资料库都能搭。｜每天｜团队协作文档 [...] • Snipaste：截图钉在屏幕最上层，对照神器。｜每天｜写教程、对照资料的人\n\n• bettershot：更智能的截图增强。｜每周｜对截图有更高要求的人\n\n• Recordly：轻量录屏，快速记录操作。｜每周｜做演示、录 bug\n\n• Cap：开源录屏，自动生成分享链接。｜每周｜做教程内容的人\n\n• QuickRecorder：灵活选区录制。｜偶尔｜按需录屏\n\n━━━━━━━━━━\n\n### 🤖 六、输入 & AI 办公 & AI 小工具\n\n━━━━━━━━━━\n\n• 自带输入法 + 语音输入：苹果原生语音越做越准，走路口述转文字。｜每天｜所有人\n\n• ChatGPT / Codex/Claude ：写东西、改代码、头脑风暴第一选择。｜每天｜所有人\n\n• WorkBuddy：能联动本地文件 + 多工具的 AI 助手。｜每天｜处理电脑上活儿的人\n\n• Bob：划词翻译 + OCR。｜每天｜读外文、常翻译的人\n\n• Amphetamine：让 Mac 不休眠，跑长任务/下载/演示必备。｜每天｜挂机党\n\n• PicGo：开源免费图床，截图一键上传拿链接。｜每周｜写文档、发帖配图的人 [...] ━━━━━━━━━━\n\n### 🪜 九、魔法\n\n━━━━━━━━━━\n\n### ✨ 十、小伙伴们自己开源产品： 【不断增加，可以自荐哈】\n\n> @thinkszyg 爆裂队长开源的：一典 Onedict  \n> 最近要发布的一款极美词典 App，体验绝对秒杀市面上收费应用。  \n> 😎 关注我，发布第一时间通知你。\n\n━━━━━━━━━━\n\n### 💡 额外小技巧\n\n• 按住 Command 拖动菜单栏图标可重排\n\n• 善用 AirDrop 在苹果设备间秒传\n\n• 上面大部分工具都能用 Homebrew 一条命令装好\n\n工具是手段不是目的，能让你专注做事的才是最好的。  \n你 Mac 上离不开哪款？评论区聊聊 👀\n\n#Mac #效率工具 #办公软件 #软件推荐 #macOS",
+      "summary": "• mole / Tabbit / typeless：常用的基础小工具，按需取用。｜偶尔｜随个人习惯\n\n━━━━━━━━━━\n\n### ⚡ 二、效率启动 & 窗口管理\n\n━━━━━━━━━━\n\n• Raycast：效率神器，直接替掉系统 Spotlight，还能替代 Alfred。快捷启动、剪贴板、插件生态全都有。｜每天｜几乎所有人，效率控必装\n\n• Rectangle：免费窗口分屏。｜每天｜多窗...",
+      "url": "https://x.com/ModengSir/article/2079380436912902264",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "tool",
+      "author": {
+        "username": "ModengSir",
+        "display_name": "@ModengSir",
+        "avatar": "https://ui-avatars.com/api/?name=ModengSir&background=random"
+      },
+      "metrics": {
+        "likes": 3607,
+        "retweets": 229,
+        "replies": 290
+      }
+    },
+    {
       "id": "2090651778060788060",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:21.780088",
+      "published_at": "2026-10-04T13:01:19.800152",
       "title": "SuSu_酥酥👅",
       "content": "4️⃣成本与隐私双赢： 🔹完全免费（OpenRouter/OpenCode可用，无需额度） 🔹预览期间请求不用于训练（比以往隐秘模型更友好） 🔹成本实测比其他模型低3-8倍（虽然现在直接白嫖） 5️⃣身份猜测：根据API参数、tokenizer、错误结构指纹，大概率是智谱GLM-5.3多模态版或小米MiMo 3.0。 6️⃣适用场景：长期软件工程Agent、终端代理、多模态工作流、企业敏感任务……专治通用模型“走神”！ 现在就去OpenRouter搜 stealth/ox-alpha 试一把，反馈越快，模型越强！  谁还在为付费模型心疼钱包？这波真香！🚀 #OxAlpha #OpenRouter #免费大模型 #Agent编程 #隐秘模型 #牛来\" [...] 🔹预览期间请求不用于训练（比以往隐秘模型更友好） 🔹成本实测比其他模型低3-8倍（虽然现在直接白嫖） 5️⃣身份猜测：根据API参数、tokenizer、错误结构指纹，大概率是智谱GLM-5.3多模态版或小米MiMo 3.0。 6️⃣适用场景：长期软件工程Agent、终端代理、多模态工作流、企业敏感任务……专治通用模型“走神”！ 现在就去OpenRouter搜 stealth/ox-alpha 试一把，反馈越快，模型越强！ 谁还在为付费模型心疼钱包？这波真香！🚀 #OxAlpha #OpenRouter #免费大模型 #Agent编程 #隐秘模型 #牛来 [...] 🔹预览期间请求不用于训练（比以往隐秘模型更友好） 🔹成本实测比其他模型低3-8倍（虽然现在直接白嫖） 5️⃣身份猜测：根据API参数、tokenizer、错误结构指纹，大概率是智谱GLM-5.3多模态版或小米MiMo 3.0。 6️⃣适用场景：长期软件工程Agent、终端代理、多模态工作流、企业敏感任务……专治通用模型“走神”！ 现在就去OpenRouter搜 stealth/ox-alpha 试一把，反馈越快，模型越强！ 谁还在为付费模型心疼钱包？这波真香！🚀 #OxAlpha #OpenRouter #免费大模型 #Agent编程 #隐秘模型 #牛来",
       "summary": "4️⃣成本与隐私双赢： 🔹完全免费（OpenRouter/OpenCode可用，无需额度） 🔹预览期间请求不用于训练（比以往隐秘模型更友好） 🔹成本实测比其他模型低3-8倍（虽然现在直接白嫖） 5️⃣身份猜测：根据API参数、tokenizer、错误结构指纹，大概率是智谱GLM-5.3多模态版或小米MiMo 3.0。 6️⃣适用场景：长期软件工程Agent、终端代理、多模态工作流、企业敏感任务……...",
@@ -53,15 +253,15 @@
         "avatar": "https://ui-avatars.com/api/?name=NFT_Chen&background=random"
       },
       "metrics": {
-        "likes": 792,
-        "retweets": 167,
-        "replies": 168
+        "likes": 2927,
+        "retweets": 798,
+        "replies": 288
       }
     },
     {
       "id": "2094662715356967258",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:21.780083",
+      "published_at": "2026-10-04T13:01:19.800145",
       "title": "SuSu_酥酥",
       "content": "推荐：有人在续费会员，有人找到6 个免费AI模型随便造！ 要接AI，第一反应常是开会员、充额度、走审批。月底一看，几份会员小两百没了。",
       "summary": "推荐：有人在续费会员，有人找到6 个免费AI模型随便造！ 要接AI，第一反应常是开会员、充额度、走审批。月底一看，几份会员小两百没了。...",
@@ -78,15 +278,40 @@
         "avatar": "https://ui-avatars.com/api/?name=NFT_Chen&background=random"
       },
       "metrics": {
-        "likes": 4241,
-        "retweets": 232,
-        "replies": 277
+        "likes": 2052,
+        "retweets": 576,
+        "replies": 248
+      }
+    },
+    {
+      "id": "2087093357067526332",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:19.800140",
+      "title": "入选能白嫖6 个月ChatGPT Pro， 大概值1200 美元，Codex ...",
+      "content": "这个计划最关键的几件事： 1、6 个月免费ChatGPT Pro，含Codex 2、可能再给API 额度，能拿去做自动化和PR 审查3、够条件的项目还能申请Codex Security",
+      "summary": "这个计划最关键的几件事： 1、6 个月免费ChatGPT Pro，含Codex 2、可能再给API 额度，能拿去做自动化和PR 审查3、够条件的项目还能申请Codex Security...",
+      "url": "https://x.com/AYi_AInotes/status/2087093357067526332",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "free",
+      "author": {
+        "username": "AYi_AInotes",
+        "display_name": "@AYi_AInotes",
+        "avatar": "https://ui-avatars.com/api/?name=AYi_AInotes&background=random"
+      },
+      "metrics": {
+        "likes": 4844,
+        "retweets": 562,
+        "replies": 474
       }
     },
     {
       "id": "2062812824083267623",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:21.780080",
+      "published_at": "2026-10-04T13:01:19.800134",
       "title": "文生图生视频Agnes AI 免费大模型API 完全使用指南",
       "content": "白嫖顶级AI -- 文生图生视频Agnes AI 免费大模型API 完全使用指南 · 先把API key注册了。免费期能持续多久不确定，先把船票拿到手。 · 文本模型可以做Agent",
       "summary": "白嫖顶级AI -- 文生图生视频Agnes AI 免费大模型API 完全使用指南 · 先把API key注册了。免费期能持续多久不确定，先把船票拿到手。 · 文本模型可以做Agent...",
@@ -103,15 +328,15 @@
         "avatar": "https://ui-avatars.com/api/?name=i&background=random"
       },
       "metrics": {
-        "likes": 4625,
-        "retweets": 350,
-        "replies": 41
+        "likes": 502,
+        "retweets": 408,
+        "replies": 239
       }
     },
     {
-      "id": "tav_free_4",
+      "id": "tav_free_3",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:21.780077",
+      "published_at": "2026-10-04T13:01:19.800126",
       "title": "Cursor 如何自定义大模型？无需会员，把自己的 API 接进去，奶爸版教程来了 | AI奶爸 (@zstmfhy)",
       "content": "Article cover image\n\n# Cursor 如何自定义大模型？无需会员，把自己的 API 接进去，奶爸版教程来了\n\nAI奶爸\n\nAI奶爸@zstmfhy·\n\n刚把 Cursor 助手从下载到接入自定义模型完整跑了一遍，坑还挺多，整理个奶爸版给兄弟们。\n\nCursor 本身确实好用，但一到模型额度、会员、套餐这些地方，就很容易被卡脖子。\n\n你想多跑几个 Agent，想用更长上下文，想换自己习惯的大模型，最后经常发现：\n\n这篇讲的不是白嫖官方模型，也不是让 Cursor 免费用官方额度。\n\n把你自己的 OpenAI 兼容 API 接进 Cursor。\n\n简单说，就是：\n\n> Cursor 继续当 IDE 和 Agent 入口，模型请求走你自己的 API。\n\n这样最大的好处是：\n\n 不用被 Cursor 官方套餐绑死\n 想接什么 OpenAI 兼容模型，就接什么模型\n API 额度、价格、模型选择都自己控制\n 后续换中转站或换模型，也不用重新适应一套工作流\n\n不会配 API、看不懂 baseURL、模型刷不出来的，照着这篇走。 [...] ### 1. 先去 GitHub 下载 Cursor 助手\n\n第一步，去 GitHub Releases 下载 Cursor 助手。\n\n重点来了：不要下 Source code。\n\n在 Assets 里按自己的系统选：\n\n Windows：选 cursor-byok-xxx-windows-amd64.zip\n Mac M 系列芯片：选 cursor-byok-xxx-macos-arm64.tar.gz\n Intel Mac：选 cursor-byok-xxx-macos-amd64.tar.gz\n Linux：选 cursor-byok-xxx-linux-amd64.tar.gz\n\n很多人第一步就下错包，然后后面怎么跑都不对。\n\n图 1 说明：不要下 Source code，按系统选 Assets 里的安装包。\n\n下载后解压，打开 Cursor 助手。\n\n### 2. 打开助手，先确认它在本地跑起来了\n\n打开 Cursor 助手后，先看两个地方：\n\n✅ 显示“服务运行中”  \n✅ “直连模式”保持关闭\n\n这里千万别手贱打开直连模式。 [...] 第一眼就先看这里。\n\n千万不要用 HTTP/2。\n\n图 5 说明：HTTP Compatibility Mode 改成 HTTP/1.1，这是高频救命项。\n\n### 6. 回到 Models 刷新模型列表\n\n最后回到 Cursor 的 Models。\n\n图 6 说明：配置完回 Models 点刷新，看到模型后打开开关，新开对话测试。\n\n### 最后几个坑，单独拎出来说\n\n1. API Key 别发给任何人，自己本地填。\n2. 不懂的字段先留空，默认值通常比乱填更稳。\n3. 配完一定要回 Cursor 刷新模型列表。\n4. 刷不出来就按这个顺序重启：先开 Cursor 助手，再开 Cursor，再刷新模型。\n5. 模型锁、请求异常、输出断流，先检查 HTTP/1.1。\n6. 不要拿官方模型旧对话直接续接自定义模型，新开对话最稳。\n\n> GitHub 下载助手 -> 打开助手 -> 配 OpenAI 模型 -> Cursor 改 HTTP/1.1 -> 刷新模型 -> 新开对话。",
       "summary": "Article cover image\n\n# Cursor 如何自定义大模型？无需会员，把自己的 API 接进去，奶爸版教程来了\n\nAI奶爸\n\nAI奶爸@zstmfhy·\n\n刚把 Cursor 助手从下载到接入自定义模型完整跑了一遍，坑还挺多，整理个奶爸版给兄弟们。\n\nCursor 本身确实好用，但一到模型额度、会员、套餐这些地方，就很容易被卡脖子。\n\n你想多跑几个 Agent，想用更长上下文，想...",
@@ -128,40 +353,15 @@
         "avatar": "https://ui-avatars.com/api/?name=zstmfhy&background=random"
       },
       "metrics": {
-        "likes": 4943,
-        "retweets": 308,
-        "replies": 443
-      }
-    },
-    {
-      "id": "tav_free_3",
-      "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:21.780072",
-      "title": "API中转站,比贩毒还赚 | 黄小木 (@ai_xiaomu)",
-      "content": "5. 平台初创补贴\n\nGoogle Cloud给AI初创公司最高送35万美元免费额度，两年随便用。有资源的人注册一堆壳公司，拿到免费额度转手给中转站当上游。成本为零，卖多少都是纯赚。\n\n6. 云平台渠道套利\n\nOpenAI的模型在Azure、AWS也在卖，价格策略不完全一样。哪个渠道便宜就从哪进货，按官方价卖给你，差价就是利润。\n\n7. 企业折扣套利\n\n签年框、承诺最低消费，能拿到10%-15%甚至更多折扣。中转站用企业身份谈到折扣价，再按接近官方的价格转卖。\n\n8. Batch API半价\n\nOpenAI的批量处理接口允许打包提交请求，24小时内返回，价格直接五折。中转站用Batch API处理不急的请求，按正常价卖给你。你觉得速度慢了点，其实是你的请求在排队。\n\n9. 缓存差价（Prompt Cache）\n\n你每次对话有大量重复内容（角色指令、提示词模板），官方缓存后只收一折。但中转站收你全价，差价全进站长口袋。\n\n10. 额度池沉淀\n\n用户充100块可能只用30块。大量沉淀资金趴在账上，光现金流就很可观。\n\n11. 增值服务 [...] 17. 数据变现——\"三头吃\"\n\n第一头：收你的充值费。第二头：用逆向或退款套利白嫖上游API额度。第三头：把你的完整对话记录打包卖掉。编程场景下用户的代码、推理链、工程决策，都是高质量的模型训练数据，卖给模型厂商非常值钱。\n\n有些免费中转站之所以免费，就是靠卖你的数据盈利。你是付费客户，同时也是免费的训练数据生产者。一鱼两吃。\n\n18. 直接跑路\n\n最简单粗暴。低价吸引大量充值，等资金池做到规模直接关站跑路。域名一停，群一解散，人间蒸发。有些站从第一天就是奔着跑路去的，前期亏本补贴纯粹为了做大资金池。\n\n### 第三章：利润到底有多恐怖？——算笔账\n\n场景一：订阅超售模式\n\n场景二：Token批发差价模式\n\n场景三：黑卡+逆向+虚报组合拳\n\n这就是为什么有人说\"API中转站比贩毒还赚钱\"——利润率碾压，风险却低了几个数量级。\n\n### 第四章：中转站是怎么\"注水\"的？——深度揭秘\n\n手法一：模型偷换 [...] Article cover image\n\n# API中转站,比贩毒还赚\n\n黄小木\n\n贩卖1公斤海洛因，街头零售价约50万人民币，扣掉上游进货、运输、分销的成本和风险，净利润大概在60%-70%，也就是30-35万。\n\n代价是什么？无期徒刑起步，死刑候着。\n\n而一个API中转站呢？\n\n一个Claude Max账号200美元/月，用逆向工具拆给20个用户共享，每人收30-50美元。\n\n一个号池几百个账号，服务上万用户。\n\n利润率300%以上，月入百万人民币的站不在少数。\n\n代价？几乎为零。没有实名，没有监管，没有资金托管。域名一停，群一解散，人间蒸发。\n\n一个是把脑袋别在裤腰带上的亡命生意，一个是坐在电脑前敲几行代码的套利游戏。\n\n论利润率，API中转站完胜。论风险收益比，贩毒连给它提鞋都不配。\n\n这不是段子，这是2026年正在发生的事。\n\n你觉得夸张？告诉你一个更炸裂的信号——\n\n孙宇晨，就是那个花了456万美元拍下巴菲特午餐然后放鸽子的男人，币圈最会搞钱的狠人，最近低调收购了一个域名B.ai，亲自下场做API中转站了。",
-      "summary": "5. 平台初创补贴\n\nGoogle Cloud给AI初创公司最高送35万美元免费额度，两年随便用。有资源的人注册一堆壳公司，拿到免费额度转手给中转站当上游。成本为零，卖多少都是纯赚。\n\n6. 云平台渠道套利\n\nOpenAI的模型在Azure、AWS也在卖，价格策略不完全一样。哪个渠道便宜就从哪进货，按官方价卖给你，差价就是利润。\n\n7. 企业折扣套利\n\n签年框、承诺最低消费，能拿到10%-15%甚...",
-      "url": "https://x.com/ai_xiaomu/article/2051099012288356592",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "free",
-      "author": {
-        "username": "ai_xiaomu",
-        "display_name": "@ai_xiaomu",
-        "avatar": "https://ui-avatars.com/api/?name=ai_xiaomu&background=random"
-      },
-      "metrics": {
-        "likes": 4342,
-        "retweets": 956,
-        "replies": 406
+        "likes": 3255,
+        "retweets": 325,
+        "replies": 341
       }
     },
     {
       "id": "tav_free_2",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:21.780069",
+      "published_at": "2026-10-04T13:01:19.800119",
       "title": "Kiro免费白嫖Claude Opus 4.8与GPT-5.6教程：比ChatGPT更适合国内用户的AI工具（2026最新） | 巴菲牛加密 (@bafeiniu)",
       "content": "利用Kiro按当月剩余天数等比例扣费的机制，月底订阅$100最高级套餐，加上新用户送的$20优惠券，正好触发$0结账。5000积分到手，Claude Opus 4.8和GPT-5.6 Sol随便用。扣款成功后立即降级回Free Plan即可。\n\n如果发现模型列表里没有Claude，检查网络节点——不要用香港节点，切到美国或新加坡刷新。区域确认在us-east-1或eu-central-1。\n\n### 白嫖失败怎么办？正常付费依然比ChatGPT划算\n\n新用户优惠不是100%触发，而且加上Kiro对各类卡有风控，我用一张Bybit card和三个谷歌邮箱白嫖了三次，后续就风控我，不给我0元支付只能正常续费使用了，如果支付页面显示的不是$0而是实际价格，也不用灰心。\n\nKiro即使正常付费，对比ChatGPT Plus依然有优势：内置的是Claude Opus 4.8和GPT-5.6 Sol，不是降级版；一个套餐里多个顶级模型随便切换；支付路径顺畅，Bybit Card等海外卡直接绑定；没有ChatGPT的封号风险；AWS基础设施，稳定性极高。 [...] 登录后进入Pricing页面，选择Kiro Pro套餐。前面显示的价格可能不是最终价格，优惠会在最终支付页面计算，不要看到收费就退出。\n\n### 第三步：进入支付页面确认金额\n\n选择套餐后进入信用卡支付页面。如果优惠正常生效，最终支付金额会显示$0.00。这时候绑卡即可完成订阅验证。\n\n> 📌支付这一步恰恰是用Bybit Card最合适的地方。Bybit Card能直接绑定并完成验证，如果以后觉得白嫖不够用想长期付费，就用这张卡正常续费。\n\n### 第四步：立刻关闭自动续费\n\n这是最重要的一步。操作路径：进入Kiro IDE → 右下角点击Kiro Pro Max → Manage Plan → 选择Free Plan → 点击Confirm。完成之后当前Pro权限不会马上消失，本月依然可以继续使用，但下个月不会自动扣费。\n\n### 进阶玩法：月底薅$100高级套餐，5000积分到手 [...] | 对比维度 | Kiro Pro | ChatGPT Plus | AI中转站 |\n ---  --- |\n| 费用 | 新用户可免费体验，正常约$20/月 | $20/月 | 按次付费 |\n| 支付难度 | 支持Bybit Card等海外卡，实测通过率高 | 对国内支付极度不友好 | 支持加密货币 |\n| 模型质量 | 官方授权，Claude Opus 4.8 + GPT-5.6 Sol | GPT-5.6 Solo（降级版） | 可能非官方版本 |\n| 稳定性 | AWS基础设施，官方环境 | 有封号风险 | API可能随时失效 |\n| 数据隐私 | 不走第三方服务器 | 官方环境 | 文档经过中转服务器 |\n| 额外功能 | 完整AI编程环境，可写代码、做网站 | 仅对话 | 仅对话 |\n\n对于国内用户来说，ChatGPT Plus的支付就是一个死循环：想付钱但付不了，找代付又怕封号。Kiro支持Bybit Card等海外卡直接完成订阅验证，这个路径比ChatGPT顺畅得多。",
       "summary": "利用Kiro按当月剩余天数等比例扣费的机制，月底订阅$100最高级套餐，加上新用户送的$20优惠券，正好触发$0结账。5000积分到手，Claude Opus 4.8和GPT-5.6 Sol随便用。扣款成功后立即降级回Free Plan即可。\n\n如果发现模型列表里没有Claude，检查网络节点——不要用香港节点，切到美国或新加坡刷新。区域确认在us-east-1或eu-central-1。\n\n##...",
@@ -178,15 +378,15 @@
         "avatar": "https://ui-avatars.com/api/?name=bafeiniu&background=random"
       },
       "metrics": {
-        "likes": 1784,
-        "retweets": 722,
-        "replies": 69
+        "likes": 3391,
+        "retweets": 928,
+        "replies": 67
       }
     },
     {
       "id": "2035710256014061617",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:21.780065",
+      "published_at": "2026-10-04T13:01:19.800112",
       "title": "Y11",
       "content": "冷知识： 1. OpenRouter 上的现状：低价而非免费 在 OpenRouter 接口中，Kimi 的主力模型（K2.5 系列）目前是收费的，但价格极具竞争力： Kimi K2.5 (旗舰多模态): 约 $0.45 / 1M tokens (入)。这个价格比 GPT-5.4 或 Claude 4.5 便宜了 90% 以上。 Kimi K2 0711/0911 (旧版): 曾有过短暂的 :free 后缀，但目前大多已转为低价付费模式。 2. 真正的“免费”路径：OpenClaw 与 Puter.js 如果你希望像使用 MiMo 那样完全白嫖 Kimi，目前主要有两条架构师级别的路径： OpenClaw 平台 (2026 专项优惠): 根据最新的行业动态，国家超算互联网旗下的 OpenClaw 平台在 2026 年 3 月开展了专项活动，向所有开发者发放 1000 万 Tokens 的免费 Kimi K2.5 额度。你可以通过 OpenClaw 的 API 密钥（同样兼容 OpenAI SDK）来调用，实现真正的零成本。 Puter.js 开发者工具:Puter 提供了一个名为 [...] 冷知识： 1. OpenRouter 上的现状：低价而非免费 在 OpenRouter 接口中，Kimi 的主力模型（K2.5 系列）目前是收费的，但价格极具竞争力： Kimi K2.5 (旗舰多模态): 约 $0.45 / 1M tokens (入)。这个价格比 GPT-5.4 或 Claude 4.5 便宜了 90% 以上。 Kimi K2 0711/0911 (旧版): 曾有过短暂的 :free 后缀，但目前大多已转为低价付费模式。 2. 真正的“免费”路径：OpenClaw 与 Puter.js 如果你希望像使用 MiMo 那样完全白嫖 Kimi，目前主要有两条架构师级别的路径： OpenClaw 平台 (2026 专项优惠): 根据最新的行业动态，国家超算互联网旗下的 OpenClaw 平台在 2026 年 3 月开展了专项活动，向所有开发者发放 1000 万 Tokens 的免费 Kimi K2.5 额度。你可以通过 OpenClaw 的 API 密钥（同样兼容 OpenAI SDK）来调用，实现真正的零成本。 Puter.js 开发者工具:Puter 提供了一个名为 [...] # Y11 on X: \"冷知识： 1. OpenRouter 上的现状：低价而非免费 在 OpenRouter 接口中，Kimi 的主力模型（K2.5 系列）目前是收费的，但价格极具竞争力： Kimi K2.5 (旗舰多模态): 约 $0.45 / 1M tokens (入)。这个价格比 GPT-5.4 或 Claude 4.5 便宜了 90% 以上。 Kimi K2 0711/0911 (旧版): 曾有过短暂的 :free 后缀，但目前大多已转为低价付费模式。 2. 真正的“免费”路径：OpenClaw 与 Puter.js 如果你希望像使用 MiMo 那样完全白嫖 Kimi，目前主要有两条架构师级别的路径： OpenClaw 平台 (2026 专项优惠): 根据最新的行业动态，国家超算互联网旗下的 OpenClaw 平台在 2026 年 3 月开展了专项活动，向所有开发者发放 1000 万 Tokens 的免费 Kimi K2.5 额度。你可以通过 OpenClaw 的 API 密钥（同样兼容 OpenAI SDK）来调用，实现真正的零成本。 Puter.js",
       "summary": "冷知识： 1. OpenRouter 上的现状：低价而非免费 在 OpenRouter 接口中，Kimi 的主力模型（K2.5 系列）目前是收费的，但价格极具竞争力： Kimi K2.5 (旗舰多模态): 约 $0.45 / 1M tokens (入)。这个价格比 GPT-5.4 或 Claude 4.5 便宜了 90% 以上。 Kimi K2 0711/0911 (旧版): 曾有过短暂的 :fr...",
@@ -203,15 +403,15 @@
         "avatar": "https://ui-avatars.com/api/?name=seclink&background=random"
       },
       "metrics": {
-        "likes": 1736,
-        "retweets": 541,
-        "replies": 281
+        "likes": 4859,
+        "retweets": 932,
+        "replies": 331
       }
     },
     {
       "id": "tav_free_0",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:21.780034",
+      "published_at": "2026-10-04T13:01:19.800086",
       "title": "独立开发者的穷鬼套餐：一年不到500块，把产品从0跑到上线 | AI搞钱Hacker (@gaoqian2580)",
       "content": "如果你需要 Postgres，Supabase 和 Neon 二选一。Supabase 免费版给 500MB 数据库 + 5GB 存储 + 5 万次 Auth 调用，自带认证、存储、Realtime，相当于免费送你一个 Firebase。Neon 是纯 Postgres，最骚的是它的\"按用量休眠\"——没人访问的时候数据库自动睡觉，不消耗资源，下次访问几秒内唤醒。对一个用户量小的产品来说，免费额度可以用很久。\n\n我个人推荐新手直接 Supabase，因为它打包了 Auth 和 Storage，省下两个组件的接入工作。等你产品跑起来了再考虑迁移。\n\n第五件事，AI 接口。\n\n这是 2026 年的独立开发者最爽的一件事——AI API 的价格已经低到几乎不要钱。\n\n国内首推 DeepSeek API，输入 0.5 元 / 百万 token，输出 1.5 元 / 百万 token。什么概念？我有一个跑了半年的 AI 翻译小工具，每天大概 200 个用户用，一个月 API 成本 3 块 5。 [...] 如果你做的是国际产品，用 OpenRouter。它聚合了几十家模型供应商，Llama、Qwen、Gemini Flash 都有免费版可用，每天有 50 次免费调用额度。日常开发够用，上线后切到付费的 Gemini 2.5 Flash，价格也比 GPT 便宜一大截。\n\n记住一个原则：永远不要在调用前端直接放 API Key，必须套一层 Workers 转发，顺便做限流和缓存。同样的请求，缓存一下，AI 成本能再降 70%。\n\n第六件事，邮件发送。\n\n很多新手忽略这块，结果产品上线第一天，注册验证邮件全部进了垃圾箱，用户骂你诈骗。\n\nResend 免费版每月 3000 封邮件、每天 100 封，对独立产品完全够。它的 SDK 写得是真的舒服，三行代码发一封邮件，自带 React 模板，到达率比自建 SMTP 高得多。\n\n如果你需要更多额度，Brevo（原 SendinBlue）每天免费 300 封，是无限期的免费额度。两个搭配着用，一个产品的注册邮件、密码重置、推送通知全部能盖住。\n\n第七件事，CDN 和图片。 [...] 第二档，Vercel Functions 或者 Netlify Functions。如果你前端选了 Vercel，函数就在一个项目里，部署起来最省事。免费额度每月 10 万次调用、100GB 带宽，接小工具完全够。\n\n第三档，Render 或 Fly.io 的免费实例。这两个适合你真的需要一个长期跑的进程，比如 WebSocket、定时任务、需要预热的模型。Render 有 750 小时免费实例（不够 7 \\\\ 24，但跑一个项目够），Fly.io 有 3 个共享 CPU 的小实例免费额度。\n\n我自己的项目，90% 用 Cloudflare Workers，10% 跑在 Fly.io 上，加起来一年 0 元。\n\n第四件事，数据库。\n\n如果你不挑，直接用 Cloudflare 自家的 D1（SQLite）或 KV，跟 Workers 一起用，免费额度大到一个独立项目几乎用不完。D1 每天 500 万次读、10 万次写，够你跑一个十万用户的小产品。",
       "summary": "如果你需要 Postgres，Supabase 和 Neon 二选一。Supabase 免费版给 500MB 数据库 + 5GB 存储 + 5 万次 Auth 调用，自带认证、存储、Realtime，相当于免费送你一个 Firebase。Neon 是纯 Postgres，最骚的是它的\"按用量休眠\"——没人访问的时候数据库自动睡觉，不消耗资源，下次访问几秒内唤醒。对一个用户量小的产品来说，免费额度可...",
@@ -228,19 +428,19 @@
         "avatar": "https://ui-avatars.com/api/?name=gaoqian2580&background=random"
       },
       "metrics": {
-        "likes": 3591,
-        "retweets": 715,
-        "replies": 67
+        "likes": 1728,
+        "retweets": 681,
+        "replies": 195
       }
     },
     {
       "id": "tav_model_7",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:19.353002",
-      "title": "الردود بواسطة Tencent AI (@TencentAI_News) / ...",
-      "content": "DeepSeek 发布 V4.1-Flash：新架构最小模型，性能全面超越 V4-Pro DeepSeek 推出 V4.1-Flash 模型，作为新架构家族最小成员，具备原生视觉理解能力，采用 552B 参数",
-      "summary": "DeepSeek 发布 V4.1-Flash：新架构最小模型，性能全面超越 V4-Pro DeepSeek 推出 V4.1-Flash 模型，作为新架构家族最小成员，具备原生视觉理解能力，采用 552B 参数...",
-      "url": "https://x.com/TencentAI_News/with_replies?lang=ar",
+      "published_at": "2026-10-04T13:01:17.485686",
+      "title": "米柒说 (@meseven_journey)",
+      "content": "Sep 30\n\n  GLM 5.3 Flash, DeepSeek V4.1 Flash, Qwen 3.8 Next Flash, and even Qwen 3.8 27B are all outperforming (in both intelligence and capabilities) every model that was considered \"frontier intelligence\" in Xmas 2025 (just 10 months ago) Opensource AI is on fire\n @meseven_journey\n\n  米柒说@meseven\\_journey\n\n  Sep 30\n\n  gpt-6-Astra(high 第一个视频) VS gpt-6.1-Sol(high 第二个视频) 的机械表结构效果 你更喜欢哪个版本呢？ x.com/OpenAI/status/…\n\n  \n\n  00:00\n\n  \n\n  00:00\n\n  @OpenAI\n\n  @OpenAI\n\n  Sep 29 [...] Sep 29\n\n  GPT-6.1 Sol: near-Astra intelligence for a fifth of the price. It’s the most cost-efficient model for its performance available today. [...] 米柒说@meseven\\_journey\n\n  Oct 2\n\n  On vacation! Walking a dog 🐕 度假! 溜狗狗🐶 A day without internet 没有互联网的一天\n\n  \n\n  00:00\n @meseven_journey\n\n  米柒说@meseven\\_journey\n\n  Oct 2\n\n  开源模型的性能，如: GLM 5.3 Flash, DeepSeek V4.1 Flash, Qwen 3.8 Next Flash, Qwen 3.8 27B …… 已经超过了10个月前 前沿模型的能力, 能看到的趋势是: — 开源模型将会挤压闭源模型的api价格 — 个人部署私有模型，越来越容易(只需一台DGX Spark ⚡️ 或者 Mac M3 Max)\n\n  @TheAhmadOsman\n\n  Ahmad@TheAhmadOsman\n\n  Sep 30",
+      "summary": "Sep 30\n\n  GLM 5.3 Flash, DeepSeek V4.1 Flash, Qwen 3.8 Next Flash, and even Qwen 3.8 27B are all outperforming (in both intelligence and capabilities) every model that was considered \"frontier intelli...",
+      "url": "https://x.com/meseven_journey",
       "tags": [
         "AI",
         "2026",
@@ -248,20 +448,45 @@
       ],
       "category": "model",
       "author": {
-        "username": "TencentAI_News",
-        "display_name": "@TencentAI_News",
-        "avatar": "https://ui-avatars.com/api/?name=TencentAI_News&background=random"
+        "username": "meseven_journey",
+        "display_name": "@meseven_journey",
+        "avatar": "https://ui-avatars.com/api/?name=meseven_journey&background=random"
       },
       "metrics": {
-        "likes": 3805,
-        "retweets": 249,
-        "replies": 160
+        "likes": 4738,
+        "retweets": 649,
+        "replies": 164
+      }
+    },
+    {
+      "id": "tav_model_6",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:17.485680",
+      "title": "Xsir (@Xsir01)",
+      "content": "Aug 13\n\n  最晚新模型像约好了一样扎堆发布： Grok 4.6、DeepSeek‑V4‑Pro‑0813、Qwen3.8‑2.4T‑A95B，以及 LFM2.5‑VL‑3B。 但把跑分、价格和目前的实测反馈放在一起看，它们争的其实不是同一件事： Grok 4.6 在冲能力上限； DeepSeek 在打 Coding Agent 的性价比； Qwen 把 Max 级模型的权重放了出来； Liquid [...] Aug 3\n\n  DeepSeek Agent Harness 内测招募帖已经不只是报名区，而是一次「Agent 执行栈建设者的集中亮相」。 大家展示的不是普通聊天机器人，而是模型之外的完整执行层：工作台、Runtime、多 Agent 协作、沙箱、评测、观测，以及各种垂直应用。\n\n  \n\n  @tianyi\n\n  Tianyi Cui@tianyi\n\n  Aug 1\n\n  如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。\n\n  6\n @Xsir01\n\n  Xsir@Xsir01\n\n  Aug 14\n\n  点赞 0.5，回复 5，复制链接 20，举报 -234。 X 到底认为什么样的内容“有价值”？这次答案直接写在了代码里。 刚把 xAI 最新开源的 X Algorithm 仓库翻了一遍，这次确实比想象中有料。 它已经不是过去那种“推荐系统大概怎么工作”的示意代码。Phoenix 的生产训练代码、合成数据生成，以及 For You [...] github.com\n\n  GitHub - xai-org/x-algorithm: Algorithm powering the For You feed on X\n\n  Algorithm powering the For You feed on X. Contribute to xai-org/x-algorithm development by creating an account on GitHub.\n\n  2\n @Xsir01\n\n  Xsir@Xsir01\n\n  Aug 14\n\n  都在骂 DeepSeek Harness ，但是这个 Star 涨的是真猛，不到两个小时，涨了10k~\n\n  \n @Xsir01\n\n  Xsir@Xsir01\n\n  Aug 13\n\n  1. 一切皆插件 2. 用数学公式来证明其插件系统的可行性 这就是 DeepSeek 团队的底色吧，且看后续了～\n\n  @deepseek_ai\n\n  @deepseek\\_ai\n\n  Aug 13",
+      "summary": "Aug 13\n\n  最晚新模型像约好了一样扎堆发布： Grok 4.6、DeepSeek‑V4‑Pro‑0813、Qwen3.8‑2.4T‑A95B，以及 LFM2.5‑VL‑3B。 但把跑分、价格和目前的实测反馈放在一起看，它们争的其实不是同一件事： Grok 4.6 在冲能力上限； DeepSeek 在打 Coding Agent 的性价比； Qwen 把 Max 级模型的权重放了出来； Li...",
+      "url": "https://x.com/Xsir01",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "model",
+      "author": {
+        "username": "Xsir01",
+        "display_name": "@Xsir01",
+        "avatar": "https://ui-avatars.com/api/?name=Xsir01&background=random"
+      },
+      "metrics": {
+        "likes": 4124,
+        "retweets": 694,
+        "replies": 211
       }
     },
     {
       "id": "2024551849005604963",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:19.352997",
+      "published_at": "2026-10-04T13:01:17.485674",
       "title": "算力与王座：AI 的五代十国，以及那块永远握不住的玉玺",
       "content": "Claude Opus 4.6 就像一个毫无感情的处刑官，将旧主的GPT-5.2 乃至传闻中的5.3 Codex 一一挑落马下，按在地上无情摩擦。 更可怕的刺杀，发生在开发者",
       "summary": "Claude Opus 4.6 就像一个毫无感情的处刑官，将旧主的GPT-5.2 乃至传闻中的5.3 Codex 一一挑落马下，按在地上无情摩擦。 更可怕的刺杀，发生在开发者...",
@@ -278,19 +503,19 @@
         "avatar": "https://ui-avatars.com/api/?name=Tz_2022&background=random"
       },
       "metrics": {
-        "likes": 2291,
-        "retweets": 753,
-        "replies": 304
+        "likes": 787,
+        "retweets": 102,
+        "replies": 141
       }
     },
     {
-      "id": "tav_model_5",
+      "id": "2067128248560230540",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:19.352993",
-      "title": "Feiteng (@FeitengLi)",
-      "content": "我问一个朴素的问题“新模型：更便宜的GPT-6.1 Sol” ChatGPT 的订阅套餐：会因为推出更便宜的GPT-6.1 Sol 而实际能使用到的TOKEN 增加吗？ 订阅套餐和实际用量这里面的",
-      "summary": "我问一个朴素的问题“新模型：更便宜的GPT-6.1 Sol” ChatGPT 的订阅套餐：会因为推出更便宜的GPT-6.1 Sol 而实际能使用到的TOKEN 增加吗？ 订阅套餐和实际用量这里面的...",
-      "url": "https://x.com/FeitengLi/all",
+      "published_at": "2026-10-04T13:01:17.485668",
+      "title": "X-এ paramiao kong: \"📢 2026-06-17 AI日更| AI 编程入口之争升温 ...",
+      "content": "百度发布的PP-OCRv6，一个仅1.5MB 的模型，能跑在浏览器里，单图识别97ms，逐字准确率甚至反超了GPT-5.5 和Gemini-3.1-Pro 等巨无霸。这证明在OCR 这类垂直领域，精巧",
+      "summary": "百度发布的PP-OCRv6，一个仅1.5MB 的模型，能跑在浏览器里，单图识别97ms，逐字准确率甚至反超了GPT-5.5 和Gemini-3.1-Pro 等巨无霸。这证明在OCR 这类垂直领域，精巧...",
+      "url": "https://x.com/paramiao/status/2067128248560230540?lang=bn",
       "tags": [
         "AI",
         "2026",
@@ -298,24 +523,24 @@
       ],
       "category": "model",
       "author": {
-        "username": "FeitengLi",
-        "display_name": "@FeitengLi",
-        "avatar": "https://ui-avatars.com/api/?name=FeitengLi&background=random"
+        "username": "paramiao",
+        "display_name": "@paramiao",
+        "avatar": "https://ui-avatars.com/api/?name=paramiao&background=random"
       },
       "metrics": {
-        "likes": 2244,
-        "retweets": 65,
-        "replies": 434
+        "likes": 3755,
+        "retweets": 804,
+        "replies": 355
       }
     },
     {
-      "id": "tav_model_4",
+      "id": "tav_model_3",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:19.352989",
+      "published_at": "2026-10-04T13:01:17.485658",
       "title": "WildCard (@bewildcard)",
-      "content": "@LiveMakersCom\n\n  LiveMakersCom@LiveMakersCom\n\n  Apr 19\n\n  📋 Daily Intel 2026年4月20日｜xAI Voice API・Grok 4.3・CLARITY Act停滞・Fed Waller・イラン 【AI / テクノロジー】 ・xAI、Grok音声APIを正式公開（4/18） STT: 25言語対応・ストリーミング $0.20/h TTS: $4.20/百万文字・Ara/Eve/Leo ボイス搭載 Tesla・Starlink CSの音声基盤と同一インフラ\n\n  \n @bewildcard\n\n  WildCard@bewildcard\n\n  Apr 27\n\n  Google 发布了 Gemini 3 模型，专为长时程编码任务优化，支持上下文窗口扩展至 200 万 token，并在编程基准上提升了 30% 的准确率。 它能处理更复杂的代码生成和调试场景，针对开发者痛点进行了针对性改进。 这本质上是 Google 在 AI 工具链。\n\n  @Google\n\n  Google@Google\n\n  Apr 21 [...] Apr 21\n\n  The next evolution of our autonomous research agent is here. Today, we’re introducing Deep Research and Deep Research Max via the Gemini API. Powered by Gemini 3.1 Pro, you can now trigger comprehensive research workflows with unprecedented control and transparency, featuring:\n\n  \n\n  00:00\n @bewildcard\n\n  WildCard@bewildcard\n\n  Apr 27\n\n  OpenAI发布GPT-5.5，支持1M上下文、计算机使用与MCP，强化代理API。 更值得关注的是，它会直接影响开发者的接入节奏，以及 AI 产品落地到真实业务场景的速度。\n\n  @OpenAI\n\n  @OpenAI\n\n  Apr 23 [...] Apr 23\n\n  Introducing GPT-5.5 A new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done. Now available in ChatGPT and Codex.\n\n  \n\n  00:00\n @bewildcard\n\n  WildCard@bewildcard\n\n  Apr 24\n\n  xAI 推出了 Grok Voice Think Fast 1.0，这是一个强调快速思考的语音模型，支持实时交互和高效响应。 它基于 Grok 基础架构，优化了语音处理速度，适用于智能设备和对话场景。 这推进了 xAI 在语音 AI 领域的竞争力，对产品集成有积极影响。\n\n  @SpaceXAI",
-      "summary": "@LiveMakersCom\n\n  LiveMakersCom@LiveMakersCom\n\n  Apr 19\n\n  📋 Daily Intel 2026年4月20日｜xAI Voice API・Grok 4.3・CLARITY Act停滞・Fed Waller・イラン 【AI / テクノロジー】 ・xAI、Grok音声APIを正式公開（4/18） STT: 25言語対応・ストリーミング $0.2...",
-      "url": "https://x.com/bewildcard",
+      "content": "Google 发布了Gemini 3 模型,专为长时程编码任务优化,支持上下文窗口扩展至200. Claude Mythos 是Anthropic 计划推出的新AI 模型,专注于网络安全领域。 当新模型能力跨越",
+      "summary": "Google 发布了Gemini 3 模型,专为长时程编码任务优化,支持上下文窗口扩展至200. Claude Mythos 是Anthropic 计划推出的新AI 模型,专注于网络安全领域。 当新模型能力跨越...",
+      "url": "https://x.com/bewildcard/all?lang=bg",
       "tags": [
         "AI",
         "2026",
@@ -328,65 +553,15 @@
         "avatar": "https://ui-avatars.com/api/?name=bewildcard&background=random"
       },
       "metrics": {
-        "likes": 2006,
-        "retweets": 33,
-        "replies": 357
-      }
-    },
-    {
-      "id": "tav_model_3",
-      "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:19.352986",
-      "title": "2026 年，如何构建自用AI 模型全家桶",
-      "content": "2026 年新挑战：模型生命周期缩短至6-12 个月（如GPT-5.2 仅6 个月后就开始弃用），必须建立快速切换机制和模型路由层，避免业务中断。",
-      "summary": "2026 年新挑战：模型生命周期缩短至6-12 个月（如GPT-5.2 仅6 个月后就开始弃用），必须建立快速切换机制和模型路由层，避免业务中断。...",
-      "url": "https://x.com/Zesee/article/2053683805819375860",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "model",
-      "author": {
-        "username": "Zesee",
-        "display_name": "@Zesee",
-        "avatar": "https://ui-avatars.com/api/?name=Zesee&background=random"
-      },
-      "metrics": {
-        "likes": 2060,
-        "retweets": 430,
-        "replies": 297
+        "likes": 2448,
+        "retweets": 853,
+        "replies": 225
       }
     },
     {
       "id": "tav_model_2",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:19.352983",
-      "title": "Alok (@analogalok)",
-      "content": "Beats GPT 6 Astra, Claude Fable 5.1 and Claude Opus 5.5 on DeepSWE. On par ... 离谱，Claude Sonnet 5.5发布了，说AI降速的A➗一个月内连发三个大模型",
-      "summary": "Beats GPT 6 Astra, Claude Fable 5.1 and Claude Opus 5.5 on DeepSWE. On par ... 离谱，Claude Sonnet 5.5发布了，说AI降速的A➗一个月内连发三个大模型...",
-      "url": "https://x.com/analogalok/all",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "model",
-      "author": {
-        "username": "analogalok",
-        "display_name": "@analogalok",
-        "avatar": "https://ui-avatars.com/api/?name=analogalok&background=random"
-      },
-      "metrics": {
-        "likes": 2039,
-        "retweets": 550,
-        "replies": 416
-      }
-    },
-    {
-      "id": "tav_model_1",
-      "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:19.352979",
+      "published_at": "2026-10-04T13:01:17.485651",
       "title": "人工智能的工程全景（中）：推理，后训练，对齐和安全 | snowboat (@snowboat84)",
       "content": "回到本节标题，\"同一套权重，两个产品\"的画面今天已经很具体。OpenAI在API里提供reasoning effort的low/medium/high三档，价格和延迟差几倍但底层是同一组权重。Anthropic的Claude extended thinking是on/off开关，开了之后单次回答的token消耗可以涨十倍以上，但SWE-bench Verified和数学题准确率显著上一个台阶。DeepSeek R1是在V3-Base之上加reasoning后训练得到的，跟V3的通用回答版本共用基础架构和大量参数。\n\n工程层面通过推理预算和后训练head，把同一个底座切成\"快产品\"和\"慢产品\"两种业态。这一层不需要训练新模型就能做出截然不同的价位段，是2025-2026年LLM商业模式变化最快的一块。\n\n至此运行态才算真正收尾。下面进改造态，讨论模型本身怎么从一个\"会续写文本\"的基础模型，被改造成你今天用的ChatGPT、Claude、Gemini。这条线的核心叫后训练。\n\n## 二、后训练入门：从基础模型到对话模型 [...] 中篇最核心的一个判断是，模型版本之间用户感受的差距，绝大部分源自改造态。用户感受到的\"GPT-5比GPT-4强多少\"\"Claude比GPT礼貌多少\"\"新版变冷了\"，几乎全部由后训练和对齐决定。Base model升级周期3到6个月，每次能力跃迁一档。改造态迭代周期2到4周，每次调整就能影响用户体感。\n\nBase model是骨架，改造态是肌肉、皮肤、表情，决定产品最终长什么样。这件事也解释了为什么不同厂家的模型读起来风格差异明显。Anthropic偏保守、OpenAI偏热情、Google偏中性，本质都是各家在HHH权衡点上选了不同位置。\n\n下篇换条线，讲模型怎么从被动响应变成自主行动。Agent工程是2025-2026最热也最被高估的方向之一。Cursor、Claude Code、Devin、Operator、Manus这些产品的差距，几乎完全在Agent工程层面，不在底层模型。下篇会拆这条线。\n\n### 作者其它文章（选） [...] LLM商业痛点5.4节讲过这条线的工程现状：2024年5月《Scaling Monosemanticity》（Bai团队）用sparse autoencoder在Claude 3 Sonnet提取出最多3400万个可解释features，2024年5月Golden Gate Claude demo展示了\"操控feature改变行为\"的可能性，2025年circuit tracing工作在Claude 3.5 Haiku上展示了multi-step reasoning、hallucination、jailbreak resistance背后的一些可追踪机制，2026年《Emergent Introspective Awareness in Large Language Models》测试Claude Opus 4/4.1能否\"察觉\"被注入的概念。",
       "summary": "回到本节标题，\"同一套权重，两个产品\"的画面今天已经很具体。OpenAI在API里提供reasoning effort的low/medium/high三档，价格和延迟差几倍但底层是同一组权重。Anthropic的Claude extended thinking是on/off开关，开了之后单次回答的token消耗可以涨十倍以上，但SWE-bench Verified和数学题准确率显著上一个台阶。De...",
@@ -403,15 +578,40 @@
         "avatar": "https://ui-avatars.com/api/?name=snowboat84&background=random"
       },
       "metrics": {
-        "likes": 680,
-        "retweets": 857,
-        "replies": 487
+        "likes": 2832,
+        "retweets": 744,
+        "replies": 250
+      }
+    },
+    {
+      "id": "tav_model_1",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:17.485642",
+      "title": "2026 年，如何构建自用 AI 模型全家桶 | Rachel🥥 (@Zesee)",
+      "content": "markdown\n\n```\n主力模型：Claude Sonnet 4.6（40%）主力模型：Claude Sonnet 4.6（40%）├─ 深度思考：Claude Opus 4.7（15%）├─ 深度思考：Claude Opus 4.7（15%）├─ 多模态：Gemini 3.1 Pro（15%）├─ 多模态：Gemini 3.1 Pro（15%）├─ 高频快速：GPT-4o mini（15%）├─ 高频快速：GPT-4o mini（15%）├─ 复杂任务拆解：Ring-2.6-1T high（10%）├─ 复杂任务拆解：Ring-2.6-1T high（10%） └─ 批量处理：自部署 Llama 4 或 DeepSeek V4（5%） └─ 批量处理：自部署 Llama 4 或 DeepSeek V4（5%） 月成本估算：$5000-20000月成本估算：$5000-20000 适用场景：产品成熟期、多场景需求、追求质量 适用场景：产品成熟期、多场景需求、追求质量\n``` [...] 多模型互补，覆盖全场景\n 保留顶级模型处理关键任务\n Gemini 3.1 Pro 提供强大多模态能力\n Ring-2.6-1T 处理需要任务拆解的复杂工程场景，成本可控\n\n3.3 大型企业配置（性能优先）\n\nmarkdown\n\n```\n旗舰模型：Claude Opus 4.7（35%）旗舰模型：Claude Opus 4.7（35%）├─ 快速响应：Claude Sonnet 4.6（25%）├─ 快速响应：Claude Sonnet 4.6（25%）├─ 多模态：GPT-5.2 或 Gemini 3.1 Pro（20%）├─ 多模态：GPT-5.2 或 Gemini 3.1 Pro（20%）├─ 高频任务：GPT-4o mini（15%）├─ 高频任务：GPT-4o mini（15%） └─ 私有部署：Llama 4 集群（5%） └─ 私有部署：Llama 4 集群（5%） 月成本估算：$50000+月成本估算：$50000+ 适用场景：大规模应用、对质量要求极高、数据敏感 适用场景：大规模应用、对质量要求极高、数据敏感\n``` [...] 【数据分析】\n\n 深度分析：Claude Opus 4.7 或 DeepSeek V4（1M context 优势，可处理完整数据集）\n 快速洞察：Gemini 3.1 Pro\n 批量处理：自部署 Llama 4\n 新能力：GPT-5.2 的 922K 输入能力可一次性处理超大规模数据\n 复杂任务拆解：Ring-2.6-1T xhigh（适合深度研究、综合分析、多路径探索）\n\n【多模态应用】\n\n 实时交互：GPT-5.2 或 Gemini 3.1 Pro\n 图像理解：Claude 4.X 或 GPT-5.2\n 视频分析：Gemini 3.1 Pro\n\n【国际化需求】\n\n 中文为主：DeepSeek V4 + Claude\n 多语言：GPT-5.2 或 Gemini 3.1 Pro\n 欧洲合规：Mistral Large 3\n\n### 三、三种典型的模型全家桶配置\n\n3.1 初创团队配置（成本优先）\n\nmarkdown",
+      "summary": "markdown\n\n```\n主力模型：Claude Sonnet 4.6（40%）主力模型：Claude Sonnet 4.6（40%）├─ 深度思考：Claude Opus 4.7（15%）├─ 深度思考：Claude Opus 4.7（15%）├─ 多模态：Gemini 3.1 Pro（15%）├─ 多模态：Gemini 3.1 Pro（15%）├─ 高频快速：GPT-4o mini（15%）...",
+      "url": "https://x.com/Zesee/article/2053683805819375860",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "model",
+      "author": {
+        "username": "Zesee",
+        "display_name": "@Zesee",
+        "avatar": "https://ui-avatars.com/api/?name=Zesee&background=random"
+      },
+      "metrics": {
+        "likes": 3413,
+        "retweets": 672,
+        "replies": 252
       }
     },
     {
       "id": "tav_model_0",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:19.352946",
+      "published_at": "2026-10-04T13:01:17.485609",
       "title": "互补品的胜利：开源大模型叙事将如何改写这场竞赛 | Jing (@jingyi_duan_)",
       "content": "作为对比：GPT-5.5为5/30美元（2026年4月发布）；Claude Opus 4.8为5/25美元（2026年5月28日发布）；Gemini 3.1 Pro约为2/12美元（200K上下文以内）。\n\n也就是说，在同一个智能档位上（比如SWE-bench Verified 80%左右），DeepSeek V4 Pro的输入价约为GPT-5.5和Claude Opus 4.8的十一分之一，输出价约为三十分之一。\n\n这组数字的含义是残酷的：对任何一个\"中档开源模型已经够用\"的任务，闭源旗舰的价格没有任何理由。开源不是在跟闭源比性能，它是在把闭源的定价权直接拿走。闭源厂商只能退守到两个地方——要么是开源暂时还追不上的绝对前沿（最难的推理、最长的Agent任务），要么是企业级的信任、合规和集成服务。API本身的高毛利时代，正在被开源叙事按在地上摩擦。 [...] 他说DeepSeek目前约两万张H系列等效算力，大部分是最近一两个月才到。美国最大模型激活参数约800B，国内还在几十B激活量级，差一个数量级。他认为所有看到的差距——人才差距、模型能力差距、应用差距——本质上都是因为算力资源的差距。人才差距也是因为算力少导致的，能做的实验机会少，人才培养就慢。\n\n他用了一个很具体的叙事来概括中国的位置：落后美国12到18个月（或6到12个月），但只用了美国约二十分之一的算力。未来的目标是把时间差缩到3到6个月。\n\n这个叙事能否被验证？部分可以。DeepSeek V4在2026年4月24日发布时，在多个benchmark上接近但未超越美国最强闭源模型（GPT-5.5和Claude Opus 4.8在某些推理任务上仍有优势），同时价格低一到两个数量级。时间差确实在缩短——从R1时期的明显滞后，到V4时期的几乎同步。但\"二十分之一算力\"这个数字出自纪要，没有独立来源可以印证。 [...] ### 谁的互补品\n\n回到那封信。黄仁勋为什么要为此注册人生第一个X账号？因为开源模型是英伟达有史以来最好的互补品。每一个下载权重并在自己的GPU上跑起来的团队，都在为英伟达的需求管道添砖加瓦。\n\n声明： 本文对\"开源\"与\"开放权重\"未做严格区分——严格意义上，Llama、Qwen、Kimi等多数是\"开放权重\"而非OSI定义的完全开源（训练数据和代码通常不公开）；只有AI2的OLMo等少数是真正全开源。行文中的\"开源\"多数指业界通用的\"开放权重\"含义。API价格为2026年7月快照，处于快速迭代中。",
       "summary": "作为对比：GPT-5.5为5/30美元（2026年4月发布）；Claude Opus 4.8为5/25美元（2026年5月28日发布）；Gemini 3.1 Pro约为2/12美元（200K上下文以内）。\n\n也就是说，在同一个智能档位上（比如SWE-bench Verified 80%左右），DeepSeek V4 Pro的输入价约为GPT-5.5和Claude Opus 4.8的十一分之一，输出...",
@@ -428,15 +628,15 @@
         "avatar": "https://ui-avatars.com/api/?name=jingyi_duan_&background=random"
       },
       "metrics": {
-        "likes": 870,
-        "retweets": 715,
-        "replies": 241
+        "likes": 3137,
+        "retweets": 285,
+        "replies": 86
       }
     },
     {
       "id": "tav_tutorial_7",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:16.127473",
+      "published_at": "2026-10-04T13:01:15.503521",
       "title": "ChatGPT: Chat, Work, Create & Code with AI",
       "content": "ChatGPT\n\n# What are you working on?Where should we begin?\n\nChatGPT is AI. By using it, you agree to our Terms & Privacy Policy. Chats may be reviewed and used to improve our AI models. Learn more\n\n- #### ChatGPT said:\n\n  Unable to connect•",
       "summary": "ChatGPT\n\n# What are you working on?Where should we begin?\n\nChatGPT is AI. By using it, you agree to our Terms & Privacy Policy. Chats may be reviewed and used to improve our AI models. Learn more\n\n- #...",
@@ -453,18 +653,18 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 1742,
-        "retweets": 14,
-        "replies": 58
+        "likes": 2915,
+        "retweets": 503,
+        "replies": 294
       }
     },
     {
       "id": "tav_tutorial_6",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:16.127471",
+      "published_at": "2026-10-04T13:01:15.503517",
       "title": "Google AI Studio",
-      "content": "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
-      "summary": "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models....",
+      "content": "Generate photorealistic window views based on live weather and specific locations. Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s",
+      "summary": "Generate photorealistic window views based on live weather and specific locations. Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s...",
       "url": "https://aistudio.google.com",
       "tags": [
         "AI",
@@ -478,15 +678,15 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 1731,
-        "retweets": 548,
-        "replies": 153
+        "likes": 4285,
+        "retweets": 686,
+        "replies": 191
       }
     },
     {
       "id": "tav_tutorial_5",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:16.127468",
+      "published_at": "2026-10-04T13:01:15.503512",
       "title": "What is Artificial Intelligence (AI)? | Google Cloud",
       "content": "AI is about teaching computers to do the amazing things our own brains can do, from understanding the world around them to learning new things and even coming up with fresh ideas. For instance, AI is used in optical character recognition (OCR) to pull text and data from various images and documents. This process transforms unstructured content into structured, business-ready data, helping uncover valuable insights.\n\n## How does AI work? [...] ## What is artificial intelligence (AI)?\n\nArtificial intelligence (AI) is a set of technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to require human intelligence, such as understanding language, analyzing data, and even providing helpful suggestions. It’s a transformational technology that can bring meaningful and positive change to people and societies and the world. [...] # Artificial intelligence (AI): a simple-to-understand guide\n\nEver wonder how your phone can recognize your face, a streaming service knows exactly what movie you’ll love next, or how a car can drive itself? The answer is artificial intelligence (AI).",
       "summary": "AI is about teaching computers to do the amazing things our own brains can do, from understanding the world around them to learning new things and even coming up with fresh ideas. For instance, AI is ...",
@@ -503,15 +703,15 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 4759,
-        "retweets": 225,
-        "replies": 208
+        "likes": 578,
+        "retweets": 384,
+        "replies": 487
       }
     },
     {
       "id": "tav_tutorial_4",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:16.127465",
+      "published_at": "2026-10-04T13:01:15.503507",
       "title": "What is Artificial intelligence (AI)?",
       "content": "AI is transforming education by offering personalized learning experiences and intelligent tutoring systems. [...] As AI systems become more powerful and pervasive, concerns about bias, transparency, and accountability have grown. There is a growing focus on ethical and responsible AI practices. Researchers and policymakers are working to establish guidelines and frameworks to ensure AI is developed and deployed responsibly.\n\n## What Programming Languages are used in AI?\n\n C++\n Haskell\n Java\n JavaScript\n Julia\n Lisp\n Prolog\n Python\n R\n Scala\n\n## Benefits of AI [...] ## Four Basic Functions of AI",
       "summary": "AI is transforming education by offering personalized learning experiences and intelligent tutoring systems. [...] As AI systems become more powerful and pervasive, concerns about bias, transparency, ...",
@@ -528,15 +728,15 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 693,
-        "retweets": 700,
-        "replies": 248
+        "likes": 4007,
+        "retweets": 710,
+        "replies": 17
       }
     },
     {
       "id": "tav_tutorial_3",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:16.127463",
+      "published_at": "2026-10-04T13:01:15.503503",
       "title": "Artificial intelligence (AI) | Definition, Examples, Types, Applications, Companies, & Facts | Britannica",
       "content": "• Oct. 1, 2026, 11:01 AM ET (AP)\n\nTokyo court grants legal protection to human voices in AI clone case\n\n• Oct. 1, 2026, 7:38 AM ET (AP)\n\nA timeline of developments in AI safety since the attack on Hugging Face\n\n• Oct. 1, 2026, 6:34 AM ET (AP)\n\nCalifornia Gov. Gavin Newsom signs laws to protect workers from AI risks\n\n• Sep. 30, 2026, 7:46 PM ET (AP) [...] Select Citation Style\n\nCopeland, B.J.. \"artificial intelligence\". Encyclopedia Britannica, 1 Oct. 2026,  Accessed 1 October 2026.\n\nShare\n\nShare to social media\n\nFacebook\nX\n\nExternal Websites [...] No, artificial intelligence and machine learning are not the same, but they are closely related. Machine learning is the method to train a computer to learn from its inputs but without explicit programming for every circumstance. Machine learning helps a computer to achieve artificial intelligence.\n\n## News •\n\nWes Moore forms bipartisan governors group on AI, citing federal inaction\n\n• Oct. 1, 2026, 3:33 PM ET (AP)\n\nRising bond yields rattle markets worldwide and offset hopes for AI stocks",
       "summary": "• Oct. 1, 2026, 11:01 AM ET (AP)\n\nTokyo court grants legal protection to human voices in AI clone case\n\n• Oct. 1, 2026, 7:38 AM ET (AP)\n\nA timeline of developments in AI safety since the attack on Hug...",
@@ -553,15 +753,15 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 4921,
-        "retweets": 367,
-        "replies": 275
+        "likes": 3494,
+        "retweets": 101,
+        "replies": 250
       }
     },
     {
       "id": "tav_tutorial_2",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:16.127460",
+      "published_at": "2026-10-04T13:01:15.503498",
       "title": "Google AI - How we're making AI helpful for everyone",
       "content": "Learn more\n\n### Intelligent transcription with Gemini 3.5 Transcribe\n\nLearn more\n\n### Introducing Gemini 3.7 Flash\n\nLearn more\n\n### Made by Google 2026\n\nLearn more [...] Envision a mural First ask me to upload a photo of my wall. Then generate an image of what it would look like with a modern mural painted on it. The design should maintain some white space, but be a little unconventional and playful, with striking patterns and unique color combinations\n\nChallenge Gemini to guess what you're drawing Create a pictionary-style game where Gemini Flash is guessing what you're drawing on a canvas as quickly and as often as possible [...] Envision a mural First ask me to upload a photo of my wall. Then generate an image of what it would look like with a modern mural painted on it. The design should maintain some white space, but be a little unconventional and playful, with striking patterns and unique color combinations\n\nChallenge Gemini to guess what you're drawing Create a pictionary-style game where Gemini Flash is guessing what you're drawing on a canvas as quickly and as often as possible",
       "summary": "Learn more\n\n### Intelligent transcription with Gemini 3.5 Transcribe\n\nLearn more\n\n### Introducing Gemini 3.7 Flash\n\nLearn more\n\n### Made by Google 2026\n\nLearn more [...] Envision a mural First ask me ...",
@@ -578,15 +778,15 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 1789,
-        "retweets": 668,
-        "replies": 414
+        "likes": 2141,
+        "retweets": 515,
+        "replies": 471
       }
     },
     {
       "id": "tav_tutorial_1",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:16.127456",
+      "published_at": "2026-10-04T13:01:15.503492",
       "title": "OpenAI | Research & Deployment",
       "content": "DevDay 2026 Recap Company 28 min read\n\nImage 3: Introducing dots — cover art card (square)\n\nIntroducing dots Product 8 min read\n\nImage 4: GPT-6-1-Sol_Blog 1x1\n\nIntroducing GPT-6.1 Sol Product 6 min read\n\nImage 5: Mental Health Bench art card\n\nIntroducing MentalHealthBench Publication 8 min read\n\n## Recent news\n\nView more\n\nImage 6: Two years of OpenAI Academy — card image\n\nTwo years of OpenAI Academy Company Sep 23, 2026 [...] Ten advances in mathematics and theoretical computer science Publication Aug 1, 2026\n\n## OpenAI for business\n\nView all\n\nImage 18: Model ML customer story card image\n\nModel ML completes finance work more efficiently with GPT-5.6 Sol Startup Aug 10, 2026\n\nImage 19: Virgin Atlantic ChatGPT Work card image\n\nVirgin Atlantic sharpens customer journeys with ChatGPT Work Aug 10, 2026\n\nImage 20: Zapier customer story 1x1 artcard [...] Rédigez un email pour un devis de réparation\n\nTroubleshoot my printer set-up\n\nWrite a thank-you note\n\nHelp me debug this code\n\nCrea un entrenamiento de movilidad\n\nBrainstorm podcast episode ideas\n\nReview my argument for a debate\n\nNew space exploration plans\n\nBest cricket bat for beginners\n\nRank e-bikes for daily commuting\n\nQuiz me on vocabulary\n\n \n\nTalk with ChatGPTResearchAPI PlatformStoriesMore\n\nImage 1: OpenAI DevDay 2026\n\nDevDay 2026 Recap Company 28 min read\n\nImage 2: OpenAI DevDay 2026",
       "summary": "DevDay 2026 Recap Company 28 min read\n\nImage 3: Introducing dots — cover art card (square)\n\nIntroducing dots Product 8 min read\n\nImage 4: GPT-6-1-Sol_Blog 1x1\n\nIntroducing GPT-6.1 Sol Product 6 min re...",
@@ -603,15 +803,15 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 4637,
-        "retweets": 622,
-        "replies": 152
+        "likes": 2155,
+        "retweets": 640,
+        "replies": 273
       }
     },
     {
       "id": "tav_tutorial_0",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:16.127431",
+      "published_at": "2026-10-04T13:01:15.503468",
       "title": "What Is Artificial Intelligence (AI)? | IBM",
       "content": "Explore our 2026 guide to AI agents\n\n## Benefits of AI\n\nAI offers numerous benefits across various industries and applications. Some of the most commonly cited benefits include:\n\n Automation of repetitive tasks.\n More and faster insight from data.\n Enhanced decision-making.\n Fewer human errors.\n 24x7 availability.\n Reduced physical risks.\n\n### Automation of repetitive tasks [...] Outside view of a commercial building\n\n### 2026 Buyer's Guide for IBM's AI agents and assistants\n\nThe future of AI is evolving fast, but one thing is clear: tech leaders must act now to prepare their teams and organizations for success. Adopting AI tools like assistants and agents is a critical first step.\n\n## How generative AI works\n\nIn general, generative AI operates in three phases: [...] Get hands-on experience with IBM tech Join one of the largest technical IBM community gatherings\n\n# What is artificial intelligence (AI)?\n\nPublished 09 August 2024\n\nUpdated 15 June 2026\n\nIllustration of a brain interconnected with several neural pathways\n\nBy Cole Stryker and  Eda Kavlakoglu\n\n## What is AI?\n\nArtificial intelligence (AI) is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity and autonomy.",
       "summary": "Explore our 2026 guide to AI agents\n\n## Benefits of AI\n\nAI offers numerous benefits across various industries and applications. Some of the most commonly cited benefits include:\n\n Automation of repeti...",
@@ -628,19 +828,19 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 2014,
-        "retweets": 70,
-        "replies": 339
+        "likes": 2768,
+        "retweets": 279,
+        "replies": 122
       }
     },
     {
       "id": "tav_open_source_7",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:11.973024",
-      "title": "Google AI Studio",
-      "content": "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models.",
-      "summary": "Manage a virtual metropolis and fulfill tasks provided by Gemini. Start exploring and building with Google’s latest models....",
-      "url": "https://aistudio.google.com",
+      "published_at": "2026-10-04T13:01:11.422560",
+      "title": "Microsoft Copilot",
+      "content": "Microsoft Copilot is AI built to help you get things done. Create, brainstorm, learn, and solve problems with AI chat that works across your day.",
+      "summary": "Microsoft Copilot is AI built to help you get things done. Create, brainstorm, learn, and solve problems with AI chat that works across your day....",
+      "url": "https://copilot.microsoft.com",
       "tags": [
         "AI",
         "2026",
@@ -653,40 +853,15 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 417,
-        "retweets": 626,
-        "replies": 426
+        "likes": 1840,
+        "retweets": 208,
+        "replies": 429
       }
     },
     {
       "id": "tav_open_source_6",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:11.973017",
-      "title": "What is Artificial Intelligence (AI)? | Google Cloud",
-      "content": "## What is artificial intelligence (AI)?\n\nArtificial intelligence (AI) is a set of technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to require human intelligence, such as understanding language, analyzing data, and even providing helpful suggestions. It’s a transformational technology that can bring meaningful and positive change to people and societies and the world. [...] Hybrid and multi-cloud services to deploy and monetize 5G.\n\n \n\n  Games\n\n  AI-driven solutions to build and scale games faster.\n\n \n\n  Manufacturing\n\n  Migration and AI tools to optimize the manufacturing value chain.\n\n \n\n  Supply Chain and Logistics\n\n  Enable sustainable, efficient, and resilient data-driven operations across supply chain and logistics operations.\n\n \n\n  Government\n\n  Data storage, AI, and analytics solutions for government agencies.\n\n \n\n  Education [...] The ability to analyze vast amounts of data quickly can lead to accelerated breakthroughs in research and development. For instance, AI can help with predictive modeling for potential new pharmaceutical treatments or with quantifying the human genome.\n\n## AI in action: transforming our world\n\nAI's influence is vast and growing, touching nearly every aspect of our lives and industries. Here’s where you can see it making a difference:",
-      "summary": "## What is artificial intelligence (AI)?\n\nArtificial intelligence (AI) is a set of technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to r...",
-      "url": "https://cloud.google.com/learn/what-is-artificial-intelligence",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "open_source",
-      "author": {
-        "username": "AI_Hunter",
-        "display_name": "@AI_Hunter",
-        "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
-      },
-      "metrics": {
-        "likes": 2594,
-        "retweets": 293,
-        "replies": 237
-      }
-    },
-    {
-      "id": "tav_open_source_5",
-      "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:11.973014",
+      "published_at": "2026-10-04T13:01:11.422550",
       "title": "ChatGPT: Chat, Work, Create & Code with AI",
       "content": "ChatGPT\n\n# What are you working on?Where should we begin?\n\nChatGPT is AI. By using it, you agree to our Terms & Privacy Policy. Chats may be reviewed and used to improve our AI models. Learn more\n\n- #### ChatGPT said:\n\n  Unable to connect•",
       "summary": "ChatGPT\n\n# What are you working on?Where should we begin?\n\nChatGPT is AI. By using it, you agree to our Terms & Privacy Policy. Chats may be reviewed and used to improve our AI models. Learn more\n\n- #...",
@@ -703,65 +878,40 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 1403,
-        "retweets": 39,
-        "replies": 375
+        "likes": 3807,
+        "retweets": 484,
+        "replies": 129
+      }
+    },
+    {
+      "id": "tav_open_source_5",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:11.422544",
+      "title": "DeepAI",
+      "content": "and many are available through simple APIs. [...] These projects demonstrate how responsible AI can shorten the observation-to-action loop. Faster detection means faster response. Lower costs mean broader coverage. Automated systems free experts to focus on decisions rather than data processing—and real conservation outcomes follow.\n\n#### Uplifting People Around the World [...] All projects were delivered on time with measurable real-world impact.",
+      "summary": "and many are available through simple APIs. [...] These projects demonstrate how responsible AI can shorten the observation-to-action loop. Faster detection means faster response. Lower costs mean bro...",
+      "url": "https://deepai.org",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "open_source",
+      "author": {
+        "username": "AI_Hunter",
+        "display_name": "@AI_Hunter",
+        "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
+      },
+      "metrics": {
+        "likes": 2530,
+        "retweets": 803,
+        "replies": 207
       }
     },
     {
       "id": "tav_open_source_4",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:11.973011",
-      "title": "What is Artificial intelligence (AI)?",
-      "content": "| Figures from Glassdoor accessed May 2026.  Figures from Payscale accessed May 2026.  Figures from U.S. Bureau of Labor Statistics (BLS), dated May 2025. |\n| Job Title | Mean Entry-level Salary (Glassdoor) | Mean Annual Salary (Glassdoor) | Top 10 Percent (Glassdoor) |\n| Artificial Intelligence Engineer | $123,000 | $153,000 | $192,000 |\n| Artificial Intelligence Research Scientist | $167,000 | $204,000 | $262,000 | [...] AI applications affect many aspects of our lives. And AI is predicted to grow even more pervasive as it revolutionizes sectors including health care, education, finance, security, transportation, and advertising. As AI makes difficult tasks less complex and replaces tedious or dangerous tasks, the expectation is that the human workforce will shift our focus to endeavors that require creativity and empathy. [...] AI is transforming education by offering personalized learning experiences and intelligent tutoring systems.",
-      "summary": "| Figures from Glassdoor accessed May 2026.  Figures from Payscale accessed May 2026.  Figures from U.S. Bureau of Labor Statistics (BLS), dated May 2025. |\n| Job Title | Mean Entry-level Salary (Glas...",
-      "url": "https://www.mtu.edu/data-science/undergraduate/ai/what-is",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "open_source",
-      "author": {
-        "username": "AI_Hunter",
-        "display_name": "@AI_Hunter",
-        "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
-      },
-      "metrics": {
-        "likes": 3501,
-        "retweets": 872,
-        "replies": 474
-      }
-    },
-    {
-      "id": "tav_open_source_3",
-      "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:11.973008",
-      "title": "What Is Artificial Intelligence (AI)? | IBM",
-      "content": "Cost of a Data Breach report 2026   Attackers are weaponing AI \n\nAI-driven attacks increased 56%, led by deepfake impersonations and AI-enabled malware. Discover what's driving the surge.\n\n Get the report\n\nCase study   Designing an AI native airline at enterprise scale [...] Explore our 2026 guide to AI agents\n\n## Benefits of AI\n\nAI offers numerous benefits across various industries and applications. Some of the most commonly cited benefits include:\n\n Automation of repetitive tasks.\n More and faster insight from data.\n Enhanced decision-making.\n Fewer human errors.\n 24x7 availability.\n Reduced physical risks.\n\n### Automation of repetitive tasks [...] Outside view of a commercial building\n\n### 2026 Buyer's Guide for IBM's AI agents and assistants\n\nThe future of AI is evolving fast, but one thing is clear: tech leaders must act now to prepare their teams and organizations for success. Adopting AI tools like assistants and agents is a critical first step.\n\n## How generative AI works\n\nIn general, generative AI operates in three phases:",
-      "summary": "Cost of a Data Breach report 2026   Attackers are weaponing AI \n\nAI-driven attacks increased 56%, led by deepfake impersonations and AI-enabled malware. Discover what's driving the surge.\n\n Get the re...",
-      "url": "https://www.ibm.com/think/topics/artificial-intelligence",
-      "tags": [
-        "AI",
-        "2026",
-        "中文区"
-      ],
-      "category": "open_source",
-      "author": {
-        "username": "AI_Hunter",
-        "display_name": "@AI_Hunter",
-        "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
-      },
-      "metrics": {
-        "likes": 4962,
-        "retweets": 252,
-        "replies": 309
-      }
-    },
-    {
-      "id": "tav_open_source_2",
-      "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:11.973001",
+      "published_at": "2026-10-04T13:01:11.422537",
       "title": "Google AI - How we're making AI helpful for everyone",
       "content": "Learn more\n\n### Intelligent transcription with Gemini 3.5 Transcribe\n\nLearn more\n\n### Introducing Gemini 3.7 Flash\n\nLearn more\n\n### Made by Google 2026\n\nLearn more [...] Discover and try AI experimental products\n\n## For experimenting\n\nExplore all products\n\n### Build or refine your business identity in moments, with the help of our agent\n\nTry Pomelli\n\n### Share your generated worlds to let others watch a video preview, explore, or remix them\n\nTry Project Genie\n\n### Transform ideas into UI designs for mobile and web applications\n\nTry Stitch\n\n### Explore and refine your ideas with an AI-powered concepting board\n\nTry Mixboard [...] Transform a sketch into a realistic image Transform the simple sketch into a realistic car, follow creative direction of the sketch and use the colors and texture from the uploaded image\n\nTurn a photo into poetry First ask me to upload an image. Then write a poem about it.\n\nGet a 2000s pop makeover First ask me to upload an image of myself. Then change my style to early 2000s pop.",
       "summary": "Learn more\n\n### Intelligent transcription with Gemini 3.5 Transcribe\n\nLearn more\n\n### Introducing Gemini 3.7 Flash\n\nLearn more\n\n### Made by Google 2026\n\nLearn more [...] Discover and try AI experiment...",
@@ -778,15 +928,40 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 1997,
-        "retweets": 10,
-        "replies": 473
+        "likes": 3449,
+        "retweets": 156,
+        "replies": 346
       }
     },
     {
-      "id": "tav_open_source_1",
+      "id": "tav_open_source_3",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:11.972997",
+      "published_at": "2026-10-04T13:01:11.422530",
+      "title": "AI fundamentals | OpenAI",
+      "content": "Skip to main content\n\n\n\nLog inTry ChatGPT(opens in a new window)\n\n   Research\n   Products\n   Business\n   Developers\n   Company\n   Foundation(opens in a new window)\n\nTry ChatGPT(opens in a new window)Login\n\nOpenAI\n\nApril 10, 2026\n\nOpenAI Academy\n\n# AI fundamentals\n\nUnderstand the basics of AI, including what it is, how it works, and how it’s used.\n\nLoading…\n\nAudio 1\n\nShare\n\nWhat is AI? [...] Learn about getting started with ChatGPT and prompt engineering.\n\n## Continue learning with OpenAI Academy\n\nDiscover additional guides and resources to help you build practical AI skills.\n\nView all topics\n\n## Keep reading\n\nView all\n\nImage 1: Academy > Applications of AI > Cover Image\n\nApplications of AI | OpenAI OpenAI Academy Apr 10, 2026\n\nImage 2: Academy > Responsible & safe use > Cover Image\n\nResponsible and safe use of AI | OpenAI OpenAI Academy Apr 10, 2026 [...] Image 3: Academy > Getting started > Cover Image\n\nGetting started with ChatGPT | OpenAI OpenAI Academy Jul 10, 2026\n\nResearch\n   Research Index\n   Research Overview\n   Economic Research\n\nLatest Advancements\n   GPT-6\n   GPT-5.6\n   GPT-5.5\n   GPT-5.4\n\nSafety\n   Safety Approach\n   Deployment Safety(opens in a new window)\n   Security & Privacy\n   Trust & Transparency",
+      "summary": "Skip to main content\n\n\n\nLog inTry ChatGPT(opens in a new window)\n\n   Research\n   Products\n   Business\n   Developers\n   Company\n   Foundation(opens in a new window)\n\nTry ChatGPT(opens in a new window)L...",
+      "url": "https://openai.com/academy/what-is-ai",
+      "tags": [
+        "AI",
+        "2026",
+        "中文区"
+      ],
+      "category": "open_source",
+      "author": {
+        "username": "AI_Hunter",
+        "display_name": "@AI_Hunter",
+        "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
+      },
+      "metrics": {
+        "likes": 2216,
+        "retweets": 17,
+        "replies": 464
+      }
+    },
+    {
+      "id": "tav_open_source_2",
+      "source": "Twitter/X",
+      "published_at": "2026-10-04T13:01:11.422514",
       "title": "Artificial intelligence (AI) | Definition, Examples, Types, Applications, Companies, & Facts | Britannica",
       "content": "• Oct. 1, 2026, 11:01 AM ET (AP)\n\nTokyo court grants legal protection to human voices in AI clone case\n\n• Oct. 1, 2026, 7:38 AM ET (AP)\n\nA timeline of developments in AI safety since the attack on Hugging Face\n\n• Oct. 1, 2026, 6:34 AM ET (AP)\n\nCalifornia Gov. Gavin Newsom signs laws to protect workers from AI risks\n\n• Sep. 30, 2026, 7:46 PM ET (AP) [...] Select Citation Style\n\nCopeland, B.J.. \"artificial intelligence\". Encyclopedia Britannica, 1 Oct. 2026,  Accessed 1 October 2026.\n\nShare\n\nShare to social media\n\nFacebook\nX\n\nExternal Websites [...] No, artificial intelligence and machine learning are not the same, but they are closely related. Machine learning is the method to train a computer to learn from its inputs but without explicit programming for every circumstance. Machine learning helps a computer to achieve artificial intelligence.\n\n## News •\n\nWes Moore forms bipartisan governors group on AI, citing federal inaction\n\n• Oct. 1, 2026, 3:33 PM ET (AP)\n\nRising bond yields rattle markets worldwide and offset hopes for AI stocks",
       "summary": "• Oct. 1, 2026, 11:01 AM ET (AP)\n\nTokyo court grants legal protection to human voices in AI clone case\n\n• Oct. 1, 2026, 7:38 AM ET (AP)\n\nA timeline of developments in AI safety since the attack on Hug...",
@@ -803,15 +978,15 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 4128,
-        "retweets": 76,
-        "replies": 315
+        "likes": 4247,
+        "retweets": 327,
+        "replies": 367
       }
     },
     {
-      "id": "tav_open_source_0",
+      "id": "tav_open_source_1",
       "source": "Twitter/X",
-      "published_at": "2026-10-03T12:30:11.972969",
+      "published_at": "2026-10-04T13:01:11.422505",
       "title": "OpenAI | Research & Deployment",
       "content": "Ten advances in mathematics and theoretical computer science Publication Aug 1, 2026\n\n## OpenAI for business\n\nView all\n\nImage 18: Model ML customer story card image\n\nModel ML completes finance work more efficiently with GPT-5.6 Sol Startup Aug 10, 2026\n\nImage 19: Virgin Atlantic ChatGPT Work card image\n\nVirgin Atlantic sharpens customer journeys with ChatGPT Work Aug 10, 2026\n\nImage 20: Zapier customer story 1x1 artcard [...] (opens in a new window)(opens in a new window)(opens in a new window)(opens in a new window)(opens in a new window)(opens in a new window)(opens in a new window)\n\nOpenAI © 2015–2026 Your privacy choices\n\nEnglish United States [...] Image 14: Dr. César de la Fuente in profile against a colorful lab display.\n\nAccelerating antibiotic discovery with ChatGPT Sep 9, 2026\n\n## Latest research\n\nView all\n\nImage 15: Navier–Stokes solution — art card\n\nAn OpenAI model proposes a solution to the Navier–Stokes problem Research Sep 8, 2026\n\nImage 16: Research acceleration: The view inside OpenAI > Cover image\n\nResearch acceleration: The view inside OpenAI Research Sep 6, 2026\n\nImage 17: math-breakthroughs art-card 1x1",
       "summary": "Ten advances in mathematics and theoretical computer science Publication Aug 1, 2026\n\n## OpenAI for business\n\nView all\n\nImage 18: Model ML customer story card image\n\nModel ML completes finance work mo...",
@@ -828,34 +1003,34 @@
         "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 4942,
-        "retweets": 505,
-        "replies": 283
+        "likes": 4368,
+        "retweets": 753,
+        "replies": 418
       }
     },
     {
-      "id": "mock_tool_0",
+      "id": "tav_open_source_0",
       "source": "Twitter/X",
-      "published_at": "2026-10-02T03:30:26.587646",
-      "title": "Cursor AI 4.0: 自动架构师时代",
-      "content": "Cursor 4.0 的新 feature 简直无敌，不仅写代码，还能根据一句话生成整个项目的架构图并自动填充目录。#CursorAI #Coding",
-      "summary": "Cursor 4.0 的新 feature 简直无敌，不仅写代码，还能根据一句话生成整个项目的架构图并自动填充目录。#CursorAI #Coding...",
-      "url": "https://x.com/vista8/status/440645",
+      "published_at": "2026-10-04T13:01:11.422474",
+      "title": "Artificial intelligence",
+      "content": "In September 2026, OpenAI announced that one of their models had produced a counter-example to the Navier–Stokes existence and smoothness problem, a Millennium Prize Problem in mathematics. As of 2026, the claim has not been verified by any external mathematicians( and is the subject of a priority dispute.(\n\n### Finance [...] In June 2026, an international group of mathematicians published a statement calling on mathematicians, professional organizations, and policymakers to disclose the use of AI, uphold peer review, and protect the openness and values of the discipline.( [...] 160.   ↑\"OpenAI says it cracked 90-year-old maths problem in 88 hours\". _BBC News_. 8 September 2026. Archived from the original on 9 September 2026. Retrieved 9 September 2026.\n161.   ↑\"OpenAI's historic math solution overshadowed by credit controversy\". _Axios_. 8 September 2026. Retrieved 8 September 2026.\n162.   ↑M. Nicolas, J. Firzli: Pensions Age / European Pensions magazine, \"Artificial Intelligence: Ask the Industry\", May–June 2024.  11 September 2024 at the Wayback Machine.",
+      "summary": "In September 2026, OpenAI announced that one of their models had produced a counter-example to the Navier–Stokes existence and smoothness problem, a Millennium Prize Problem in mathematics. As of 2026...",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
       "tags": [
         "AI",
-        "tool",
-        "2026"
+        "2026",
+        "中文区"
       ],
-      "category": "tool",
+      "category": "open_source",
       "author": {
-        "username": "vista8",
-        "display_name": "Vista 8",
-        "avatar": "https://ui-avatars.com/api/?name=Vista 8&background=random"
+        "username": "AI_Hunter",
+        "display_name": "@AI_Hunter",
+        "avatar": "https://ui-avatars.com/api/?name=AI_Hunter&background=random"
       },
       "metrics": {
-        "likes": 5600,
-        "retweets": 1500,
-        "replies": 179
+        "likes": 2115,
+        "retweets": 143,
+        "replies": 19
       }
     }
   ]
